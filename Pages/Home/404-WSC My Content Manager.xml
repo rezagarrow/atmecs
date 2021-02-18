@@ -1,0 +1,404 @@
+<module type="WebSitesCreativeMyContentManager" version="03.05.03.00">
+    <contentKey />
+    <moduleID>404</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod>MemoryModuleCachingProvider</cachemethod>
+    <cachetime>1200</cachetime>
+    <color />
+    <containersrc>[G]Containers/POLO/H4Title.ascx</containersrc>
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <modulepermissions />
+    <title>Quick Links</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>f85b8ab1-7134-4a69-913f-501c57587565</uniqueId>
+    <visibility>Maximized</visibility>
+    <cultureCode />
+    <modulesettings>
+        <modulesetting>
+            <settingname>BackgroundCustomColor</settingname>
+            <settingvalue>#ca0027</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>Height</settingname>
+            <settingvalue>534</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SpacingTop</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>boxShadowStyle</settingname>
+            <settingvalue>off</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BorderStyle</settingname>
+            <settingvalue>solid</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>Layout</settingname>
+            <settingvalue>1</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BackgroundImageRepeat</settingname>
+            <settingvalue>repeat</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>animationStyle</settingname>
+            <settingvalue>none</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowOffsetX</settingname>
+            <settingvalue>0</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowOffsetY</settingname>
+            <settingvalue>2</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>MarginBottom</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>CurrentSkinTheme</settingname>
+            <settingvalue>Lists</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SyncHeight</settingname>
+            <settingvalue>off</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>animationDirection</settingname>
+            <settingvalue>Center</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ColumnGutters</settingname>
+            <settingvalue>off</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BorderRadius</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>animationSpecial</settingname>
+            <settingvalue>none</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BorderWidthRange</settingname>
+            <settingvalue>0</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>MarginTop</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BackgroundType</settingname>
+            <settingvalue>none</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SpacingLeft</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BorderColor</settingname>
+            <settingvalue>#ca0027</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>MarginRight</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>IsFirstBoot</settingname>
+            <settingvalue>False</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>animationDelay</settingname>
+            <settingvalue>500</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>Visibility</settingname>
+            <settingvalue>visible-md visible-lg,visible-sm,visible-xs</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowSpread</settingname>
+            <settingvalue>0</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BackgroundImagePosition</settingname>
+            <settingvalue>left top</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ListIconStyle</settingname>
+            <settingvalue>list-icon-arrow</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ThemeLocationMode</settingname>
+            <settingvalue>SkinLocation</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SpacingRight</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>MarginLeft</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ListIconColored</settingname>
+            <settingvalue>emt-no-colored</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowColor</settingname>
+            <settingvalue>#888888</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SpacingBottom</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxesGridColumns</settingname>
+            <settingvalue>12</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>Width</settingname>
+            <settingvalue>800</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowBlurRadius</settingname>
+            <settingvalue>18</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BackgroundImageSize</settingname>
+            <settingvalue>auto</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ViewContent</settingname>
+            <settingvalue>
+      &lt;div class="wsc_cm_module_container clearfix module-404 visible-md visible-lg visible-sm visible-xs" style="padding: 0px 0px 0px 0px;      margin: 0px 0px 0px 0px;      border-radius: 0px;      background-size: auto;background-repeat: repeat;background-position: left top;"&gt;
+        
+  
+  &lt;div class="list-icon-arrow list-icon emt-no-colored"&gt;
+    &lt;style&gt;
+      .module-404 .list-icon .list-icon__item {
+        
+        
+        
+        
+        font-weight: 400;
+        
+        
+      }
+      /* Override default link color */
+      .module-404 .list-icon .list-icon__item a,
+      .module-404 .list-icon .list-icon__item a:hover,
+      .module-404 .list-icon .list-icon__item a:focus,
+      .module-404 .list-icon .list-icon__item a:visited {
+        
+      }
+      /* Icon size and color */
+      .module-404 .list-icon i,
+      .module-404 .list-icon .list-icon__item:before {
+        font-size: 15px;
+      }
+      .module-404 .list-icon.list-icon-colored i,
+      .module-404 .list-icon.list-icon-colored .list-icon__item:before {
+        color: #ca0027;
+      }
+      /* Fix spacing for default icons */
+      .module-404 .list-icon:not(.emt-custom-icon) .list-icon__item {
+        margin-left: 15px;
+      }
+      .module-404 .list-icon:not(.emt-custom-icon) .list-icon__item:before {
+        margin-left: -15px;
+      }
+
+    &lt;/style&gt;
+
+    
+        &lt;div class="wsc_slides_grid"&gt;
+        
+          &lt;div class="wsc_slides_grid_row row" data-equalize-item=".wsc_slides_grid_column"&gt;
+          
+            &lt;div class="wsc_slides_grid_column col-md-12"&gt;
+            
+              
+      &lt;div class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs" style="" data-id="22"&gt;
+        &lt;div class="list-icon__item"&gt;
+
+
+
+  &lt;a href="#MyUrl"&gt;
+
+
+  Team
+
+
+  &lt;/a&gt;
+
+&lt;/div&gt;
+      &lt;/div&gt;
+    
+            
+            &lt;/div&gt;
+          
+          &lt;/div&gt;
+        
+          &lt;div class="wsc_slides_grid_row row" data-equalize-item=".wsc_slides_grid_column"&gt;
+          
+            &lt;div class="wsc_slides_grid_column col-md-12"&gt;
+            
+              
+      &lt;div class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs" style="" data-id="23"&gt;
+        &lt;div class="list-icon__item"&gt;
+
+
+
+  &lt;a href="#MyUrl"&gt;
+
+
+  Attend
+
+
+  &lt;/a&gt;
+
+&lt;/div&gt;
+      &lt;/div&gt;
+    
+            
+            &lt;/div&gt;
+          
+          &lt;/div&gt;
+        
+          &lt;div class="wsc_slides_grid_row row" data-equalize-item=".wsc_slides_grid_column"&gt;
+          
+            &lt;div class="wsc_slides_grid_column col-md-12"&gt;
+            
+              
+      &lt;div class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs" style="" data-id="24"&gt;
+        &lt;div class="list-icon__item"&gt;
+
+
+
+  &lt;a href="#MyUrl"&gt;
+
+
+  News
+
+
+  &lt;/a&gt;
+
+&lt;/div&gt;
+      &lt;/div&gt;
+    
+            
+            &lt;/div&gt;
+          
+          &lt;/div&gt;
+        
+          &lt;div class="wsc_slides_grid_row row" data-equalize-item=".wsc_slides_grid_column"&gt;
+          
+            &lt;div class="wsc_slides_grid_column col-md-12"&gt;
+            
+              
+      &lt;div class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs" style="" data-id="25"&gt;
+        &lt;div class="list-icon__item"&gt;
+
+
+
+  &lt;a href="#MyUrl"&gt;
+
+
+  Shop
+
+
+  &lt;/a&gt;
+
+&lt;/div&gt;
+      &lt;/div&gt;
+    
+            
+            &lt;/div&gt;
+          
+          &lt;/div&gt;
+        
+          &lt;div class="wsc_slides_grid_row row" data-equalize-item=".wsc_slides_grid_column"&gt;
+          
+            &lt;div class="wsc_slides_grid_column col-md-12"&gt;
+            
+              
+      &lt;div class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs" style="" data-id="26"&gt;
+        &lt;div class="list-icon__item"&gt;
+
+
+
+  &lt;a href="#MyUrl"&gt;
+
+
+  Fans
+
+
+  &lt;/a&gt;
+
+&lt;/div&gt;
+      &lt;/div&gt;
+    
+            
+            &lt;/div&gt;
+          
+          &lt;/div&gt;
+        
+          &lt;div class="wsc_slides_grid_row row" data-equalize-item=".wsc_slides_grid_column"&gt;
+          
+            &lt;div class="wsc_slides_grid_column col-md-12"&gt;
+            
+              
+      &lt;div class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs" style="" data-id="27"&gt;
+        &lt;div class="list-icon__item"&gt;
+
+
+
+  &lt;a href="#MyUrl"&gt;
+
+
+  Chiefs
+
+
+  &lt;/a&gt;
+
+&lt;/div&gt;
+      &lt;/div&gt;
+    
+            
+            &lt;/div&gt;
+          
+          &lt;/div&gt;
+        
+        &lt;/div&gt;
+      
+  &lt;/div&gt;
+
+      &lt;/div&gt;
+    </settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>AllowIndex</settingname>
+            <settingvalue>True</settingvalue>
+        </modulesetting>
+    </modulesettings>
+    <tabmodulesettings>
+        <tabmodulesetting>
+            <settingname>AllowIndex</settingname>
+            <settingvalue>True</settingvalue>
+        </tabmodulesetting>
+    </tabmodulesettings>
+    <definition>WebSitesCreative.MyContentManager</definition>
+    <moduledefinition>WSC My Content Manager</moduledefinition>
+</module>
