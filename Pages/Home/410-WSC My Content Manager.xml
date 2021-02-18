@@ -1,0 +1,278 @@
+<module type="WebSitesCreativeMyContentManager" version="03.05.03.00">
+    <contentKey />
+    <moduleID>410</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod />
+    <cachetime>1200</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+    </modulepermissions>
+    <title>WSC My Content Manager</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>58963574-9ef5-4014-bd3f-61bd7602de2e</uniqueId>
+    <visibility>Maximized</visibility>
+    <cultureCode />
+    <modulesettings>
+        <modulesetting>
+            <settingname>BackgroundCustomColor</settingname>
+            <settingvalue>#ca0027</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>MarginRight</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SpacingTop</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>boxShadowStyle</settingname>
+            <settingvalue>off</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SpacingRight</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>Layout</settingname>
+            <settingvalue>1</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BackgroundImageRepeat</settingname>
+            <settingvalue>repeat</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowOffsetX</settingname>
+            <settingvalue>0</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BorderStyle</settingname>
+            <settingvalue>solid</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>MarginBottom</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>CurrentSkinTheme</settingname>
+            <settingvalue>CallToAction</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SyncHeight</settingname>
+            <settingvalue>off</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ColumnGutters</settingname>
+            <settingvalue>off</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BorderRadius</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowOffsetY</settingname>
+            <settingvalue>2</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BorderWidthRange</settingname>
+            <settingvalue>0</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>MarginTop</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BackgroundType</settingname>
+            <settingvalue>none</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SpacingLeft</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BorderColor</settingname>
+            <settingvalue>#ca0027</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>Visibility</settingname>
+            <settingvalue>visible-md visible-lg,visible-sm,visible-xs</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowSpread</settingname>
+            <settingvalue>0</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BackgroundImagePosition</settingname>
+            <settingvalue>left top</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ThemeLocationMode</settingname>
+            <settingvalue>SkinLocation</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ViewContent</settingname>
+            <settingvalue>
+      &lt;div class="wsc_cm_module_container clearfix module-410 visible-md visible-lg visible-sm visible-xs" style="padding: 0px 0px 0px 0px;      margin: 0px 0px 0px 0px;      border-radius: 0px;      background-size: auto;background-repeat: repeat;background-position: left top;"&gt;
+        
+  
+        &lt;div class="wsc_slides_grid"&gt;
+        
+          &lt;div class="wsc_slides_grid_row row" data-equalize-item=".wsc_slides_grid_column"&gt;
+          
+            &lt;div class="wsc_slides_grid_column col-md-12"&gt;
+            
+              
+      &lt;div class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs" style="padding: 0px 0px 0px 0px;      margin: 0px 0px 0px 0px;      border-radius: 0px;      background-size: auto;background-repeat: repeat;background-position: left top;" data-id="35"&gt;
+        
+
+
+
+
+
+&lt;style&gt;
+  .module-410 .wsc_content_manager_module_slide[data-id="35"] h1 {
+    
+    
+    
+    
+    font-weight: 400;
+    
+    
+  }
+&lt;/style&gt;
+
+&lt;style&gt;
+  .module-410 .wsc_content_manager_module_slide[data-id="35"] h2 {
+    
+    
+    
+    
+    font-weight: 400;
+    
+    
+  }
+&lt;/style&gt;
+
+&lt;style&gt;
+  .module-410 .wsc_content_manager_module_slide[data-id="35"] h3 {
+    
+    
+    
+    
+    font-weight: 400;
+    
+    
+  }
+&lt;/style&gt;
+
+&lt;style&gt;
+  .module-410 .wsc_content_manager_module_slide[data-id="35"] h4,
+  .module-410 .wsc_content_manager_module_slide[data-id="35"] h5,
+  .module-410 .wsc_content_manager_module_slide[data-id="35"] h6 {
+    
+    
+    
+    
+    font-weight: 400;
+    
+    
+  }
+&lt;/style&gt;
+
+&lt;style&gt;
+  .module-410 .call-to-action-content, .module-410 .call-to-action-content *{
+    
+    
+    
+    
+    font-weight: 400;
+    
+  }
+&lt;/style&gt;
+
+&lt;div class="call-box emt-clean emt-align-left" style=""&gt;
+
+    &lt;div&gt;
+      &lt;div class="call-to-action-title"&gt;
+        &lt;h3&gt;
+            My call to action title sample
+        &lt;/h3&gt;
+      &lt;/div&gt;
+
+      
+        &lt;div class="call-to-action-content"&gt;
+          My call to action description sample
+        &lt;/div&gt;
+      
+    &lt;/div&gt;
+
+    &lt;div&gt;
+      &lt;a href="#_" class="btn btn-def-size btn-rounded-off btn-outline-off btn"&gt;
+          My button text sample
+      &lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class="clear_float"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+
+      &lt;/div&gt;
+    
+            
+            &lt;/div&gt;
+          
+          &lt;/div&gt;
+        
+        &lt;/div&gt;
+      
+
+      &lt;/div&gt;
+    
+</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowColor</settingname>
+            <settingvalue>#888888</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SpacingBottom</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BackgroundCustomImage</settingname>
+            <settingvalue>3ac1bfc1-aa69-4f0a-9ef9-a11e6f659483.jpg</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowBlurRadius</settingname>
+            <settingvalue>18</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BackgroundImageSize</settingname>
+            <settingvalue>auto</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>MarginLeft</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+    </modulesettings>
+    <tabmodulesettings />
+    <definition>WebSitesCreative.MyContentManager</definition>
+    <moduledefinition>WSC My Content Manager</moduledefinition>
+</module>
