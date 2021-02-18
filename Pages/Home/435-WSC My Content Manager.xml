@@ -1,0 +1,147 @@
+<module type="WebSitesCreativeMyContentManager" version="03.05.03.00">
+    <contentKey />
+    <moduleID>435</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod />
+    <cachetime>1200</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+    </modulepermissions>
+    <title>WSC My Content Manager</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>ca3ae943-974a-4f2d-a2d5-540ee7eb212a</uniqueId>
+    <visibility>Maximized</visibility>
+    <cultureCode />
+    <modulesettings>
+        <modulesetting>
+            <settingname>BackgroundCustomImage</settingname>
+            <settingvalue>8e056e2c-af3b-4b1d-9718-8b6271c0dbbc.jpg</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ThemeLocationMode</settingname>
+            <settingvalue>SkinLocation</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ViewContent</settingname>
+            <settingvalue>&lt;style&gt;
+  .module-435 .progress-bar-container {
+    overflow: visible;
+  }
+  .module-435 .progress-bar-container.title-up .progress-title,
+  .module-435 .progress-bar-container.title-up .progress-bar .progress-number,
+  .module-435 .progress-bar-container.title-up .progress-bar .progress-type {
+    color: #333333;
+  }
+&lt;/style&gt;
+
+
+      &lt;div class="wsc_cm_module_container clearfix module-435 visible-md visible-lg visible-sm visible-xs" style="padding: 0px 0px 0px 0px;      margin: 0px 0px 0px 0px;      border-radius: 0px;      background-size: auto;background-repeat: repeat;background-position: left top;"&gt;
+        
+  
+        &lt;div class="wsc_slides_grid"&gt;
+        
+          &lt;div class="wsc_slides_grid_row row" data-equalize-item=".wsc_slides_grid_column"&gt;
+          
+            &lt;div class="wsc_slides_grid_column col-md-12"&gt;
+            
+              
+      &lt;div class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs auto-min-height" style="" data-id="59"&gt;
+        &lt;div class="progress-bar-container title-up empt-default empt-default"&gt;
+  &lt;div class="progress-bar" data-percent="94" data-delay="80" data-type="%"&gt;
+    &lt;div class="progress-title"&gt;@MahomesMadeMeDoit&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+      &lt;/div&gt;
+    
+            
+            &lt;/div&gt;
+          
+          &lt;/div&gt;
+        
+          &lt;div class="wsc_slides_grid_row row" data-equalize-item=".wsc_slides_grid_column"&gt;
+          
+            &lt;div class="wsc_slides_grid_column col-md-12"&gt;
+            
+              
+      &lt;div class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs auto-min-height" style="" data-id="60"&gt;
+        &lt;div class="progress-bar-container title-up empt-default empt-default"&gt;
+  &lt;div class="progress-bar" data-percent="94" data-delay="80" data-type="%"&gt;
+    &lt;div class="progress-title"&gt;@GridironChief&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+      &lt;/div&gt;
+    
+            
+            &lt;/div&gt;
+          
+          &lt;/div&gt;
+        
+          &lt;div class="wsc_slides_grid_row row" data-equalize-item=".wsc_slides_grid_column"&gt;
+          
+            &lt;div class="wsc_slides_grid_column col-md-12"&gt;
+            
+              
+      &lt;div class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs auto-min-height" style="" data-id="61"&gt;
+        &lt;div class="progress-bar-container title-up empt-default empt-default"&gt;
+  &lt;div class="progress-bar" data-percent="93" data-delay="80" data-type="%"&gt;
+    &lt;div class="progress-title"&gt;@AndyCalledIt&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+      &lt;/div&gt;
+    
+            
+            &lt;/div&gt;
+          
+          &lt;/div&gt;
+        
+          &lt;div class="wsc_slides_grid_row row" data-equalize-item=".wsc_slides_grid_column"&gt;
+          
+            &lt;div class="wsc_slides_grid_column col-md-12"&gt;
+            
+              
+      &lt;div class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs auto-min-height" style="" data-id="62"&gt;
+        &lt;div class="progress-bar-container title-up empt-default empt-default"&gt;
+  &lt;div class="progress-bar" data-percent="92" data-delay="80" data-type="%"&gt;
+    &lt;div class="progress-title"&gt;@Watkins14catch&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+      &lt;/div&gt;
+    
+            
+            &lt;/div&gt;
+          
+          &lt;/div&gt;
+        
+        &lt;/div&gt;
+      
+
+      &lt;/div&gt;
+    
+</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>CurrentSkinTheme</settingname>
+            <settingvalue>ProgressBars</settingvalue>
+        </modulesetting>
+    </modulesettings>
+    <tabmodulesettings />
+    <definition>WebSitesCreative.MyContentManager</definition>
+    <moduledefinition>WSC My Content Manager</moduledefinition>
+</module>
