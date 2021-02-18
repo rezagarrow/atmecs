@@ -1,0 +1,116 @@
+<module type="WebSitesCreativeMyContentManager" version="03.05.03.00">
+    <moduleID>437</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod />
+    <cachetime>1200</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+    </modulepermissions>
+    <title>WSC My Content Manager</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>765ee304-57b9-462f-912c-665e882ee1fc</uniqueId>
+    <visibility>Maximized</visibility>
+    <modulesettings>
+        <modulesetting>
+            <settingname>BackgroundCustomImage</settingname>
+            <settingvalue>1a35052e-7cb0-4af3-ba3c-6df6ef3024d6.jpg</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ThemeLocationMode</settingname>
+            <settingvalue>SkinLocation</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ViewContent</settingname>
+            <settingvalue>
+&lt;style&gt;
+    /*Hide Content Manager border*/
+    /*#Container437.wsc_content_manager_module_container.edit,
+    #Container437.wsc_content_manager_module_container.edit:hover {border: 0px !important;}*/
+    /* #Container437.wsc_content_manager_module_container.edit &gt; .wsc_module_actions_panel {top: -20px} */
+
+    /*Fix icon shift for buttons theme*/
+    #Container437 .btn i {margin-right: 0px;}
+
+    /* Align inline buttons */
+    #Container437 .wsc_cm_module_container.text-center .wsc_slides_grid { justify-content: center;}
+    #Container437 .wsc_cm_module_container.text-right .wsc_slides_grid { justify-content: flex-end;}
+
+    /* Fix: Vertical align center with adjusted paddings */
+    #Container437 .btn.btn-lg,
+    #Container437 .btn.btn-sm,
+    #Container437 .btn.btn-xs {
+      display: inline-flex;
+      align-items: center;
+    }
+&lt;/style&gt;
+
+
+&lt;style&gt;
+  #Container437 .wsc_slides_grid { display: flex;}
+  .wsc_cm_module_container.module-437 &gt; .wsc_slides_grid &gt; .wsc_slides_grid_row:not(:first-of-type)  {
+    margin-left: 15px;
+  }
+&lt;/style&gt;
+
+
+
+      &lt;div class="wsc_cm_module_container clearfix module-437 visible-md visible-lg visible-sm visible-xs wsc_button-group emt-text-left" style="padding: 0px 0px 0px 0px;      margin: 0px 0px 0px 0px;      border-radius: 0px;      background-size: auto;background-repeat: repeat;background-position: left top;"&gt;
+        
+  
+        &lt;div class="wsc_slides_grid"&gt;
+        
+          &lt;div class="wsc_slides_grid_row row" data-equalize-item=".wsc_slides_grid_column"&gt;
+          
+            &lt;div class="wsc_slides_grid_column col-md-12"&gt;
+            
+              
+      &lt;div class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs" data-id="64"&gt;
+        &lt;a href="#_" class="btn-def-size btn btn-shadow-off btn-icon-holder-off btn-rounded-off btn-outline-off btn wsc_sep" style="padding: 11px 20px 11px 20px;      margin: 0px 0px 0px 0px;      border-radius: 0px;      background-size: auto;background-repeat: repeat;background-position: left top;"&gt;
+
+  
+    &lt;span&gt;My button title&lt;/span&gt;
+    
+  
+&lt;/a&gt;
+
+
+      &lt;/div&gt;
+    
+            
+            &lt;/div&gt;
+          
+          &lt;/div&gt;
+        
+        &lt;/div&gt;
+      
+
+      &lt;/div&gt;
+    
+</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>CurrentSkinTheme</settingname>
+            <settingvalue>Button</settingvalue>
+        </modulesetting>
+    </modulesettings>
+    <tabmodulesettings />
+    <definition>WebSitesCreative.MyContentManager</definition>
+    <moduledefinition>WSC My Content Manager</moduledefinition>
+</module>
