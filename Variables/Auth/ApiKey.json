@@ -1,0 +1,18 @@
+{
+  "id": 1,
+  "namespace": {
+    "id": 1,
+    "portalId": 0,
+    "name": "Auth"
+  },
+  "name": "ApiKey",
+  "description": "",
+  "parser": "<parser><type>string</type><replace>false</replace><decodeHtml>false</decodeHtml></parser>",
+  "defaultValue": "",
+  "cacheTime": 0,
+  "cacheLayer": "Global",
+  "src": {
+    "value": "iyiEIqjIFTJdeeKOGKkb9jgK1J8GEGxC",
+    "type": "string"
+  }
+}
