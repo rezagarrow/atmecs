@@ -1,0 +1,49 @@
+<module type="WebSitesCreativeMyContentManager" version="03.05.03.00">
+    <contentKey />
+    <moduleID>419</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod />
+    <cachetime>1200</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+    </modulepermissions>
+    <title>WSC My Content Manager</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>cfb289ba-7a26-45e2-8b50-14654a34c7a8</uniqueId>
+    <visibility>Maximized</visibility>
+    <cultureCode />
+    <modulesettings>
+        <modulesetting>
+            <settingname>BackgroundCustomImage</settingname>
+            <settingvalue>3577faa4-81b8-4c6a-8a2c-a6f0e6040291.jpg</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ThemeLocationMode</settingname>
+            <settingvalue>SkinLocation</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>CurrentSkinTheme</settingname>
+            <settingvalue>TextHTML</settingvalue>
+        </modulesetting>
+    </modulesettings>
+    <tabmodulesettings />
+    <definition>WebSitesCreative.MyContentManager</definition>
+    <moduledefinition>WSC My Content Manager</moduledefinition>
+</module>
