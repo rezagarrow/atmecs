@@ -1,0 +1,7 @@
+@inherits avt.MyTokens.Core.ParsingEngine.RazorTemplate
+@using System.Web;
+@{
+Uri myUri = new Uri("[Url:Referrer]");
+string param1 = HttpUtility.ParseQueryString(myUri.Query).Get(@TknParams.QS.Value.ToString());
+}
+@param1
