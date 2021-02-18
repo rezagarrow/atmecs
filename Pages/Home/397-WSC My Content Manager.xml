@@ -1,0 +1,356 @@
+<module type="WebSitesCreativeMyContentManager" version="03.05.03.00">
+    <contentKey />
+    <moduleID>397</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod>MemoryModuleCachingProvider</cachemethod>
+    <cachetime>1200</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+    </modulepermissions>
+    <title>Events tabs</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>7e5a7c59-3e75-4645-8e24-c09afaa5a3aa</uniqueId>
+    <visibility>Maximized</visibility>
+    <cultureCode />
+    <modulesettings>
+        <modulesetting>
+            <settingname>BackgroundCustomColor</settingname>
+            <settingvalue>#ca0027</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>Height</settingname>
+            <settingvalue>534</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SpacingTop</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>boxShadowStyle</settingname>
+            <settingvalue>off</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BorderStyle</settingname>
+            <settingvalue>solid</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>CurrentModuleTheme</settingname>
+            <settingvalue>EasyCycle</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BackgroundImageRepeat</settingname>
+            <settingvalue>repeat</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowOffsetX</settingname>
+            <settingvalue>0</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowOffsetY</settingname>
+            <settingvalue>2</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>MarginBottom</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>Layout</settingname>
+            <settingvalue>1</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>CurrentSkinTheme</settingname>
+            <settingvalue>TextHTML</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SyncHeight</settingname>
+            <settingvalue>off</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ColumnGutters</settingname>
+            <settingvalue>off</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BorderRadius</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BorderWidthRange</settingname>
+            <settingvalue>0</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>MarginTop</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BackgroundType</settingname>
+            <settingvalue>none</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SpacingLeft</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BorderColor</settingname>
+            <settingvalue>#ca0027</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>IsFirstBoot</settingname>
+            <settingvalue>False</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>Visibility</settingname>
+            <settingvalue>visible-md visible-lg,visible-sm,visible-xs</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>MarginLeft</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowSpread</settingname>
+            <settingvalue>0</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BackgroundImagePosition</settingname>
+            <settingvalue>left top</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ThemeLocationMode</settingname>
+            <settingvalue>SkinLocation</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SpacingRight</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>MarginRight</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowColor</settingname>
+            <settingvalue>#888888</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SpacingBottom</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxesGridColumns</settingname>
+            <settingvalue>12</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>Width</settingname>
+            <settingvalue>800</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowBlurRadius</settingname>
+            <settingvalue>18</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BackgroundImageSize</settingname>
+            <settingvalue>auto</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ViewContent</settingname>
+            <settingvalue>
+      &lt;div class="wsc_cm_module_container clearfix module-397 visible-md visible-lg visible-sm visible-xs" style="padding: 0px 0px 0px 0px;      margin: 0px 0px 0px 0px;      border-radius: 0px;      background-size: auto;background-repeat: repeat;background-position: left top;"&gt;
+        
+  &lt;div class="mng-wrapper-397"&gt;
+    
+        &lt;div class="wsc_slides_grid"&gt;
+        
+          &lt;div class="wsc_slides_grid_row row" data-equalize-item=".wsc_slides_grid_column"&gt;
+          
+            &lt;div class="wsc_slides_grid_column col-md-12"&gt;
+            
+              
+      &lt;div class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs" style="padding: 0px 0px 0px 0px;      margin: 0 0 0 0;      border-radius: 0px;      background-size: auto;background-repeat: repeat;background-position: left top;" data-id="6720"&gt;
+        
+
+
+
+
+
+
+&lt;style&gt;
+  .mng-wrapper-397 .mng-item-6720 h1 {
+    
+    
+    
+    
+    font-weight: 400;
+    
+    
+  }
+&lt;/style&gt;
+
+&lt;style&gt;
+  .mng-wrapper-397 .mng-item-6720 h2 {
+    
+    
+    
+    
+    font-weight: 400;
+    
+    
+  }
+&lt;/style&gt;
+
+&lt;style&gt;
+  .mng-wrapper-397 .mng-item-6720 h3 {
+    
+    
+    
+    
+    font-weight: 400;
+    
+    
+  }
+&lt;/style&gt;
+
+&lt;style&gt;
+  .mng-wrapper-397 .mng-item-6720 h4,
+  .mng-wrapper-397 .mng-item-6720 h5,
+  .mng-wrapper-397 .mng-item-6720 h6 {
+    
+    
+    
+    
+    font-weight: 400;
+    
+    
+  }
+&lt;/style&gt;
+
+&lt;style&gt;
+    /* Text font family inside content editor */
+  .mng-wrapper-397 .mng-item-6720,
+  .mng-wrapper-397 .mng-item-6720 p {
+    
+    
+    
+    
+    font-weight: 400;
+    
+    
+  }
+&lt;/style&gt;
+
+&lt;div class="mng-text-theme mng-item-6720 auto"&gt;
+  &lt;div id="tabs-003" class="tabs simple justified p-r-20"&gt;
+&lt;ul class="tabs-navigation"&gt;
+&lt;li class="active"&gt;&lt;a href="#day1"&gt;&lt;strong&gt;Day 01&lt;/strong&gt;&lt;br&gt; 17.10.2015&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#day2"&gt;&lt;strong&gt;Day 02&lt;/strong&gt;&lt;br&gt; 18.10.2015&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#day3"&gt;&lt;strong&gt;Day 03&lt;/strong&gt;&lt;br&gt; 19.10.2015&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#day4"&gt;&lt;strong&gt;Day 04&lt;/strong&gt;&lt;br&gt; 20.10.2015&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="tabs-content"&gt;
+&lt;div id="day1" class="tab-pane active"&gt;
+&lt;div class="p-10 border-bottom"&gt;09:00 - 10:45
+&lt;h5&gt;Juna Doe&lt;/h5&gt;
+&lt;p class="m-b-0"&gt;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="p-10 border-bottom"&gt;11:00 - 11:45
+&lt;h5&gt;Alea Grande&lt;/h5&gt;
+&lt;p class="m-b-0"&gt;Et harum quidem rerum facilis est et expedita distinctio. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="p-10 border-bottom"&gt;08:00 - 08:45
+&lt;h5&gt;John Smith&lt;/h5&gt;
+&lt;p class="m-b-0"&gt;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="day2" class="tab-pane"&gt;
+&lt;div class="p-10 border-bottom"&gt;11:00 - 11:45
+&lt;h5&gt;Alea Grande&lt;/h5&gt;
+&lt;p class="m-b-0"&gt;Et harum quidem rerum facilis est et expedita distinctio. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="p-10 border-bottom"&gt;08:00 - 08:45
+&lt;h5&gt;John Smith&lt;/h5&gt;
+&lt;p class="m-b-0"&gt;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="p-10 border-bottom"&gt;09:00 - 10:45
+&lt;h5&gt;Juna Doe&lt;/h5&gt;
+&lt;p class="m-b-0"&gt;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="day3" class="tab-pane"&gt;
+&lt;div class="p-10 border-bottom"&gt;08:00 - 08:45
+&lt;h5&gt;John Smith&lt;/h5&gt;
+&lt;p class="m-b-0"&gt;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="p-10 border-bottom"&gt;11:00 - 11:45
+&lt;h5&gt;Alea Grande&lt;/h5&gt;
+&lt;p class="m-b-0"&gt;Et harum quidem rerum facilis est et expedita distinctio. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="p-10 border-bottom"&gt;08:00 - 08:45
+&lt;h5&gt;John Smith&lt;/h5&gt;
+&lt;p class="m-b-0"&gt;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="p-10 border-bottom"&gt;09:00 - 10:45
+&lt;h5&gt;Juna Doe&lt;/h5&gt;
+&lt;p class="m-b-0"&gt;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="day4" class="tab-pane"&gt;
+&lt;div class="p-10 border-bottom"&gt;11:00 - 11:45
+&lt;h5&gt;Alea Grande&lt;/h5&gt;
+&lt;p class="m-b-0"&gt;Et harum quidem rerum facilis est et expedita distinctio. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="p-10 border-bottom"&gt;08:00 - 08:45
+&lt;h5&gt;John Smith&lt;/h5&gt;
+&lt;p class="m-b-0"&gt;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="p-10 border-bottom"&gt;09:00 - 10:45
+&lt;h5&gt;Juna Doe&lt;/h5&gt;
+&lt;p class="m-b-0"&gt;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+      &lt;/div&gt;
+    
+            
+            &lt;/div&gt;
+          
+          &lt;/div&gt;
+        
+        &lt;/div&gt;
+      
+  &lt;/div&gt;
+
+      &lt;/div&gt;
+    </settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>AllowIndex</settingname>
+            <settingvalue>True</settingvalue>
+        </modulesetting>
+    </modulesettings>
+    <tabmodulesettings>
+        <tabmodulesetting>
+            <settingname>AllowIndex</settingname>
+            <settingvalue>True</settingvalue>
+        </tabmodulesetting>
+    </tabmodulesettings>
+    <definition>WebSitesCreative.MyContentManager</definition>
+    <moduledefinition>WSC My Content Manager</moduledefinition>
+</module>
