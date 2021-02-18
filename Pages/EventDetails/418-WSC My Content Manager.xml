@@ -1,0 +1,83 @@
+<module type="WebSitesCreativeMyContentManager" version="03.05.03.00">
+    <contentKey />
+    <moduleID>418</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod />
+    <cachetime>1200</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+    </modulepermissions>
+    <title>WSC My Content Manager</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>83aab4e7-c136-4eef-9a78-b739e97427b0</uniqueId>
+    <visibility>Maximized</visibility>
+    <cultureCode />
+    <modulesettings>
+        <modulesetting>
+            <settingname>BackgroundCustomImage</settingname>
+            <settingvalue>cfe23e79-c7fc-4e9e-b330-3a6893a2130a.jpg</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ThemeLocationMode</settingname>
+            <settingvalue>SkinLocation</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ViewContent</settingname>
+            <settingvalue>
+      &lt;div class="wsc_cm_module_container clearfix module-418 visible-md visible-lg visible-sm visible-xs" style="padding: 0px 0px 0px 0px;      margin: 0px 0px 0px 0px;      border-radius: 0px;      background-size: auto;background-repeat: repeat;background-position: left top;"&gt;
+        
+  
+        &lt;div class="wsc_slides_grid"&gt;
+        
+          &lt;div class="wsc_slides_grid_row row" data-equalize-item=".wsc_slides_grid_column"&gt;
+          
+            &lt;div class="wsc_slides_grid_column col-md-12"&gt;
+            
+              
+      &lt;div class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs" style="padding: 0px 0px 0px 0px;      margin: 0px 0px 0px 0px;      border-radius: 0px;      background-size: auto;background-repeat: repeat;background-position: left top;" data-id="42"&gt;
+        &lt;div class="wsc-box-item"&gt;
+  &lt;div class="mng-text-theme"&gt;
+    &lt;img src="https://s1.ticketm.net/dam/a/300/88bcb3d0-aa78-428d-ad10-52514ea72300_570131_TABLET_LANDSCAPE_LARGE_16_9.jpg"&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+      &lt;/div&gt;
+    
+            
+            &lt;/div&gt;
+          
+          &lt;/div&gt;
+        
+        &lt;/div&gt;
+      
+
+      &lt;/div&gt;
+    </settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>CurrentSkinTheme</settingname>
+            <settingvalue>HTML</settingvalue>
+        </modulesetting>
+    </modulesettings>
+    <tabmodulesettings />
+    <definition>WebSitesCreative.MyContentManager</definition>
+    <moduledefinition>WSC My Content Manager</moduledefinition>
+</module>
