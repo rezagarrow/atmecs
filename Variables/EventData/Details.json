@@ -1,0 +1,17 @@
+{
+  "id": 2,
+  "namespace": {
+    "id": 2,
+    "portalId": 0,
+    "name": "EventData"
+  },
+  "name": "Details",
+  "description": "",
+  "parser": "<parser><type>string</type><replace>false</replace><decodeHtml>false</decodeHtml></parser>",
+  "defaultValue": "",
+  "cacheTime": 0,
+  "cacheLayer": "Global",
+  "src": {
+    "type": "http"
+  }
+}
