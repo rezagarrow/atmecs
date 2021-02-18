@@ -1,0 +1,63 @@
+<module type="DNNHTML" version="09.08.00.00">
+    <contentKey />
+    <moduleID>432</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod>MemoryModuleCachingProvider</cachemethod>
+    <cachetime>0</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+    </modulepermissions>
+    <title>Text/HTML</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>ad9e7863-d8c0-463c-8d12-04d103ccaaa2</uniqueId>
+    <visibility>Maximized</visibility>
+    <cultureCode />
+    <modulesettings>
+        <modulesetting>
+            <settingname>HtmlText_ReplaceTokens</settingname>
+            <settingvalue>True</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>HtmlText_UseDecorate</settingname>
+            <settingvalue>True</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>WorkFlowID</settingname>
+            <settingvalue>1</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>HtmlText_SearchDescLength</settingname>
+            <settingvalue>100</settingvalue>
+        </modulesetting>
+    </modulesettings>
+    <tabmodulesettings />
+    <definition>DNN_HTML</definition>
+    <moduledefinition>Text/HTML</moduledefinition>
+    <content type="DNNHTML" version="09.08.00.00"><![CDATA[&lt;htmltext&gt;&lt;content&gt;&lt;![CDATA[&amp;lt;h1&amp;gt;[EventData:Details(Id=[QueryString:Id],Prop=name)]&amp;lt;/h1&amp;gt;
+
+&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Date:&amp;amp;nbsp;&amp;lt;/strong&amp;gt;2021-06-17&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Hour:&amp;lt;/strong&amp;gt;&amp;amp;nbsp;20:00:00&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Location:&amp;amp;nbsp;&amp;lt;/strong&amp;gt;Hippodrome Performing Arts Center, 12 N Eutaw St,&amp;amp;nbsp;Baltimore, MD&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Genre:&amp;amp;nbsp;&amp;lt;/strong&amp;gt;Arts &amp;amp;amp; Theatre (Theatre, Musical) -&amp;lt;/p&amp;gt;
+]]&gt;&lt;/content&gt;&lt;/htmltext&gt;]]></content>
+</module>
