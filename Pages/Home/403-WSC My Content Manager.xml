@@ -1,0 +1,273 @@
+<module type="WebSitesCreativeMyContentManager" version="03.05.03.00">
+    <contentKey />
+    <moduleID>403</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod>MemoryModuleCachingProvider</cachemethod>
+    <cachetime>1200</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <modulepermissions />
+    <title>WSC My Footer Social Manager</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>dc222751-c87b-46e4-8484-c93a0c8ffefc</uniqueId>
+    <visibility>Maximized</visibility>
+    <cultureCode />
+    <modulesettings>
+        <modulesetting>
+            <settingname>BackgroundCustomColor</settingname>
+            <settingvalue>#ca0027</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>animationSpecial</settingname>
+            <settingvalue>none</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>Height</settingname>
+            <settingvalue>340</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SpacingTop</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>boxShadowStyle</settingname>
+            <settingvalue>off</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SpacingRight</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>animationDirection</settingname>
+            <settingvalue>Center</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>Align</settingname>
+            <settingvalue>left</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>animationStyle</settingname>
+            <settingvalue>none</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowOffsetX</settingname>
+            <settingvalue>0</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BorderStyle</settingname>
+            <settingvalue>solid</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>MarginBottom</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>IconSize</settingname>
+            <settingvalue>empt-small</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>CurrentSkinTheme</settingname>
+            <settingvalue>SocialIcons</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BackgroundImageRepeat</settingname>
+            <settingvalue>repeat</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BorderRadius</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowOffsetY</settingname>
+            <settingvalue>2</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BorderWidthRange</settingname>
+            <settingvalue>0</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>MarginTop</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BackgroundType</settingname>
+            <settingvalue>none</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SpacingLeft</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BorderColor</settingname>
+            <settingvalue>#ca0027</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>MarginRight</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>IsFirstBoot</settingname>
+            <settingvalue>False</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>animationDelay</settingname>
+            <settingvalue>500</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>Visibility</settingname>
+            <settingvalue>visible-md visible-lg,visible-sm,visible-xs</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowSpread</settingname>
+            <settingvalue>0</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BackgroundImagePosition</settingname>
+            <settingvalue>left top</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>IconStyle</settingname>
+            <settingvalue>wsc-icons-simple social-icons-border</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ThemeLocationMode</settingname>
+            <settingvalue>SkinLocation</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>IconColor</settingname>
+            <settingvalue>social-icons-transparent</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>MarginLeft</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowColor</settingname>
+            <settingvalue>#888888</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SpacingBottom</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>Width</settingname>
+            <settingvalue>940</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowBlurRadius</settingname>
+            <settingvalue>18</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BackgroundImageSize</settingname>
+            <settingvalue>auto</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ViewContent</settingname>
+            <settingvalue>&lt;style type="text/css"&gt;
+
+  /*Hide Content Manager border
+  #Container403.wsc_content_manager_module_container.edit,
+  #Container403.wsc_content_manager_module_container.edit:hover {border: 0px !important;}
+  #Container403.wsc_content_manager_module_container.edit &gt; .wsc_module_actions_panel {top: -20px}*/
+
+  .wsc_cm_module_container.module-403 .social-icons .wsc_content_manager_module_slide &gt; a {
+    margin-right: ;
+    margin-bottom: ;
+  }
+
+  [dir='rtl'] .wsc_cm_module_container.module-403 .social-icons .wsc_content_manager_module_slide &gt; a {
+    margin-left: ;
+    margin-right: 0;
+  }
+
+&lt;/style&gt;
+
+
+      &lt;div class="wsc_cm_module_container clearfix module-403 visible-md visible-lg visible-sm visible-xs" style="padding: 0px 0px 0px 0px;      margin: 0px 0px 0px 0px;      border-radius: 0px;      background-size: auto;background-repeat: repeat;background-position: left top;"&gt;
+        
+&lt;div class="text-left"&gt;
+  &lt;div class="social-icons empt-small wsc-icons-simple social-icons-border social-icons-transparent"&gt;
+    &lt;ul&gt;
+      
+        
+      &lt;li class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs social-twitter" style="" data-id="6729"&gt;
+        &lt;a href="#MyUrl" target="_blank"&gt;
+  &lt;i class="fa fa-twitter"&gt;&lt;/i&gt;
+&lt;/a&gt;
+      &lt;/li&gt;
+    
+      
+        
+      &lt;li class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs social-vimeo" style="" data-id="6730"&gt;
+        &lt;a href="#MyUrl" target="_blank"&gt;
+  &lt;i class="fa fa-vimeo"&gt;&lt;/i&gt;
+&lt;/a&gt;
+      &lt;/li&gt;
+    
+      
+        
+      &lt;li class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs social-instagram" style="" data-id="6731"&gt;
+        &lt;a href="#MyUrl" target="_blank"&gt;
+  &lt;i class="fa fa-instagram"&gt;&lt;/i&gt;
+&lt;/a&gt;
+      &lt;/li&gt;
+    
+      
+        
+      &lt;li class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs social-skype" style="" data-id="6732"&gt;
+        &lt;a href="#MyUrl" target="_blank"&gt;
+  &lt;i class="fa fa-skype"&gt;&lt;/i&gt;
+&lt;/a&gt;
+      &lt;/li&gt;
+    
+      
+        
+      &lt;li class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs social-linkedin" style="" data-id="6733"&gt;
+        &lt;a href="#MyUrl" target="_blank"&gt;
+  &lt;i class="fa fa-linkedin"&gt;&lt;/i&gt;
+&lt;/a&gt;
+      &lt;/li&gt;
+    
+      
+        
+      &lt;li class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs social-facebook" style="" data-id="6734"&gt;
+        &lt;a href="#MyUrl" target="_blank"&gt;
+  &lt;i class="fa fa-facebook"&gt;&lt;/i&gt;
+&lt;/a&gt;
+      &lt;/li&gt;
+    
+      
+        
+      &lt;li class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs social-google-plus" style="" data-id="6735"&gt;
+        &lt;a href="#MyUrl" target="_blank"&gt;
+  &lt;i class="fa fa-google-plus"&gt;&lt;/i&gt;
+&lt;/a&gt;
+      &lt;/li&gt;
+    
+      
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+      &lt;/div&gt;
+    </settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>AllowIndex</settingname>
+            <settingvalue>True</settingvalue>
+        </modulesetting>
+    </modulesettings>
+    <tabmodulesettings />
+    <definition>WebSitesCreative.MyContentManager</definition>
+    <moduledefinition>WSC My Content Manager</moduledefinition>
+</module>
