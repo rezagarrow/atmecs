@@ -1,0 +1,62 @@
+<module type="WebSitesCreativeMyContentManager" version="03.05.03.00">
+    <contentKey />
+    <moduleID>411</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod />
+    <cachetime>1200</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+    </modulepermissions>
+    <title>WSC My Content Manager</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>17ab8133-d834-4722-ad43-ae803ad161a0</uniqueId>
+    <visibility>Maximized</visibility>
+    <cultureCode />
+    <modulesettings>
+        <modulesetting>
+            <settingname>ThemeLocationMode</settingname>
+            <settingvalue>SkinLocation</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ViewContent</settingname>
+            <settingvalue>
+      &lt;div class="wsc_cm_module_container clearfix module-411 visible-lg visible-md visible-sm visible-xs" style="padding: 0px 0px 0px 0px;      margin: 0px 0px 0px 0px;      border-radius: 0px;      background-size: auto;background-repeat: repeat;background-position: left top;"&gt;
+        
+      &lt;div class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs" data-id="36"&gt;
+        &lt;div style="text-align: left"&gt;
+  &lt;a href="https://s1.ticketm.net/dam/a/300/88bcb3d0-aa78-428d-ad10-52514ea72300_570131_EVENT_DETAIL_PAGE_16_9.jpg"&gt;
+    &lt;img alt="" src="" style="border-radius: 0px"&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+
+      &lt;/div&gt;
+    
+      &lt;/div&gt;
+    </settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>CurrentSkinTheme</settingname>
+            <settingvalue>Image</settingvalue>
+        </modulesetting>
+    </modulesettings>
+    <tabmodulesettings />
+    <definition>WebSitesCreative.MyContentManager</definition>
+    <moduledefinition>WSC My Content Manager</moduledefinition>
+</module>
