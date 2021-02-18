@@ -1,0 +1,385 @@
+<module type="WebSitesCreativeMyContentManager" version="03.05.03.00">
+    <contentKey />
+    <moduleID>408</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod>MemoryModuleCachingProvider</cachemethod>
+    <cachetime>1200</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+    </modulepermissions>
+    <title>Hotel rooms</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>474d176c-8540-4c1e-86b9-9f321f8ad496</uniqueId>
+    <visibility>Maximized</visibility>
+    <cultureCode />
+    <modulesettings>
+        <modulesetting>
+            <settingname>BackgroundCustomColor</settingname>
+            <settingvalue>#ca0027</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>Height</settingname>
+            <settingvalue>534</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SpacingTop</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>boxShadowStyle</settingname>
+            <settingvalue>off</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BorderStyle</settingname>
+            <settingvalue>solid</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>CurrentModuleTheme</settingname>
+            <settingvalue>EasyCycle</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BackgroundImageRepeat</settingname>
+            <settingvalue>repeat</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowOffsetX</settingname>
+            <settingvalue>0</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowOffsetY</settingname>
+            <settingvalue>2</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>MarginBottom</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>Layout</settingname>
+            <settingvalue>1</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>CurrentSkinTheme</settingname>
+            <settingvalue>TextHTML</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SyncHeight</settingname>
+            <settingvalue>off</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ColumnGutters</settingname>
+            <settingvalue>off</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BorderRadius</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BorderWidthRange</settingname>
+            <settingvalue>0</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>MarginTop</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BackgroundType</settingname>
+            <settingvalue>none</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SpacingLeft</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BorderColor</settingname>
+            <settingvalue>#ca0027</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>IsFirstBoot</settingname>
+            <settingvalue>False</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>Visibility</settingname>
+            <settingvalue>visible-md visible-lg,visible-sm,visible-xs</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>MarginLeft</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowSpread</settingname>
+            <settingvalue>0</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BackgroundImagePosition</settingname>
+            <settingvalue>left top</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ThemeLocationMode</settingname>
+            <settingvalue>SkinLocation</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SpacingRight</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>MarginRight</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowColor</settingname>
+            <settingvalue>#888888</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SpacingBottom</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxesGridColumns</settingname>
+            <settingvalue>12</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>Width</settingname>
+            <settingvalue>800</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowBlurRadius</settingname>
+            <settingvalue>18</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BackgroundImageSize</settingname>
+            <settingvalue>auto</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ViewContent</settingname>
+            <settingvalue>
+      &lt;div class="wsc_cm_module_container clearfix module-408 visible-md visible-lg visible-sm visible-xs" style="padding: 0px 0px 0px 0px;      margin: 0px 0px 0px 0px;      border-radius: 0px;      background-size: auto;background-repeat: repeat;background-position: left top;"&gt;
+        
+  &lt;div class="mng-wrapper-408"&gt;
+    
+        &lt;div class="wsc_slides_grid"&gt;
+        
+          &lt;div class="wsc_slides_grid_row row" data-equalize-item=".wsc_slides_grid_column"&gt;
+          
+            &lt;div class="wsc_slides_grid_column col-md-12"&gt;
+            
+              
+      &lt;div class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs" style="padding: 0px 0px 0px 0px;      margin: 0 0 0 0;      border-radius: 0px;      background-size: auto;background-repeat: repeat;background-position: left top;" data-id="33"&gt;
+        
+
+
+
+
+
+
+&lt;style&gt;
+  .mng-wrapper-408 .mng-item-33 h1 {
+    
+    
+    
+    
+    font-weight: 400;
+    
+    
+  }
+&lt;/style&gt;
+
+&lt;style&gt;
+  .mng-wrapper-408 .mng-item-33 h2 {
+    
+    
+    
+    
+    font-weight: 400;
+    
+    
+  }
+&lt;/style&gt;
+
+&lt;style&gt;
+  .mng-wrapper-408 .mng-item-33 h3 {
+    
+    
+    
+    
+    font-weight: 400;
+    
+    
+  }
+&lt;/style&gt;
+
+&lt;style&gt;
+  .mng-wrapper-408 .mng-item-33 h4,
+  .mng-wrapper-408 .mng-item-33 h5,
+  .mng-wrapper-408 .mng-item-33 h6 {
+    
+    
+    
+    
+    font-weight: 400;
+    
+    
+  }
+&lt;/style&gt;
+
+&lt;style&gt;
+    /* Text font family inside content editor */
+  .mng-wrapper-408 .mng-item-33,
+  .mng-wrapper-408 .mng-item-33 p {
+    
+    
+    
+    
+    font-weight: 400;
+    
+    
+  }
+&lt;/style&gt;
+
+&lt;div class="mng-text-theme mng-item-33 auto"&gt;
+  &lt;div class="row"&gt;
+&lt;div class="col-md-3"&gt;
+&lt;div class="room"&gt;
+&lt;div class="room-image"&gt;&lt;img src="data:image/png;base64,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" alt=""&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div class="room-details"&gt;
+&lt;p&gt;Atlanta Falcons&lt;/p&gt;&lt;p&gt;Week 1: Sun, Sept. 12th&lt;/p&gt;&lt;p&gt;Arrowhead Stadium&lt;/p&gt;
+&lt;div class="pull-left"&gt;
+&lt;h4&gt;&lt;br&gt;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div class="pull-right"&gt;&lt;a class="btn btn-colored" href="#"&gt;B&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="col-md-3"&gt;&lt;div class="room"&gt;&lt;div class="room-details"&gt;&lt;p&gt;&lt;img src="data:image/png;base64,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" alt="" style="color: rgb(86, 86, 86);"&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-family: &amp;quot;Open Sans&amp;quot;, Helvetica, Arial; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: 0px;"&gt;Los Angeles Chargers&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-family: &amp;quot;Open Sans&amp;quot;, Helvetica, Arial; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: 0px;"&gt;Week 2: Thurs, Sept. 23rd&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Arrowhead Stadium&lt;a class="btn btn-colored" href="#"&gt;Book&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="col-md-3"&gt;
+&lt;div class="room"&gt;
+&lt;div class="room-image"&gt;&lt;img src="../../../../../portals/0/images/themes/hotel/images/rooms/6.jpg" border="0" alt="#"&gt;
+&lt;div class="room-title"&gt;Deluxe Room&lt;/div&gt;
+&lt;span class="room-badge"&gt;save 60%&lt;/span&gt;&lt;/div&gt;
+&lt;div class="room-details"&gt;
+&lt;p&gt;Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.&lt;/p&gt;
+&lt;div class="pull-left"&gt;
+&lt;h4&gt;89$&lt;small&gt;/ Day&lt;/small&gt;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div class="pull-right"&gt;&lt;a class="btn btn-colored" href="#"&gt;Book&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="col-md-3"&gt;
+&lt;div class="room"&gt;
+&lt;div class="room-image"&gt;&lt;img src="../../../../../portals/0/images/themes/hotel/images/rooms/7.jpg" border="0" alt="#"&gt;
+&lt;div class="room-title"&gt;Deluxe Room&lt;/div&gt;
+&lt;span class="room-badge"&gt;save 60%&lt;/span&gt;&lt;/div&gt;
+&lt;div class="room-details"&gt;
+&lt;p&gt;Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.&lt;/p&gt;
+&lt;div class="pull-left"&gt;
+&lt;h4&gt;89$&lt;small&gt;/ Day&lt;/small&gt;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div class="pull-right"&gt;&lt;a class="btn btn-colored" href="#"&gt;Book&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="col-md-3"&gt;
+&lt;div class="room"&gt;
+&lt;div class="room-image"&gt;&lt;img src="../../../../../portals/0/images/themes/hotel/images/rooms/8.jpg" border="0" alt="#"&gt;
+&lt;div class="room-title"&gt;Deluxe Room&lt;/div&gt;
+&lt;span class="room-badge"&gt;save 60%&lt;/span&gt;&lt;/div&gt;
+&lt;div class="room-details"&gt;
+&lt;p&gt;Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.&lt;/p&gt;
+&lt;div class="pull-left"&gt;
+&lt;h4&gt;89$&lt;small&gt;/ Day&lt;/small&gt;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div class="pull-right"&gt;&lt;a class="btn btn-colored" href="#"&gt;Book&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="col-md-3"&gt;
+&lt;div class="room"&gt;
+&lt;div class="room-image"&gt;&lt;img src="../../../../../portals/0/images/themes/hotel/images/rooms/9.jpg" border="0" alt="#"&gt;
+&lt;div class="room-title"&gt;Deluxe Room&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="room-details"&gt;
+&lt;p&gt;Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.&lt;/p&gt;
+&lt;div class="pull-left"&gt;
+&lt;h4&gt;89$&lt;small&gt;/ Day&lt;/small&gt;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div class="pull-right"&gt;&lt;a class="btn btn-colored" href="#"&gt;Book&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="col-md-3"&gt;
+&lt;div class="room"&gt;
+&lt;div class="room-image"&gt;&lt;img src="../../../../../portals/0/images/themes/hotel/images/rooms/10.jpg" border="0" alt="#"&gt;
+&lt;div class="room-title"&gt;Deluxe Room&lt;/div&gt;
+&lt;span class="room-badge"&gt;save 60%&lt;/span&gt;&lt;/div&gt;
+&lt;div class="room-details"&gt;
+&lt;p&gt;Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.&lt;/p&gt;
+&lt;div class="pull-left"&gt;
+&lt;h4&gt;89$&lt;small&gt;/ Day&lt;/small&gt;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div class="pull-right"&gt;&lt;a class="btn btn-colored" href="#"&gt;Book&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="col-md-3"&gt;
+&lt;div class="room"&gt;
+&lt;div class="room-image"&gt;&lt;img src="../../../../../portals/0/images/themes/hotel/images/rooms/11.jpg" border="0" alt="#"&gt;
+&lt;div class="room-title"&gt;Deluxe Room&lt;/div&gt;
+&lt;span class="room-badge"&gt;save 60%&lt;/span&gt;&lt;/div&gt;
+&lt;div class="room-details"&gt;
+&lt;p&gt;Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.&lt;/p&gt;
+&lt;div class="pull-left"&gt;
+&lt;h4&gt;89$&lt;small&gt;/ Day&lt;/small&gt;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div class="pull-right"&gt;&lt;a class="btn btn-colored" href="#"&gt;Book&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+      &lt;/div&gt;
+    
+            
+            &lt;/div&gt;
+          
+          &lt;/div&gt;
+        
+        &lt;/div&gt;
+      
+  &lt;/div&gt;
+
+      &lt;/div&gt;
+    </settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>AllowIndex</settingname>
+            <settingvalue>True</settingvalue>
+        </modulesetting>
+    </modulesettings>
+    <tabmodulesettings>
+        <tabmodulesetting>
+            <settingname>AllowIndex</settingname>
+            <settingvalue>True</settingvalue>
+        </tabmodulesetting>
+    </tabmodulesettings>
+    <definition>WebSitesCreative.MyContentManager</definition>
+    <moduledefinition>WSC My Content Manager</moduledefinition>
+</module>
