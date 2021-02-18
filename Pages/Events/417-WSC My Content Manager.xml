@@ -1,0 +1,331 @@
+<module type="WebSitesCreativeMyContentManager" version="03.05.03.00">
+    <contentKey />
+    <moduleID>417</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod />
+    <cachetime>1200</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+    </modulepermissions>
+    <title>WSC My Content Manager</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>a0433ea0-ac56-41b4-9e73-ff6f063a3e6a</uniqueId>
+    <visibility>Maximized</visibility>
+    <cultureCode />
+    <modulesettings>
+        <modulesetting>
+            <settingname>BackgroundCustomColor</settingname>
+            <settingvalue>#ca0027</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>animationSpecial</settingname>
+            <settingvalue>none</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>MarginRight</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SpacingTop</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>boxShadowStyle</settingname>
+            <settingvalue>off</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>InspiroNavDots</settingname>
+            <settingvalue>true</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>InspiroNavArrows</settingname>
+            <settingvalue>true</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BackgroundImageRepeat</settingname>
+            <settingvalue>repeat</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>animationStyle</settingname>
+            <settingvalue>none</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowOffsetX</settingname>
+            <settingvalue>0</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BorderStyle</settingname>
+            <settingvalue>solid</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>MarginBottom</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>CurrentSkinTheme</settingname>
+            <settingvalue>InspiroSlider</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BackgroundCustomImage</settingname>
+            <settingvalue>88c657b1-b64c-4947-a837-56fa811878ef.jpg</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BackgroundImageSetting</settingname>
+            <settingvalue>kenburns</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BorderRadius</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowOffsetY</settingname>
+            <settingvalue>2</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BorderWidthRange</settingname>
+            <settingvalue>0</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>MarginTop</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>InspiroAutoplay</settingname>
+            <settingvalue>true</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ImageSize</settingname>
+            <settingvalue>false|width|1244|1244|400|false</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BackgroundType</settingname>
+            <settingvalue>none</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SpacingLeft</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BorderColor</settingname>
+            <settingvalue>#ca0027</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>Visibility</settingname>
+            <settingvalue>visible-md visible-lg,visible-sm,visible-xs</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>animationDelay</settingname>
+            <settingvalue>500</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>InspiroAutoplayTimeoutRange</settingname>
+            <settingvalue>5000</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowSpread</settingname>
+            <settingvalue>0</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BackgroundImagePosition</settingname>
+            <settingvalue>left top</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ThemeLocationMode</settingname>
+            <settingvalue>SkinLocation</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SpacingRight</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>MarginLeft</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowColor</settingname>
+            <settingvalue>#888888</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SpacingBottom</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowBlurRadius</settingname>
+            <settingvalue>18</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ContentHeight</settingname>
+            <settingvalue>wsc_regular_height</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BackgroundImageSize</settingname>
+            <settingvalue>auto</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ViewContent</settingname>
+            <settingvalue>&lt;style&gt;
+ .module-417 .inspiro-slider .wsc_content_manager_module_slide .slide .custom-overlay  {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+ }
+&lt;/style&gt;
+
+
+  
+  
+  
+  
+  
+
+  &lt;style&gt;
+    .module-417 .mng-item-41 h1 {
+      
+      
+      
+      
+      font-weight: 400;
+      
+      
+    }
+  &lt;/style&gt;
+
+  &lt;style&gt;
+    .module-417 .mng-item-41 h2 {
+      
+      
+      
+      
+      font-weight: 400;
+      
+      
+    }
+  &lt;/style&gt;
+
+  &lt;style&gt;
+    .module-417 .mng-item-41 h3 {
+      
+      
+      
+      
+      font-weight: 400;
+      
+      
+    }
+  &lt;/style&gt;
+
+  &lt;style&gt;
+    .module-417 .mng-item-41 h4,
+    .module-417 .mng-item-41 h5,
+    .module-417 .mng-item-41 h6 {
+      
+      
+      
+      
+      font-weight: 400;
+      
+      
+    }
+  &lt;/style&gt;
+
+&lt;style&gt;
+  .module-417 .mng-item-41 .slide-captions p {
+    
+    
+    
+    
+    font-weight: 400;
+    
+  }
+&lt;/style&gt;
+
+
+
+
+      &lt;div class="wsc_cm_module_container clearfix module-417 visible-md visible-lg visible-sm visible-xs" style="padding: 0px 0px 0px 0px;      margin: 0px 0px 0px 0px;      border-radius: 0px;      background-size: auto;background-repeat: repeat;background-position: left top;"&gt;
+        
+
+  &lt;div class="inspiro-slider wsc_regular_height inspiro-slider417 arrows-large arrows-creative dots-creative" data-height-xs="360" data-autoplay="true" data-autoplay-timeout="5000" data-items="1" data-arrows="true" data-dots="true"&gt;
+    
+      &lt;div class="mng-item-41" style="display: table; width: 100%; height: 100%;"&gt;
+  
+    &lt;div class="slide background-overlay-one background-image kenburns" style="background-image:url(/Portals/0/WebSitesCreative_MyContentManager/417/ca9f0338-5197-44c4-bbf2-f7ff7718c8e7_resized.jpg);"&gt;
+  
+
+    
+
+      &lt;div class="container"&gt;
+        &lt;div class="text-left slide-captions text-light"&gt;
+          
+            &lt;span class="strong" data-caption-animation="zoom-out"&gt;
+              &lt;a href="#" class="business"&gt;&lt;span&gt;My small title&lt;/span&gt;&lt;/a&gt;
+            &lt;/span&gt;
+          
+
+          &lt;h1&gt;My title&lt;/h1&gt;
+          &lt;p class="lead"&gt;My description&lt;/p&gt;
+
+          
+            
+              &lt;a href="#_" class="btn btn-default btn-icon-left"&gt;
+                
+                  &lt;span class="btn-label"&gt;&lt;i class="fa fa-heart"&gt;&lt;/i&gt;&lt;/span&gt;
+                  My button 1
+                
+              &lt;/a&gt;
+            
+          
+
+          
+            
+              &lt;a data-lightbox="iframe" href="https://www.youtube.com/watch?v=zqE-ultsWt0" class="btn btn-default btn-icon-left"&gt;
+                
+                  &lt;span class="btn-label"&gt;&lt;i class="fa fa-heart"&gt;&lt;/i&gt;&lt;/span&gt;
+                  My button 2
+                
+              &lt;/a&gt;
+            
+          
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+    
+  &lt;/div&gt;
+
+
+      &lt;/div&gt;
+    </settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>animationDirection</settingname>
+            <settingvalue>Center</settingvalue>
+        </modulesetting>
+    </modulesettings>
+    <tabmodulesettings />
+    <definition>WebSitesCreative.MyContentManager</definition>
+    <moduledefinition>WSC My Content Manager</moduledefinition>
+</module>
