@@ -1,0 +1,95 @@
+<module type="WebSitesCreativeMyContentManager" version="03.05.03.00">
+    <contentKey />
+    <moduleID>400</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod />
+    <cachetime>1200</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+    </modulepermissions>
+    <title>WSC My Content Manager</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>dccb5b5a-09af-4b75-a6cd-13f8688ff97b</uniqueId>
+    <visibility>Maximized</visibility>
+    <cultureCode />
+    <modulesettings>
+        <modulesetting>
+            <settingname>ThemeLocationMode</settingname>
+            <settingvalue>SkinLocation</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ViewContent</settingname>
+            <settingvalue>
+      &lt;div class="wsc_cm_module_container clearfix module-400 visible-lg visible-md visible-sm visible-xs" style="padding: 0px 0px 0px 0px;      margin: 0px 0px 0px 0px;      border-radius: 0px;      background-size: auto;background-repeat: repeat;background-position: left top;"&gt;
+        
+      &lt;div class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs" data-id="6723"&gt;
+        
+
+&lt;style&gt;
+  .module-400 .wsc_content_manager_module_slide .wsc_contact_form label {
+    
+    
+    
+    
+    font-weight: 400;
+    
+    
+  }
+&lt;/style&gt;
+
+
+&lt;div class="wsc_contact_form"&gt;
+  
+
+  
+
+  &lt;div class="form-group"&gt;
+    &lt;label for="email400"&gt;Email:&lt;/label&gt;
+    &lt;input type="email" id="email400" class="form-control" required name="email" placeholder="Email"&gt;
+  &lt;/div&gt;
+
+  &lt;div class="form-group"&gt;
+    &lt;label for="emailSubject400"&gt;Subject:&lt;/label&gt;
+    &lt;input type="text" id="emailSubject400" class="form-control" required name="subject" placeholder="Subject"&gt;
+  &lt;/div&gt;
+
+  &lt;div class="form-group"&gt;
+    &lt;label for="message400"&gt;Message:&lt;/label&gt;
+    &lt;textarea id="message400" class="form-control" name="message" required rows="10" cols="10" placeholder="Message"&gt;&lt;/textarea&gt;
+  &lt;/div&gt;
+
+  &lt;button class="btn" data-loading-text="&lt;i class='fa fa-circle-o-notch fa-spin'&gt;&lt;/i&gt; Sending"&gt;send feedback&lt;/button&gt;
+&lt;/div&gt;
+
+
+      &lt;/div&gt;
+    
+      &lt;/div&gt;
+    </settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>CurrentSkinTheme</settingname>
+            <settingvalue>ContactForm</settingvalue>
+        </modulesetting>
+    </modulesettings>
+    <tabmodulesettings />
+    <definition>WebSitesCreative.MyContentManager</definition>
+    <moduledefinition>WSC My Content Manager</moduledefinition>
+</module>
