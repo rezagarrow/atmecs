@@ -1,0 +1,37 @@
+<module type="WebSitesCreativeSliderRevolutionImporter" version="01.02.00.00">
+    <contentKey />
+    <moduleID>412</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod />
+    <cachetime>0</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+    </modulepermissions>
+    <title>WSC Slider Revolution Importer</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>8d497699-e129-4220-ad5a-638793ffc60c</uniqueId>
+    <visibility>Maximized</visibility>
+    <cultureCode />
+    <modulesettings />
+    <tabmodulesettings />
+    <definition>WebSitesCreative.SliderRevolutionImporter</definition>
+    <moduledefinition>WSC Slider Revolution Importer</moduledefinition>
+    <content type="WebSitesCreativeSliderRevolutionImporter" version="01.02.00.00"><![CDATA[&lt;PortableContent xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; /&gt;]]></content>
+</module>
