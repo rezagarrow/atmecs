@@ -1,0 +1,196 @@
+<module type="WebSitesCreativeMyContentManager" version="03.05.03.00">
+    <contentKey />
+    <moduleID>431</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod />
+    <cachetime>1200</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+    </modulepermissions>
+    <title>WSC My Content Manager</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>9db651a7-e5b5-4b23-9829-5d147b714bd3</uniqueId>
+    <visibility>Maximized</visibility>
+    <cultureCode />
+    <modulesettings>
+        <modulesetting>
+            <settingname>BackgroundCustomImage</settingname>
+            <settingvalue>132e758d-3009-4d08-81fb-a2768c68c661.jpg</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ThemeLocationMode</settingname>
+            <settingvalue>SkinLocation</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ViewContent</settingname>
+            <settingvalue>
+      &lt;div class="wsc_cm_module_container clearfix module-431 visible-md visible-lg visible-sm visible-xs" style="padding: 0px 0px 0px 0px;      margin: 0px 0px 0px 0px;      border-radius: 0px;      background-size: auto;background-repeat: repeat;background-position: left top;"&gt;
+        
+  
+        &lt;div class="wsc_slides_grid"&gt;
+        
+          &lt;div class="wsc_slides_grid_row row" data-equalize-item=".wsc_slides_grid_column"&gt;
+          
+            &lt;div class="wsc_slides_grid_column col-md-12"&gt;
+            
+              
+      &lt;div class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs" style="padding: 0px 0px 0px 0px;      margin: 0px 0px 0px 0px;      border-radius: 0px;      background-size: auto;background-repeat: repeat;background-position: left top;" data-id="56"&gt;
+        &lt;div class="wsc-box-item"&gt;
+  &lt;div class="mng-text-theme"&gt;
+    &lt;div class="row"&gt;
+&lt;div class="col-md-3"&gt;
+&lt;div class="room"&gt;
+&lt;div class="room-image"&gt;&lt;img src="../../../../../portals/0/images/themes/hotel/images/rooms/4.jpg" border="0" alt="#"&gt;
+&lt;div class="room-title"&gt;Deluxe Room&lt;/div&gt;
+&lt;span class="room-badge"&gt;save 60%&lt;/span&gt;&lt;/div&gt;
+&lt;div class="room-details"&gt;
+&lt;p&gt;Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.&lt;/p&gt;
+&lt;div class="pull-left"&gt;
+&lt;h4&gt;89$&lt;small&gt;/ Day&lt;/small&gt;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div class="pull-right"&gt;&lt;a class="btn btn-colored" href="#"&gt;Book&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="col-md-3"&gt;
+&lt;div class="room"&gt;
+&lt;div class="room-image"&gt;&lt;img src="../../../../../portals/0/images/themes/hotel/images/rooms/5.jpg" border="0" alt="#"&gt;
+&lt;div class="room-title"&gt;Deluxe Room&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="room-details"&gt;
+&lt;p&gt;Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.&lt;/p&gt;
+&lt;div class="pull-left"&gt;
+&lt;h4&gt;89$&lt;small&gt;/ Day&lt;/small&gt;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div class="pull-right"&gt;&lt;a class="btn btn-colored" href="#"&gt;Book&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="col-md-3"&gt;
+&lt;div class="room"&gt;
+&lt;div class="room-image"&gt;&lt;img src="../../../../../portals/0/images/themes/hotel/images/rooms/6.jpg" border="0" alt="#"&gt;
+&lt;div class="room-title"&gt;Deluxe Room&lt;/div&gt;
+&lt;span class="room-badge"&gt;save 60%&lt;/span&gt;&lt;/div&gt;
+&lt;div class="room-details"&gt;
+&lt;p&gt;Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.&lt;/p&gt;
+&lt;div class="pull-left"&gt;
+&lt;h4&gt;89$&lt;small&gt;/ Day&lt;/small&gt;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div class="pull-right"&gt;&lt;a class="btn btn-colored" href="#"&gt;Book&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="col-md-3"&gt;
+&lt;div class="room"&gt;
+&lt;div class="room-image"&gt;&lt;img src="../../../../../portals/0/images/themes/hotel/images/rooms/7.jpg" border="0" alt="#"&gt;
+&lt;div class="room-title"&gt;Deluxe Room&lt;/div&gt;
+&lt;span class="room-badge"&gt;save 60%&lt;/span&gt;&lt;/div&gt;
+&lt;div class="room-details"&gt;
+&lt;p&gt;Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.&lt;/p&gt;
+&lt;div class="pull-left"&gt;
+&lt;h4&gt;89$&lt;small&gt;/ Day&lt;/small&gt;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div class="pull-right"&gt;&lt;a class="btn btn-colored" href="#"&gt;Book&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="col-md-3"&gt;
+&lt;div class="room"&gt;
+&lt;div class="room-image"&gt;&lt;img src="../../../../../portals/0/images/themes/hotel/images/rooms/8.jpg" border="0" alt="#"&gt;
+&lt;div class="room-title"&gt;Deluxe Room&lt;/div&gt;
+&lt;span class="room-badge"&gt;save 60%&lt;/span&gt;&lt;/div&gt;
+&lt;div class="room-details"&gt;
+&lt;p&gt;Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.&lt;/p&gt;
+&lt;div class="pull-left"&gt;
+&lt;h4&gt;89$&lt;small&gt;/ Day&lt;/small&gt;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div class="pull-right"&gt;&lt;a class="btn btn-colored" href="#"&gt;Book&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="col-md-3"&gt;
+&lt;div class="room"&gt;
+&lt;div class="room-image"&gt;&lt;img src="../../../../../portals/0/images/themes/hotel/images/rooms/9.jpg" border="0" alt="#"&gt;
+&lt;div class="room-title"&gt;Deluxe Room&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="room-details"&gt;
+&lt;p&gt;Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.&lt;/p&gt;
+&lt;div class="pull-left"&gt;
+&lt;h4&gt;89$&lt;small&gt;/ Day&lt;/small&gt;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div class="pull-right"&gt;&lt;a class="btn btn-colored" href="#"&gt;Book&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="col-md-3"&gt;
+&lt;div class="room"&gt;
+&lt;div class="room-image"&gt;&lt;img src="../../../../../portals/0/images/themes/hotel/images/rooms/10.jpg" border="0" alt="#"&gt;
+&lt;div class="room-title"&gt;Deluxe Room&lt;/div&gt;
+&lt;span class="room-badge"&gt;save 60%&lt;/span&gt;&lt;/div&gt;
+&lt;div class="room-details"&gt;
+&lt;p&gt;Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.&lt;/p&gt;
+&lt;div class="pull-left"&gt;
+&lt;h4&gt;89$&lt;small&gt;/ Day&lt;/small&gt;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div class="pull-right"&gt;&lt;a class="btn btn-colored" href="#"&gt;Book&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="col-md-3"&gt;
+&lt;div class="room"&gt;
+&lt;div class="room-image"&gt;&lt;img src="../../../../../portals/0/images/themes/hotel/images/rooms/11.jpg" border="0" alt="#"&gt;
+&lt;div class="room-title"&gt;Deluxe Room&lt;/div&gt;
+&lt;span class="room-badge"&gt;save 60%&lt;/span&gt;&lt;/div&gt;
+&lt;div class="room-details"&gt;
+&lt;p&gt;Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.&lt;/p&gt;
+&lt;div class="pull-left"&gt;
+&lt;h4&gt;89$&lt;small&gt;/ Day&lt;/small&gt;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div class="pull-right"&gt;&lt;a class="btn btn-colored" href="#"&gt;Book&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+      &lt;/div&gt;
+    
+            
+            &lt;/div&gt;
+          
+          &lt;/div&gt;
+        
+        &lt;/div&gt;
+      
+
+      &lt;/div&gt;
+    </settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>CurrentSkinTheme</settingname>
+            <settingvalue>HTML</settingvalue>
+        </modulesetting>
+    </modulesettings>
+    <tabmodulesettings />
+    <definition>WebSitesCreative.MyContentManager</definition>
+    <moduledefinition>WSC My Content Manager</moduledefinition>
+</module>
