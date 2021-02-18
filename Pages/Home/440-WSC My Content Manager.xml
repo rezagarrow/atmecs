@@ -1,0 +1,79 @@
+<module type="WebSitesCreativeMyContentManager" version="03.05.03.00">
+    <moduleID>440</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod />
+    <cachetime>1200</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+    </modulepermissions>
+    <title>WSC My Content Manager</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>5144b460-bf16-4b51-9fa3-d2b093b81f7d</uniqueId>
+    <visibility>Maximized</visibility>
+    <modulesettings>
+        <modulesetting>
+            <settingname>BackgroundCustomImage</settingname>
+            <settingvalue>5c7d45ec-09fc-4b52-8008-7ffe5432a79d.jpg</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ThemeLocationMode</settingname>
+            <settingvalue>SkinLocation</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ViewContent</settingname>
+            <settingvalue>
+      &lt;div class="wsc_cm_module_container clearfix module-440 visible-md visible-lg visible-sm visible-xs" style="padding: 0px 0px 0px 0px;      margin: 0px 0px 0px 0px;      border-radius: 0px;      background-size: auto;background-repeat: repeat;background-position: left top;"&gt;
+        
+  &lt;div class="widget"&gt;
+    &lt;div class="carousel arrows-visibile testimonial testimonial-single carousel-top-right-dots" data-items="1" data-arrows="false" data-items-xxs="1" data-autoplay="true" data-autoplay-timeout="5000" data-loop="true" data-dots="true"&gt;
+      
+        
+      &lt;div class="wsc_content_manager_module_slide" style="" data-id="70"&gt;
+        &lt;div class="testimonial-item"&gt;
+  
+    &lt;img src="/Portals/0/WebSitesCreative_MyContentManager/440/76bb7cdc-0799-4435-9de5-19442ee2fe6a_resized.jpg" alt=""&gt;
+  
+
+  &lt;p&gt;My testimonial text&lt;/p&gt;
+  &lt;span&gt;My name&lt;/span&gt;
+  &lt;span&gt;My position&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;!-- Manage panel
+ --&gt;
+
+      &lt;/div&gt;
+    
+      
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+      &lt;/div&gt;
+    </settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>CurrentSkinTheme</settingname>
+            <settingvalue>MiniTestimonials</settingvalue>
+        </modulesetting>
+    </modulesettings>
+    <tabmodulesettings />
+    <definition>WebSitesCreative.MyContentManager</definition>
+    <moduledefinition>WSC My Content Manager</moduledefinition>
+</module>
