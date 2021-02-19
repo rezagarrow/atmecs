@@ -186,8 +186,8 @@
                 &amp;lt;div class=&quot;room-title&quot;&amp;gt;[name]&amp;lt;/div&amp;gt;
              
             &amp;lt;/div&amp;gt;
-            &amp;lt;div class=&quot;room-details&quot;&amp;gt;
-                &amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Date:&amp;lt;/b&amp;gt; [localDate]&amp;lt;/p&amp;gt;
+            &amp;lt;div class=&quot;room-details&quot; style=&quot;text-align:center;&quot;&amp;gt;
+                &amp;lt;h3 style=&quot;color:#dc143c&quot;&amp;gt;[localDate]&amp;lt;/h3&amp;gt;
  
             &amp;lt;/div&amp;gt;
         &amp;lt;/div&amp;gt;&lt;/Template&gt;
