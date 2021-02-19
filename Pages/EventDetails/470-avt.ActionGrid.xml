@@ -1,4 +1,5 @@
 <module type="ActionGrid" version="05.11.13.00">
+    <contentKey />
     <moduleID>470</moduleID>
     <alignment />
     <alltabs>false</alltabs>
@@ -25,12 +26,87 @@
     </modulepermissions>
     <title>avt.ActionGrid</title>
     <startdate>0001-01-01T00:00:00</startdate>
-    <uniqueId>41eb081e-24f1-47d0-b991-00405d7c07e9</uniqueId>
+    <uniqueId>f89cce3f-b1a1-45c0-991f-01aaad1fd01b</uniqueId>
     <visibility>Maximized</visibility>
     <cultureCode />
     <modulesettings />
     <tabmodulesettings />
     <definition>Action Grid</definition>
     <moduledefinition>avt.ActionGrid</moduledefinition>
-    <content type="ActionGrid" version="05.11.13.00"><![CDATA[&lt;ActionGrid /&gt;]]></content>
+    <content type="ActionGrid" version="05.11.13.00"><![CDATA[&lt;ActionGrid&gt;
+  &lt;Settings&gt;
+    &lt;Version&gt;5.11.0&lt;/Version&gt;
+    &lt;Build&gt;5.11.13&lt;/Build&gt;
+    &lt;CurrentContext&gt;ExportImport&lt;/CurrentContext&gt;
+    &lt;ModuleId&gt;470&lt;/ModuleId&gt;
+    &lt;DataSource&gt;{&quot;DefinitionId&quot;:&quot;ServerRequestSource&quot;,&quot;Parameters&quot;:{&quot;Url&quot;:&quot;https://fanlounge-atmecs.apps.plantanapp.com/api/EventWeather&quot;,&quot;MethodName&quot;:{&quot;Value&quot;:&quot;GET&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;RequestBody&quot;:&quot;id=[QueryString:id=vvG1bZp0QQSoeG]&quot;,&quot;IdProperty&quot;:&quot;date&quot;,&quot;BaseName&quot;:&quot;&quot;,&quot;JsonPath&quot;:&quot;&quot;,&quot;PivotObjectResponse&quot;:&quot;&quot;,&quot;CustomHeaders&quot;:&quot;&quot;},&quot;Fields&quot;:[{&quot;Title&quot;:null,&quot;Name&quot;:&quot;date&quot;,&quot;TypeStr&quot;:&quot;System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:true,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:true,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:false,&quot;DefaultValue&quot;:null},{&quot;Title&quot;:null,&quot;Name&quot;:&quot;weather&quot;,&quot;TypeStr&quot;:&quot;System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:true,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:true,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:false,&quot;DefaultValue&quot;:null},{&quot;Title&quot;:null,&quot;Name&quot;:&quot;day&quot;,&quot;TypeStr&quot;:&quot;System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:true,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:true,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:false,&quot;DefaultValue&quot;:null},{&quot;Title&quot;:null,&quot;Name&quot;:&quot;morn&quot;,&quot;TypeStr&quot;:&quot;System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:true,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:true,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:false,&quot;DefaultValue&quot;:null},{&quot;Title&quot;:null,&quot;Name&quot;:&quot;eve&quot;,&quot;TypeStr&quot;:&quot;System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:true,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:true,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:false,&quot;DefaultValue&quot;:null},{&quot;Title&quot;:null,&quot;Name&quot;:&quot;night&quot;,&quot;TypeStr&quot;:&quot;System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:true,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:true,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:false,&quot;DefaultValue&quot;:null},{&quot;Title&quot;:null,&quot;Name&quot;:&quot;windSpeed&quot;,&quot;TypeStr&quot;:&quot;System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:true,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:true,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:false,&quot;DefaultValue&quot;:null}]}&lt;/DataSource&gt;
+    &lt;NoDataMessage&gt;No Data&lt;/NoDataMessage&gt;
+    &lt;AditionalHtmlHeader /&gt;
+    &lt;OnInitJs /&gt;
+    &lt;OnRefreshJs /&gt;
+    &lt;EnableEmbed&gt;False&lt;/EnableEmbed&gt;
+    &lt;ShowCondition /&gt;
+    &lt;SearchPlaceholder&gt;Search&lt;/SearchPlaceholder&gt;
+    &lt;SearchDelayTime&gt;300&lt;/SearchDelayTime&gt;
+    &lt;TableHeight /&gt;
+    &lt;PagerStyle&gt;TouchFriendly&lt;/PagerStyle&gt;
+    &lt;PageSizes&gt;[12,24,48]&lt;/PageSizes&gt;
+    &lt;DefaultPageSize&gt;12&lt;/DefaultPageSize&gt;
+    &lt;IsDebug&gt;False&lt;/IsDebug&gt;
+    &lt;SearchEnabled&gt;True&lt;/SearchEnabled&gt;
+    &lt;HideEmptyGrid&gt;False&lt;/HideEmptyGrid&gt;
+    &lt;LoadOnSearch&gt;False&lt;/LoadOnSearch&gt;
+    &lt;HideTableHead&gt;False&lt;/HideTableHead&gt;
+    &lt;EnableStickyHead&gt;False&lt;/EnableStickyHead&gt;
+    &lt;ItemButtonPosition&gt;Right&lt;/ItemButtonPosition&gt;
+    &lt;ItemButtonPositionInColumn&gt;Right&lt;/ItemButtonPositionInColumn&gt;
+    &lt;ItemButtonGroupingOptions&gt;HorizontalAlign&lt;/ItemButtonGroupingOptions&gt;
+    &lt;FiltersEnabled&gt;True&lt;/FiltersEnabled&gt;
+    &lt;ShowFilters&gt;False&lt;/ShowFilters&gt;
+    &lt;SyncUrl&gt;True&lt;/SyncUrl&gt;
+    &lt;IncludeBootstrapJS&gt;True&lt;/IncludeBootstrapJS&gt;
+    &lt;IncludeBootstrapCSS&gt;True&lt;/IncludeBootstrapCSS&gt;
+    &lt;IncludeFontAwesome&gt;True&lt;/IncludeFontAwesome&gt;
+    &lt;AngularnoConflict&gt;True&lt;/AngularnoConflict&gt;
+    &lt;SelectAllPosition&gt;None&lt;/SelectAllPosition&gt;
+    &lt;LoadingStyle&gt;EntireGrid&lt;/LoadingStyle&gt;
+    &lt;SearchPosition&gt;top&lt;/SearchPosition&gt;
+    &lt;RootCSSClasses /&gt;
+    &lt;ModalRefresh&gt;False&lt;/ModalRefresh&gt;
+    &lt;ShowLoading&gt;True&lt;/ShowLoading&gt;
+    &lt;TabsProLoading&gt;False&lt;/TabsProLoading&gt;
+    &lt;EnableGridSelect&gt;True&lt;/EnableGridSelect&gt;
+    &lt;DataSourceAutoRefreshInterval /&gt;
+    &lt;DataSourceRefreshType&gt;manual&lt;/DataSourceRefreshType&gt;
+    &lt;DateFormat&gt;m/d/yy&lt;/DateFormat&gt;
+    &lt;BaseId&gt;dnn470&lt;/BaseId&gt;
+    &lt;ItemButtonGroups&gt;[]&lt;/ItemButtonGroups&gt;
+    &lt;GridButtonGroups&gt;[]&lt;/GridButtonGroups&gt;
+    &lt;ItemButtons&gt;[]&lt;/ItemButtons&gt;
+    &lt;GridButtons&gt;[]&lt;/GridButtons&gt;
+    &lt;PortalHomeUrl&gt;/Portals/0/&lt;/PortalHomeUrl&gt;
+    &lt;TooltipContent /&gt;
+    &lt;TooltipDataTrigger /&gt;
+    &lt;TooltipIcon&gt;glyphicon-info-sign&lt;/TooltipIcon&gt;
+    &lt;TooltipIconPosition&gt;right&lt;/TooltipIconPosition&gt;
+    &lt;TooltipInEdit&gt;right&lt;/TooltipInEdit&gt;
+    &lt;TooltipEnabled&gt;false&lt;/TooltipEnabled&gt;
+    &lt;TooltipOrientation /&gt;
+    &lt;TooltipTitle /&gt;
+    &lt;TooltipHeight&gt;0&lt;/TooltipHeight&gt;
+    &lt;TooltipWidth&gt;0&lt;/TooltipWidth&gt;
+    &lt;RefreshOnTabChange&gt;False&lt;/RefreshOnTabChange&gt;
+    &lt;UseDragAndDropActions&gt;False&lt;/UseDragAndDropActions&gt;
+    &lt;DragAndDropActions&gt;[]&lt;/DragAndDropActions&gt;
+    &lt;InitLoadFromTabsPro&gt;False&lt;/InitLoadFromTabsPro&gt;
+    &lt;LockIntoEditMode&gt;False&lt;/LockIntoEditMode&gt;
+    &lt;LockInEditForEachRowActions&gt;[]&lt;/LockInEditForEachRowActions&gt;
+    &lt;LockInEditFinalActions&gt;[]&lt;/LockInEditFinalActions&gt;
+    &lt;Template /&gt;
+    &lt;MobileTemplate /&gt;
+    &lt;SwitchingTemplates&gt;False&lt;/SwitchingTemplates&gt;
+    &lt;TemplateConfig&gt;{}&lt;/TemplateConfig&gt;
+  &lt;/Settings&gt;
+  &lt;Fields /&gt;
+&lt;/ActionGrid&gt;]]></content>
 </module>
