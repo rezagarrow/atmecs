@@ -380,7 +380,7 @@
       &lt;BindPreserveLayout&gt;&lt;![CDATA[False]]&gt;&lt;/BindPreserveLayout&gt;
       &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
       &lt;BindOnChange&gt;&lt;![CDATA[  var a = dnnsf.getUrlParts(window.location);
-   a.query.genreid= &#39;[FilterbyCategorie]&#39;;
+   a.query.genreid= &#39;[FilterbyCategories]&#39;;
    window.history.pushState({},&#39;&#39;,a.getUrl());
                             dnnsf.api.actionGrid.refresh(426);]]&gt;&lt;/BindOnChange&gt;
       &lt;InputType&gt;closed-multiple-dropdown&lt;/InputType&gt;
@@ -476,9 +476,36 @@
     &lt;LeftSidebarHtml /&gt;
     &lt;RightSidebarHtml /&gt;
     &lt;RootClasses /&gt;
-    &lt;LocalizedStringsUrl&gt;/DesktopModules/DnnSharp/ActionForm/AdminApi.ashx?method=GetLocalization&amp;amp;locale=en-US&amp;amp;section=FrontEnd&lt;/LocalizedStringsUrl&gt;
+    &lt;LocalizedStringsUrl&gt;/DesktopModules/DnnSharp/ActionForm/AdminApi.ashx?method=GetLocalization&amp;amp;locale=en&amp;amp;section=FrontEnd&lt;/LocalizedStringsUrl&gt;
     &lt;PortalHomeUrl&gt;/Portals/0/&lt;/PortalHomeUrl&gt;
   &lt;/Settings&gt;
-  &lt;Actions xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; /&gt;
+  &lt;Actions xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;
+    &lt;ActionInfo&gt;
+      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+      &lt;ActionType&gt;ExecuteJsCode&lt;/ActionType&gt;
+      &lt;OrderIndex&gt;2&lt;/OrderIndex&gt;
+      &lt;LastModified&gt;2021-02-19T11:12:18.333&lt;/LastModified&gt;
+      &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
+      &lt;ActionData&gt;{&quot;JavascriptCode&quot;:&quot;  var a = dnnsf.getUrlParts(window.location);\n   a.query.genreid= &#39;[FilterbyCategories]&#39;;\n   window.history.pushState({},&#39;&#39;,a.getUrl());\n                            dnnsf.api.actionGrid.refresh(426);&quot;}&lt;/ActionData&gt;
+      &lt;ModuleId&gt;423&lt;/ModuleId&gt;
+      &lt;FieldName&gt;Search&lt;/FieldName&gt;
+      &lt;EventName&gt;click&lt;/EventName&gt;
+      &lt;MetadataJson&gt;{}&lt;/MetadataJson&gt;
+      &lt;Metadata /&gt;
+    &lt;/ActionInfo&gt;
+    &lt;ActionInfo&gt;
+      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+      &lt;ActionType&gt;LogError&lt;/ActionType&gt;
+      &lt;OrderIndex&gt;3&lt;/OrderIndex&gt;
+      &lt;LastModified&gt;2021-02-19T11:12:18.333&lt;/LastModified&gt;
+      &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
+      &lt;ActionData&gt;{&quot;Message&quot;:&quot;[FilterbyCategories:value]----\n[FilterbyCategories]&quot;}&lt;/ActionData&gt;
+      &lt;ModuleId&gt;423&lt;/ModuleId&gt;
+      &lt;FieldName&gt;Search&lt;/FieldName&gt;
+      &lt;EventName&gt;click&lt;/EventName&gt;
+      &lt;MetadataJson&gt;{}&lt;/MetadataJson&gt;
+      &lt;Metadata /&gt;
+    &lt;/ActionInfo&gt;
+  &lt;/Actions&gt;
 &lt;/ActionForm&gt;]]></content>
 </module>
