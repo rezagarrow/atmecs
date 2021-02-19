@@ -105,7 +105,7 @@
     &lt;Template&gt;listingcards&lt;/Template&gt;
     &lt;MobileTemplate&gt;listingcards&lt;/MobileTemplate&gt;
     &lt;SwitchingTemplates&gt;False&lt;/SwitchingTemplates&gt;
-    &lt;TemplateConfig&gt;{&quot;entriesPerRowMobile&quot;:{&quot;Value&quot;:1,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;entriesPerRowTablet&quot;:{&quot;Value&quot;:2,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;entriesPerRowDesktop&quot;:{&quot;Value&quot;:4,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;entriesPerRowLarge&quot;:{&quot;Value&quot;:4,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}}}&lt;/TemplateConfig&gt;
+    &lt;TemplateConfig&gt;{&quot;entriesPerRowMobile&quot;:{&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;entriesPerRowTablet&quot;:{&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;entriesPerRowDesktop&quot;:{&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;entriesPerRowLarge&quot;:{&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}}}&lt;/TemplateConfig&gt;
   &lt;/Settings&gt;
   &lt;Fields&gt;
     &lt;FieldInfo&gt;
