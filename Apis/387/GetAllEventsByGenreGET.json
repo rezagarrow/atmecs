@@ -84,7 +84,7 @@
     {
       "ActionType": "ExecuteJavascript",
       "OrderIndex": 2,
-      "Condition": "[ParsedResult:_embedded.events] == \"\" && false",
+      "Condition": "[ParsedResult:_embedded.events] == \"\"",
       "Parameters": {
         "ScriptName": "addObjectproperty",
         "LocalVariables": "",
@@ -100,7 +100,7 @@
       "ActionType": "RawResponse",
       "OrderIndex": 3,
       "Parameters": {
-        "Content": "[newObject]",
+        "Content": "[newObject=[Result]]",
         "HttpCode": "200 OK",
         "Headers": [
           {
