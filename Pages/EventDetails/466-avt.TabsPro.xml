@@ -72,7 +72,7 @@
     &lt;Tab&gt;
       &lt;Title&gt;Description&lt;/Title&gt;
       &lt;RefName /&gt;
-      &lt;CssClass /&gt;
+      &lt;CssClass&gt;fa-align-left&lt;/CssClass&gt;
       &lt;EnableCondition /&gt;
       &lt;ShowCondition /&gt;
       &lt;IconUrl /&gt;
@@ -92,7 +92,7 @@
     &lt;Tab&gt;
       &lt;Title&gt;Weather&lt;/Title&gt;
       &lt;RefName /&gt;
-      &lt;CssClass /&gt;
+      &lt;CssClass&gt;fa-cloud-sun-rain&lt;/CssClass&gt;
       &lt;EnableCondition /&gt;
       &lt;ShowCondition /&gt;
       &lt;IconUrl /&gt;
@@ -112,7 +112,7 @@
     &lt;Tab&gt;
       &lt;Title&gt;Attractions&lt;/Title&gt;
       &lt;RefName /&gt;
-      &lt;CssClass /&gt;
+      &lt;CssClass&gt;fa-star&lt;/CssClass&gt;
       &lt;EnableCondition /&gt;
       &lt;ShowCondition /&gt;
       &lt;IconUrl /&gt;
