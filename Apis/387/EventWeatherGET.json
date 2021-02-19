@@ -1,6 +1,6 @@
 {
   "Name": "EventWeather",
-  "HttpMethod": "POST",
+  "HttpMethod": "GET",
   "IsEnabled": true,
   "OrderIndex": 0,
   "CrossDomainPolicy": "Public",
