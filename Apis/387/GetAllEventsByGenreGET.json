@@ -71,34 +71,13 @@
       "Metadata": {}
     },
     {
-      "ActionType": "ParseJsonIntoTokens",
-      "OrderIndex": 1,
-      "Parameters": {
-        "JsonString": "[Result]",
-        "BaseTokenName": "ParsedResult"
-      },
-      "IsEnabled": true,
-      "ExecutionType": "OnExecute",
-      "Metadata": {}
-    },
-    {
-      "ActionType": "LogError",
-      "OrderIndex": 3,
-      "Parameters": {
-        "Message": "[ParsedResult:events]\nevents: [ParsedResult:_embedded.events=]"
-      },
-      "IsEnabled": true,
-      "ExecutionType": "OnExecute",
-      "Metadata": {}
-    },
-    {
       "ActionType": "ExecuteJavascript",
-      "OrderIndex": 4,
-      "Condition": "[ParsedName:0.name] == \"\"",
+      "OrderIndex": 3,
+      "Condition": "",
       "Parameters": {
         "ScriptName": "addObjectproperty",
         "LocalVariables": "",
-        "Code": "var jsonObj=[Result];\njsonObj._embedded = {\n        \"events\": [{\n            \"name\": \"No Events Available\",\n            \"type\": \"event\",\n            \"id\": \"-1\",\n            \"test\": false,\n            \"url\": \"\",\n            \"locale\": \"en-us\",\n            \"images\": [{\n                \"ratio\": \"3_2\",\n                \"url\": \"\",\n                \"width\": 1024,\n                \"height\": 683,\n                \"fallback\": true\n            }]}]};\n\nreturn jsonObj;",
+        "Code": "var jsonObj=[Result];\n\nif (jsonObj.hasOwnProperty(\"events\") == false){\njsonObj._embedded = {\n        \"events\": [{\n            \"name\": \"No Events Available\",\n            \"type\": \"event\",\n            \"id\": \"-1\",\n            \"test\": false,\n            \"url\": \"\",\n            \"locale\": \"en-us\",\n            \"images\": [{\n                \"ratio\": \"3_2\",\n                \"url\": \"\",\n                \"width\": 1024,\n                \"height\": 683,\n                \"fallback\": true\n            }]}]};\n}\nreturn jsonObj;",
         "OutputTokenName": "newObject",
         "OnError": []
       },
@@ -108,9 +87,9 @@
     },
     {
       "ActionType": "RawResponse",
-      "OrderIndex": 5,
+      "OrderIndex": 4,
       "Parameters": {
-        "Content": "[newObject=[Result]]",
+        "Content": "[newObject]",
         "HttpCode": "200 OK",
         "Headers": [
           {
