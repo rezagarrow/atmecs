@@ -37,12 +37,7 @@
       "Parameters": {
         "Content": "[Response]",
         "HttpCode": "200 OK",
-        "Headers": [
-          {
-            "value": "application/json; charset=utf-8",
-            "name": "Content-Type"
-          }
-        ]
+        "Headers": []
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
