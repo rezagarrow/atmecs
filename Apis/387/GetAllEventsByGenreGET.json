@@ -24,6 +24,17 @@
           "Metadata": {}
         }
       ]
+    },
+    {
+      "Name": "keyword",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 1,
+      "Parameters": {
+        "Value": ""
+      },
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -32,7 +43,7 @@
       "OrderIndex": 0,
       "Parameters": {
         "InputParameters": "",
-        "URL": "https://app.ticketmaster.com/discovery/v2/events.json?apikey=[Auth:ApiKey]&genreId=[genreId]",
+        "URL": "https://app.ticketmaster.com/discovery/v2/events.json?apikey=[Auth:ApiKey]&genreId=[genreId]&keyword=[keyword]",
         "UrlTokenContext": {
           "Expression": "",
           "Value": "Url",
