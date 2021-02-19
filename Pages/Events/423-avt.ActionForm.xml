@@ -172,7 +172,7 @@
       &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
       &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
       &lt;InputType&gt;static-text&lt;/InputType&gt;
-      &lt;InputData&gt;{&quot;Value&quot;:&quot;\u003cstyle\u003e\n.room {\n    margin-bottom: 0px; \n}\n  .panel-heading {\n    height:auto;\n  }\n    \n\u003c/style\u003e&quot;,&quot;Align&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;left&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;SaveToReport&quot;:false}&lt;/InputData&gt;
+      &lt;InputData&gt;{&quot;Value&quot;:&quot;\u003cstyle\u003e\n.room {\n    margin: -15px;\n}\n  .panel-heading {\n    height:auto;\n  }\n    \n\u003c/style\u003e&quot;,&quot;Align&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;left&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;SaveToReport&quot;:false}&lt;/InputData&gt;
       &lt;Align&gt;
         &lt;Expression /&gt;
         &lt;Value&gt;left&lt;/Value&gt;
@@ -182,7 +182,7 @@
       &lt;SaveToReport&gt;False&lt;/SaveToReport&gt;
       &lt;Value&gt;&lt;![CDATA[&lt;style&gt;
 .room {
-    margin-bottom: 0px; 
+    margin: -15px;
 }
   .panel-heading {
     height:auto;
