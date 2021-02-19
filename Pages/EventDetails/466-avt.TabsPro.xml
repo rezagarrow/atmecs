@@ -36,7 +36,7 @@
     <content type="avtTabsPro" version="05.11.00.00"><![CDATA[&lt;TabsPro&gt;
   &lt;Theme&gt;ui-lightness&lt;/Theme&gt;
   &lt;TabsLayout&gt;HorizontalTop&lt;/TabsLayout&gt;
-  &lt;TabsFullWidth&gt;False&lt;/TabsFullWidth&gt;
+  &lt;TabsFullWidth&gt;True&lt;/TabsFullWidth&gt;
   &lt;IsCollapsible&gt;False&lt;/IsCollapsible&gt;
   &lt;AutoScroll&gt;False&lt;/AutoScroll&gt;
   &lt;IsCollapsedInitially&gt;False&lt;/IsCollapsedInitially&gt;
