@@ -257,9 +257,9 @@
       &lt;IsFilterable&gt;false&lt;/IsFilterable&gt;
       &lt;CanBeFilterable&gt;false&lt;/CanBeFilterable&gt;
       &lt;FormatFilters&gt;false&lt;/FormatFilters&gt;
-      &lt;OrderIndex&gt;3&lt;/OrderIndex&gt;
-      &lt;Template&gt;_embedded.events.images.url
-----_embedded.events.images&lt;/Template&gt;
+      &lt;OrderIndex&gt;2&lt;/OrderIndex&gt;
+      &lt;Template&gt;_[embedded.events.images.url]
+----[_embedded.events.images]&lt;/Template&gt;
       &lt;FormatterParameters /&gt;
       &lt;TooltipEnabled&gt;false&lt;/TooltipEnabled&gt;
       &lt;TooltipOrientation&gt;top&lt;/TooltipOrientation&gt;
