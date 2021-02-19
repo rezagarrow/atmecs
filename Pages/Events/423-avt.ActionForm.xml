@@ -152,7 +152,7 @@
       &lt;Value&gt;&lt;![CDATA[]]&gt;&lt;/Value&gt;
       &lt;IsRequired&gt;False&lt;/IsRequired&gt;
       &lt;IsActive&gt;True&lt;/IsActive&gt;
-      &lt;EnableCondition&gt;0&lt;/EnableCondition&gt;
+      &lt;EnableCondition /&gt;
       &lt;CssClass&gt;&lt;![CDATA[]]&gt;&lt;/CssClass&gt;
       &lt;FirstCssClass&gt;&lt;![CDATA[]]&gt;&lt;/FirstCssClass&gt;
       &lt;CssStyles&gt;&lt;![CDATA[]]&gt;&lt;/CssStyles&gt;
