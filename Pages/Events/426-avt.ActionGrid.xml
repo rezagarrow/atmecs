@@ -125,6 +125,9 @@
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
       &lt;FormatterParameters /&gt;
       &lt;TooltipEnabled&gt;false&lt;/TooltipEnabled&gt;
+      &lt;TooltipOrientation&gt;top&lt;/TooltipOrientation&gt;
+      &lt;TooltipDataTrigger&gt;click&lt;/TooltipDataTrigger&gt;
+      &lt;TooltipIconPosition&gt;right&lt;/TooltipIconPosition&gt;
       &lt;TooltipInEdit&gt;false&lt;/TooltipInEdit&gt;
       &lt;TooltipHeight&gt;0&lt;/TooltipHeight&gt;
       &lt;TooltipWidth&gt;0&lt;/TooltipWidth&gt;
