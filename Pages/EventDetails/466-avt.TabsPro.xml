@@ -1,4 +1,5 @@
 <module type="avtTabsPro" version="05.11.00.00">
+    <contentKey />
     <moduleID>466</moduleID>
     <alignment />
     <alltabs>false</alltabs>
@@ -25,7 +26,7 @@
     </modulepermissions>
     <title>avt.TabsPro</title>
     <startdate>0001-01-01T00:00:00</startdate>
-    <uniqueId>15aa692f-695a-455c-b09c-e2a48a6e6055</uniqueId>
+    <uniqueId>47b895ec-75fe-4622-a371-6affaaad00ad</uniqueId>
     <visibility>Maximized</visibility>
     <cultureCode />
     <modulesettings />
@@ -67,6 +68,67 @@
   &lt;ShowLoading&gt;False&lt;/ShowLoading&gt;
   &lt;WidgetProvider&gt;{&quot;name&quot;:&quot;WidgetProvider&quot;,&quot;value&quot;:&quot;Bootstrap&quot;,&quot;inherit&quot;:true,&quot;canOverride&quot;:true}&lt;/WidgetProvider&gt;
   &lt;OpenAction&gt;{&quot;name&quot;:&quot;OpenAction&quot;,&quot;value&quot;:&quot;Click&quot;,&quot;inherit&quot;:true,&quot;canOverride&quot;:true}&lt;/OpenAction&gt;
-  &lt;Tabs /&gt;
+  &lt;Tabs&gt;
+    &lt;Tab&gt;
+      &lt;Title&gt;Description&lt;/Title&gt;
+      &lt;RefName /&gt;
+      &lt;CssClass /&gt;
+      &lt;EnableCondition /&gt;
+      &lt;ShowCondition /&gt;
+      &lt;IconUrl /&gt;
+      &lt;IconClass /&gt;
+      &lt;DisplayAccordion&gt;False&lt;/DisplayAccordion&gt;
+      &lt;ViewOrder&gt;0&lt;/ViewOrder&gt;
+      &lt;TabUrl /&gt;
+      &lt;StackDirection&gt;Vertical&lt;/StackDirection&gt;
+      &lt;DefaultTab&gt;True&lt;/DefaultTab&gt;
+      &lt;Reevaluate&gt;False&lt;/Reevaluate&gt;
+      &lt;UseModuleTitles&gt;False&lt;/UseModuleTitles&gt;
+      &lt;Localization&gt;
+        &lt;en-US&gt;Description&lt;/en-US&gt;
+      &lt;/Localization&gt;
+      &lt;Modules /&gt;
+    &lt;/Tab&gt;
+    &lt;Tab&gt;
+      &lt;Title&gt;Weather&lt;/Title&gt;
+      &lt;RefName /&gt;
+      &lt;CssClass /&gt;
+      &lt;EnableCondition /&gt;
+      &lt;ShowCondition /&gt;
+      &lt;IconUrl /&gt;
+      &lt;IconClass /&gt;
+      &lt;DisplayAccordion&gt;False&lt;/DisplayAccordion&gt;
+      &lt;ViewOrder&gt;1&lt;/ViewOrder&gt;
+      &lt;TabUrl /&gt;
+      &lt;StackDirection&gt;Vertical&lt;/StackDirection&gt;
+      &lt;DefaultTab&gt;False&lt;/DefaultTab&gt;
+      &lt;Reevaluate&gt;False&lt;/Reevaluate&gt;
+      &lt;UseModuleTitles&gt;False&lt;/UseModuleTitles&gt;
+      &lt;Localization&gt;
+        &lt;en-US&gt;Weather&lt;/en-US&gt;
+      &lt;/Localization&gt;
+      &lt;Modules /&gt;
+    &lt;/Tab&gt;
+    &lt;Tab&gt;
+      &lt;Title&gt;Attractions&lt;/Title&gt;
+      &lt;RefName /&gt;
+      &lt;CssClass /&gt;
+      &lt;EnableCondition /&gt;
+      &lt;ShowCondition /&gt;
+      &lt;IconUrl /&gt;
+      &lt;IconClass /&gt;
+      &lt;DisplayAccordion&gt;False&lt;/DisplayAccordion&gt;
+      &lt;ViewOrder&gt;2&lt;/ViewOrder&gt;
+      &lt;TabUrl /&gt;
+      &lt;StackDirection&gt;Vertical&lt;/StackDirection&gt;
+      &lt;DefaultTab&gt;False&lt;/DefaultTab&gt;
+      &lt;Reevaluate&gt;False&lt;/Reevaluate&gt;
+      &lt;UseModuleTitles&gt;False&lt;/UseModuleTitles&gt;
+      &lt;Localization&gt;
+        &lt;en-US&gt;Attractions&lt;/en-US&gt;
+      &lt;/Localization&gt;
+      &lt;Modules /&gt;
+    &lt;/Tab&gt;
+  &lt;/Tabs&gt;
 &lt;/TabsPro&gt;]]></content>
 </module>
