@@ -185,7 +185,7 @@
           {
             "Id": 15,
             "Name": "Code",
-            "Value": "var data = JSON.parse(input)\nvar parseData = {}\nparseData.name =  data.name\nparseData.description = data.description\nparseData.ticketUrl = data.url\nparseData.mainImage = data.images.filter(obj => {return obj.width > 2000})[0].url\nparseData.localDate = new Date(data.dates.start.localDate).toLocaleDateString() ?? 'TBD'\nparseData.localTime = data.dates.start.localTime ?? 'TBD'\nparseData.segment = data.classifications.map(function(o){return o.segment.name + ' (' + o.genre.name + ', ' + o.subGenre.name +')'}).join()\nparseData.seatmap = data.seatmap.staticUrl\nparseData.attractions = data._links.attractions\nparseData.promoter = data.promoter !== undefined ?  data.promoter.name + ' (' + data.promoter.description + ')' : ''\nparseData.venues = data._embedded.venues.map(function(o){return o.name + ', ' + o.address.line1 + (o.address.line2 !== undefined ? ', ' + o.address.line2 : '') + (o.address.postalCode !== undefined ? ', ' + o.address.postalCode : '')}).join(' | ')\nparseData.lat = data._embedded.venues[0].location.latitude\nparseData.lng = data._embedded.venues[0].location.longitude\nreturn parseData[prop]",
+            "Value": "var data = JSON.parse(input)\nvar parseData = {}\nparseData.name =  data.name\nparseData.description = data.description\nparseData.ticketUrl = data.url\nparseData.mainImage = data.images.filter(obj => {return obj.width > 2000})[0].url\nparseData.localDate = new Date(data.dates.start.localDate).toLocaleDateString() ?? 'TBD'\nparseData.localTime = data.dates.start.localTime ?? 'TBD'\nparseData.segment = data.classifications.map(function(o){return o.segment.name + ' (' + o.genre.name + ', ' + o.subGenre.name +')'}).join()\nparseData.seatmap = data.seatmap.staticUrl\nparseData.attractions = data._embedded.attractions\nparseData.promoter = data.promoter !== undefined ?  data.promoter.name + ' (' + data.promoter.description + ')' : ''\nparseData.venues = data._embedded.venues.map(function(o){return o.name + ', ' + o.address.line1 + (o.address.line2 !== undefined ? ', ' + o.address.line2 : '') + (o.address.postalCode !== undefined ? ', ' + o.address.postalCode : '')}).join(' | ')\nparseData.lat = data._embedded.venues[0].location.latitude\nparseData.lng = data._embedded.venues[0].location.longitude\nreturn parseData[prop]",
             "IsExpression": false,
             "ActionId": 2,
             "OrderIndex": 0,
@@ -221,7 +221,7 @@
   "CreatedBy": "SuperUser Account",
   "CreatedOn": "2021-02-19T09:48:17.0478195+00:00",
   "LastModifiedBy": "SuperUser Account",
-  "LastModifiedOn": "2021-02-19T12:13:10.9059578+00:00",
+  "LastModifiedOn": "2021-02-19T12:37:01.0734456+00:00",
   "InputFields": [
     {
       "Id": 1,
