@@ -39,7 +39,7 @@
         "HttpCode": "200 OK",
         "Headers": [
           {
-            "value": "application/type",
+            "value": "application/json; charset=utf-8",
             "name": "Content-Type"
           }
         ]
