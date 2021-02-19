@@ -149,9 +149,9 @@
       &lt;ValidationGroup /&gt;
       &lt;GroupValidator /&gt;
       &lt;DisableAutocomplete&gt;False&lt;/DisableAutocomplete&gt;
-      &lt;ViewOrder&gt;10&lt;/ViewOrder&gt;
+      &lt;ViewOrder&gt;9&lt;/ViewOrder&gt;
       &lt;RowIndex&gt;0&lt;/RowIndex&gt;
-      &lt;ColSpan&gt;2&lt;/ColSpan&gt;
+      &lt;ColSpan&gt;3&lt;/ColSpan&gt;
       &lt;ColOffset&gt;0&lt;/ColOffset&gt;
     &lt;/Field&gt;
   &lt;/Fields&gt;
