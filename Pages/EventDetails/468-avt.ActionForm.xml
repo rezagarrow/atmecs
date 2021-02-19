@@ -1,4 +1,5 @@
 <module type="ActionForm" version="05.11.06.00">
+    <contentKey />
     <moduleID>468</moduleID>
     <alignment />
     <alltabs>false</alltabs>
@@ -25,7 +26,7 @@
     </modulepermissions>
     <title>avt.Action Form</title>
     <startdate>0001-01-01T00:00:00</startdate>
-    <uniqueId>2d432fb5-2bce-42ac-9f8c-d200a3e5b054</uniqueId>
+    <uniqueId>d991f7a1-864e-4e13-86d0-9c24e7b5df6e</uniqueId>
     <visibility>Maximized</visibility>
     <cultureCode />
     <modulesettings />
@@ -41,26 +42,28 @@
     &lt;Build&gt;5.11.6&lt;/Build&gt;
     &lt;CultureCode&gt;en&lt;/CultureCode&gt;
     &lt;RenderContext&gt;Form&lt;/RenderContext&gt;
-    &lt;FrontEndTemplate&gt;&amp;lt;p&amp;gt;This is a sample text, edit this to match the purpose and describe the resource you&#39;re targeting (page, file).&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;a href = &quot;[FormUrl]&quot;&amp;gt;ACCESS this resource&amp;lt;/a&amp;gt; now.&amp;lt;/p&amp;gt;&lt;/FrontEndTemplate&gt;
+    &lt;FrontEndTemplate&gt;&amp;lt;div&amp;gt;&amp;lt;span&amp;gt;&amp;lt;a href=&quot;[FormUrl]&quot;&amp;gt;Click here to change.&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt;&lt;/FrontEndTemplate&gt;
     &lt;HasCustomLayout&gt;False&lt;/HasCustomLayout&gt;
     &lt;ShowLoading&gt;False&lt;/ShowLoading&gt;
     &lt;LoadingBarsColor&gt;#00c0ef&lt;/LoadingBarsColor&gt;
     &lt;LoadingBackgroundColor&gt;#fff&lt;/LoadingBackgroundColor&gt;
     &lt;LoadingText /&gt;
     &lt;TabsProLoading&gt;False&lt;/TabsProLoading&gt;
-    &lt;LayoutHtml&gt;&lt;![CDATA[]]&gt;&lt;/LayoutHtml&gt;
+    &lt;LayoutHtml&gt;&lt;![CDATA[&amp;lt;div style=&amp;quot;width: 40%; float: left; margin: 0px 20px 0px 0px;&amp;quot;&amp;gt;[Fields:NewField]&amp;lt;/div&amp;gt;
+&amp;lt;div style=&amp;quot;width: 40%; float: left; margin: 0px 20px 0px 0px;&amp;quot;&amp;gt;[Fields:NewField]&amp;lt;/div&amp;gt;
+&amp;lt;div style=&amp;quot;clear: both;&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;]]&gt;&lt;/LayoutHtml&gt;
     &lt;CurrentContext&gt;ExportImport&lt;/CurrentContext&gt;
-    &lt;LabelAlign&gt;default&lt;/LabelAlign&gt;
+    &lt;LabelAlign&gt;right&lt;/LabelAlign&gt;
     &lt;LabelWidth&gt;3&lt;/LabelWidth&gt;
-    &lt;FieldSpacing&gt;loose&lt;/FieldSpacing&gt;
+    &lt;FieldSpacing&gt;normal&lt;/FieldSpacing&gt;
     &lt;OpenFormMode&gt;Always&lt;/OpenFormMode&gt;
     &lt;ModuleId&gt;468&lt;/ModuleId&gt;
     &lt;ModuleVersion&gt;5.11.6&lt;/ModuleVersion&gt;
     &lt;TabId&gt;21&lt;/TabId&gt;
     &lt;ModuleBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm&lt;/ModuleBaseUrl&gt;
     &lt;ResourceBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm/static&lt;/ResourceBaseUrl&gt;
-    &lt;FormTemplate&gt;material&lt;/FormTemplate&gt;
-    &lt;FormTemplateFolder&gt;/DesktopModules/DnnSharp/ActionForm/templates/Form/material&lt;/FormTemplateFolder&gt;
+    &lt;FormTemplate&gt;bootstrap&lt;/FormTemplate&gt;
+    &lt;FormTemplateFolder&gt;/DesktopModules/DnnSharp/ActionForm/templates/Form/bootstrap&lt;/FormTemplateFolder&gt;
     &lt;ModuleId&gt;468&lt;/ModuleId&gt;
     &lt;IsDebug&gt;False&lt;/IsDebug&gt;
     &lt;EnableReports&gt;False&lt;/EnableReports&gt;
@@ -71,9 +74,9 @@
     &lt;ShowTooltipTitle&gt;True&lt;/ShowTooltipTitle&gt;
     &lt;ShowFormCondition /&gt;
     &lt;InitJs&gt;&lt;![CDATA[]]&gt;&lt;/InitJs&gt;
-    &lt;PopupWidth&gt;600&lt;/PopupWidth&gt;
+    &lt;PopupWidth&gt;400&lt;/PopupWidth&gt;
     &lt;WidthCoordinate&gt;px&lt;/WidthCoordinate&gt;
-    &lt;PopupHeight /&gt;
+    &lt;PopupHeight&gt;300&lt;/PopupHeight&gt;
     &lt;jQueryTheme&gt;sunny&lt;/jQueryTheme&gt;
     &lt;SubmitHiddenFields&gt;False&lt;/SubmitHiddenFields&gt;
     &lt;IncludeBootstrap&gt;True&lt;/IncludeBootstrap&gt;
@@ -82,7 +85,7 @@
     &lt;EnableEmbed&gt;False&lt;/EnableEmbed&gt;
     &lt;AngularnoConflict&gt;True&lt;/AngularnoConflict&gt;
     &lt;Background /&gt;
-    &lt;TextColor&gt;inherit&lt;/TextColor&gt;
+    &lt;TextColor /&gt;
     &lt;Padding&gt;0&lt;/Padding&gt;
     &lt;DateFormat&gt;m/d/yy&lt;/DateFormat&gt;
     &lt;BaseId&gt;dnn468&lt;/BaseId&gt;
