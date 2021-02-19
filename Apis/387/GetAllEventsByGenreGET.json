@@ -77,7 +77,7 @@
       "Parameters": {
         "ScriptName": "addObjectproperty",
         "LocalVariables": "",
-        "Code": "var jsonObj=JSON.parse(Result);\n\nif (jsonObj._embedded.hasOwnProperty(\"events\") == false){\njsonObj._embedded = {\n        \"events\": [{\n            \"name\": \"No Events Available\",\n            \"type\": \"event\",\n            \"id\": \"-1\",\n            \"test\": false,\n            \"url\": \"\",\n            \"locale\": \"en-us\",\n            \"images\": [{\n                \"ratio\": \"3_2\",\n                \"url\": \"\",\n                \"width\": 1024,\n                \"height\": 683,\n                \"fallback\": true\n            }]}]};\n}\nreturn jsonObj;",
+        "Code": "var jsonObj=JSON.parse(Result);\n\nif (jsonObj.hasOwnProperty(\"_embedded\") == false){\njsonObj._embedded = {\n        \"events\": [{\n            \"name\": \"No Events Available\",\n            \"type\": \"event\",\n            \"id\": \"-1\",\n            \"test\": false,\n            \"url\": \"\",\n            \"locale\": \"en-us\",\n            \"images\": [{\n                \"ratio\": \"3_2\",\n                \"url\": \"\",\n                \"width\": 1024,\n                \"height\": 683,\n                \"fallback\": true\n            }]}]};\n}\nreturn jsonObj;",
         "OutputTokenName": "newObject",
         "OnError": []
       },
