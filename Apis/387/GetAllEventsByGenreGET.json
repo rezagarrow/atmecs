@@ -96,7 +96,7 @@
       "ActionType": "LogError",
       "OrderIndex": 3,
       "Parameters": {
-        "Message": "name:[ParsedResult:_embedded.events.name] ----[ParsedName.0.name]\nevents: [ParsedResult:_embedded.events=]"
+        "Message": "name:[ParsedResult:_embedded.events.name] ----[ParsedName:0.name]\nevents: [ParsedResult:_embedded.events=]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -105,7 +105,7 @@
     {
       "ActionType": "ExecuteJavascript",
       "OrderIndex": 4,
-      "Condition": "[ParsedName.0.name] == \"\"",
+      "Condition": "[ParsedName:0.name] == \"\"",
       "Parameters": {
         "ScriptName": "addObjectproperty",
         "LocalVariables": "",
