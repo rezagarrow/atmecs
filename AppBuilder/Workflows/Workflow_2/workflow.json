@@ -8,9 +8,144 @@
     "EventName": "Event",
     "Actions": [
       {
+        "Id": 4,
+        "ActionType": "ExecuteApiMethod",
+        "OrderIndex": 0,
+        "ActionParameters": [
+          {
+            "Id": 23,
+            "Name": "ApiModule",
+            "Value": "387",
+            "IsExpression": false,
+            "ActionId": 4,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 24,
+            "Name": "MethodName",
+            "Value": "EventData_Parse#GET",
+            "IsExpression": false,
+            "ActionId": 4,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 25,
+            "Name": "HttpMethod",
+            "IsExpression": false,
+            "ActionId": 4,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 26,
+            "Name": "ProcessResponseType",
+            "Value": "1",
+            "IsExpression": false,
+            "ActionId": 4,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 27,
+            "Name": "MethodInputs",
+            "IsExpression": false,
+            "ActionId": 4,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 28,
+            "Name": "MethodInputsList",
+            "Value": [
+              {
+                "MethodInputName": {
+                  "IsExpression": false,
+                  "Expression": "",
+                  "Value": "Id"
+                },
+                "MethodInputValue": {
+                  "IsExpression": false,
+                  "Expression": "",
+                  "Value": "[Id]"
+                }
+              },
+              {
+                "MethodInputName": {
+                  "IsExpression": false,
+                  "Expression": "",
+                  "Value": "prop"
+                },
+                "MethodInputValue": {
+                  "IsExpression": false,
+                  "Expression": "",
+                  "Value": "attractions"
+                }
+              }
+            ],
+            "IsExpression": false,
+            "ActionId": 4,
+            "OrderIndex": 0,
+            "SubParameters": [
+              {
+                "Id": 29,
+                "Name": "MethodInputName",
+                "Value": "Id",
+                "ParentParameterId": 28,
+                "IsExpression": false,
+                "ActionId": 4,
+                "OrderIndex": 0,
+                "SubParameters": []
+              },
+              {
+                "Id": 30,
+                "Name": "MethodInputValue",
+                "Value": "[Id]",
+                "ParentParameterId": 28,
+                "IsExpression": false,
+                "ActionId": 4,
+                "OrderIndex": 0,
+                "SubParameters": []
+              },
+              {
+                "Id": 31,
+                "Name": "MethodInputName",
+                "Value": "prop",
+                "ParentParameterId": 28,
+                "IsExpression": false,
+                "ActionId": 4,
+                "OrderIndex": 1,
+                "SubParameters": []
+              },
+              {
+                "Id": 32,
+                "Name": "MethodInputValue",
+                "Value": "attractions",
+                "ParentParameterId": 28,
+                "IsExpression": false,
+                "ActionId": 4,
+                "OrderIndex": 1,
+                "SubParameters": []
+              }
+            ]
+          },
+          {
+            "Id": 33,
+            "Name": "OutputTokenName",
+            "Value": "AttractionsJSON",
+            "IsExpression": false,
+            "ActionId": 4,
+            "OrderIndex": 0,
+            "SubParameters": []
+          }
+        ],
+        "DiagramUID": "Activity_14zavow"
+      },
+      {
         "Id": 3,
         "ActionType": "ExecuteJavascript",
-        "OrderIndex": 0,
+        "OrderIndex": 1,
         "ActionParameters": [
           {
             "Id": 18,
@@ -68,12 +203,12 @@
   "CreatedBy": "SuperUser Account",
   "CreatedOn": "2021-02-19T12:41:55.8127431+00:00",
   "LastModifiedBy": "SuperUser Account",
-  "LastModifiedOn": "2021-02-19T13:06:50.7431779+00:00",
+  "LastModifiedOn": "2021-02-19T13:09:21.5971022+00:00",
   "InputFields": [
     {
       "Id": 4,
-      "Name": "AttractionsJSON",
-      "InputType": "LargeText",
+      "Name": "Id",
+      "InputType": "Text",
       "WorkflowId": 2,
       "IsDeleted": false
     }
