@@ -188,9 +188,7 @@
             &amp;lt;/div&amp;gt;
             &amp;lt;div class=&quot;room-details&quot;&amp;gt;
                 &amp;lt;p&amp;gt;Local date: [localDate]&amp;lt;/p&amp;gt;
-                &amp;lt;div class=&quot;pull-left&quot;&amp;gt;
-                    &amp;lt;h4&amp;gt;&amp;lt;small&amp;gt;[segment]&amp;lt;/small&amp;gt;&amp;lt;/h4&amp;gt;
-                &amp;lt;/div&amp;gt;
+ 
             &amp;lt;/div&amp;gt;
         &amp;lt;/div&amp;gt;&lt;/Template&gt;
       &lt;FormatterParameters /&gt;
