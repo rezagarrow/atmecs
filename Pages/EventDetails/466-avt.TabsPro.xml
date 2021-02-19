@@ -44,7 +44,7 @@
   &lt;PanelHeight&gt;-1&lt;/PanelHeight&gt;
   &lt;TabsProRootClass /&gt;
   &lt;LoadProgressively&gt;False&lt;/LoadProgressively&gt;
-  &lt;Effect&gt;none&lt;/Effect&gt;
+  &lt;Effect&gt;fade&lt;/Effect&gt;
   &lt;PersistOnPostback&gt;True&lt;/PersistOnPostback&gt;
   &lt;PersistInUrl&gt;True&lt;/PersistInUrl&gt;
   &lt;PersistInCookies&gt;False&lt;/PersistInCookies&gt;
@@ -66,7 +66,7 @@
   &lt;Modal_DisplayTitle /&gt;
   &lt;Modal_DisplayWidth&gt;80%&lt;/Modal_DisplayWidth&gt;
   &lt;ShowLoading&gt;False&lt;/ShowLoading&gt;
-  &lt;WidgetProvider&gt;{&quot;name&quot;:&quot;WidgetProvider&quot;,&quot;value&quot;:&quot;Bootstrap&quot;,&quot;inherit&quot;:true,&quot;canOverride&quot;:true}&lt;/WidgetProvider&gt;
+  &lt;WidgetProvider&gt;{&quot;name&quot;:&quot;WidgetProvider&quot;,&quot;value&quot;:&quot;BootstrapMaterial&quot;,&quot;inherit&quot;:true,&quot;canOverride&quot;:true}&lt;/WidgetProvider&gt;
   &lt;OpenAction&gt;{&quot;name&quot;:&quot;OpenAction&quot;,&quot;value&quot;:&quot;Click&quot;,&quot;inherit&quot;:true,&quot;canOverride&quot;:true}&lt;/OpenAction&gt;
   &lt;Tabs&gt;
     &lt;Tab&gt;
