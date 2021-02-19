@@ -32,7 +32,7 @@
           {
             "Id": 20,
             "Name": "Code",
-            "Value": "var att = JSON.parse(AttractionsJSON);\nvar template = ''\natt.forEach(function(at){ \ntemplate = \n`<h4><b>${at.name}<b></h4>`\n})\n\nreturn template",
+            "Value": "function getLinks(externalLinks){\n\tvar links = ''\n\tObject.keys(att[0].externalLinks).forEach(function(o){links +=`<a href=\"${att[0].externalLinks[o][0].url}\">${o}</a>`})\n\treturn links;\n}\n\nfunction capitalizeFirstLetter(string) {\n\treturn string.charAt(0).toUpperCase() + string.slice(1);\n}\n\nvar template = ''\natt.forEach(function(at){ \n\ttemplate = \n\t`<h4><b>${at.name}<b></h4>\n\t<div>${getLinks(at.externalLinks)}</div>\n\t<br>\n\t`\n})\n\nreturn template",
             "IsExpression": false,
             "ActionId": 3,
             "OrderIndex": 0,
@@ -68,7 +68,7 @@
   "CreatedBy": "SuperUser Account",
   "CreatedOn": "2021-02-19T12:41:55.8127431+00:00",
   "LastModifiedBy": "SuperUser Account",
-  "LastModifiedOn": "2021-02-19T12:46:20.5687921+00:00",
+  "LastModifiedOn": "2021-02-19T13:02:50.0017334+00:00",
   "InputFields": [
     {
       "Id": 4,
