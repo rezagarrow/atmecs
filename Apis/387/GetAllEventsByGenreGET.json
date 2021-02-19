@@ -1,6 +1,6 @@
 {
   "Name": "GetAllEventsByGenre",
-  "HttpMethod": "POST",
+  "HttpMethod": "GET",
   "IsEnabled": true,
   "OrderIndex": 0,
   "CrossDomainPolicy": "Public",
@@ -72,7 +72,7 @@
     },
     {
       "ActionType": "RawResponse",
-      "OrderIndex": 2,
+      "OrderIndex": 1,
       "Parameters": {
         "Content": "[Result]",
         "HttpCode": "200 OK",
