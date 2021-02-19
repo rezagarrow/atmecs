@@ -170,7 +170,7 @@
     &lt;/Field&gt;
     &lt;Field&gt;
       &lt;Id&gt;&lt;![CDATA[17]]&gt;&lt;/Id&gt;
-      &lt;Title&gt;&lt;![CDATA[Filter by Category]]&gt;&lt;/Title&gt;
+      &lt;Title&gt;&lt;![CDATA[&lt;i class=&quot;fa fa-filter&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Filter by Category]]&gt;&lt;/Title&gt;
       &lt;ShortDesc&gt;&lt;![CDATA[]]&gt;&lt;/ShortDesc&gt;
       &lt;CustomAttributesJson&gt;&lt;![CDATA[[]]]&gt;&lt;/CustomAttributesJson&gt;
       &lt;IsEnabled&gt;True&lt;/IsEnabled&gt;
