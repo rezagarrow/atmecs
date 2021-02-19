@@ -6,21 +6,10 @@
   "CrossDomainPolicy": "Public",
   "Inputs": [
     {
-      "Name": "lat",
+      "Name": "Id",
       "IsDeleted": false,
       "IsEnabled": true,
-      "OrderIndex": 0,
-      "Parameters": {
-        "Value": ""
-      },
-      "InputTypeStr": "text",
-      "Validations": []
-    },
-    {
-      "Name": "lng",
-      "IsDeleted": false,
-      "IsEnabled": true,
-      "OrderIndex": 1,
+      "OrderIndex": 2,
       "Parameters": {
         "Value": ""
       },
@@ -28,6 +17,37 @@
       "Validations": []
     }
   ],
-  "Actions": [],
+  "Actions": [
+    {
+      "ActionType": "PlantAnApp.ExecuteWorkflow.3",
+      "OrderIndex": 0,
+      "Parameters": {
+        "InputHelpText": "",
+        "Id": "[id]",
+        "OutputHelpText": "",
+        "Response": "Response"
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {}
+    },
+    {
+      "ActionType": "RawResponse",
+      "OrderIndex": 1,
+      "Parameters": {
+        "Content": "[Response]",
+        "HttpCode": "200 OK",
+        "Headers": [
+          {
+            "value": "application/type",
+            "name": "Content-Type"
+          }
+        ]
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {}
+    }
+  ],
   "OnErrorActions": []
 }
