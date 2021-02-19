@@ -1,0 +1,77 @@
+<module type="WebSitesCreativeMyContentManager" version="03.05.03.00">
+    <moduleID>465</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod />
+    <cachetime>1200</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+    </modulepermissions>
+    <title>WSC My Content Manager</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>a34ff4fb-5016-4e0b-947c-6db35bfaa188</uniqueId>
+    <visibility>Maximized</visibility>
+    <modulesettings>
+        <modulesetting>
+            <settingname>ThemeLocationMode</settingname>
+            <settingvalue>SkinLocation</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ViewContent</settingname>
+            <settingvalue>&lt;style type="text/css"&gt;
+  /*Map placeholder in case of missing google key*/
+  .wsc-map-placeholder {
+    background-color: transparent;
+    background-size: cover;
+    background-position-y: 0%;
+    height: 400px;
+    text-align: center;
+  }
+
+  .wsc-map-placeholder p {
+      padding-top: 190px;
+      font-weight: bold;
+  }
+&lt;/style&gt;
+
+
+      &lt;div class="wsc_cm_module_container clearfix module-465 visible-lg visible-md visible-sm visible-xs" style="padding: 0px 0px 0px 0px;      margin: 0px 0px 0px 0px;      border-radius: 0px;      background-size: auto;background-repeat: repeat;background-position: left top;"&gt;
+        
+      &lt;div class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs" data-id="105"&gt;
+        &lt;!--If no google key--&gt;
+
+&lt;div style="background-image: url(/Portals/_default/skins/polo/ContentThemes/Maps/images/map-placeholder.jpg?cdv=68)" class="wsc-map-placeholder"&gt;
+    &lt;p&gt;Insert your google key to make map work. Check how to generate your key &lt;a target="_blank" href="https://developers.google.com/maps/documentation/javascript/get-api-key"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+
+
+      &lt;/div&gt;
+    
+      &lt;/div&gt;
+    </settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>CurrentSkinTheme</settingname>
+            <settingvalue>Maps</settingvalue>
+        </modulesetting>
+    </modulesettings>
+    <tabmodulesettings />
+    <definition>WebSitesCreative.MyContentManager</definition>
+    <moduledefinition>WSC My Content Manager</moduledefinition>
+</module>
