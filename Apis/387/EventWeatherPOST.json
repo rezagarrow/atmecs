@@ -1,5 +1,5 @@
 {
-  "Name": "Weather",
+  "Name": "EventWeather",
   "HttpMethod": "POST",
   "IsEnabled": true,
   "OrderIndex": 0,
