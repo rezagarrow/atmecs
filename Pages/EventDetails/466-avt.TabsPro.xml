@@ -58,7 +58,7 @@
   &lt;Delay&gt;1&lt;/Delay&gt;
   &lt;AppendIds&gt;True&lt;/AppendIds&gt;
   &lt;AccordionOnMobile&gt;True&lt;/AccordionOnMobile&gt;
-  &lt;ShowEmptyTabs&gt;False&lt;/ShowEmptyTabs&gt;
+  &lt;ShowEmptyTabs&gt;True&lt;/ShowEmptyTabs&gt;
   &lt;Modal_Display&gt;False&lt;/Modal_Display&gt;
   &lt;Modal_DisplayHeight&gt;auto&lt;/Modal_DisplayHeight&gt;
   &lt;Modal_DisplayMinHeight /&gt;
