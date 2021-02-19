@@ -71,8 +71,22 @@
       "Metadata": {}
     },
     {
-      "ActionType": "RawResponse",
+      "ActionType": "ExecuteJavascript",
       "OrderIndex": 1,
+      "Parameters": {
+        "ScriptName": "myscript",
+        "LocalVariables": "",
+        "Code": "",
+        "OutputTokenName": "",
+        "OnError": []
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {}
+    },
+    {
+      "ActionType": "RawResponse",
+      "OrderIndex": 2,
       "Parameters": {
         "Content": "[Result]",
         "HttpCode": "200 OK",
