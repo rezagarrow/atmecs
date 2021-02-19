@@ -1,0 +1,201 @@
+{
+  "Id": 3,
+  "Name": "Parse Weather Data",
+  "Description": "",
+  "IsDebug": false,
+  "ActionList": {
+    "Id": 5,
+    "EventName": "Event",
+    "Actions": [
+      {
+        "Id": 6,
+        "ActionType": "PostData",
+        "OrderIndex": 0,
+        "ActionParameters": [
+          {
+            "Id": 39,
+            "Name": "InputParameters",
+            "IsExpression": false,
+            "ActionId": 6,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 40,
+            "Name": "URL",
+            "Value": "https://api.openweathermap.org/data/2.5/onecall?lat=[lat]&lon=[lon]&exclude=minutely,hourly&appid=cd88d77005dbfd9797ff9e2b988ff1c9",
+            "IsExpression": false,
+            "ActionId": 6,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 41,
+            "Name": "UrlTokenContext",
+            "Value": "Url",
+            "IsExpression": false,
+            "ActionId": 6,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 42,
+            "Name": "UseSSL",
+            "IsExpression": false,
+            "ActionId": 6,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 43,
+            "Name": "Timeout",
+            "IsExpression": false,
+            "ActionId": 6,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 44,
+            "Name": "HttpMethod",
+            "Value": "GET",
+            "IsExpression": false,
+            "ActionId": 6,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 45,
+            "Name": "Data",
+            "IsExpression": false,
+            "ActionId": 6,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 46,
+            "Name": "DoNotEscapeTokens",
+            "IsExpression": false,
+            "ActionId": 6,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 47,
+            "Name": "DisableReferer",
+            "IsExpression": false,
+            "ActionId": 6,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 48,
+            "Name": "Headers",
+            "IsExpression": false,
+            "ActionId": 6,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 49,
+            "Name": "UseDNNProxySettings",
+            "IsExpression": false,
+            "ActionId": 6,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 50,
+            "Name": "AddCurrentCookies",
+            "IsExpression": false,
+            "ActionId": 6,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 51,
+            "Name": "OutputParameters",
+            "IsExpression": false,
+            "ActionId": 6,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 52,
+            "Name": "CookieContainerToken",
+            "IsExpression": false,
+            "ActionId": 6,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 53,
+            "Name": "OutputTokenName",
+            "IsExpression": false,
+            "ActionId": 6,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 54,
+            "Name": "OutputHeaders",
+            "IsExpression": false,
+            "ActionId": 6,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 55,
+            "Name": "IgnoreErrors",
+            "IsExpression": false,
+            "ActionId": 6,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 56,
+            "Name": "Events",
+            "IsExpression": false,
+            "ActionId": 6,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 57,
+            "Name": "OnError",
+            "Value": {
+              "Id": 6,
+              "EventName": "error",
+              "Actions": []
+            },
+            "IsExpression": false,
+            "ActionId": 6,
+            "OrderIndex": 0,
+            "SubParameters": []
+          }
+        ],
+        "DiagramUID": "Activity_0gn7slt"
+      }
+    ]
+  },
+  "CreatedBy": "SuperUser Account",
+  "CreatedOn": "2021-02-19T14:58:51.4696081+00:00",
+  "LastModifiedBy": "SuperUser Account",
+  "LastModifiedOn": "2021-02-19T14:58:51.4696081+00:00",
+  "InputFields": [
+    {
+      "Id": 7,
+      "Name": "lat",
+      "InputType": "Text",
+      "WorkflowId": 3,
+      "IsDeleted": false
+    },
+    {
+      "Id": 8,
+      "Name": "lng",
+      "InputType": "Text",
+      "WorkflowId": 3,
+      "IsDeleted": false
+    }
+  ],
+  "OutputFields": []
+}
