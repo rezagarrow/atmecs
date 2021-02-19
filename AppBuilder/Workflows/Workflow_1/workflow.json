@@ -1,7 +1,7 @@
 {
   "Id": 1,
   "Name": "Parse Event Data",
-  "Description": "",
+  "Description": "[\"name\", \"ticketUrl\", \"mainImage\", \"localDate\", \"localTime\", \"segment\", \"seatmap\", \"attractions\", \"venues\", \"lat\", \"lng\"]",
   "IsDebug": false,
   "ActionList": {
     "Id": 1,
@@ -221,7 +221,7 @@
   "CreatedBy": "SuperUser Account",
   "CreatedOn": "2021-02-19T09:48:17.0478195+00:00",
   "LastModifiedBy": "SuperUser Account",
-  "LastModifiedOn": "2021-02-19T10:39:32.3275227+00:00",
+  "LastModifiedOn": "2021-02-19T10:40:53.683995+00:00",
   "InputFields": [
     {
       "Id": 1,
