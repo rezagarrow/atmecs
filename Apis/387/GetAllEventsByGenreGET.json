@@ -71,8 +71,34 @@
       "Metadata": {}
     },
     {
-      "ActionType": "RawResponse",
+      "ActionType": "ParseJsonIntoTokens",
+      "OrderIndex": 1,
+      "Parameters": {
+        "JsonString": "[Result]",
+        "BaseTokenName": "ParsedResult"
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {}
+    },
+    {
+      "ActionType": "ExecuteJavascript",
       "OrderIndex": 2,
+      "Condition": "[ParsedResult:_embedded.events] == \"\" && false",
+      "Parameters": {
+        "ScriptName": "addObjectproperty",
+        "LocalVariables": "",
+        "Code": "var jsonObj=[Result];\njsonObj._embedded.events ={}",
+        "OutputTokenName": "",
+        "OnError": []
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {}
+    },
+    {
+      "ActionType": "RawResponse",
+      "OrderIndex": 3,
       "Parameters": {
         "Content": "[Result]",
         "HttpCode": "200 OK",
