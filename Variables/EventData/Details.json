@@ -2,11 +2,10 @@
   "id": 2,
   "namespace": {
     "id": 2,
-    "portalId": 0,
     "name": "EventData"
   },
   "name": "Details",
-  "description": "",
+  "description": "[\"name\", \"ticketUrl\", \"mainImage\", \"localDate\", \"localTime\", \"segment\", \"seatmap\", \"attractions\", \"venues\", \"lat\", \"lng\"]",
   "parser": "<parser><type>string</type><replace>false</replace><decodeHtml>false</decodeHtml></parser>",
   "defaultValue": "",
   "cacheTime": 0,
