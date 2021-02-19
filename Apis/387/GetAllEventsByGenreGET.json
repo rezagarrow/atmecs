@@ -85,7 +85,7 @@
       "ActionType": "ParseJsonIntoTokens",
       "OrderIndex": 2,
       "Parameters": {
-        "JsonString": "[ParsedResult:_embedded.events]",
+        "JsonString": "[ParsedResult:.events]",
         "BaseTokenName": "ParsedName"
       },
       "IsEnabled": true,
@@ -96,7 +96,7 @@
       "ActionType": "LogError",
       "OrderIndex": 3,
       "Parameters": {
-        "Message": "name:] ----[ParsedName:0.name]---------\nevents: [ParsedResult:_embedded.events=]"
+        "Message": "[ParsedResult:.events]\nname: ----[ParsedName:0.name]---------\nevents: [ParsedResult:_embedded.events=]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
