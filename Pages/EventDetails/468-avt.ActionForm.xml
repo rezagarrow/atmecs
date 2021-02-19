@@ -101,8 +101,8 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;RedirectToUrl&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
-      &lt;Condition&gt;[QueryString:Id] != &#39;&#39; &amp;amp;&amp;amp; [HasRole:Administrators] == false&lt;/Condition&gt;
-      &lt;LastModified&gt;2021-02-19T11:35:12.863&lt;/LastModified&gt;
+      &lt;Condition&gt;[QueryString:Id] != &quot;&quot; &amp;amp;&amp;amp; [HasRole:Administrators] == false&lt;/Condition&gt;
+      &lt;LastModified&gt;2021-02-19T11:36:48.173&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;Url&quot;:&quot;/&quot;,&quot;EscapeUrl&quot;:&quot;&quot;,&quot;OpenInPopup&quot;:&quot;&quot;,&quot;PopupTitle&quot;:&quot;&quot;,&quot;OpenInNewTab&quot;:&quot;&quot;,&quot;ForceDownload&quot;:&quot;&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;468&lt;/ModuleId&gt;
@@ -112,11 +112,12 @@
     &lt;/ActionInfo&gt;
     &lt;ActionInfo&gt;
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
-      &lt;ActionType&gt;RedirectToPage&lt;/ActionType&gt;
+      &lt;ActionType&gt;RedirectToUrl&lt;/ActionType&gt;
       &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2021-02-19T11:35:12.88&lt;/LastModified&gt;
+      &lt;Condition&gt;[QueryString:stop] == &quot;&quot; &amp;amp;&amp;amp; [QueryString:stop] == &quot;r&quot;&lt;/Condition&gt;
+      &lt;LastModified&gt;2021-02-19T11:36:48.187&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
-      &lt;ActionData&gt;{&quot;PageId&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;EnforceCurrentLocale&quot;:&quot;&quot;,&quot;QueryString&quot;:&quot;&quot;,&quot;QueryStringUseUrlProvider&quot;:true,&quot;OpenInPopup&quot;:&quot;&quot;,&quot;PopupTitle&quot;:&quot;&quot;,&quot;OpenInNewTab&quot;:&quot;&quot;}&lt;/ActionData&gt;
+      &lt;ActionData&gt;{&quot;Url&quot;:&quot;[URL:FullUrl]?r=1&quot;,&quot;EscapeUrl&quot;:&quot;&quot;,&quot;OpenInPopup&quot;:&quot;&quot;,&quot;PopupTitle&quot;:&quot;&quot;,&quot;OpenInNewTab&quot;:&quot;&quot;,&quot;ForceDownload&quot;:&quot;&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;468&lt;/ModuleId&gt;
       &lt;EventName&gt;pageload&lt;/EventName&gt;
       &lt;MetadataJson&gt;{}&lt;/MetadataJson&gt;
