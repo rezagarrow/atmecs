@@ -53,7 +53,7 @@
     &lt;PageSizes&gt;[12,24,48]&lt;/PageSizes&gt;
     &lt;DefaultPageSize&gt;12&lt;/DefaultPageSize&gt;
     &lt;IsDebug&gt;False&lt;/IsDebug&gt;
-    &lt;SearchEnabled&gt;False&lt;/SearchEnabled&gt;
+    &lt;SearchEnabled&gt;True&lt;/SearchEnabled&gt;
     &lt;HideEmptyGrid&gt;False&lt;/HideEmptyGrid&gt;
     &lt;LoadOnSearch&gt;False&lt;/LoadOnSearch&gt;
     &lt;HideTableHead&gt;False&lt;/HideTableHead&gt;
@@ -70,7 +70,7 @@
     &lt;AngularnoConflict&gt;True&lt;/AngularnoConflict&gt;
     &lt;SelectAllPosition&gt;None&lt;/SelectAllPosition&gt;
     &lt;LoadingStyle&gt;EntireGrid&lt;/LoadingStyle&gt;
-    &lt;SearchPosition&gt;top&lt;/SearchPosition&gt;
+    &lt;SearchPosition&gt;expandabletop&lt;/SearchPosition&gt;
     &lt;RootCSSClasses /&gt;
     &lt;ModalRefresh&gt;False&lt;/ModalRefresh&gt;
     &lt;ShowLoading&gt;True&lt;/ShowLoading&gt;
