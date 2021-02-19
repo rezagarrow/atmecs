@@ -303,7 +303,7 @@
           {
             "Id": 60,
             "Name": "Code",
-            "Value": "var data = JSON.parse(result).daily\n\nfunction tc(valNum) {\n  valNum = parseFloat(valNum);\n  return (((valNum-273.15)*1.8)+32).toFixed(1);\n}\n\nvar response = data.map(function(o){\nreturn {'date':new Date(o.dt * 1000).toDateString(), 'weather': `${o.weather[0].main} (${o.weather[0].description})`, 'day': `${tc(o.temp.day)}°F`, 'morn': `${tc(o.temp.morn)}°F`, 'eve': `${tc(o.temp.eve)}°F`, 'night': `${tc(o.temp.night)}°F`, 'windSpeed': `${o.wind_speed} miles`} \n})\n\nreturn JSON.stringify(response);",
+            "Value": "var data = JSON.parse(result).daily\n\nfunction tc(valNum) {\n  valNum = parseFloat(valNum);\n  return (((valNum-273.15)*1.8)+32).toFixed(1);\n}\n\nvar response = data.map(function(o){\nreturn {'date':new Date(o.dt * 1000).toDateString(), 'weather': `${o.weather[0].main} (${o.weather[0].description})`, 'day': `${tc(o.temp.day)}F`, 'morn': `${tc(o.temp.morn)}F`, 'eve': `${tc(o.temp.eve)}F`, 'night': `${tc(o.temp.night)}F`, 'windSpeed': `${o.wind_speed} miles`} \n})\n\nreturn JSON.stringify(response);",
             "IsExpression": false,
             "ActionId": 7,
             "OrderIndex": 0,
@@ -339,7 +339,7 @@
   "CreatedBy": "SuperUser Account",
   "CreatedOn": "2021-02-19T14:58:51.4696081+00:00",
   "LastModifiedBy": "SuperUser Account",
-  "LastModifiedOn": "2021-02-19T15:28:34.6398059+00:00",
+  "LastModifiedOn": "2021-02-19T15:29:49.9808327+00:00",
   "InputFields": [
     {
       "Id": 10,
