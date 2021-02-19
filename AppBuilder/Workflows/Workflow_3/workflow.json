@@ -23,6 +23,7 @@
           {
             "Id": 64,
             "Name": "Id",
+            "Value": "[Id]",
             "IsExpression": false,
             "ActionId": 8,
             "OrderIndex": 0,
@@ -31,6 +32,7 @@
           {
             "Id": 65,
             "Name": "prop",
+            "Value": "lat",
             "IsExpression": false,
             "ActionId": 8,
             "OrderIndex": 0,
@@ -47,6 +49,7 @@
           {
             "Id": 67,
             "Name": "PropData",
+            "Value": "lat",
             "IsExpression": false,
             "ActionId": 8,
             "OrderIndex": 0,
@@ -71,6 +74,7 @@
           {
             "Id": 69,
             "Name": "Id",
+            "Value": "[id]",
             "IsExpression": false,
             "ActionId": 9,
             "OrderIndex": 0,
@@ -79,6 +83,7 @@
           {
             "Id": 70,
             "Name": "prop",
+            "Value": "lon",
             "IsExpression": false,
             "ActionId": 9,
             "OrderIndex": 0,
@@ -95,6 +100,7 @@
           {
             "Id": 72,
             "Name": "PropData",
+            "Value": "lon",
             "IsExpression": false,
             "ActionId": 9,
             "OrderIndex": 0,
@@ -333,7 +339,7 @@
   "CreatedBy": "SuperUser Account",
   "CreatedOn": "2021-02-19T14:58:51.4696081+00:00",
   "LastModifiedBy": "SuperUser Account",
-  "LastModifiedOn": "2021-02-19T15:13:12.8761503+00:00",
+  "LastModifiedOn": "2021-02-19T15:14:03.108712+00:00",
   "InputFields": [
     {
       "Id": 10,
