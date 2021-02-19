@@ -1,0 +1,414 @@
+<module type="DNNAPIEndpoint" version="05.11.04.00">
+    <contentKey />
+    <moduleID>387</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod>MemoryModuleCachingProvider</cachemethod>
+    <cachetime>0</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>VIEW</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Citizen Developers</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>VIEW</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Admins</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Citizen Developers</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Admins</rolename>
+        </permission>
+    </modulepermissions>
+    <title>APIs</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>0f85c582-69a8-4f83-be0c-dd2cf95ee826</uniqueId>
+    <visibility>Maximized</visibility>
+    <cultureCode>en-US</cultureCode>
+    <modulesettings />
+    <tabmodulesettings>
+        <tabmodulesetting>
+            <settingname>AllowIndex</settingname>
+            <settingvalue>True</settingvalue>
+        </tabmodulesetting>
+    </tabmodulesettings>
+    <definition>DNN API Endpoint</definition>
+    <moduledefinition>avt.DnnApiEndpoint</moduledefinition>
+    <content type="DNNAPIEndpoint" version="05.11.04.00"><![CDATA[&lt;DnnApiEndpoint&gt;
+  &lt;Settings&gt;
+    &lt;Version&gt;5.11.0&lt;/Version&gt;
+    &lt;Build&gt;5.11.4&lt;/Build&gt;
+    &lt;CurrentContext&gt;&lt;![CDATA[ExportImport]]&gt;&lt;/CurrentContext&gt;
+    &lt;ModuleId&gt;387&lt;/ModuleId&gt;
+    &lt;IsDebug&gt;False&lt;/IsDebug&gt;
+    &lt;DateFormat&gt;m/d/yy&lt;/DateFormat&gt;
+    &lt;BaseId&gt;dnn387&lt;/BaseId&gt;
+    &lt;LocalizedStringsUrl&gt;/DesktopModules/DnnSharp/DnnApiEndpoint/AdminApi.ashx?method=GetLocalization&amp;amp;locale=en&lt;/LocalizedStringsUrl&gt;
+    &lt;JsonUrl&gt;/DesktopModules/DnnSharp/DnnApiEndpoint/AdminApi.ashx?method=FormSettings&amp;amp;mid=387&lt;/JsonUrl&gt;
+    &lt;PortalHomeUrl&gt;/Portals/0/&lt;/PortalHomeUrl&gt;
+  &lt;/Settings&gt;
+  &lt;Methods&gt;
+    &lt;Method&gt;
+      &lt;Name&gt;EventData&lt;/Name&gt;
+      &lt;Description /&gt;
+      &lt;HttpMethod&gt;POST&lt;/HttpMethod&gt;
+      &lt;IsEnabled&gt;True&lt;/IsEnabled&gt;
+      &lt;ConditionForEnable /&gt;
+      &lt;ConditionForValidation /&gt;
+      &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
+      &lt;CrossDomainPolicy&gt;Public&lt;/CrossDomainPolicy&gt;
+      &lt;AllowedDomains /&gt;
+      &lt;ApiInputData&gt;
+        &lt;InputData&gt;
+          &lt;NameTokenized&gt;Id&lt;/NameTokenized&gt;
+          &lt;Name&gt;Id&lt;/Name&gt;
+          &lt;IsDeleted&gt;False&lt;/IsDeleted&gt;
+          &lt;IsEnabled&gt;True&lt;/IsEnabled&gt;
+          &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
+          &lt;ConditionForEnable /&gt;
+          &lt;ConditionForValidation /&gt;
+          &lt;Description /&gt;
+          &lt;InputData&gt;{&quot;Value&quot;:&quot;&quot;}&lt;/InputData&gt;
+          &lt;InputTypeStr&gt;text&lt;/InputTypeStr&gt;
+          &lt;Validations /&gt;
+        &lt;/InputData&gt;
+      &lt;/ApiInputData&gt;
+      &lt;Actions xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;
+        &lt;ActionInfo&gt;
+          &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+          &lt;ActionType&gt;PostData&lt;/ActionType&gt;
+          &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
+          &lt;LastModified&gt;2021-02-19T12:20:33.28&lt;/LastModified&gt;
+          &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
+          &lt;ActionData&gt;{&quot;InputParameters&quot;:&quot;&quot;,&quot;URL&quot;:&quot;https://app.ticketmaster.com/discovery/v2/events/[Id].json?apikey=[Auth:ApiKey]&quot;,&quot;UrlTokenContext&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;Url&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;UseSSL&quot;:&quot;&quot;,&quot;Timeout&quot;:&quot;&quot;,&quot;HttpMethod&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;GET&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;Data&quot;:&quot;&quot;,&quot;DoNotEscapeTokens&quot;:&quot;&quot;,&quot;DisableReferer&quot;:&quot;&quot;,&quot;Headers&quot;:[{&quot;value&quot;:&quot;application/json&quot;,&quot;name&quot;:&quot;Content-Type&quot;}],&quot;UseDNNProxySettings&quot;:&quot;&quot;,&quot;AddCurrentCookies&quot;:&quot;&quot;,&quot;OutputParameters&quot;:&quot;&quot;,&quot;CookieContainerToken&quot;:&quot;&quot;,&quot;OutputTokenName&quot;:&quot;Result&quot;,&quot;OutputHeaders&quot;:&quot;&quot;,&quot;IgnoreErrors&quot;:&quot;&quot;,&quot;Events&quot;:&quot;&quot;,&quot;OnError&quot;:[]}&lt;/ActionData&gt;
+          &lt;MethodId&gt;1&lt;/MethodId&gt;
+          &lt;IsEnabled&gt;true&lt;/IsEnabled&gt;
+          &lt;ExecutionType&gt;OnExecute&lt;/ExecutionType&gt;
+          &lt;MetadataJson&gt;{}&lt;/MetadataJson&gt;
+          &lt;Metadata /&gt;
+        &lt;/ActionInfo&gt;
+        &lt;ActionInfo&gt;
+          &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+          &lt;ActionType&gt;RawResponse&lt;/ActionType&gt;
+          &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
+          &lt;LastModified&gt;2021-02-19T12:20:33.28&lt;/LastModified&gt;
+          &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
+          &lt;ActionData&gt;{&quot;Content&quot;:&quot;[Result]&quot;,&quot;HttpCode&quot;:&quot;200 OK&quot;,&quot;Headers&quot;:[{&quot;value&quot;:&quot;application/json&quot;,&quot;name&quot;:&quot;Content-Type&quot;}]}&lt;/ActionData&gt;
+          &lt;MethodId&gt;1&lt;/MethodId&gt;
+          &lt;IsEnabled&gt;true&lt;/IsEnabled&gt;
+          &lt;ExecutionType&gt;OnExecute&lt;/ExecutionType&gt;
+          &lt;MetadataJson&gt;{}&lt;/MetadataJson&gt;
+          &lt;Metadata /&gt;
+        &lt;/ActionInfo&gt;
+      &lt;/Actions&gt;
+      &lt;OnErrorActions xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; /&gt;
+    &lt;/Method&gt;
+    &lt;Method&gt;
+      &lt;Name&gt;EventData_Parse&lt;/Name&gt;
+      &lt;Description /&gt;
+      &lt;HttpMethod&gt;GET&lt;/HttpMethod&gt;
+      &lt;IsEnabled&gt;True&lt;/IsEnabled&gt;
+      &lt;ConditionForEnable /&gt;
+      &lt;ConditionForValidation /&gt;
+      &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
+      &lt;CrossDomainPolicy&gt;Public&lt;/CrossDomainPolicy&gt;
+      &lt;AllowedDomains /&gt;
+      &lt;ApiInputData&gt;
+        &lt;InputData&gt;
+          &lt;NameTokenized&gt;Id&lt;/NameTokenized&gt;
+          &lt;Name&gt;Id&lt;/Name&gt;
+          &lt;IsDeleted&gt;False&lt;/IsDeleted&gt;
+          &lt;IsEnabled&gt;True&lt;/IsEnabled&gt;
+          &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
+          &lt;ConditionForEnable /&gt;
+          &lt;ConditionForValidation /&gt;
+          &lt;Description /&gt;
+          &lt;InputData&gt;{&quot;Value&quot;:&quot;&quot;}&lt;/InputData&gt;
+          &lt;InputTypeStr&gt;text&lt;/InputTypeStr&gt;
+          &lt;Validations /&gt;
+        &lt;/InputData&gt;
+        &lt;InputData&gt;
+          &lt;NameTokenized&gt;prop&lt;/NameTokenized&gt;
+          &lt;Name&gt;prop&lt;/Name&gt;
+          &lt;IsDeleted&gt;False&lt;/IsDeleted&gt;
+          &lt;IsEnabled&gt;True&lt;/IsEnabled&gt;
+          &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
+          &lt;ConditionForEnable /&gt;
+          &lt;ConditionForValidation /&gt;
+          &lt;Description /&gt;
+          &lt;InputData&gt;{&quot;Value&quot;:&quot;&quot;}&lt;/InputData&gt;
+          &lt;InputTypeStr&gt;text&lt;/InputTypeStr&gt;
+          &lt;Validations /&gt;
+        &lt;/InputData&gt;
+      &lt;/ApiInputData&gt;
+      &lt;Actions xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;
+        &lt;ActionInfo&gt;
+          &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+          &lt;ActionType&gt;PlantAnApp.ExecuteWorkflow.1&lt;/ActionType&gt;
+          &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
+          &lt;LastModified&gt;2021-02-19T16:04:18.97&lt;/LastModified&gt;
+          &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
+          &lt;ActionData&gt;{&quot;InputHelpText&quot;:&quot;&quot;,&quot;Id&quot;:&quot;[Id]&quot;,&quot;prop&quot;:&quot;[Prop]&quot;,&quot;OutputHelpText&quot;:&quot;&quot;,&quot;PropData&quot;:&quot;PropData&quot;}&lt;/ActionData&gt;
+          &lt;MethodId&gt;2&lt;/MethodId&gt;
+          &lt;IsEnabled&gt;true&lt;/IsEnabled&gt;
+          &lt;ExecutionType&gt;OnExecute&lt;/ExecutionType&gt;
+          &lt;MetadataJson&gt;{}&lt;/MetadataJson&gt;
+          &lt;Metadata /&gt;
+        &lt;/ActionInfo&gt;
+        &lt;ActionInfo&gt;
+          &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+          &lt;ActionType&gt;RawResponse&lt;/ActionType&gt;
+          &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
+          &lt;LastModified&gt;2021-02-19T16:04:18.97&lt;/LastModified&gt;
+          &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
+          &lt;ActionData&gt;{&quot;Content&quot;:&quot;[PropData]&quot;,&quot;HttpCode&quot;:&quot;200 OK&quot;,&quot;Headers&quot;:&quot;&quot;}&lt;/ActionData&gt;
+          &lt;MethodId&gt;2&lt;/MethodId&gt;
+          &lt;IsEnabled&gt;true&lt;/IsEnabled&gt;
+          &lt;ExecutionType&gt;OnExecute&lt;/ExecutionType&gt;
+          &lt;MetadataJson&gt;{}&lt;/MetadataJson&gt;
+          &lt;Metadata /&gt;
+        &lt;/ActionInfo&gt;
+      &lt;/Actions&gt;
+      &lt;OnErrorActions xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; /&gt;
+    &lt;/Method&gt;
+    &lt;Method&gt;
+      &lt;Name&gt;GetAllEventsByGenre&lt;/Name&gt;
+      &lt;Description /&gt;
+      &lt;HttpMethod&gt;GET&lt;/HttpMethod&gt;
+      &lt;IsEnabled&gt;True&lt;/IsEnabled&gt;
+      &lt;ConditionForEnable /&gt;
+      &lt;ConditionForValidation /&gt;
+      &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
+      &lt;CrossDomainPolicy&gt;Public&lt;/CrossDomainPolicy&gt;
+      &lt;AllowedDomains /&gt;
+      &lt;ApiInputData&gt;
+        &lt;InputData&gt;
+          &lt;NameTokenized&gt;genreId&lt;/NameTokenized&gt;
+          &lt;Name&gt;genreId&lt;/Name&gt;
+          &lt;IsDeleted&gt;False&lt;/IsDeleted&gt;
+          &lt;IsEnabled&gt;True&lt;/IsEnabled&gt;
+          &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
+          &lt;ConditionForEnable /&gt;
+          &lt;ConditionForValidation /&gt;
+          &lt;Description /&gt;
+          &lt;InputData&gt;{&quot;Value&quot;:&quot;&quot;}&lt;/InputData&gt;
+          &lt;InputTypeStr&gt;text&lt;/InputTypeStr&gt;
+          &lt;Validations&gt;
+            &lt;Validation&gt;
+              &lt;Condition /&gt;
+              &lt;Data&gt;{&quot;Message&quot;:&quot;{FieldName} is required&quot;}&lt;/Data&gt;
+              &lt;Type&gt;default-required&lt;/Type&gt;
+              &lt;IsDeleted&gt;False&lt;/IsDeleted&gt;
+              &lt;IsEnabled&gt;False&lt;/IsEnabled&gt;
+              &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
+            &lt;/Validation&gt;
+          &lt;/Validations&gt;
+        &lt;/InputData&gt;
+        &lt;InputData&gt;
+          &lt;NameTokenized&gt;keyword&lt;/NameTokenized&gt;
+          &lt;Name&gt;keyword&lt;/Name&gt;
+          &lt;IsDeleted&gt;False&lt;/IsDeleted&gt;
+          &lt;IsEnabled&gt;True&lt;/IsEnabled&gt;
+          &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
+          &lt;ConditionForEnable /&gt;
+          &lt;ConditionForValidation /&gt;
+          &lt;Description /&gt;
+          &lt;InputData&gt;{&quot;Value&quot;:&quot;&quot;}&lt;/InputData&gt;
+          &lt;InputTypeStr&gt;text&lt;/InputTypeStr&gt;
+          &lt;Validations /&gt;
+        &lt;/InputData&gt;
+      &lt;/ApiInputData&gt;
+      &lt;Actions xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;
+        &lt;ActionInfo&gt;
+          &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+          &lt;ActionType&gt;PostData&lt;/ActionType&gt;
+          &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
+          &lt;LastModified&gt;2021-02-19T15:56:51.64&lt;/LastModified&gt;
+          &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
+          &lt;ActionData&gt;{&quot;InputParameters&quot;:&quot;&quot;,&quot;URL&quot;:&quot;https://app.ticketmaster.com/discovery/v2/events.json?apikey=[Auth:ApiKey]&amp;amp;genreId=[genreId]&amp;amp;keyword=[keyword]&quot;,&quot;UrlTokenContext&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;Url&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;UseSSL&quot;:&quot;&quot;,&quot;Timeout&quot;:&quot;&quot;,&quot;HttpMethod&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;GET&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;Data&quot;:&quot;&quot;,&quot;DoNotEscapeTokens&quot;:&quot;&quot;,&quot;DisableReferer&quot;:&quot;&quot;,&quot;Headers&quot;:[{&quot;value&quot;:&quot;application/json&quot;,&quot;name&quot;:&quot;Content-Type&quot;}],&quot;UseDNNProxySettings&quot;:&quot;&quot;,&quot;AddCurrentCookies&quot;:&quot;&quot;,&quot;OutputParameters&quot;:&quot;&quot;,&quot;CookieContainerToken&quot;:&quot;&quot;,&quot;OutputTokenName&quot;:&quot;Result&quot;,&quot;OutputHeaders&quot;:&quot;&quot;,&quot;IgnoreErrors&quot;:&quot;&quot;,&quot;Events&quot;:&quot;&quot;,&quot;OnError&quot;:[]}&lt;/ActionData&gt;
+          &lt;MethodId&gt;3&lt;/MethodId&gt;
+          &lt;IsEnabled&gt;true&lt;/IsEnabled&gt;
+          &lt;ExecutionType&gt;OnExecute&lt;/ExecutionType&gt;
+          &lt;MetadataJson&gt;{}&lt;/MetadataJson&gt;
+          &lt;Metadata /&gt;
+        &lt;/ActionInfo&gt;
+        &lt;ActionInfo&gt;
+          &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+          &lt;ActionType&gt;ExecuteJavascript&lt;/ActionType&gt;
+          &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
+          &lt;Condition /&gt;
+          &lt;LastModified&gt;2021-02-19T15:56:51.64&lt;/LastModified&gt;
+          &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
+          &lt;ActionData&gt;{&quot;ScriptName&quot;:&quot;addObjectproperty&quot;,&quot;LocalVariables&quot;:&quot;&quot;,&quot;Code&quot;:&quot;var jsonObj=JSON.parse(Result);\n\nif (jsonObj.hasOwnProperty(\&quot;_embedded\&quot;) == false){\njsonObj._embedded = {\n        \&quot;events\&quot;: [{\n            \&quot;name\&quot;: \&quot;No Events Available\&quot;,\n            \&quot;type\&quot;: \&quot;event\&quot;,\n            \&quot;id\&quot;: \&quot;-1\&quot;,\n            \&quot;test\&quot;: false,\n            \&quot;url\&quot;: \&quot;\&quot;,\n            \&quot;locale\&quot;: \&quot;en-us\&quot;,\n            \&quot;images\&quot;: [{\n                \&quot;ratio\&quot;: \&quot;3_2\&quot;,\n                \&quot;url\&quot;: \&quot;\&quot;,\n                \&quot;width\&quot;: 1024,\n                \&quot;height\&quot;: 683,\n                \&quot;fallback\&quot;: true\n            }]}]};\n}\n\nvar response = jsonObj._embedded.events.map(function(data){\nvar parseData = {};\nparseData.id=  data.id\nparseData.name =  data.name\nparseData.description = data.description\nparseData.ticketUrl = data.url\nparseData.mainImage = data.images.filter(obj =&amp;gt; {return obj.width &amp;gt; 2000})[0].url\nparseData.localDate = new Date(data.dates.start.localDate).toLocaleDateString() ?? &#39;TBD&#39;\nparseData.localTime = data.dates.start.localTime ?? &#39;TBD&#39;\nparseData.segment = data.classifications.map(function(o){return o.segment.name + &#39; (&#39; + o.genre.name + &#39;, &#39; + o.subGenre.name +&#39;)&#39;}).join()\n\nparseData.attractions = JSON.stringify(data._embedded.attractions)\nparseData.promoter = data.promoter !== undefined ?  data.promoter.name + &#39; (&#39; + data.promoter.description + &#39;)&#39; : &#39;&#39;\nparseData.venues = data._embedded.venues.map(function(o){return o.name + &#39;, &#39; + o.address.line1 + (o.address.line2 !== undefined ? &#39;, &#39; + o.address.line2 : &#39;&#39;) + (o.address.postalCode !== undefined ? &#39;, &#39; + o.address.postalCode : &#39;&#39;)}).join(&#39; | &#39;)\nparseData.lat = data._embedded.venues[0].location.latitude\nparseData.lon = data._embedded.venues[0].location.longitude\nreturn parseData;\n})\nreturn JSON.stringify(response );&quot;,&quot;OutputTokenName&quot;:&quot;newObject&quot;,&quot;OnError&quot;:[]}&lt;/ActionData&gt;
+          &lt;MethodId&gt;3&lt;/MethodId&gt;
+          &lt;IsEnabled&gt;true&lt;/IsEnabled&gt;
+          &lt;ExecutionType&gt;OnExecute&lt;/ExecutionType&gt;
+          &lt;MetadataJson&gt;{}&lt;/MetadataJson&gt;
+          &lt;Metadata /&gt;
+        &lt;/ActionInfo&gt;
+        &lt;ActionInfo&gt;
+          &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+          &lt;ActionType&gt;RawResponse&lt;/ActionType&gt;
+          &lt;OrderIndex&gt;2&lt;/OrderIndex&gt;
+          &lt;LastModified&gt;2021-02-19T15:56:51.64&lt;/LastModified&gt;
+          &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
+          &lt;ActionData&gt;{&quot;Content&quot;:&quot;[newObject]&quot;,&quot;HttpCode&quot;:&quot;200 OK&quot;,&quot;Headers&quot;:[{&quot;value&quot;:&quot;application/json&quot;,&quot;name&quot;:&quot;Content-Type&quot;}]}&lt;/ActionData&gt;
+          &lt;MethodId&gt;3&lt;/MethodId&gt;
+          &lt;IsEnabled&gt;true&lt;/IsEnabled&gt;
+          &lt;ExecutionType&gt;OnExecute&lt;/ExecutionType&gt;
+          &lt;MetadataJson&gt;{}&lt;/MetadataJson&gt;
+          &lt;Metadata /&gt;
+        &lt;/ActionInfo&gt;
+      &lt;/Actions&gt;
+      &lt;OnErrorActions xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; /&gt;
+    &lt;/Method&gt;
+    &lt;Method&gt;
+      &lt;Name&gt;Attraction_Template&lt;/Name&gt;
+      &lt;Description /&gt;
+      &lt;HttpMethod&gt;GET&lt;/HttpMethod&gt;
+      &lt;IsEnabled&gt;True&lt;/IsEnabled&gt;
+      &lt;ConditionForEnable /&gt;
+      &lt;ConditionForValidation /&gt;
+      &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
+      &lt;CrossDomainPolicy&gt;Public&lt;/CrossDomainPolicy&gt;
+      &lt;AllowedDomains /&gt;
+      &lt;ApiInputData&gt;
+        &lt;InputData&gt;
+          &lt;NameTokenized&gt;Id&lt;/NameTokenized&gt;
+          &lt;Name&gt;Id&lt;/Name&gt;
+          &lt;IsDeleted&gt;False&lt;/IsDeleted&gt;
+          &lt;IsEnabled&gt;True&lt;/IsEnabled&gt;
+          &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
+          &lt;ConditionForEnable /&gt;
+          &lt;ConditionForValidation /&gt;
+          &lt;Description /&gt;
+          &lt;InputData&gt;{&quot;Value&quot;:&quot;&quot;}&lt;/InputData&gt;
+          &lt;InputTypeStr&gt;text&lt;/InputTypeStr&gt;
+          &lt;Validations&gt;
+            &lt;Validation&gt;
+              &lt;Condition /&gt;
+              &lt;Data&gt;{&quot;Message&quot;:&quot;{FieldName} is required&quot;}&lt;/Data&gt;
+              &lt;Type&gt;default-required&lt;/Type&gt;
+              &lt;IsDeleted&gt;False&lt;/IsDeleted&gt;
+              &lt;IsEnabled&gt;False&lt;/IsEnabled&gt;
+              &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
+            &lt;/Validation&gt;
+          &lt;/Validations&gt;
+        &lt;/InputData&gt;
+      &lt;/ApiInputData&gt;
+      &lt;Actions xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;
+        &lt;ActionInfo&gt;
+          &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+          &lt;ActionType&gt;PlantAnApp.ExecuteWorkflow.2&lt;/ActionType&gt;
+          &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
+          &lt;LastModified&gt;2021-02-19T16:04:09.767&lt;/LastModified&gt;
+          &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
+          &lt;ActionData&gt;{&quot;InputHelpText&quot;:&quot;&quot;,&quot;Id&quot;:&quot;[Id]&quot;,&quot;OutputHelpText&quot;:&quot;&quot;,&quot;Template&quot;:&quot;template&quot;}&lt;/ActionData&gt;
+          &lt;MethodId&gt;4&lt;/MethodId&gt;
+          &lt;IsEnabled&gt;true&lt;/IsEnabled&gt;
+          &lt;ExecutionType&gt;OnExecute&lt;/ExecutionType&gt;
+          &lt;MetadataJson&gt;{}&lt;/MetadataJson&gt;
+          &lt;Metadata /&gt;
+        &lt;/ActionInfo&gt;
+        &lt;ActionInfo&gt;
+          &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+          &lt;ActionType&gt;RawResponse&lt;/ActionType&gt;
+          &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
+          &lt;LastModified&gt;2021-02-19T16:04:09.767&lt;/LastModified&gt;
+          &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
+          &lt;ActionData&gt;{&quot;Content&quot;:&quot;[template]&quot;,&quot;HttpCode&quot;:&quot;200 OK&quot;,&quot;Headers&quot;:&quot;&quot;}&lt;/ActionData&gt;
+          &lt;MethodId&gt;4&lt;/MethodId&gt;
+          &lt;IsEnabled&gt;true&lt;/IsEnabled&gt;
+          &lt;ExecutionType&gt;OnExecute&lt;/ExecutionType&gt;
+          &lt;MetadataJson&gt;{}&lt;/MetadataJson&gt;
+          &lt;Metadata /&gt;
+        &lt;/ActionInfo&gt;
+      &lt;/Actions&gt;
+      &lt;OnErrorActions xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; /&gt;
+    &lt;/Method&gt;
+    &lt;Method&gt;
+      &lt;Name&gt;EventWeather&lt;/Name&gt;
+      &lt;Description /&gt;
+      &lt;HttpMethod&gt;GET&lt;/HttpMethod&gt;
+      &lt;IsEnabled&gt;True&lt;/IsEnabled&gt;
+      &lt;ConditionForEnable /&gt;
+      &lt;ConditionForValidation /&gt;
+      &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
+      &lt;CrossDomainPolicy&gt;Public&lt;/CrossDomainPolicy&gt;
+      &lt;AllowedDomains /&gt;
+      &lt;ApiInputData&gt;
+        &lt;InputData&gt;
+          &lt;NameTokenized&gt;Id&lt;/NameTokenized&gt;
+          &lt;Name&gt;Id&lt;/Name&gt;
+          &lt;IsDeleted&gt;False&lt;/IsDeleted&gt;
+          &lt;IsEnabled&gt;True&lt;/IsEnabled&gt;
+          &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
+          &lt;ConditionForEnable /&gt;
+          &lt;ConditionForValidation /&gt;
+          &lt;Description /&gt;
+          &lt;InputData&gt;{&quot;Value&quot;:&quot;&quot;}&lt;/InputData&gt;
+          &lt;InputTypeStr&gt;text&lt;/InputTypeStr&gt;
+          &lt;Validations /&gt;
+        &lt;/InputData&gt;
+      &lt;/ApiInputData&gt;
+      &lt;Actions xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;
+        &lt;ActionInfo&gt;
+          &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+          &lt;ActionType&gt;PlantAnApp.ExecuteWorkflow.3&lt;/ActionType&gt;
+          &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
+          &lt;LastModified&gt;2021-02-19T16:01:14.757&lt;/LastModified&gt;
+          &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
+          &lt;ActionData&gt;{&quot;InputHelpText&quot;:&quot;&quot;,&quot;Id&quot;:&quot;[id]&quot;,&quot;OutputHelpText&quot;:&quot;&quot;,&quot;Response&quot;:&quot;Response&quot;}&lt;/ActionData&gt;
+          &lt;MethodId&gt;5&lt;/MethodId&gt;
+          &lt;IsEnabled&gt;true&lt;/IsEnabled&gt;
+          &lt;ExecutionType&gt;OnExecute&lt;/ExecutionType&gt;
+          &lt;MetadataJson&gt;{}&lt;/MetadataJson&gt;
+          &lt;Metadata /&gt;
+        &lt;/ActionInfo&gt;
+        &lt;ActionInfo&gt;
+          &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+          &lt;ActionType&gt;RawResponse&lt;/ActionType&gt;
+          &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
+          &lt;LastModified&gt;2021-02-19T16:01:14.773&lt;/LastModified&gt;
+          &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
+          &lt;ActionData&gt;{&quot;Content&quot;:&quot;[Response]&quot;,&quot;HttpCode&quot;:&quot;200 OK&quot;,&quot;Headers&quot;:[]}&lt;/ActionData&gt;
+          &lt;MethodId&gt;5&lt;/MethodId&gt;
+          &lt;IsEnabled&gt;true&lt;/IsEnabled&gt;
+          &lt;ExecutionType&gt;OnExecute&lt;/ExecutionType&gt;
+          &lt;MetadataJson&gt;{}&lt;/MetadataJson&gt;
+          &lt;Metadata /&gt;
+        &lt;/ActionInfo&gt;
+      &lt;/Actions&gt;
+      &lt;OnErrorActions xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; /&gt;
+    &lt;/Method&gt;
+  &lt;/Methods&gt;
+&lt;/DnnApiEndpoint&gt;]]></content>
+</module>
