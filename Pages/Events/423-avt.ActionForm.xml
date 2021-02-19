@@ -172,7 +172,7 @@
       &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
       &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
       &lt;InputType&gt;static-text&lt;/InputType&gt;
-      &lt;InputData&gt;{&quot;Value&quot;:&quot;\u003cstyle\u003e\n.room {\n    margin: -15px;\n}\n  .panel-heading {\n    height:auto;\n  }\n    \n\u003c/style\u003e&quot;,&quot;Align&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;left&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;SaveToReport&quot;:false}&lt;/InputData&gt;
+      &lt;InputData&gt;{&quot;Value&quot;:&quot;\u003cstyle\u003e\n.room {\n    margin: -15px;\n}\n  .panel-heading {\n    height:auto;\n  }\n  \n.panel.panel-default.grid-item {\n  padding: 0;\n}\n    \n\u003c/style\u003e&quot;,&quot;Align&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;left&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;SaveToReport&quot;:false}&lt;/InputData&gt;
       &lt;Align&gt;
         &lt;Expression /&gt;
         &lt;Value&gt;left&lt;/Value&gt;
@@ -187,6 +187,10 @@
   .panel-heading {
     height:auto;
   }
+  
+.panel.panel-default.grid-item {
+  padding: 0;
+}
     
 &lt;/style&gt;]]&gt;&lt;/Value&gt;
       &lt;IsRequired&gt;False&lt;/IsRequired&gt;
