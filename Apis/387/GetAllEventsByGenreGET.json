@@ -71,20 +71,6 @@
       "Metadata": {}
     },
     {
-      "ActionType": "ExecuteJavascript",
-      "OrderIndex": 1,
-      "Parameters": {
-        "ScriptName": "myscript",
-        "LocalVariables": "",
-        "Code": "",
-        "OutputTokenName": "",
-        "OnError": []
-      },
-      "IsEnabled": true,
-      "ExecutionType": "OnExecute",
-      "Metadata": {}
-    },
-    {
       "ActionType": "RawResponse",
       "OrderIndex": 2,
       "Parameters": {
