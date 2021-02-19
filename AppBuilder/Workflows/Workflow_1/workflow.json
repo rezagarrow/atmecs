@@ -1,0 +1,251 @@
+{
+  "Id": 1,
+  "Name": "Parse Event Data",
+  "Description": "",
+  "IsDebug": false,
+  "ActionList": {
+    "Id": 1,
+    "EventName": "Event",
+    "Actions": [
+      {
+        "Id": 1,
+        "ActionType": "ExecuteApiMethod",
+        "OrderIndex": 0,
+        "ActionParameters": [
+          {
+            "Id": 1,
+            "Name": "ApiModule",
+            "Value": "387",
+            "IsExpression": false,
+            "ActionId": 1,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 2,
+            "Name": "MethodName",
+            "Value": "EventData#POST",
+            "IsExpression": false,
+            "ActionId": 1,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 3,
+            "Name": "HttpMethod",
+            "IsExpression": false,
+            "ActionId": 1,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 4,
+            "Name": "ProcessResponseType",
+            "Value": "1",
+            "IsExpression": false,
+            "ActionId": 1,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 5,
+            "Name": "MethodInputs",
+            "IsExpression": false,
+            "ActionId": 1,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 6,
+            "Name": "MethodInputsList",
+            "Value": [
+              {
+                "MethodInputName": {
+                  "IsExpression": false,
+                  "Expression": "",
+                  "Value": "Id"
+                },
+                "MethodInputValue": {
+                  "IsExpression": false,
+                  "Expression": "",
+                  "Value": "[Id]"
+                }
+              }
+            ],
+            "IsExpression": false,
+            "ActionId": 1,
+            "OrderIndex": 0,
+            "SubParameters": [
+              {
+                "Id": 7,
+                "Name": "MethodInputName",
+                "Value": "Id",
+                "ParentParameterId": 6,
+                "IsExpression": false,
+                "ActionId": 1,
+                "OrderIndex": 0,
+                "SubParameters": []
+              },
+              {
+                "Id": 8,
+                "Name": "MethodInputValue",
+                "Value": "[Id]",
+                "ParentParameterId": 6,
+                "IsExpression": false,
+                "ActionId": 1,
+                "OrderIndex": 0,
+                "SubParameters": []
+              }
+            ]
+          },
+          {
+            "Id": 9,
+            "Name": "OutputTokenName",
+            "Value": "result",
+            "IsExpression": false,
+            "ActionId": 1,
+            "OrderIndex": 0,
+            "SubParameters": []
+          }
+        ],
+        "DiagramUID": "Activity_1ng2h1r"
+      },
+      {
+        "Id": 2,
+        "ActionType": "ExecuteJavascript",
+        "OrderIndex": 1,
+        "ActionParameters": [
+          {
+            "Id": 10,
+            "Name": "ScriptName",
+            "Value": "parseEventData",
+            "IsExpression": false,
+            "ActionId": 2,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 11,
+            "Name": "LocalVariables",
+            "Value": [
+              {
+                "Type": {
+                  "IsExpression": false,
+                  "Expression": "",
+                  "Value": "string"
+                },
+                "Name": {
+                  "IsExpression": false,
+                  "Expression": "",
+                  "Value": "input"
+                },
+                "Value": {
+                  "IsExpression": false,
+                  "Expression": "",
+                  "Value": "[result]"
+                }
+              }
+            ],
+            "IsExpression": false,
+            "ActionId": 2,
+            "OrderIndex": 0,
+            "SubParameters": [
+              {
+                "Id": 12,
+                "Name": "Type",
+                "Value": "string",
+                "ParentParameterId": 11,
+                "IsExpression": false,
+                "ActionId": 2,
+                "OrderIndex": 0,
+                "SubParameters": []
+              },
+              {
+                "Id": 13,
+                "Name": "Name",
+                "Value": "input",
+                "ParentParameterId": 11,
+                "IsExpression": false,
+                "ActionId": 2,
+                "OrderIndex": 0,
+                "SubParameters": []
+              },
+              {
+                "Id": 14,
+                "Name": "Value",
+                "Value": "[result]",
+                "ParentParameterId": 11,
+                "IsExpression": false,
+                "ActionId": 2,
+                "OrderIndex": 0,
+                "SubParameters": []
+              }
+            ]
+          },
+          {
+            "Id": 15,
+            "Name": "Code",
+            "Value": "var data = JSON.parse(input)\nvar parseData = {}\nparseData.name =  data.name\nparseData.startDate = data.dates.start.localDate\nreturn parseData[prop]",
+            "IsExpression": false,
+            "ActionId": 2,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 16,
+            "Name": "OutputTokenName",
+            "Value": "PropData",
+            "IsExpression": false,
+            "ActionId": 2,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 17,
+            "Name": "OnError",
+            "Value": {
+              "Id": 2,
+              "EventName": "error",
+              "Actions": []
+            },
+            "IsExpression": false,
+            "ActionId": 2,
+            "OrderIndex": 0,
+            "SubParameters": []
+          }
+        ],
+        "DiagramUID": "Activity_1l8t30o"
+      }
+    ]
+  },
+  "CreatedBy": "SuperUser Account",
+  "CreatedOn": "2021-02-19T09:48:17.0478195+00:00",
+  "LastModifiedBy": "SuperUser Account",
+  "LastModifiedOn": "2021-02-19T09:48:17.0478195+00:00",
+  "InputFields": [
+    {
+      "Id": 1,
+      "Name": "Id",
+      "InputType": "Text",
+      "WorkflowId": 1,
+      "IsDeleted": false
+    },
+    {
+      "Id": 2,
+      "Name": "prop",
+      "InputType": "Text",
+      "WorkflowId": 1,
+      "IsDeleted": false
+    }
+  ],
+  "OutputFields": [
+    {
+      "Value": "[PropData]",
+      "Id": 3,
+      "Name": "PropData",
+      "InputType": "Text",
+      "WorkflowId": 1,
+      "IsDeleted": false
+    }
+  ]
+}
