@@ -82,9 +82,19 @@
       "Metadata": {}
     },
     {
-      "ActionType": "ExecuteJavascript",
+      "ActionType": "LogError",
       "OrderIndex": 2,
-      "Condition": "[ParsedResult:_embedded.events] == \"\"",
+      "Parameters": {
+        "Message": "parsed result:[ParsedResult]\nevents: [ParsedResult:_embedded.events=]"
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {}
+    },
+    {
+      "ActionType": "ExecuteJavascript",
+      "OrderIndex": 3,
+      "Condition": "[ParsedResult:_embedded.events=] == \"\"",
       "Parameters": {
         "ScriptName": "addObjectproperty",
         "LocalVariables": "",
@@ -98,7 +108,7 @@
     },
     {
       "ActionType": "RawResponse",
-      "OrderIndex": 3,
+      "OrderIndex": 4,
       "Parameters": {
         "Content": "[newObject=[Result]]",
         "HttpCode": "200 OK",
