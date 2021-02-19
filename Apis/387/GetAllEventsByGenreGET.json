@@ -82,10 +82,21 @@
       "Metadata": {}
     },
     {
-      "ActionType": "LogError",
+      "ActionType": "ParseJsonIntoTokens",
       "OrderIndex": 2,
       "Parameters": {
-        "Message": "name:[ParsedResult:_embedded.events.name] \nevents: [ParsedResult:_embedded.events=]"
+        "JsonString": "[ParsedResult:_embedded.events=]",
+        "BaseTokenName": "ParsedName"
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {}
+    },
+    {
+      "ActionType": "LogError",
+      "OrderIndex": 3,
+      "Parameters": {
+        "Message": "name:[ParsedResult:_embedded.events.name] ----[ParsedName.0.name]\nevents: [ParsedResult:_embedded.events=]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -93,8 +104,8 @@
     },
     {
       "ActionType": "ExecuteJavascript",
-      "OrderIndex": 3,
-      "Condition": "[ParsedResult:_embedded.events.name] == \"\"",
+      "OrderIndex": 4,
+      "Condition": "[ParsedName.0.name] == \"\"",
       "Parameters": {
         "ScriptName": "addObjectproperty",
         "LocalVariables": "",
@@ -108,7 +119,7 @@
     },
     {
       "ActionType": "RawResponse",
-      "OrderIndex": 4,
+      "OrderIndex": 5,
       "Parameters": {
         "Content": "[newObject=[Result]]",
         "HttpCode": "200 OK",
