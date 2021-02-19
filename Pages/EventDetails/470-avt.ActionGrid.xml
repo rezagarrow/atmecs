@@ -61,9 +61,9 @@
     &lt;ItemButtonPosition&gt;Right&lt;/ItemButtonPosition&gt;
     &lt;ItemButtonPositionInColumn&gt;Right&lt;/ItemButtonPositionInColumn&gt;
     &lt;ItemButtonGroupingOptions&gt;HorizontalAlign&lt;/ItemButtonGroupingOptions&gt;
-    &lt;FiltersEnabled&gt;True&lt;/FiltersEnabled&gt;
+    &lt;FiltersEnabled&gt;False&lt;/FiltersEnabled&gt;
     &lt;ShowFilters&gt;False&lt;/ShowFilters&gt;
-    &lt;SyncUrl&gt;True&lt;/SyncUrl&gt;
+    &lt;SyncUrl&gt;False&lt;/SyncUrl&gt;
     &lt;IncludeBootstrapJS&gt;True&lt;/IncludeBootstrapJS&gt;
     &lt;IncludeBootstrapCSS&gt;True&lt;/IncludeBootstrapCSS&gt;
     &lt;IncludeFontAwesome&gt;True&lt;/IncludeFontAwesome&gt;
