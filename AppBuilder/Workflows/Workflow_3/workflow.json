@@ -237,7 +237,7 @@
   "CreatedBy": "SuperUser Account",
   "CreatedOn": "2021-02-19T14:58:51.4696081+00:00",
   "LastModifiedBy": "SuperUser Account",
-  "LastModifiedOn": "2021-02-19T15:09:18.7596444+00:00",
+  "LastModifiedOn": "2021-02-19T15:10:26.3978012+00:00",
   "InputFields": [
     {
       "Id": 7,
@@ -248,7 +248,7 @@
     },
     {
       "Id": 8,
-      "Name": "lng",
+      "Name": "lon",
       "InputType": "Text",
       "WorkflowId": 3,
       "IsDeleted": false
