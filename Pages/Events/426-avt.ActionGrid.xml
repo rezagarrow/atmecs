@@ -258,9 +258,9 @@
       &lt;CanBeFilterable&gt;false&lt;/CanBeFilterable&gt;
       &lt;FormatFilters&gt;false&lt;/FormatFilters&gt;
       &lt;OrderIndex&gt;2&lt;/OrderIndex&gt;
-      &lt;Template&gt;_[$.embedded.events.images.url]
+      &lt;Template&gt;_[$.images.url]
 ----[$.images]
---[$.images[0].url]&lt;/Template&gt;
+--[embedded.events.images&quot;[0]&quot;.url]&lt;/Template&gt;
       &lt;FormatterParameters /&gt;
       &lt;TooltipEnabled&gt;false&lt;/TooltipEnabled&gt;
       &lt;TooltipOrientation&gt;top&lt;/TooltipOrientation&gt;
