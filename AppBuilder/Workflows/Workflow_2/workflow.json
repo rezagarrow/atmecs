@@ -32,7 +32,7 @@
           {
             "Id": 20,
             "Name": "Code",
-            "Value": "var data = JSON.parse(AttractionsJSON);\nreturn data[0].name",
+            "Value": "var att = JSON.parse(AttractionsJSON);\nvar template = ''\natt.forEach(function(at){ \ntemplate = \n`<h4><b>${at.name}<b></h4>`\n})\n\nreturn template",
             "IsExpression": false,
             "ActionId": 3,
             "OrderIndex": 0,
@@ -68,7 +68,7 @@
   "CreatedBy": "SuperUser Account",
   "CreatedOn": "2021-02-19T12:41:55.8127431+00:00",
   "LastModifiedBy": "SuperUser Account",
-  "LastModifiedOn": "2021-02-19T12:43:27.9031568+00:00",
+  "LastModifiedOn": "2021-02-19T12:46:20.5687921+00:00",
   "InputFields": [
     {
       "Id": 4,
