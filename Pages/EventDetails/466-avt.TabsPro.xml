@@ -45,8 +45,8 @@
   &lt;TabsProRootClass /&gt;
   &lt;LoadProgressively&gt;False&lt;/LoadProgressively&gt;
   &lt;Effect&gt;fade&lt;/Effect&gt;
-  &lt;PersistOnPostback&gt;True&lt;/PersistOnPostback&gt;
-  &lt;PersistInUrl&gt;True&lt;/PersistInUrl&gt;
+  &lt;PersistOnPostback&gt;False&lt;/PersistOnPostback&gt;
+  &lt;PersistInUrl&gt;False&lt;/PersistInUrl&gt;
   &lt;PersistInCookies&gt;False&lt;/PersistInCookies&gt;
   &lt;Dlg_Display&gt;False&lt;/Dlg_Display&gt;
   &lt;Dlg_HtmlTrigger /&gt;
