@@ -30,11 +30,25 @@
   ],
   "Actions": [
     {
-      "ActionType": "RawResponse",
-      "OrderIndex": 2,
+      "ActionType": "PlantAnApp.ExecuteWorkflow.1",
+      "OrderIndex": 0,
       "Parameters": {
-        "Content": "[REP]",
-        "HttpCode": "",
+        "InputHelpText": "",
+        "Id": "[Id]",
+        "prop": "[Prop]",
+        "OutputHelpText": "",
+        "PropData": "[PropData]"
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {}
+    },
+    {
+      "ActionType": "RawResponse",
+      "OrderIndex": 1,
+      "Parameters": {
+        "Content": "[PropData]",
+        "HttpCode": "200 OK",
         "Headers": ""
       },
       "IsEnabled": true,
