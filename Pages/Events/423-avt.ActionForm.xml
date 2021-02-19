@@ -372,7 +372,7 @@
       &lt;OverrideName /&gt;
       &lt;Name&gt;FilterbyCategories&lt;/Name&gt;
       &lt;HelpText&gt;&lt;![CDATA[]]&gt;&lt;/HelpText&gt;
-      &lt;ShowCondition&gt;&lt;![CDATA[]]&gt;&lt;/ShowCondition&gt;
+      &lt;ShowCondition&gt;&lt;![CDATA[0]]&gt;&lt;/ShowCondition&gt;
       &lt;ValidationCondition&gt;&lt;![CDATA[]]&gt;&lt;/ValidationCondition&gt;
       &lt;CanValidate&gt;&lt;![CDATA[True]]&gt;&lt;/CanValidate&gt;
       &lt;BindShow&gt;&lt;![CDATA[]]&gt;&lt;/BindShow&gt;
@@ -381,7 +381,7 @@
       &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
       &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
       &lt;InputType&gt;closed-multiple-dropdown&lt;/InputType&gt;
-      &lt;InputData&gt;{&quot;LinkTo&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:[],&quot;IsExpression&quot;:false},&quot;Empty&quot;:&quot;&quot;,&quot;DataSource&quot;:{&quot;Value&quot;:&quot;ServerRequest&quot;,&quot;Parameters&quot;:{&quot;Items&quot;:&quot;First Item\nSecond Item|WithDifferentValue&quot;,&quot;HttpMethod&quot;:{&quot;Value&quot;:&quot;GET&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;Url&quot;:&quot;https://app.ticketmaster.com/discovery/v2/classifications/segments/KZFzniwnSyZfZ7v7nE.json?apikey=iyiEIqjIFTJdeeKOGKkb9jgK1J8GEGxC&quot;,&quot;TextProperty&quot;:&quot;_embedded.genres.name&quot;,&quot;ValueProperty&quot;:&quot;_embedded.genres.id&quot;,&quot;JsonPath&quot;:&quot;_embedded.genres&quot;,&quot;CustomHeaders&quot;:[]}},&quot;Value&quot;:&quot;&quot;,&quot;Other&quot;:&quot;&quot;,&quot;SaveToReport&quot;:false}&lt;/InputData&gt;
+      &lt;InputData&gt;{&quot;LinkTo&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:[],&quot;IsExpression&quot;:false},&quot;Empty&quot;:&quot;&quot;,&quot;DataSource&quot;:{&quot;Value&quot;:&quot;ServerRequest&quot;,&quot;Parameters&quot;:{&quot;Items&quot;:&quot;First Item\nSecond Item|WithDifferentValue&quot;,&quot;HttpMethod&quot;:{&quot;Value&quot;:&quot;GET&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;Url&quot;:&quot;https://app.ticketmaster.com/discovery/v2/classifications/segments/KZFzniwnSyZfZ7v7nE.json?apikey=[Auth:ApiKey]&quot;,&quot;TextProperty&quot;:&quot;_embedded.genres.name&quot;,&quot;ValueProperty&quot;:&quot;_embedded.genres.id&quot;,&quot;JsonPath&quot;:&quot;_embedded.genres&quot;,&quot;CustomHeaders&quot;:[],&quot;PathProperty&quot;:&quot;_embedded.genres&quot;}},&quot;Value&quot;:&quot;&quot;,&quot;Other&quot;:&quot;&quot;,&quot;SaveToReport&quot;:false}&lt;/InputData&gt;
       &lt;LinkTo&gt;
         &lt;Expression /&gt;
         &lt;Value&gt;System.Collections.ArrayList&lt;/Value&gt;
