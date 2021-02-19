@@ -105,7 +105,7 @@
     &lt;Template&gt;listingcards&lt;/Template&gt;
     &lt;MobileTemplate&gt;listing&lt;/MobileTemplate&gt;
     &lt;SwitchingTemplates&gt;False&lt;/SwitchingTemplates&gt;
-    &lt;TemplateConfig&gt;{&quot;entriesPerRowMobile&quot;:{&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{},&quot;Value&quot;:2},&quot;entriesPerRowTablet&quot;:{&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{},&quot;Value&quot;:2},&quot;entriesPerRowDesktop&quot;:{&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{},&quot;Value&quot;:2},&quot;entriesPerRowLarge&quot;:{&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{},&quot;Value&quot;:2}}&lt;/TemplateConfig&gt;
+    &lt;TemplateConfig&gt;{&quot;entriesPerRowMobile&quot;:{&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{},&quot;Value&quot;:2},&quot;entriesPerRowTablet&quot;:{&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{},&quot;Value&quot;:3},&quot;entriesPerRowDesktop&quot;:{&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{},&quot;Value&quot;:3},&quot;entriesPerRowLarge&quot;:{&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{},&quot;Value&quot;:3}}&lt;/TemplateConfig&gt;
   &lt;/Settings&gt;
   &lt;Fields&gt;
     &lt;FieldInfo&gt;
@@ -341,7 +341,7 @@
     &lt;/FieldInfo&gt;
     &lt;FieldInfo&gt;
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
-      &lt;Title&gt;promoter.description&lt;/Title&gt;
+      &lt;Title&gt;promoter.descripti&lt;/Title&gt;
       &lt;RefName&gt;promoter.description&lt;/RefName&gt;
       &lt;IsEnabled&gt;true&lt;/IsEnabled&gt;
       &lt;IsInitiallyVisible&gt;true&lt;/IsInitiallyVisible&gt;
@@ -356,6 +356,9 @@
       &lt;OrderIndex&gt;4&lt;/OrderIndex&gt;
       &lt;FormatterParameters /&gt;
       &lt;TooltipEnabled&gt;false&lt;/TooltipEnabled&gt;
+      &lt;TooltipOrientation&gt;top&lt;/TooltipOrientation&gt;
+      &lt;TooltipDataTrigger&gt;click&lt;/TooltipDataTrigger&gt;
+      &lt;TooltipIconPosition&gt;right&lt;/TooltipIconPosition&gt;
       &lt;TooltipInEdit&gt;false&lt;/TooltipInEdit&gt;
       &lt;TooltipHeight&gt;0&lt;/TooltipHeight&gt;
       &lt;TooltipWidth&gt;0&lt;/TooltipWidth&gt;
