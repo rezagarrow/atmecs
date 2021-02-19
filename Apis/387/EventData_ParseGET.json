@@ -37,7 +37,7 @@
         "Id": "[Id]",
         "prop": "[Prop]",
         "OutputHelpText": "",
-        "PropData": "[PropData]"
+        "PropData": "PropData"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
