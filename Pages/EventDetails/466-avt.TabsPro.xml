@@ -91,7 +91,7 @@
         &lt;Module&gt;
           &lt;ModuleId&gt;467&lt;/ModuleId&gt;
           &lt;ModuleTitle&gt;Event Details Description&lt;/ModuleTitle&gt;
-          &lt;ModuleOrder&gt;8&lt;/ModuleOrder&gt;
+          &lt;ModuleOrder&gt;7&lt;/ModuleOrder&gt;
           &lt;DisplayTitle&gt;False&lt;/DisplayTitle&gt;
         &lt;/Module&gt;
       &lt;/Modules&gt;
@@ -114,7 +114,14 @@
       &lt;Localization&gt;
         &lt;en-US&gt;Weather&lt;/en-US&gt;
       &lt;/Localization&gt;
-      &lt;Modules /&gt;
+      &lt;Modules&gt;
+        &lt;Module&gt;
+          &lt;ModuleId&gt;470&lt;/ModuleId&gt;
+          &lt;ModuleTitle&gt;Event Detail Weather&lt;/ModuleTitle&gt;
+          &lt;ModuleOrder&gt;9&lt;/ModuleOrder&gt;
+          &lt;DisplayTitle&gt;False&lt;/DisplayTitle&gt;
+        &lt;/Module&gt;
+      &lt;/Modules&gt;
     &lt;/Tab&gt;
     &lt;Tab&gt;
       &lt;Title&gt;Attractions&lt;/Title&gt;
@@ -138,7 +145,7 @@
         &lt;Module&gt;
           &lt;ModuleId&gt;469&lt;/ModuleId&gt;
           &lt;ModuleTitle&gt;Event Details Attractions&lt;/ModuleTitle&gt;
-          &lt;ModuleOrder&gt;9&lt;/ModuleOrder&gt;
+          &lt;ModuleOrder&gt;8&lt;/ModuleOrder&gt;
           &lt;DisplayTitle&gt;False&lt;/DisplayTitle&gt;
         &lt;/Module&gt;
       &lt;/Modules&gt;
