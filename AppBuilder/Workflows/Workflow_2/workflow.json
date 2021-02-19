@@ -8,139 +8,55 @@
     "EventName": "Event",
     "Actions": [
       {
-        "Id": 4,
-        "ActionType": "ExecuteApiMethod",
+        "Id": 5,
+        "ActionType": "PlantAnApp.ExecuteWorkflow.1",
         "OrderIndex": 0,
         "ActionParameters": [
           {
-            "Id": 23,
-            "Name": "ApiModule",
-            "Value": "387",
+            "Id": 34,
+            "Name": "InputHelpText",
             "IsExpression": false,
-            "ActionId": 4,
+            "ActionId": 5,
             "OrderIndex": 0,
             "SubParameters": []
           },
           {
-            "Id": 24,
-            "Name": "MethodName",
-            "Value": "EventData_Parse#GET",
+            "Id": 35,
+            "Name": "Id",
+            "Value": "[Id]",
             "IsExpression": false,
-            "ActionId": 4,
+            "ActionId": 5,
             "OrderIndex": 0,
             "SubParameters": []
           },
           {
-            "Id": 25,
-            "Name": "HttpMethod",
+            "Id": 36,
+            "Name": "prop",
+            "Value": "attractions",
             "IsExpression": false,
-            "ActionId": 4,
+            "ActionId": 5,
             "OrderIndex": 0,
             "SubParameters": []
           },
           {
-            "Id": 26,
-            "Name": "ProcessResponseType",
-            "Value": "1",
+            "Id": 37,
+            "Name": "OutputHelpText",
             "IsExpression": false,
-            "ActionId": 4,
+            "ActionId": 5,
             "OrderIndex": 0,
             "SubParameters": []
           },
           {
-            "Id": 27,
-            "Name": "MethodInputs",
-            "IsExpression": false,
-            "ActionId": 4,
-            "OrderIndex": 0,
-            "SubParameters": []
-          },
-          {
-            "Id": 28,
-            "Name": "MethodInputsList",
-            "Value": [
-              {
-                "MethodInputName": {
-                  "IsExpression": false,
-                  "Expression": "",
-                  "Value": "Id"
-                },
-                "MethodInputValue": {
-                  "IsExpression": false,
-                  "Expression": "",
-                  "Value": "[Id]"
-                }
-              },
-              {
-                "MethodInputName": {
-                  "IsExpression": false,
-                  "Expression": "",
-                  "Value": "prop"
-                },
-                "MethodInputValue": {
-                  "IsExpression": false,
-                  "Expression": "",
-                  "Value": "attractions"
-                }
-              }
-            ],
-            "IsExpression": false,
-            "ActionId": 4,
-            "OrderIndex": 0,
-            "SubParameters": [
-              {
-                "Id": 29,
-                "Name": "MethodInputName",
-                "Value": "Id",
-                "ParentParameterId": 28,
-                "IsExpression": false,
-                "ActionId": 4,
-                "OrderIndex": 0,
-                "SubParameters": []
-              },
-              {
-                "Id": 30,
-                "Name": "MethodInputValue",
-                "Value": "[Id]",
-                "ParentParameterId": 28,
-                "IsExpression": false,
-                "ActionId": 4,
-                "OrderIndex": 0,
-                "SubParameters": []
-              },
-              {
-                "Id": 31,
-                "Name": "MethodInputName",
-                "Value": "prop",
-                "ParentParameterId": 28,
-                "IsExpression": false,
-                "ActionId": 4,
-                "OrderIndex": 1,
-                "SubParameters": []
-              },
-              {
-                "Id": 32,
-                "Name": "MethodInputValue",
-                "Value": "attractions",
-                "ParentParameterId": 28,
-                "IsExpression": false,
-                "ActionId": 4,
-                "OrderIndex": 1,
-                "SubParameters": []
-              }
-            ]
-          },
-          {
-            "Id": 33,
-            "Name": "OutputTokenName",
+            "Id": 38,
+            "Name": "PropData",
             "Value": "AttractionsJSON",
             "IsExpression": false,
-            "ActionId": 4,
+            "ActionId": 5,
             "OrderIndex": 0,
             "SubParameters": []
           }
         ],
-        "DiagramUID": "Activity_14zavow"
+        "DiagramUID": "Activity_1e6ovhv"
       },
       {
         "Id": 3,
@@ -203,7 +119,7 @@
   "CreatedBy": "SuperUser Account",
   "CreatedOn": "2021-02-19T12:41:55.8127431+00:00",
   "LastModifiedBy": "SuperUser Account",
-  "LastModifiedOn": "2021-02-19T13:09:28.1280989+00:00",
+  "LastModifiedOn": "2021-02-19T13:11:49.0292294+00:00",
   "InputFields": [
     {
       "Id": 4,
