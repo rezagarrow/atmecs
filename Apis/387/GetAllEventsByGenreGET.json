@@ -82,21 +82,10 @@
       "Metadata": {}
     },
     {
-      "ActionType": "ParseJsonIntoTokens",
-      "OrderIndex": 2,
-      "Parameters": {
-        "JsonString": "[ParsedResult:.events]",
-        "BaseTokenName": "ParsedName"
-      },
-      "IsEnabled": true,
-      "ExecutionType": "OnExecute",
-      "Metadata": {}
-    },
-    {
       "ActionType": "LogError",
       "OrderIndex": 3,
       "Parameters": {
-        "Message": "[ParsedResult:.events]\nname: ----[ParsedName:0.name]---------\nevents: [ParsedResult:_embedded.events=]"
+        "Message": "[ParsedResult:events]\nevents: [ParsedResult:_embedded.events=]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
