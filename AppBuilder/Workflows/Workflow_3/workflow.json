@@ -130,6 +130,7 @@
           {
             "Id": 53,
             "Name": "OutputTokenName",
+            "Value": "result",
             "IsExpression": false,
             "ActionId": 6,
             "OrderIndex": 0,
@@ -174,13 +175,69 @@
           }
         ],
         "DiagramUID": "Activity_0gn7slt"
+      },
+      {
+        "Id": 7,
+        "ActionType": "ExecuteJavascript",
+        "OrderIndex": 1,
+        "ActionParameters": [
+          {
+            "Id": 58,
+            "Name": "ScriptName",
+            "IsExpression": false,
+            "ActionId": 7,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 59,
+            "Name": "LocalVariables",
+            "Value": [],
+            "IsExpression": false,
+            "ActionId": 7,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 60,
+            "Name": "Code",
+            "Value": "var data = JSON.parse(result).daily\n\nfunction tc(valNum) {\n  valNum = parseFloat(valNum);\n  return (((valNum-273.15)*1.8)+32).toFixed(1);\n}\n\nvar response = data.map(function(o){\nreturn {'date':new Date(o.dt * 1000).toDateString(), 'weather': `${o.weather[0].main} (${o.weather[0].description})`, 'day': `${tc(o.temp.day)}°F`, 'morn': `${tc(o.temp.morn)}°F`, 'eve': `${tc(o.temp.eve)}°F`, 'night': `${tc(o.temp.night)}°F`, 'windSpeed': `${o.wind_speed} miles`} \n})",
+            "IsExpression": false,
+            "ActionId": 7,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 61,
+            "Name": "OutputTokenName",
+            "Value": "Response",
+            "IsExpression": false,
+            "ActionId": 7,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 62,
+            "Name": "OnError",
+            "Value": {
+              "Id": 7,
+              "EventName": "error",
+              "Actions": []
+            },
+            "IsExpression": false,
+            "ActionId": 7,
+            "OrderIndex": 0,
+            "SubParameters": []
+          }
+        ],
+        "DiagramUID": "Activity_026ofuj"
       }
     ]
   },
   "CreatedBy": "SuperUser Account",
   "CreatedOn": "2021-02-19T14:58:51.4696081+00:00",
   "LastModifiedBy": "SuperUser Account",
-  "LastModifiedOn": "2021-02-19T14:59:02.3754558+00:00",
+  "LastModifiedOn": "2021-02-19T15:09:18.7596444+00:00",
   "InputFields": [
     {
       "Id": 7,
@@ -197,5 +254,14 @@
       "IsDeleted": false
     }
   ],
-  "OutputFields": []
+  "OutputFields": [
+    {
+      "Value": "[Response]",
+      "Id": 9,
+      "Name": "Response",
+      "InputType": "Text",
+      "WorkflowId": 3,
+      "IsDeleted": false
+    }
+  ]
 }
