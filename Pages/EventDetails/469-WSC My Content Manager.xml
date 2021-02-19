@@ -1,9 +1,10 @@
 <module type="WebSitesCreativeMyContentManager" version="03.05.03.00">
+    <contentKey />
     <moduleID>469</moduleID>
     <alignment />
     <alltabs>false</alltabs>
     <border />
-    <cachemethod />
+    <cachemethod>MemoryModuleCachingProvider</cachemethod>
     <cachetime>1200</cachetime>
     <color />
     <containersrc />
@@ -23,18 +24,23 @@
             <rolename>Administrators</rolename>
         </permission>
     </modulepermissions>
-    <title>WSC My Content Manager</title>
+    <title>Event Details Attractions</title>
     <startdate>0001-01-01T00:00:00</startdate>
-    <uniqueId>11cec461-a8eb-442e-8ba3-2cb7cd175b08</uniqueId>
+    <uniqueId>9e89678e-853c-44e7-83a8-8c49880fe0af</uniqueId>
     <visibility>Maximized</visibility>
+    <cultureCode />
     <modulesettings>
         <modulesetting>
-            <settingname>CurrentSkinTheme</settingname>
-            <settingvalue>HTML</settingvalue>
+            <settingname>BackgroundCustomImage</settingname>
+            <settingvalue>e3ca6bcd-1635-4fbd-98b2-338ad7e1ad07.jpg</settingvalue>
         </modulesetting>
         <modulesetting>
             <settingname>ThemeLocationMode</settingname>
             <settingvalue>SkinLocation</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>CurrentSkinTheme</settingname>
+            <settingvalue>HTML</settingvalue>
         </modulesetting>
     </modulesettings>
     <tabmodulesettings />
