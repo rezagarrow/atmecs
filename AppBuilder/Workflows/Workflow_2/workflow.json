@@ -1,0 +1,91 @@
+{
+  "Id": 2,
+  "Name": "Generate Attractions Template",
+  "Description": "",
+  "IsDebug": false,
+  "ActionList": {
+    "Id": 3,
+    "EventName": "Event",
+    "Actions": [
+      {
+        "Id": 3,
+        "ActionType": "ExecuteJavascript",
+        "OrderIndex": 0,
+        "ActionParameters": [
+          {
+            "Id": 18,
+            "Name": "ScriptName",
+            "IsExpression": false,
+            "ActionId": 3,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 19,
+            "Name": "LocalVariables",
+            "Value": [],
+            "IsExpression": false,
+            "ActionId": 3,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 20,
+            "Name": "Code",
+            "Value": "var data = JSON.parse(AttractionsJSON);\nreturn data[0].name",
+            "IsExpression": false,
+            "ActionId": 3,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 21,
+            "Name": "OutputTokenName",
+            "Value": "name",
+            "IsExpression": false,
+            "ActionId": 3,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 22,
+            "Name": "OnError",
+            "Value": {
+              "Id": 4,
+              "EventName": "error",
+              "Actions": []
+            },
+            "IsExpression": false,
+            "ActionId": 3,
+            "OrderIndex": 0,
+            "SubParameters": []
+          }
+        ],
+        "DiagramUID": "Activity_0zqfx2q"
+      }
+    ]
+  },
+  "CreatedBy": "SuperUser Account",
+  "CreatedOn": "2021-02-19T12:41:55.8127431+00:00",
+  "LastModifiedBy": "SuperUser Account",
+  "LastModifiedOn": "2021-02-19T12:41:55.8127431+00:00",
+  "InputFields": [
+    {
+      "Id": 4,
+      "Name": "AttractionsJSON",
+      "InputType": "LargeText",
+      "WorkflowId": 2,
+      "IsDeleted": false
+    }
+  ],
+  "OutputFields": [
+    {
+      "Value": "[name]",
+      "Id": 5,
+      "Name": "Template",
+      "InputType": "Text",
+      "WorkflowId": 2,
+      "IsDeleted": false
+    }
+  ]
+}
