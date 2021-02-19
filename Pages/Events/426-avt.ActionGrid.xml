@@ -187,7 +187,7 @@
              
             &amp;lt;/div&amp;gt;
             &amp;lt;div class=&quot;room-details&quot;&amp;gt;
-                &amp;lt;p&amp;gt;Local date: [localDate]&amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Date:&amp;lt;/b&amp;gt; [localDate]&amp;lt;/p&amp;gt;
  
             &amp;lt;/div&amp;gt;
         &amp;lt;/div&amp;gt;&lt;/Template&gt;
