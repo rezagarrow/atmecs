@@ -1,0 +1,28 @@
+<module type="DNNHTML" version="09.08.00.00">
+    <moduleID>471</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod />
+    <cachetime>1200</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <modulepermissions />
+    <title>Enter Title</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>8165ee1f-2d7f-404d-ad7e-38506179c0d6</uniqueId>
+    <visibility>Maximized</visibility>
+    <cultureCode />
+    <modulesettings />
+    <tabmodulesettings />
+    <definition>DNN_HTML</definition>
+    <moduledefinition>Text/HTML</moduledefinition>
+</module>
