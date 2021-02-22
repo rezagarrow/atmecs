@@ -51,10 +51,24 @@
       "Metadata": {}
     },
     {
-      "ActionType": "RawResponse",
+      "ActionType": "ExecuteJavascript",
       "OrderIndex": 1,
       "Parameters": {
-        "Content": "[Result]",
+        "ScriptName": "parseResult",
+        "LocalVariables": "",
+        "Code": "var jsonObj=JSON.parse(Result);\nvar response = jsonObj._embedded.attractions.map(function(data){\nvar parseData = {};\nparseData.id=  data.id\nparseData.name =  data.name\nparseData.mainImage = data.images.filter(obj => {return obj.width = 1024 && obj.ratio == '16_9'})[0].url;\nparseData.localDate = new Date(data.dates.start.localDate).toLocaleDateString() ?? 'TBD'\nreturn parseData;\n})\nreturn JSON.stringify(response );",
+        "OutputTokenName": "newObject",
+        "OnError": []
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {}
+    },
+    {
+      "ActionType": "RawResponse",
+      "OrderIndex": 2,
+      "Parameters": {
+        "Content": "[newObject]",
         "HttpCode": "200 OK",
         "Headers": [
           {
