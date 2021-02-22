@@ -174,7 +174,7 @@
       &lt;IsSortable&gt;true&lt;/IsSortable&gt;
       &lt;CanBeSortable&gt;true&lt;/CanBeSortable&gt;
       &lt;IsSearchable&gt;true&lt;/IsSearchable&gt;
-      &lt;AllowHtml&gt;false&lt;/AllowHtml&gt;
+      &lt;AllowHtml&gt;true&lt;/AllowHtml&gt;
       &lt;CanBeSearchable&gt;true&lt;/CanBeSearchable&gt;
       &lt;IsFilterable&gt;false&lt;/IsFilterable&gt;
       &lt;CanBeFilterable&gt;true&lt;/CanBeFilterable&gt;
@@ -182,6 +182,9 @@
       &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
       &lt;FormatterParameters /&gt;
       &lt;TooltipEnabled&gt;false&lt;/TooltipEnabled&gt;
+      &lt;TooltipOrientation&gt;top&lt;/TooltipOrientation&gt;
+      &lt;TooltipDataTrigger&gt;click&lt;/TooltipDataTrigger&gt;
+      &lt;TooltipIconPosition&gt;right&lt;/TooltipIconPosition&gt;
       &lt;TooltipInEdit&gt;false&lt;/TooltipInEdit&gt;
       &lt;TooltipHeight&gt;0&lt;/TooltipHeight&gt;
       &lt;TooltipWidth&gt;0&lt;/TooltipWidth&gt;
