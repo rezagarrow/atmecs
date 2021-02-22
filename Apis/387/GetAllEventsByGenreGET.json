@@ -52,12 +52,39 @@
   ],
   "Actions": [
     {
-      "Description": "&city=[city]&attractionId=[attractionId]",
-      "ActionType": "PostData",
+      "ActionType": "InjectData",
       "OrderIndex": 0,
       "Parameters": {
+        "Data": [
+          {
+            "value": "[genreId=]",
+            "name": "genreIdParam"
+          },
+          {
+            "value": "[keyword=]",
+            "name": "keywordParam"
+          },
+          {
+            "value": "[city=]",
+            "name": "cityParam"
+          },
+          {
+            "value": "[attractionId=]",
+            "name": "attractionIdParam"
+          }
+        ]
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {}
+    },
+    {
+      "Description": "&city=[city]&attractionId=[attractionId]",
+      "ActionType": "PostData",
+      "OrderIndex": 1,
+      "Parameters": {
         "InputParameters": "",
-        "URL": "https://app.ticketmaster.com/discovery/v2/events.json?apikey=[Auth:ApiKey]&genreId=[genreId]&keyword=[keyword]",
+        "URL": "https://app.ticketmaster.com/discovery/v2/events.json?apikey=[Auth:ApiKey][If:DisplayIfNotEmpty(Condition='[genreIdParam]!= \"\"', DisplayText='&genreId=[genreIdParam]', DefaultValue='')][If:DisplayIfNotEmpty(Condition='[keywordParam]!= \"\"', DisplayText='&keyword=[keywordParam]', DefaultValue='')][If:DisplayIfNotEmpty(Condition='[cityParam]!= \"\"', DisplayText='&city=[cityParam]', DefaultValue='')][If:DisplayIfNotEmpty(Condition='[attractionIdParam]!= \"\"', DisplayText='&attractionId=[attractionIdParam]', DefaultValue='')]",
         "UrlTokenContext": {
           "Expression": "",
           "Value": "Url",
@@ -97,7 +124,7 @@
     },
     {
       "ActionType": "ExecuteJavascript",
-      "OrderIndex": 1,
+      "OrderIndex": 2,
       "Condition": "",
       "Parameters": {
         "ScriptName": "addObjectproperty",
@@ -112,7 +139,7 @@
     },
     {
       "ActionType": "RawResponse",
-      "OrderIndex": 2,
+      "OrderIndex": 3,
       "Parameters": {
         "Content": "[newObject]",
         "HttpCode": "200 OK",
