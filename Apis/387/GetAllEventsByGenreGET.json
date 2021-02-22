@@ -52,11 +52,12 @@
   ],
   "Actions": [
     {
+      "Description": "&city=[city]&attractionId=[attractionId]",
       "ActionType": "PostData",
       "OrderIndex": 0,
       "Parameters": {
         "InputParameters": "",
-        "URL": "https://app.ticketmaster.com/discovery/v2/events.json?apikey=[Auth:ApiKey]&genreId=[genreId]&keyword=[keyword]&city=[city]&attractionId=[attractionId]",
+        "URL": "https://app.ticketmaster.com/discovery/v2/events.json?apikey=[Auth:ApiKey]&genreId=[genreId]&keyword=[keyword]",
         "UrlTokenContext": {
           "Expression": "",
           "Value": "Url",
