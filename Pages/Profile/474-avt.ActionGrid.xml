@@ -46,7 +46,7 @@
     &lt;OnRefreshJs /&gt;
     &lt;EnableEmbed&gt;False&lt;/EnableEmbed&gt;
     &lt;ShowCondition /&gt;
-    &lt;SearchPlaceholder&gt;Search&lt;/SearchPlaceholder&gt;
+    &lt;SearchPlaceholder&gt;Search favorites&lt;/SearchPlaceholder&gt;
     &lt;SearchDelayTime&gt;300&lt;/SearchDelayTime&gt;
     &lt;TableHeight /&gt;
     &lt;PagerStyle&gt;TouchFriendly&lt;/PagerStyle&gt;
