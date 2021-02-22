@@ -134,6 +134,7 @@
                     },
                     {
                       "Id": 3,
+                      "ActionErrorMessage": "This failled",
                       "ActionType": "ExecuteJavascript",
                       "OrderIndex": 1,
                       "ActionParameters": [
@@ -331,7 +332,7 @@
   "CreatedBy": "SuperUser Account",
   "CreatedOn": "2021-02-19T12:41:55.8127431+00:00",
   "LastModifiedBy": "SuperUser Account",
-  "LastModifiedOn": "2021-02-22T15:13:26.5244362+00:00",
+  "LastModifiedOn": "2021-02-22T15:22:55.2227647+00:00",
   "InputFields": [
     {
       "Required": false,
