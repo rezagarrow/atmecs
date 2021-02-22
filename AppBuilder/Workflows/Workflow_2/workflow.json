@@ -59,68 +59,178 @@
         "DiagramUID": "Activity_1e6ovhv"
       },
       {
-        "Id": 3,
-        "Condition": "[AttractionsJSON] != \"\"",
-        "ActionType": "ExecuteJavascript",
+        "Id": 10,
+        "Description": "",
+        "ActionErrorMessage": "",
+        "Condition": "",
+        "ActionType": "PlantAnApp.ExecuteConditionally",
         "OrderIndex": 1,
         "ActionParameters": [
           {
-            "Id": 18,
-            "Name": "ScriptName",
+            "Id": 73,
+            "Name": "ConditionedActions",
+            "Value": [
+              {
+                "Condition": {
+                  "IsExpression": false,
+                  "Expression": "",
+                  "Value": "[AttractionsJSON] != \"\""
+                },
+                "Actions": {
+                  "Id": 8,
+                  "EventName": "click",
+                  "Actions": [
+                    {
+                      "Id": 3,
+                      "ActionType": "ExecuteJavascript",
+                      "OrderIndex": 0,
+                      "ActionParameters": [
+                        {
+                          "Id": 18,
+                          "Name": "ScriptName",
+                          "IsExpression": false,
+                          "ActionId": 3,
+                          "OrderIndex": 0,
+                          "SubParameters": []
+                        },
+                        {
+                          "Id": 19,
+                          "Name": "LocalVariables",
+                          "Value": [],
+                          "IsExpression": false,
+                          "ActionId": 3,
+                          "OrderIndex": 0,
+                          "SubParameters": []
+                        },
+                        {
+                          "Id": 20,
+                          "Name": "Code",
+                          "Value": "function getLinks(externalLinks){\n\tvar links = ''\n\tObject.keys(externalLinks ?? {}).forEach(function(o){links +=`<p><a href=\"${externalLinks[o][0].url}\">${capitalizeFirstLetter(o)}</a></p>`})\n\treturn links;\n}\n\nfunction capitalizeFirstLetter(string) {\n\treturn string.charAt(0).toUpperCase() + string.slice(1);\n}\n\nvar att = JSON.parse(AttractionsJSON);\n\nvar template = ''\natt.forEach(function(at){ \n\ttemplate = \n\t`<h4><b>${at.name}</b></h4>\n    <img src=\"${at.images.filter(obj => {return obj.width == 640 && obj.ratio == '16_9'})[0].url}\">\n\t<div>${getLinks(at.externalLinks)}</div>\n\t<br>\n\t`\n})\n\nreturn template",
+                          "IsExpression": false,
+                          "ActionId": 3,
+                          "OrderIndex": 0,
+                          "SubParameters": []
+                        },
+                        {
+                          "Id": 21,
+                          "Name": "OutputTokenName",
+                          "Value": "name",
+                          "IsExpression": false,
+                          "ActionId": 3,
+                          "OrderIndex": 0,
+                          "SubParameters": []
+                        },
+                        {
+                          "Id": 22,
+                          "Name": "OnError",
+                          "Value": {
+                            "Id": 4,
+                            "EventName": "error",
+                            "Actions": []
+                          },
+                          "IsExpression": false,
+                          "ActionId": 3,
+                          "OrderIndex": 0,
+                          "SubParameters": []
+                        }
+                      ],
+                      "DiagramUID": "Activity_0zqfx2q"
+                    }
+                  ]
+                }
+              },
+              {
+                "Condition": {
+                  "IsExpression": false,
+                  "Expression": "",
+                  "Value": "[AttractionsJSON] == \"\""
+                },
+                "Actions": {
+                  "Id": 9,
+                  "EventName": "click",
+                  "Actions": [
+                    {
+                      "Id": 11,
+                      "ActionType": "InjectData",
+                      "OrderIndex": 0,
+                      "ActionParameters": [
+                        {
+                          "Id": 77,
+                          "Name": "Data",
+                          "Value": [
+                            {
+                              "value": "No attractions",
+                              "$$hashKey": "object:17",
+                              "name": "name"
+                            }
+                          ],
+                          "IsExpression": false,
+                          "ActionId": 11,
+                          "OrderIndex": 0,
+                          "SubParameters": []
+                        }
+                      ],
+                      "DiagramUID": "Activity_0bqdar3"
+                    }
+                  ]
+                }
+              }
+            ],
             "IsExpression": false,
-            "ActionId": 3,
+            "ActionId": 10,
             "OrderIndex": 0,
-            "SubParameters": []
-          },
-          {
-            "Id": 19,
-            "Name": "LocalVariables",
-            "Value": [],
-            "IsExpression": false,
-            "ActionId": 3,
-            "OrderIndex": 0,
-            "SubParameters": []
-          },
-          {
-            "Id": 20,
-            "Name": "Code",
-            "Value": "function getLinks(externalLinks){\n\tvar links = ''\n\tObject.keys(externalLinks ?? {}).forEach(function(o){links +=`<p><a href=\"${externalLinks[o][0].url}\">${capitalizeFirstLetter(o)}</a></p>`})\n\treturn links;\n}\n\nfunction capitalizeFirstLetter(string) {\n\treturn string.charAt(0).toUpperCase() + string.slice(1);\n}\n\nvar att = JSON.parse(AttractionsJSON);\n\nvar template = ''\natt.forEach(function(at){ \n\ttemplate = \n\t`<h4><b>${at.name}</b></h4>\n    <img src=\"${at.images.filter(obj => {return obj.width == 640 && obj.ratio == '16_9'})[0].url}\">\n\t<div>${getLinks(at.externalLinks)}</div>\n\t<br>\n\t`\n})\n\nreturn template",
-            "IsExpression": false,
-            "ActionId": 3,
-            "OrderIndex": 0,
-            "SubParameters": []
-          },
-          {
-            "Id": 21,
-            "Name": "OutputTokenName",
-            "Value": "name",
-            "IsExpression": false,
-            "ActionId": 3,
-            "OrderIndex": 0,
-            "SubParameters": []
-          },
-          {
-            "Id": 22,
-            "Name": "OnError",
-            "Value": {
-              "Id": 4,
-              "EventName": "error",
-              "Actions": []
-            },
-            "IsExpression": false,
-            "ActionId": 3,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "SubParameters": [
+              {
+                "Id": 74,
+                "Name": "Condition",
+                "Value": "[AttractionsJSON] != \"\"",
+                "ParentParameterId": 73,
+                "IsExpression": false,
+                "ActionId": 10,
+                "OrderIndex": 0,
+                "SubParameters": []
+              },
+              {
+                "Id": 75,
+                "Name": "Actions",
+                "Value": "8",
+                "ParentParameterId": 73,
+                "IsExpression": false,
+                "ActionId": 10,
+                "OrderIndex": 0,
+                "SubParameters": []
+              },
+              {
+                "Id": 76,
+                "Name": "Condition",
+                "Value": "[AttractionsJSON] == \"\"",
+                "ParentParameterId": 73,
+                "IsExpression": false,
+                "ActionId": 10,
+                "OrderIndex": 1,
+                "SubParameters": []
+              },
+              {
+                "Id": 78,
+                "Name": "Actions",
+                "Value": "9",
+                "ParentParameterId": 73,
+                "IsExpression": false,
+                "ActionId": 10,
+                "OrderIndex": 1,
+                "SubParameters": []
+              }
+            ]
           }
         ],
-        "DiagramUID": "Activity_0zqfx2q"
+        "DiagramUID": "Gateway_19zp87w"
       }
     ]
   },
   "CreatedBy": "SuperUser Account",
   "CreatedOn": "2021-02-19T12:41:55.8127431+00:00",
   "LastModifiedBy": "SuperUser Account",
-  "LastModifiedOn": "2021-02-22T08:45:17.1642641+00:00",
+  "LastModifiedOn": "2021-02-22T08:47:50.0986393+00:00",
   "InputFields": [
     {
       "Id": 4,
