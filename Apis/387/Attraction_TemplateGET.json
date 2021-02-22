@@ -55,7 +55,8 @@
         "Id": "[Id]",
         "OutputHelpText": "",
         "Template": "template",
-        "AttractionsJSON": ""
+        "AttractionsJSON": "",
+        "UserId": "[UserId]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
