@@ -1,4 +1,5 @@
 <module type="ActionGrid" version="05.11.13.00">
+    <contentKey />
     <moduleID>475</moduleID>
     <alignment />
     <alltabs>false</alltabs>
@@ -25,12 +26,87 @@
     </modulepermissions>
     <title>avt.ActionGrid</title>
     <startdate>0001-01-01T00:00:00</startdate>
-    <uniqueId>5646fe95-0e97-4678-a57e-b792466a8839</uniqueId>
+    <uniqueId>32ad1aec-27e8-4c7d-b63e-d20f3b06c144</uniqueId>
     <visibility>Maximized</visibility>
     <cultureCode />
     <modulesettings />
     <tabmodulesettings />
     <definition>Action Grid</definition>
     <moduledefinition>avt.ActionGrid</moduledefinition>
-    <content type="ActionGrid" version="05.11.13.00"><![CDATA[&lt;ActionGrid /&gt;]]></content>
+    <content type="ActionGrid" version="05.11.13.00"><![CDATA[&lt;ActionGrid&gt;
+  &lt;Settings&gt;
+    &lt;Version&gt;5.11.0&lt;/Version&gt;
+    &lt;Build&gt;5.11.13&lt;/Build&gt;
+    &lt;CurrentContext&gt;ExportImport&lt;/CurrentContext&gt;
+    &lt;ModuleId&gt;475&lt;/ModuleId&gt;
+    &lt;DataSource&gt;{&quot;DefinitionId&quot;:&quot;CteSqlSelect&quot;,&quot;Parameters&quot;:{&quot;ConnectionString&quot;:&quot;&quot;,&quot;SqlQuery&quot;:&quot;select * from users&quot;,&quot;BindTokens&quot;:&quot;&quot;,&quot;SqlQueryColumns&quot;:&quot;&quot;,&quot;SqlQueryInsert&quot;:&quot;&quot;,&quot;SqlQueryUpdate&quot;:&quot;&quot;,&quot;SqlQueryDelete&quot;:&quot;&quot;,&quot;IdColumn&quot;:&quot;Userid&quot;,&quot;OrderBy&quot;:&quot;&quot;,&quot;AddUrl&quot;:&quot;&quot;,&quot;EditUrl&quot;:&quot;&quot;,&quot;ViewUrl&quot;:&quot;&quot;},&quot;Fields&quot;:[{&quot;Title&quot;:&quot;UserID&quot;,&quot;Name&quot;:&quot;UserID&quot;,&quot;TypeStr&quot;:&quot;System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:true,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:true,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:true,&quot;DefaultValue&quot;:null},{&quot;Title&quot;:&quot;Username&quot;,&quot;Name&quot;:&quot;Username&quot;,&quot;TypeStr&quot;:&quot;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:true,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:true,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:true,&quot;DefaultValue&quot;:null},{&quot;Title&quot;:&quot;FirstName&quot;,&quot;Name&quot;:&quot;FirstName&quot;,&quot;TypeStr&quot;:&quot;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:true,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:true,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:true,&quot;DefaultValue&quot;:null},{&quot;Title&quot;:&quot;LastName&quot;,&quot;Name&quot;:&quot;LastName&quot;,&quot;TypeStr&quot;:&quot;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:true,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:true,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:true,&quot;DefaultValue&quot;:null},{&quot;Title&quot;:&quot;IsSuperUser&quot;,&quot;Name&quot;:&quot;IsSuperUser&quot;,&quot;TypeStr&quot;:&quot;System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:true,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:true,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:true,&quot;DefaultValue&quot;:null},{&quot;Title&quot;:&quot;AffiliateId&quot;,&quot;Name&quot;:&quot;AffiliateId&quot;,&quot;TypeStr&quot;:&quot;System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:true,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:true,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:true,&quot;DefaultValue&quot;:null},{&quot;Title&quot;:&quot;Email&quot;,&quot;Name&quot;:&quot;Email&quot;,&quot;TypeStr&quot;:&quot;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:true,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:true,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:true,&quot;DefaultValue&quot;:null},{&quot;Title&quot;:&quot;DisplayName&quot;,&quot;Name&quot;:&quot;DisplayName&quot;,&quot;TypeStr&quot;:&quot;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:true,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:true,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:true,&quot;DefaultValue&quot;:null},{&quot;Title&quot;:&quot;UpdatePassword&quot;,&quot;Name&quot;:&quot;UpdatePassword&quot;,&quot;TypeStr&quot;:&quot;System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:true,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:true,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:true,&quot;DefaultValue&quot;:null},{&quot;Title&quot;:&quot;LastIPAddress&quot;,&quot;Name&quot;:&quot;LastIPAddress&quot;,&quot;TypeStr&quot;:&quot;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:true,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:true,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:true,&quot;DefaultValue&quot;:null},{&quot;Title&quot;:&quot;IsDeleted&quot;,&quot;Name&quot;:&quot;IsDeleted&quot;,&quot;TypeStr&quot;:&quot;System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:true,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:true,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:true,&quot;DefaultValue&quot;:null},{&quot;Title&quot;:&quot;CreatedByUserID&quot;,&quot;Name&quot;:&quot;CreatedByUserID&quot;,&quot;TypeStr&quot;:&quot;System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:true,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:true,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:true,&quot;DefaultValue&quot;:null},{&quot;Title&quot;:&quot;CreatedOnDate&quot;,&quot;Name&quot;:&quot;CreatedOnDate&quot;,&quot;TypeStr&quot;:&quot;System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:true,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:true,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:true,&quot;DefaultValue&quot;:null},{&quot;Title&quot;:&quot;LastModifiedByUserID&quot;,&quot;Name&quot;:&quot;LastModifiedByUserID&quot;,&quot;TypeStr&quot;:&quot;System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:true,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:true,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:true,&quot;DefaultValue&quot;:null},{&quot;Title&quot;:&quot;LastModifiedOnDate&quot;,&quot;Name&quot;:&quot;LastModifiedOnDate&quot;,&quot;TypeStr&quot;:&quot;System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:true,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:true,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:true,&quot;DefaultValue&quot;:null},{&quot;Title&quot;:&quot;PasswordResetToken&quot;,&quot;Name&quot;:&quot;PasswordResetToken&quot;,&quot;TypeStr&quot;:&quot;System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:true,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:true,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:true,&quot;DefaultValue&quot;:null},{&quot;Title&quot;:&quot;PasswordResetExpiration&quot;,&quot;Name&quot;:&quot;PasswordResetExpiration&quot;,&quot;TypeStr&quot;:&quot;System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:true,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:true,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:true,&quot;DefaultValue&quot;:null}]}&lt;/DataSource&gt;
+    &lt;NoDataMessage&gt;No Data&lt;/NoDataMessage&gt;
+    &lt;AditionalHtmlHeader /&gt;
+    &lt;OnInitJs /&gt;
+    &lt;OnRefreshJs /&gt;
+    &lt;EnableEmbed&gt;False&lt;/EnableEmbed&gt;
+    &lt;ShowCondition /&gt;
+    &lt;SearchPlaceholder&gt;Search&lt;/SearchPlaceholder&gt;
+    &lt;SearchDelayTime&gt;300&lt;/SearchDelayTime&gt;
+    &lt;TableHeight /&gt;
+    &lt;PagerStyle&gt;TouchFriendly&lt;/PagerStyle&gt;
+    &lt;PageSizes&gt;[12,24,48]&lt;/PageSizes&gt;
+    &lt;DefaultPageSize&gt;12&lt;/DefaultPageSize&gt;
+    &lt;IsDebug&gt;False&lt;/IsDebug&gt;
+    &lt;SearchEnabled&gt;True&lt;/SearchEnabled&gt;
+    &lt;HideEmptyGrid&gt;False&lt;/HideEmptyGrid&gt;
+    &lt;LoadOnSearch&gt;False&lt;/LoadOnSearch&gt;
+    &lt;HideTableHead&gt;False&lt;/HideTableHead&gt;
+    &lt;EnableStickyHead&gt;False&lt;/EnableStickyHead&gt;
+    &lt;ItemButtonPosition&gt;Right&lt;/ItemButtonPosition&gt;
+    &lt;ItemButtonPositionInColumn&gt;Right&lt;/ItemButtonPositionInColumn&gt;
+    &lt;ItemButtonGroupingOptions&gt;HorizontalAlign&lt;/ItemButtonGroupingOptions&gt;
+    &lt;FiltersEnabled&gt;True&lt;/FiltersEnabled&gt;
+    &lt;ShowFilters&gt;False&lt;/ShowFilters&gt;
+    &lt;SyncUrl&gt;True&lt;/SyncUrl&gt;
+    &lt;IncludeBootstrapJS&gt;True&lt;/IncludeBootstrapJS&gt;
+    &lt;IncludeBootstrapCSS&gt;True&lt;/IncludeBootstrapCSS&gt;
+    &lt;IncludeFontAwesome&gt;True&lt;/IncludeFontAwesome&gt;
+    &lt;AngularnoConflict&gt;True&lt;/AngularnoConflict&gt;
+    &lt;SelectAllPosition&gt;None&lt;/SelectAllPosition&gt;
+    &lt;LoadingStyle&gt;EntireGrid&lt;/LoadingStyle&gt;
+    &lt;SearchPosition&gt;top&lt;/SearchPosition&gt;
+    &lt;RootCSSClasses /&gt;
+    &lt;ModalRefresh&gt;False&lt;/ModalRefresh&gt;
+    &lt;ShowLoading&gt;True&lt;/ShowLoading&gt;
+    &lt;TabsProLoading&gt;False&lt;/TabsProLoading&gt;
+    &lt;EnableGridSelect&gt;True&lt;/EnableGridSelect&gt;
+    &lt;DataSourceAutoRefreshInterval /&gt;
+    &lt;DataSourceRefreshType&gt;manual&lt;/DataSourceRefreshType&gt;
+    &lt;DateFormat&gt;m/d/yy&lt;/DateFormat&gt;
+    &lt;BaseId&gt;dnn475&lt;/BaseId&gt;
+    &lt;ItemButtonGroups&gt;[]&lt;/ItemButtonGroups&gt;
+    &lt;GridButtonGroups&gt;[]&lt;/GridButtonGroups&gt;
+    &lt;ItemButtons&gt;[]&lt;/ItemButtons&gt;
+    &lt;GridButtons&gt;[]&lt;/GridButtons&gt;
+    &lt;PortalHomeUrl&gt;/Portals/0/&lt;/PortalHomeUrl&gt;
+    &lt;TooltipContent /&gt;
+    &lt;TooltipDataTrigger /&gt;
+    &lt;TooltipIcon&gt;glyphicon-info-sign&lt;/TooltipIcon&gt;
+    &lt;TooltipIconPosition&gt;right&lt;/TooltipIconPosition&gt;
+    &lt;TooltipInEdit&gt;right&lt;/TooltipInEdit&gt;
+    &lt;TooltipEnabled&gt;false&lt;/TooltipEnabled&gt;
+    &lt;TooltipOrientation /&gt;
+    &lt;TooltipTitle /&gt;
+    &lt;TooltipHeight&gt;0&lt;/TooltipHeight&gt;
+    &lt;TooltipWidth&gt;0&lt;/TooltipWidth&gt;
+    &lt;RefreshOnTabChange&gt;False&lt;/RefreshOnTabChange&gt;
+    &lt;UseDragAndDropActions&gt;False&lt;/UseDragAndDropActions&gt;
+    &lt;DragAndDropActions&gt;[]&lt;/DragAndDropActions&gt;
+    &lt;InitLoadFromTabsPro&gt;False&lt;/InitLoadFromTabsPro&gt;
+    &lt;LockIntoEditMode&gt;False&lt;/LockIntoEditMode&gt;
+    &lt;LockInEditForEachRowActions&gt;[]&lt;/LockInEditForEachRowActions&gt;
+    &lt;LockInEditFinalActions&gt;[]&lt;/LockInEditFinalActions&gt;
+    &lt;Template /&gt;
+    &lt;MobileTemplate /&gt;
+    &lt;SwitchingTemplates&gt;False&lt;/SwitchingTemplates&gt;
+    &lt;TemplateConfig&gt;{}&lt;/TemplateConfig&gt;
+  &lt;/Settings&gt;
+  &lt;Fields /&gt;
+&lt;/ActionGrid&gt;]]></content>
 </module>
