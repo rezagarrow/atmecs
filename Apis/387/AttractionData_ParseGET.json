@@ -1,5 +1,5 @@
 {
-  "Name": "Attraction_Parse",
+  "Name": "AttractionData_Parse",
   "HttpMethod": "GET",
   "IsEnabled": true,
   "OrderIndex": 0,
@@ -31,7 +31,7 @@
   "Actions": [
     {
       "ActionType": "PlantAnApp.ExecuteWorkflow.4",
-      "OrderIndex": 1,
+      "OrderIndex": 0,
       "Parameters": {
         "InputHelpText": "",
         "Id": "[Id]",
@@ -45,7 +45,7 @@
     },
     {
       "ActionType": "RawResponse",
-      "OrderIndex": 2,
+      "OrderIndex": 1,
       "Parameters": {
         "Content": "[PropData]",
         "HttpCode": "200 OK",
