@@ -97,7 +97,7 @@
                         {
                           "Id": 83,
                           "Name": "Where",
-                          "Value": "User = [UserId]",
+                          "Value": "User = [User:Username(Userid=[UserId])]",
                           "IsExpression": false,
                           "ActionId": 12,
                           "OrderIndex": 0,
@@ -332,7 +332,7 @@
   "CreatedBy": "SuperUser Account",
   "CreatedOn": "2021-02-19T12:41:55.8127431+00:00",
   "LastModifiedBy": "SuperUser Account",
-  "LastModifiedOn": "2021-02-22T14:38:04.8355935+00:00",
+  "LastModifiedOn": "2021-02-22T14:38:54.9744052+00:00",
   "InputFields": [
     {
       "Required": false,
