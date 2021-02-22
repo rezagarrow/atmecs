@@ -8,8 +8,8 @@
   "Actions": [
     {
       "ActionType": "PostData",
-      "OrderIndex": 1,
-      "Condition": "/discovery/v2/attractions.json?size=1&apikey=iyiEIqjIFTJdeeKOGKkb9jgK1J8GEGx",
+      "OrderIndex": 0,
+      "Condition": "",
       "Parameters": {
         "InputParameters": "",
         "URL": "https://app.ticketmaster.com/discovery/v2/attractions.json?apikey=[Auth:ApiKey]&segmentId=KZFzniwnSyZfZ7v7nE",
@@ -52,7 +52,7 @@
     },
     {
       "ActionType": "RawResponse",
-      "OrderIndex": 2,
+      "OrderIndex": 1,
       "Parameters": {
         "Content": "[Result]",
         "HttpCode": "200 OK",
