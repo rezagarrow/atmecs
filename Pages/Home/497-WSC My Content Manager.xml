@@ -1,4 +1,5 @@
 <module type="WebSitesCreativeMyContentManager" version="03.05.03.00">
+    <contentKey />
     <moduleID>497</moduleID>
     <alignment />
     <alltabs>false</alltabs>
@@ -23,22 +24,442 @@
             <rolename>Administrators</rolename>
         </permission>
     </modulepermissions>
-    <title>WSC My Content Manager</title>
+    <title>KC Chiefs Twitter Kingdom #trending</title>
     <startdate>0001-01-01T00:00:00</startdate>
-    <uniqueId>19e7f311-2be7-41a0-9686-a1051c4a75cd</uniqueId>
+    <uniqueId>ce4b76fa-0721-43c2-a026-061345fba7fb</uniqueId>
     <visibility>Maximized</visibility>
+    <cultureCode />
     <modulesettings>
         <modulesetting>
-            <settingname>BackgroundCustomImage</settingname>
-            <settingvalue>3051ee93-1748-4694-aef5-362b36ea4f5a.jpg</settingvalue>
+            <settingname>BackgroundCustomColor</settingname>
+            <settingvalue>#ca0027</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>animationSpecial</settingname>
+            <settingvalue>none</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>MarginRight</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>PieWidth</settingname>
+            <settingvalue>6</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SpacingTop</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>boxShadowStyle</settingname>
+            <settingvalue>off</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SpacingRight</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>Layout</settingname>
+            <settingvalue>1|1|1</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BackgroundImageRepeat</settingname>
+            <settingvalue>repeat</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>animationStyle</settingname>
+            <settingvalue>none</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowOffsetX</settingname>
+            <settingvalue>0</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BorderStyle</settingname>
+            <settingvalue>solid</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>MarginBottom</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>CurrentSkinTheme</settingname>
+            <settingvalue>PieCharts</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SyncHeight</settingname>
+            <settingvalue>off</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ColumnGutters</settingname>
+            <settingvalue>off</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BorderRadius</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowOffsetY</settingname>
+            <settingvalue>2</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BorderWidthRange</settingname>
+            <settingvalue>0</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>MarginTop</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BackgroundType</settingname>
+            <settingvalue>none</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SpacingLeft</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>PieSize</settingname>
+            <settingvalue>160</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BorderColor</settingname>
+            <settingvalue>#ca0027</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>animationDelay</settingname>
+            <settingvalue>500</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>Visibility</settingname>
+            <settingvalue>visible-md visible-lg,visible-sm,visible-xs</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowSpread</settingname>
+            <settingvalue>0</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BackgroundImagePosition</settingname>
+            <settingvalue>left top</settingvalue>
         </modulesetting>
         <modulesetting>
             <settingname>ThemeLocationMode</settingname>
             <settingvalue>SkinLocation</settingvalue>
         </modulesetting>
         <modulesetting>
-            <settingname>CurrentSkinTheme</settingname>
-            <settingvalue>PieCharts</settingvalue>
+            <settingname>IconPercent</settingname>
+            <settingvalue>percent</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>MarginLeft</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowColor</settingname>
+            <settingvalue>#888888</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>SpacingBottom</settingname>
+            <settingvalue>0px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BackgroundCustomImage</settingname>
+            <settingvalue>3051ee93-1748-4694-aef5-362b36ea4f5a.jpg</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BoxShadowBlurRadius</settingname>
+            <settingvalue>18</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>BackgroundImageSize</settingname>
+            <settingvalue>auto</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ViewContent</settingname>
+            <settingvalue>
+      &lt;div class="wsc_cm_module_container clearfix module-497 visible-md visible-lg visible-sm visible-xs" style="padding: 0px 0px 0px 0px;      margin: 0px 0px 0px 0px;      border-radius: 0px;      background-size: auto;background-repeat: repeat;background-position: left top;"&gt;
+        
+  
+        &lt;div class="wsc_slides_grid"&gt;
+        
+          &lt;div class="wsc_slides_grid_row row" data-equalize-item=".wsc_slides_grid_column"&gt;
+          
+            &lt;div class="wsc_slides_grid_column col-md-4"&gt;
+            
+              
+      &lt;div class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs text-center" style="margin-right: 0px;margin-top: 0px;" data-id="116"&gt;
+        
+
+
+
+
+
+&lt;style&gt;
+  .module-497 .wsc_content_manager_module_slide[data-id="116"] h1 {
+    
+    
+    
+    
+    font-weight: 400;
+    
+    
+  }
+&lt;/style&gt;
+
+&lt;style&gt;
+  .module-497 .wsc_content_manager_module_slide[data-id="116"] h2 {
+    
+    
+    
+    
+    font-weight: 400;
+    
+    
+  }
+&lt;/style&gt;
+
+&lt;style&gt;
+  .module-497 .wsc_content_manager_module_slide[data-id="116"] h3 {
+    
+    
+    
+    
+    font-weight: 400;
+    
+    
+  }
+&lt;/style&gt;
+
+&lt;style&gt;
+  .module-497 .wsc_content_manager_module_slide[data-id="116"] h4,
+  .module-497 .wsc_content_manager_module_slide[data-id="116"] h5,
+  .module-497 .wsc_content_manager_module_slide[data-id="116"] h6 {
+    
+    
+    
+    
+    font-weight: 400;
+    
+    
+  }
+&lt;/style&gt;
+
+&lt;style&gt;
+    .module-497 .wsc_content_manager_module_slide[data-id="116"] .description {
+      
+      
+      
+      
+      font-weight: 400;
+      
+    }
+&lt;/style&gt;
+
+&lt;div class="pie-chart" data-percent="45" data-color="#234123" data-size="160" data-width="6"&gt;
+    
+    &lt;span class="percent"&gt;&lt;/span&gt;
+    
+&lt;/div&gt;
+&lt;h3&gt;
+#Oline
+&lt;/h3&gt;
+
+&lt;div class="description"&gt;&lt;span style="font-family: &amp;quot;Open Sans&amp;quot;, Helvetica, Arial; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; text-align: center; background-color: rgb(247, 247, 247);"&gt;Fanloungers reading about #KC #O-line&lt;/span&gt;&lt;br&gt;&lt;/div&gt;
+
+
+      &lt;/div&gt;
+    
+            
+            &lt;/div&gt;
+          
+            &lt;div class="wsc_slides_grid_column col-md-4"&gt;
+            
+              
+      &lt;div class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs text-center" style="margin-right: 0px;margin-top: 0px;" data-id="117"&gt;
+        
+
+
+
+
+
+&lt;style&gt;
+  .module-497 .wsc_content_manager_module_slide[data-id="117"] h1 {
+    
+    
+    
+    
+    font-weight: 400;
+    
+    
+  }
+&lt;/style&gt;
+
+&lt;style&gt;
+  .module-497 .wsc_content_manager_module_slide[data-id="117"] h2 {
+    
+    
+    
+    
+    font-weight: 400;
+    
+    
+  }
+&lt;/style&gt;
+
+&lt;style&gt;
+  .module-497 .wsc_content_manager_module_slide[data-id="117"] h3 {
+    
+    
+    
+    
+    font-weight: 400;
+    
+    
+  }
+&lt;/style&gt;
+
+&lt;style&gt;
+  .module-497 .wsc_content_manager_module_slide[data-id="117"] h4,
+  .module-497 .wsc_content_manager_module_slide[data-id="117"] h5,
+  .module-497 .wsc_content_manager_module_slide[data-id="117"] h6 {
+    
+    
+    
+    
+    font-weight: 400;
+    
+    
+  }
+&lt;/style&gt;
+
+&lt;style&gt;
+    .module-497 .wsc_content_manager_module_slide[data-id="117"] .description {
+      
+      
+      
+      
+      font-weight: 400;
+      
+    }
+&lt;/style&gt;
+
+&lt;div class="pie-chart" data-percent="27" data-color="#234123" data-size="160" data-width="6"&gt;
+    
+    &lt;span class="percent"&gt;&lt;/span&gt;
+    
+&lt;/div&gt;
+&lt;h3&gt;
+#Reidformation
+&lt;/h3&gt;
+
+&lt;div class="description"&gt;&lt;span style="font-family: &amp;quot;Open Sans&amp;quot;, Helvetica, Arial; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; text-align: center; background-color: rgb(247, 247, 247);"&gt;FanLoungers reading about #Reidformation&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;
+
+
+      &lt;/div&gt;
+    
+            
+            &lt;/div&gt;
+          
+            &lt;div class="wsc_slides_grid_column col-md-4"&gt;
+            
+              
+      &lt;div class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs text-center" style="margin-right: 0px;margin-top: 0px;" data-id="118"&gt;
+        
+
+
+
+
+
+&lt;style&gt;
+  .module-497 .wsc_content_manager_module_slide[data-id="118"] h1 {
+    
+    
+    
+    
+    font-weight: 400;
+    
+    
+  }
+&lt;/style&gt;
+
+&lt;style&gt;
+  .module-497 .wsc_content_manager_module_slide[data-id="118"] h2 {
+    
+    
+    
+    
+    font-weight: 400;
+    
+    
+  }
+&lt;/style&gt;
+
+&lt;style&gt;
+  .module-497 .wsc_content_manager_module_slide[data-id="118"] h3 {
+    
+    
+    
+    
+    font-weight: 400;
+    
+    
+  }
+&lt;/style&gt;
+
+&lt;style&gt;
+  .module-497 .wsc_content_manager_module_slide[data-id="118"] h4,
+  .module-497 .wsc_content_manager_module_slide[data-id="118"] h5,
+  .module-497 .wsc_content_manager_module_slide[data-id="118"] h6 {
+    
+    
+    
+    
+    font-weight: 400;
+    
+    
+  }
+&lt;/style&gt;
+
+&lt;style&gt;
+    .module-497 .wsc_content_manager_module_slide[data-id="118"] .description {
+      
+      
+      
+      
+      font-weight: 400;
+      
+    }
+&lt;/style&gt;
+
+&lt;div class="pie-chart" data-percent="27" data-color="#234123" data-size="160" data-width="6"&gt;
+    
+    &lt;span class="percent"&gt;&lt;/span&gt;
+    
+&lt;/div&gt;
+&lt;h3&gt;
+#Mahomesincompletepass
+&lt;/h3&gt;
+
+&lt;div class="description"&gt;&lt;span style="font-family: &amp;quot;Open Sans&amp;quot;, Helvetica, Arial; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; text-align: center; background-color: rgb(247, 247, 247);"&gt;FanLoungers reading about #Mahomesincompletepass&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;
+
+
+      &lt;/div&gt;
+    
+            
+            &lt;/div&gt;
+          
+          &lt;/div&gt;
+        
+        &lt;/div&gt;
+      
+
+      &lt;/div&gt;
+    
+</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>animationDirection</settingname>
+            <settingvalue>Center</settingvalue>
         </modulesetting>
     </modulesettings>
     <tabmodulesettings />
