@@ -35,6 +35,28 @@
       },
       "InputTypeStr": "text",
       "Validations": []
+    },
+    {
+      "Name": "city",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 2,
+      "Parameters": {
+        "Value": ""
+      },
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "attractionId",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 3,
+      "Parameters": {
+        "Value": ""
+      },
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -43,7 +65,7 @@
       "OrderIndex": 0,
       "Parameters": {
         "InputParameters": "",
-        "URL": "https://app.ticketmaster.com/discovery/v2/events.json?apikey=[Auth:ApiKey]&genreId=[genreId]&keyword=[keyword]",
+        "URL": "https://app.ticketmaster.com/discovery/v2/events.json?apikey=[Auth:ApiKey]&genreId=[genreId]&keyword=[keyword]&city=[city]&attractionId=[attractionId]",
         "UrlTokenContext": {
           "Expression": "",
           "Value": "Url",
