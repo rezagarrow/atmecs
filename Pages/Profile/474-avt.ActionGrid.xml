@@ -117,7 +117,7 @@
       &lt;IsSortable&gt;false&lt;/IsSortable&gt;
       &lt;CanBeSortable&gt;false&lt;/CanBeSortable&gt;
       &lt;IsSearchable&gt;true&lt;/IsSearchable&gt;
-      &lt;AllowHtml&gt;false&lt;/AllowHtml&gt;
+      &lt;AllowHtml&gt;true&lt;/AllowHtml&gt;
       &lt;CanBeSearchable&gt;true&lt;/CanBeSearchable&gt;
       &lt;IsFilterable&gt;false&lt;/IsFilterable&gt;
       &lt;CanBeFilterable&gt;false&lt;/CanBeFilterable&gt;
