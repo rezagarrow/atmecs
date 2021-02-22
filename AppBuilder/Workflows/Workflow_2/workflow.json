@@ -134,8 +134,6 @@
                     },
                     {
                       "Id": 3,
-                      "ActionErrorMessage": "This failled",
-                      "Condition": "false",
                       "ActionType": "ExecuteJavascript",
                       "OrderIndex": 1,
                       "ActionParameters": [
@@ -217,7 +215,7 @@
                         {
                           "Id": 21,
                           "Name": "OutputTokenName",
-                          "Value": "Reponse",
+                          "Value": "Response",
                           "IsExpression": false,
                           "ActionId": 3,
                           "OrderIndex": 0,
@@ -333,7 +331,7 @@
   "CreatedBy": "SuperUser Account",
   "CreatedOn": "2021-02-19T12:41:55.8127431+00:00",
   "LastModifiedBy": "SuperUser Account",
-  "LastModifiedOn": "2021-02-22T15:40:56.0898532+00:00",
+  "LastModifiedOn": "2021-02-22T15:41:16.4016206+00:00",
   "InputFields": [
     {
       "Required": false,
@@ -354,7 +352,7 @@
   ],
   "OutputFields": [
     {
-      "Value": "[Reponse]",
+      "Value": "[Response]",
       "Id": 5,
       "Name": "Template",
       "InputType": "Text",
