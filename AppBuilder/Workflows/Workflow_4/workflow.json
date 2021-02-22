@@ -1,0 +1,253 @@
+{
+  "Id": 4,
+  "Name": "Parse Event Data Copy",
+  "Description": "[\"name\", \"description\", \"ticketUrl\", \"mainImage\", \"localDate\", \"localTime\", \"segment\", \"seatmap\", \"attractions\", \"promoter\", \"venues\", \"lat\", \"log\"]",
+  "IsDebug": false,
+  "ActionList": {
+    "Id": 10,
+    "EventName": "Event",
+    "Actions": [
+      {
+        "Id": 14,
+        "ActionType": "ExecuteApiMethod",
+        "OrderIndex": 0,
+        "ActionParameters": [
+          {
+            "Id": 92,
+            "Name": "ApiModule",
+            "Value": "387",
+            "IsExpression": false,
+            "ActionId": 14,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 93,
+            "Name": "MethodName",
+            "Value": "EventData#POST",
+            "IsExpression": false,
+            "ActionId": 14,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 94,
+            "Name": "HttpMethod",
+            "IsExpression": false,
+            "ActionId": 14,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 95,
+            "Name": "ProcessResponseType",
+            "Value": "1",
+            "IsExpression": false,
+            "ActionId": 14,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 96,
+            "Name": "MethodInputs",
+            "IsExpression": false,
+            "ActionId": 14,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 97,
+            "Name": "MethodInputsList",
+            "Value": [
+              {
+                "MethodInputName": {
+                  "IsExpression": false,
+                  "Expression": "",
+                  "Value": "Id"
+                },
+                "MethodInputValue": {
+                  "IsExpression": false,
+                  "Expression": "",
+                  "Value": "[Id]"
+                }
+              }
+            ],
+            "IsExpression": false,
+            "ActionId": 14,
+            "OrderIndex": 0,
+            "SubParameters": [
+              {
+                "Id": 98,
+                "Name": "MethodInputName",
+                "Value": "Id",
+                "ParentParameterId": 97,
+                "IsExpression": false,
+                "ActionId": 14,
+                "OrderIndex": 0,
+                "SubParameters": []
+              },
+              {
+                "Id": 99,
+                "Name": "MethodInputValue",
+                "Value": "[Id]",
+                "ParentParameterId": 97,
+                "IsExpression": false,
+                "ActionId": 14,
+                "OrderIndex": 0,
+                "SubParameters": []
+              }
+            ]
+          },
+          {
+            "Id": 100,
+            "Name": "OutputTokenName",
+            "Value": "result",
+            "IsExpression": false,
+            "ActionId": 14,
+            "OrderIndex": 0,
+            "SubParameters": []
+          }
+        ],
+        "DiagramUID": "Activity_1ng2h1r"
+      },
+      {
+        "Id": 15,
+        "ActionType": "ExecuteJavascript",
+        "OrderIndex": 1,
+        "ActionParameters": [
+          {
+            "Id": 101,
+            "Name": "ScriptName",
+            "Value": "parseEventData",
+            "IsExpression": false,
+            "ActionId": 15,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 102,
+            "Name": "LocalVariables",
+            "Value": [
+              {
+                "Type": {
+                  "IsExpression": false,
+                  "Expression": "",
+                  "Value": "string"
+                },
+                "Name": {
+                  "IsExpression": false,
+                  "Expression": "",
+                  "Value": "input"
+                },
+                "Value": {
+                  "IsExpression": false,
+                  "Expression": "",
+                  "Value": "[result]"
+                }
+              }
+            ],
+            "IsExpression": false,
+            "ActionId": 15,
+            "OrderIndex": 0,
+            "SubParameters": [
+              {
+                "Id": 103,
+                "Name": "Type",
+                "Value": "string",
+                "ParentParameterId": 102,
+                "IsExpression": false,
+                "ActionId": 15,
+                "OrderIndex": 0,
+                "SubParameters": []
+              },
+              {
+                "Id": 104,
+                "Name": "Name",
+                "Value": "input",
+                "ParentParameterId": 102,
+                "IsExpression": false,
+                "ActionId": 15,
+                "OrderIndex": 0,
+                "SubParameters": []
+              },
+              {
+                "Id": 105,
+                "Name": "Value",
+                "Value": "[result]",
+                "ParentParameterId": 102,
+                "IsExpression": false,
+                "ActionId": 15,
+                "OrderIndex": 0,
+                "SubParameters": []
+              }
+            ]
+          },
+          {
+            "Id": 106,
+            "Name": "Code",
+            "Value": "var data = JSON.parse(input)\nvar parseData = {}\nparseData.name =  data.name\nparseData.description = data.description\nparseData.ticketUrl = data.url\nparseData.mainImage = data.images.filter(obj => {return obj.width > 2000})[0].url\nparseData.localDate = new Date(data.dates.start.localDate).toLocaleDateString() ?? 'TBD'\nparseData.localTime = data.dates.start.localTime ?? 'TBD'\nparseData.segment = data.classifications.map(function(o){return o.segment.name + ' (' + o.genre.name + ', ' + o.subGenre.name +')'}).join()\nparseData.seatmap = data.seatmap !== undefined ? data.seatmap.staticUrl : 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII='\nparseData.attractions = JSON.stringify(data._embedded.attractions)\nparseData.promoter = data.promoter !== undefined ?  data.promoter.name + ' (' + data.promoter.description + ')' : ''\nparseData.venues = data._embedded.venues.map(function(o){return o.name + ', ' + o.address.line1 + (o.address.line2 !== undefined ? ', ' + o.address.line2 : '') + (o.address.postalCode !== undefined ? ', ' + o.address.postalCode : '')}).join(' | ')\nparseData.lat = data._embedded.venues[0].location.latitude\nparseData.lon = data._embedded.venues[0].location.longitude\nparseData.detailsHtml = data._embedded.venues.map(function(o){\n\treturn o.name + ' Information:<br>' + (o.boxOfficeInfo !== undefined ? + o.boxOfficeInfo.openHoursDetail + o.boxOfficeInfo.acceptedPaymentDetail + o.boxOfficeInfo.willCallDetail : '')  + o.parkingDetail + o.accessibleSeatingDetail + (o.generalInfo !== undefined ? o.generalInfo.generalRule ?? '' + o.generalInfo.childRule ?? '' : '')\n}).join('</br>')\nreturn parseData[prop]",
+            "IsExpression": false,
+            "ActionId": 15,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 107,
+            "Name": "OutputTokenName",
+            "Value": "PropData",
+            "IsExpression": false,
+            "ActionId": 15,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 108,
+            "Name": "OnError",
+            "Value": {
+              "Id": 11,
+              "EventName": "error",
+              "Actions": []
+            },
+            "IsExpression": false,
+            "ActionId": 15,
+            "OrderIndex": 0,
+            "SubParameters": []
+          }
+        ],
+        "DiagramUID": "Activity_1l8t30o"
+      }
+    ]
+  },
+  "CreatedBy": "SuperUser Account",
+  "CreatedOn": "2021-02-22T16:08:56.2165978+00:00",
+  "LastModifiedBy": "SuperUser Account",
+  "LastModifiedOn": "2021-02-22T16:08:56.2165978+00:00",
+  "InputFields": [
+    {
+      "Required": false,
+      "Id": 14,
+      "Name": "Id",
+      "InputType": "Text",
+      "WorkflowId": 4,
+      "IsDeleted": false
+    },
+    {
+      "Required": false,
+      "Id": 15,
+      "Name": "prop",
+      "InputType": "Text",
+      "WorkflowId": 4,
+      "IsDeleted": false
+    }
+  ],
+  "OutputFields": [
+    {
+      "Value": "[PropData]",
+      "Id": 16,
+      "Name": "PropData",
+      "InputType": "Text",
+      "WorkflowId": 4,
+      "IsDeleted": false
+    }
+  ]
+}
