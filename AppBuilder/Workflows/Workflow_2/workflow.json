@@ -207,7 +207,7 @@
                         {
                           "Id": 20,
                           "Name": "Code",
-                          "Value": "function getLinks(externalLinks){\n\tvar links = ''\n\tObject.keys(externalLinks ?? {}).forEach(function(o){links +=`<p><a href=\"${externalLinks[o][0].url}\">${capitalizeFirstLetter(o)}</a></p>`})\n\treturn links;\n}\n\nfunction capitalizeFirstLetter(string) {\n\treturn string.charAt(0).toUpperCase() + string.slice(1);\n}\n\nvar att = JSON.parse(AttractionsJSON);\nvar FavIds = JSON.parse(FavList).map(function(o){ return o.Key });\n\nvar template = ''\natt.forEach(function(at){ \n\ttemplate = \n\t`<h4><b>${at.name}</b></h4>\n    <a class=\"btn btn-info fav-${at.id}\" href=\"javascript:addFavorite('${at.id}');\">Save to favorites</a><br><br>\n    <img src=\"${at.images.filter(obj => {return obj.width == 640 && obj.ratio == '16_9'})[0].url}\">\n\t<div>${getLinks(at.externalLinks)}</div>\n\t<br>\n\t`\n})\n\nreturn JSON.parse(FavIds);",
+                          "Value": "function getLinks(externalLinks){\n\tvar links = ''\n\tObject.keys(externalLinks ?? {}).forEach(function(o){links +=`<p><a href=\"${externalLinks[o][0].url}\">${capitalizeFirstLetter(o)}</a></p>`})\n\treturn links;\n}\n\nfunction capitalizeFirstLetter(string) {\n\treturn string.charAt(0).toUpperCase() + string.slice(1);\n}\n\nvar att = JSON.parse(AttractionsJSON);\nvar FavIds = JSON.parse(FavList)//.map(function(o){ return o.Key });\n\nvar template = ''\natt.forEach(function(at){ \n\ttemplate = \n\t`<h4><b>${at.name}</b></h4>\n    <a class=\"btn btn-info fav-${at.id}\" href=\"javascript:addFavorite('${at.id}');\">Save to favorites</a><br><br>\n    <img src=\"${at.images.filter(obj => {return obj.width == 640 && obj.ratio == '16_9'})[0].url}\">\n\t<div>${getLinks(at.externalLinks)}</div>\n\t<br>\n\t`\n})\n\nreturn JSON.parse(FavIds);",
                           "IsExpression": false,
                           "ActionId": 3,
                           "OrderIndex": 0,
@@ -332,7 +332,7 @@
   "CreatedBy": "SuperUser Account",
   "CreatedOn": "2021-02-19T12:41:55.8127431+00:00",
   "LastModifiedBy": "SuperUser Account",
-  "LastModifiedOn": "2021-02-22T15:28:43.6163259+00:00",
+  "LastModifiedOn": "2021-02-22T15:29:33.739487+00:00",
   "InputFields": [
     {
       "Required": false,
