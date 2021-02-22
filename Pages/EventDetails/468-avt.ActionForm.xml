@@ -53,7 +53,7 @@
       &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
       &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
       &lt;InputType&gt;static-text&lt;/InputType&gt;
-      &lt;InputData&gt;{&quot;Value&quot;:&quot;\u003cscript\u003e\n\twindow.userId = \&quot;[User:UserId]\&quot;;\n  \twindow.addFavorite = function(id,elem){\n      $.ajax({\n        type: \&quot;POST\&quot;,\n        url:\&quot;https://fanlounge-atmecs.apps.plantanapp.com/DesktopModules/DnnSharp/DnnApiEndpoint/Api.ashx?method=FavoriteAttraction\&quot;,\n        data: {\&quot;apiKey\&quot;:\&quot;Admins\&quot;,\&quot;Key\&quot;:id,\&quot;User\&quot;:window.userId}\n      }).done(function (data) {\n        debugger;\n      });\n    }\n\u003c/script\u003e&quot;,&quot;Align&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;left&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;SaveToReport&quot;:false}&lt;/InputData&gt;
+      &lt;InputData&gt;{&quot;Value&quot;:&quot;\u003cscript\u003e\n\twindow.userId = \&quot;[User:UserId]\&quot;;\n  \twindow.addFavorite = function(id,elem){\n      $.ajax({\n        type: \&quot;POST\&quot;,\n        url:\&quot;https://fanlounge-atmecs.apps.plantanapp.com/DesktopModules/DnnSharp/DnnApiEndpoint/Api.ashx?method=FavoriteAttraction\&quot;,\n        data: {\&quot;apiKey\&quot;:\&quot;Admins\&quot;,\&quot;Key\&quot;:id,\&quot;User\&quot;:window.userId}\n      }).done(function (data) {\n        $(elem).attr(\u0027disabled\u0027,\u0027\u0027).text(\u0027Saved To favorites\u0027).removeClass(\u0027btn-info\u0027).addClass(\u0027btn-warning\u0027);\n      });\n    }\n\u003c/script\u003e&quot;,&quot;Align&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;left&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;SaveToReport&quot;:false}&lt;/InputData&gt;
       &lt;Align&gt;
         &lt;Expression /&gt;
         &lt;Value&gt;left&lt;/Value&gt;
@@ -69,7 +69,7 @@
         url:&quot;https://fanlounge-atmecs.apps.plantanapp.com/DesktopModules/DnnSharp/DnnApiEndpoint/Api.ashx?method=FavoriteAttraction&quot;,
         data: {&quot;apiKey&quot;:&quot;Admins&quot;,&quot;Key&quot;:id,&quot;User&quot;:window.userId}
       }).done(function (data) {
-        debugger;
+        $(elem).attr(&#39;disabled&#39;,&#39;&#39;).text(&#39;Saved To favorites&#39;).removeClass(&#39;btn-info&#39;).addClass(&#39;btn-warning&#39;);
       });
     }
 &lt;/script&gt;]]&gt;&lt;/Value&gt;
@@ -159,7 +159,7 @@
       &lt;ActionType&gt;RedirectToUrl&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
       &lt;Condition&gt;[QueryString:Id] == &quot;&quot; &amp;amp;&amp;amp; [HasRole:Administrators] == false&lt;/Condition&gt;
-      &lt;LastModified&gt;2021-02-22T13:46:24.4&lt;/LastModified&gt;
+      &lt;LastModified&gt;2021-02-22T13:53:00.293&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;Url&quot;:&quot;/&quot;,&quot;EscapeUrl&quot;:&quot;&quot;,&quot;OpenInPopup&quot;:&quot;&quot;,&quot;PopupTitle&quot;:&quot;&quot;,&quot;OpenInNewTab&quot;:&quot;&quot;,&quot;ForceDownload&quot;:&quot;&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;468&lt;/ModuleId&gt;
