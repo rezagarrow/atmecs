@@ -135,7 +135,8 @@
               &lt;TypeStr&gt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&lt;/TypeStr&gt;
               &lt;Name&gt;Html&lt;/Name&gt;
               &lt;IsExpression&gt;false&lt;/IsExpression&gt;
-              &lt;Value xsi:type=&quot;xsd:string&quot;&gt;&amp;lt;p&amp;gt;&amp;lt;a href=&quot;/?attractionId=[Key]&quot;&amp;gt;[AttractionData:Details(Id=&quot;[Key]&quot;, Prop=&quot;name&quot;)]&amp;lt;/p&amp;gt;&amp;lt;/p&amp;gt;&lt;/Value&gt;
+              &lt;Value xsi:type=&quot;xsd:string&quot;&gt;&amp;lt;p&amp;gt;&amp;lt;a href=&quot;/Events?attractionId=[Key]&quot;&amp;gt;[AttractionData:Details(Id=&quot;[Key]&quot;, Prop=&quot;name&quot;)]&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&lt;/Value&gt;
             &lt;/FormatterParameterInfo&gt;
           &lt;/value&gt;
         &lt;/item&gt;
