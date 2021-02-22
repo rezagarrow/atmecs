@@ -96,65 +96,16 @@
                         {
                           "Id": 19,
                           "Name": "LocalVariables",
-                          "Value": [
-                            {
-                              "Type": {
-                                "IsExpression": false,
-                                "Expression": "",
-                                "Value": "int"
-                              },
-                              "Name": {
-                                "IsExpression": false,
-                                "Expression": "",
-                                "Value": "user"
-                              },
-                              "Value": {
-                                "IsExpression": false,
-                                "Expression": "",
-                                "Value": "[User:UserId]"
-                              }
-                            }
-                          ],
+                          "Value": [],
                           "IsExpression": false,
                           "ActionId": 3,
                           "OrderIndex": 0,
-                          "SubParameters": [
-                            {
-                              "Id": 79,
-                              "Name": "Type",
-                              "Value": "int",
-                              "ParentParameterId": 19,
-                              "IsExpression": false,
-                              "ActionId": 3,
-                              "OrderIndex": 0,
-                              "SubParameters": []
-                            },
-                            {
-                              "Id": 80,
-                              "Name": "Name",
-                              "Value": "user",
-                              "ParentParameterId": 19,
-                              "IsExpression": false,
-                              "ActionId": 3,
-                              "OrderIndex": 0,
-                              "SubParameters": []
-                            },
-                            {
-                              "Id": 81,
-                              "Name": "Value",
-                              "Value": "[User:UserId]",
-                              "ParentParameterId": 19,
-                              "IsExpression": false,
-                              "ActionId": 3,
-                              "OrderIndex": 0,
-                              "SubParameters": []
-                            }
-                          ]
+                          "SubParameters": []
                         },
                         {
                           "Id": 20,
                           "Name": "Code",
-                          "Value": "function getLinks(externalLinks){\n\tvar links = ''\n\tObject.keys(externalLinks ?? {}).forEach(function(o){links +=`<p><a href=\"${externalLinks[o][0].url}\">${capitalizeFirstLetter(o)}</a></p>`})\n\treturn links;\n}\n\nfunction capitalizeFirstLetter(string) {\n\treturn string.charAt(0).toUpperCase() + string.slice(1);\n}\n\nvar att = JSON.parse(AttractionsJSON);\n\nvar template = ''\natt.forEach(function(at){ \n\ttemplate = \n\t`<h4><b>${at.name} ${user}</b></h4>\n    <a class=\"btn btn-info\" href=\"javascript:addFavorite('${at.id}');\">Save to favorites</a><br><br>\n    <img src=\"${at.images.filter(obj => {return obj.width == 640 && obj.ratio == '16_9'})[0].url}\">\n\t<div>${getLinks(at.externalLinks)}</div>\n\t<br>\n\t`\n})\n\nreturn template",
+                          "Value": "function getLinks(externalLinks){\n\tvar links = ''\n\tObject.keys(externalLinks ?? {}).forEach(function(o){links +=`<p><a href=\"${externalLinks[o][0].url}\">${capitalizeFirstLetter(o)}</a></p>`})\n\treturn links;\n}\n\nfunction capitalizeFirstLetter(string) {\n\treturn string.charAt(0).toUpperCase() + string.slice(1);\n}\n\nvar att = JSON.parse(AttractionsJSON);\n\nvar template = ''\natt.forEach(function(at){ \n\ttemplate = \n\t`<h4><b>${at.name}</b></h4>\n    <a class=\"btn btn-info\" href=\"javascript:addFavorite('${at.id}');\">Save to favorites</a><br><br>\n    <img src=\"${at.images.filter(obj => {return obj.width == 640 && obj.ratio == '16_9'})[0].url}\">\n\t<div>${getLinks(at.externalLinks)}</div>\n\t<br>\n\t`\n})\n\nreturn template",
                           "IsExpression": false,
                           "ActionId": 3,
                           "OrderIndex": 0,
@@ -279,7 +230,7 @@
   "CreatedBy": "SuperUser Account",
   "CreatedOn": "2021-02-19T12:41:55.8127431+00:00",
   "LastModifiedBy": "SuperUser Account",
-  "LastModifiedOn": "2021-02-22T13:35:48.6583407+00:00",
+  "LastModifiedOn": "2021-02-22T13:36:44.5938103+00:00",
   "InputFields": [
     {
       "Required": false,
