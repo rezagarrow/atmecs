@@ -122,7 +122,7 @@
       &lt;IsFilterable&gt;false&lt;/IsFilterable&gt;
       &lt;CanBeFilterable&gt;true&lt;/CanBeFilterable&gt;
       &lt;FormatFilters&gt;false&lt;/FormatFilters&gt;
-      &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
+      &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
       &lt;FormatterParameters /&gt;
       &lt;TooltipEnabled&gt;false&lt;/TooltipEnabled&gt;
       &lt;TooltipInEdit&gt;false&lt;/TooltipInEdit&gt;
@@ -179,9 +179,9 @@
       &lt;IsFilterable&gt;false&lt;/IsFilterable&gt;
       &lt;CanBeFilterable&gt;false&lt;/CanBeFilterable&gt;
       &lt;FormatFilters&gt;false&lt;/FormatFilters&gt;
-      &lt;OrderIndex&gt;2&lt;/OrderIndex&gt;
+      &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
       &lt;Template&gt;&amp;lt;div class=&quot;room&quot;&amp;gt;
-            &amp;lt;div class=&quot;room-image&quot;&amp;gt;&amp;lt;a href=&quot;/Events/Event-Details?Id=[Id]&quot; target=&quot;_self&quot;&amp;gt;&amp;lt;img src=&quot;[mainImage]&quot; border=&quot;0&quot; alt=&quot;#&quot;&amp;gt;&amp;lt;/a&amp;gt;
+            &amp;lt;div class=&quot;room-image&quot;&amp;gt;&amp;lt;a href=&quot;/Events/Event-Details?Id=[Id]&quot; target=&quot;_blank&quot;&amp;gt;&amp;lt;img src=&quot;[mainImage]&quot; border=&quot;0&quot; alt=&quot;#&quot;&amp;gt;&amp;lt;/a&amp;gt;
                 &amp;lt;div class=&quot;room-title&quot;&amp;gt;[segment]&amp;lt;/div&amp;gt;
              
             &amp;lt;/div&amp;gt;
