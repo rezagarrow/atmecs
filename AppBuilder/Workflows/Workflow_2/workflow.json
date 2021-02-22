@@ -230,13 +230,21 @@
   "CreatedBy": "SuperUser Account",
   "CreatedOn": "2021-02-19T12:41:55.8127431+00:00",
   "LastModifiedBy": "SuperUser Account",
-  "LastModifiedOn": "2021-02-22T13:59:57.2621625+00:00",
+  "LastModifiedOn": "2021-02-22T14:15:48.6496968+00:00",
   "InputFields": [
     {
       "Required": false,
       "Id": 4,
       "Name": "Id",
       "InputType": "Text",
+      "WorkflowId": 2,
+      "IsDeleted": false
+    },
+    {
+      "Required": false,
+      "Id": 12,
+      "Name": "UserId",
+      "InputType": "Integer",
       "WorkflowId": 2,
       "IsDeleted": false
     }
