@@ -56,7 +56,7 @@
       "Parameters": {
         "ScriptName": "parseResult",
         "LocalVariables": "",
-        "Code": "var jsonObj=JSON.parse(Result);\nvar response = jsonObj._embedded.attractions.map(function(data){\nvar parseData = {};\nparseData.id=  data.id\nparseData.name =  data.name\nparseData.mainImage = data.images.filter(obj => {return obj.width = 1024 && obj.ratio == '16_9'})[0].url;\nparseData.localDate = new Date(data.dates.start.localDate).toLocaleDateString() ?? 'TBD'\nreturn parseData;\n})\nreturn JSON.stringify(response );",
+        "Code": "var jsonObj=JSON.parse(Result);\nvar response = jsonObj._embedded.attractions.map(function(data){\nvar parseData = {};\nparseData.id=  data.id\nparseData.name =  data.name\nparseData.mainImage = data.images.filter(obj => {return obj.width = 1024 && obj.ratio == '16_9'})[0].url;\nreturn parseData;\n})\nreturn JSON.stringify(response );",
         "OutputTokenName": "newObject",
         "OnError": []
       },
