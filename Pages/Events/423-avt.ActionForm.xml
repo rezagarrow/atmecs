@@ -1,4 +1,4 @@
-<module type="ActionForm" version="05.11.06.00">
+<module type="ActionForm" version="05.12.10.00">
     <contentKey />
     <moduleID>423</moduleID>
     <alignment />
@@ -33,7 +33,7 @@
     <tabmodulesettings />
     <definition>Action Form</definition>
     <moduledefinition>avt.Action Form</moduledefinition>
-    <content type="ActionForm" version="05.11.06.00"><![CDATA[&lt;ActionForm&gt;
+    <content type="ActionForm" version="05.12.10.00"><![CDATA[&lt;ActionForm&gt;
   &lt;Fields&gt;
     &lt;Field&gt;
       &lt;Id&gt;&lt;![CDATA[17]]&gt;&lt;/Id&gt;
@@ -56,13 +56,13 @@
    window.history.pushState({},&#39;&#39;,a.getUrl());
                             dnnsf.api.actionGrid.refresh(426);]]&gt;&lt;/BindOnChange&gt;
       &lt;InputType&gt;closed-multiple-dropdown&lt;/InputType&gt;
-      &lt;InputData&gt;{&quot;LinkTo&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:[],&quot;IsExpression&quot;:false},&quot;Empty&quot;:&quot;&quot;,&quot;DataSource&quot;:{&quot;Value&quot;:&quot;ServerRequest&quot;,&quot;Parameters&quot;:{&quot;Items&quot;:&quot;First Item\nSecond Item|WithDifferentValue&quot;,&quot;HttpMethod&quot;:{&quot;Value&quot;:&quot;GET&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;Url&quot;:&quot;https://fanlounge-atmecs.apps.plantanapp.com/DesktopModules/DnnSharp/DnnApiEndpoint/Api.ashx?method=GetGenre&quot;,&quot;TextProperty&quot;:&quot;name&quot;,&quot;ValueProperty&quot;:&quot;id&quot;,&quot;JsonPath&quot;:&quot;_embedded.genres&quot;,&quot;CustomHeaders&quot;:[],&quot;PathProperty&quot;:&quot;&quot;}},&quot;Value&quot;:&quot;KnvZfZ7vAeI&quot;,&quot;Other&quot;:&quot;&quot;,&quot;SaveToReport&quot;:false}&lt;/InputData&gt;
+      &lt;InputData&gt;{&quot;LinkTo&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:[],&quot;IsExpression&quot;:false},&quot;Empty&quot;:&quot;Please select&quot;,&quot;DataSource&quot;:{&quot;Value&quot;:&quot;ServerRequest&quot;,&quot;Parameters&quot;:{&quot;Items&quot;:&quot;First Item\nSecond Item|WithDifferentValue&quot;,&quot;HttpMethod&quot;:{&quot;Value&quot;:&quot;GET&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;Url&quot;:&quot;https://fanlounge-atmecs.apps.plantanapp.com/DesktopModules/DnnSharp/DnnApiEndpoint/Api.ashx?method=GetGenre&quot;,&quot;TextProperty&quot;:&quot;name&quot;,&quot;ValueProperty&quot;:&quot;id&quot;,&quot;JsonPath&quot;:&quot;_embedded.genres&quot;,&quot;CustomHeaders&quot;:[],&quot;PathProperty&quot;:&quot;&quot;}},&quot;Value&quot;:&quot;&quot;,&quot;Other&quot;:&quot;&quot;,&quot;SaveToReport&quot;:false}&lt;/InputData&gt;
       &lt;LinkTo&gt;
         &lt;Expression /&gt;
         &lt;Value&gt;System.Collections.ArrayList&lt;/Value&gt;
         &lt;IsExpression&gt;False&lt;/IsExpression&gt;
       &lt;/LinkTo&gt;
-      &lt;Empty /&gt;
+      &lt;Empty&gt;Please select&lt;/Empty&gt;
       &lt;DataSource&gt;
         &lt;Value&gt;ServerRequest&lt;/Value&gt;
         &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
@@ -70,7 +70,7 @@
       &lt;Other /&gt;
       &lt;SaveToReport&gt;False&lt;/SaveToReport&gt;
       &lt;Flag&gt;dropdown&lt;/Flag&gt;
-      &lt;Value&gt;&lt;![CDATA[KnvZfZ7vAeI]]&gt;&lt;/Value&gt;
+      &lt;Value&gt;&lt;![CDATA[]]&gt;&lt;/Value&gt;
       &lt;IsRequired&gt;False&lt;/IsRequired&gt;
       &lt;IsActive&gt;True&lt;/IsActive&gt;
       &lt;EnableCondition /&gt;
@@ -215,8 +215,8 @@
   &lt;Settings&gt;
     &lt;Title&gt;SearchForm&lt;/Title&gt;
     &lt;CssName&gt;searchform&lt;/CssName&gt;
-    &lt;Version&gt;5.11.0&lt;/Version&gt;
-    &lt;Build&gt;5.11.6&lt;/Build&gt;
+    &lt;Version&gt;5.12.0&lt;/Version&gt;
+    &lt;Build&gt;5.12.10&lt;/Build&gt;
     &lt;CultureCode&gt;en&lt;/CultureCode&gt;
     &lt;RenderContext&gt;Form&lt;/RenderContext&gt;
     &lt;FrontEndTemplate&gt;&amp;lt;div&amp;gt;&amp;lt;span&amp;gt;&amp;lt;a href=&quot;[FormUrl]&quot;&amp;gt;Click here to change.&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt;&lt;/FrontEndTemplate&gt;
@@ -235,7 +235,7 @@
     &lt;FieldSpacing&gt;normal&lt;/FieldSpacing&gt;
     &lt;OpenFormMode&gt;Always&lt;/OpenFormMode&gt;
     &lt;ModuleId&gt;423&lt;/ModuleId&gt;
-    &lt;ModuleVersion&gt;5.11.6&lt;/ModuleVersion&gt;
+    &lt;ModuleVersion&gt;5.12.10&lt;/ModuleVersion&gt;
     &lt;TabId&gt;45&lt;/TabId&gt;
     &lt;ModuleBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm&lt;/ModuleBaseUrl&gt;
     &lt;ResourceBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm/static&lt;/ResourceBaseUrl&gt;
