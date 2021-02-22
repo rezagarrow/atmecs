@@ -24,7 +24,7 @@
             <rolename>Administrators</rolename>
         </permission>
     </modulepermissions>
-    <title>avt.ActionGrid</title>
+    <title>Attractions</title>
     <startdate>0001-01-01T00:00:00</startdate>
     <uniqueId>3542be09-0c4b-435b-b7e0-389d716c6408</uniqueId>
     <visibility>Maximized</visibility>
