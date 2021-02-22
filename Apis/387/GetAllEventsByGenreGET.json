@@ -14,16 +14,7 @@
         "Value": ""
       },
       "InputTypeStr": "text",
-      "Validations": [
-        {
-          "Data": "{\"Message\":\"{FieldName} is required\"}",
-          "Type": "default-required",
-          "IsDeleted": false,
-          "IsEnabled": false,
-          "OrderIndex": 0,
-          "Metadata": {}
-        }
-      ]
+      "Validations": []
     },
     {
       "Name": "keyword",
