@@ -1,0 +1,36 @@
+<module type="ActionGrid" version="05.12.05.00">
+    <moduleID>490</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod />
+    <cachetime>0</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+    </modulepermissions>
+    <title>avt.ActionGrid</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>92e924f7-e498-4072-b8ba-cde90af7edaf</uniqueId>
+    <visibility>Maximized</visibility>
+    <cultureCode />
+    <modulesettings />
+    <tabmodulesettings />
+    <definition>Action Grid</definition>
+    <moduledefinition>avt.ActionGrid</moduledefinition>
+    <content type="ActionGrid" version="05.12.05.00"><![CDATA[&lt;ActionGrid /&gt;]]></content>
+</module>
