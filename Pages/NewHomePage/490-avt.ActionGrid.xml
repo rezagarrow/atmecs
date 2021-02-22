@@ -53,7 +53,7 @@
     &lt;PageSizes&gt;[12,24,48]&lt;/PageSizes&gt;
     &lt;DefaultPageSize&gt;12&lt;/DefaultPageSize&gt;
     &lt;IsDebug&gt;False&lt;/IsDebug&gt;
-    &lt;SearchEnabled&gt;True&lt;/SearchEnabled&gt;
+    &lt;SearchEnabled&gt;False&lt;/SearchEnabled&gt;
     &lt;HideEmptyGrid&gt;False&lt;/HideEmptyGrid&gt;
     &lt;LoadOnSearch&gt;False&lt;/LoadOnSearch&gt;
     &lt;HideTableHead&gt;False&lt;/HideTableHead&gt;
@@ -122,7 +122,7 @@
       &lt;IsFilterable&gt;false&lt;/IsFilterable&gt;
       &lt;CanBeFilterable&gt;false&lt;/CanBeFilterable&gt;
       &lt;FormatFilters&gt;false&lt;/FormatFilters&gt;
-      &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
+      &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
       &lt;Template&gt;&amp;lt;div class=&quot;room&quot;&amp;gt;
             &amp;lt;div class=&quot;room-image&quot;&amp;gt;&amp;lt;a href=&quot;/Events&quot; target=&quot;_self&quot;&amp;gt;&amp;lt;img src=&quot;[mainImage]&quot; border=&quot;0&quot; alt=&quot;#&quot;&amp;gt;&amp;lt;/a&amp;gt;
                 &amp;lt;div class=&quot;room-title&quot;&amp;gt;[name]&amp;lt;/div&amp;gt;
