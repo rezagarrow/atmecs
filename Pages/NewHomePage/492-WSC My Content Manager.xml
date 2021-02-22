@@ -1,0 +1,189 @@
+<module type="WebSitesCreativeMyContentManager" version="03.05.03.00">
+    <moduleID>492</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod />
+    <cachetime>1200</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+    </modulepermissions>
+    <title>WSC My Content Manager</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>9d046230-418e-4b64-9102-d3b34c27af42</uniqueId>
+    <visibility>Maximized</visibility>
+    <modulesettings>
+        <modulesetting>
+            <settingname>BackgroundCustomImage</settingname>
+            <settingvalue>c09f9c2a-d0ff-4df5-bdaf-233fe35beeae.jpg</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ThemeLocationMode</settingname>
+            <settingvalue>SkinLocation</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ViewContent</settingname>
+            <settingvalue>&lt;style&gt;
+ .module-492 .inspiro-slider .wsc_content_manager_module_slide .slide .custom-overlay  {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+ }
+&lt;/style&gt;
+
+
+  
+  
+  
+  
+  
+
+  &lt;style&gt;
+    .module-492 .mng-item-109 h1 {
+      
+      
+      
+      
+      font-weight: 400;
+      
+      
+    }
+  &lt;/style&gt;
+
+  &lt;style&gt;
+    .module-492 .mng-item-109 h2 {
+      
+      
+      
+      
+      font-weight: 400;
+      
+      
+    }
+  &lt;/style&gt;
+
+  &lt;style&gt;
+    .module-492 .mng-item-109 h3 {
+      
+      
+      
+      
+      font-weight: 400;
+      
+      
+    }
+  &lt;/style&gt;
+
+  &lt;style&gt;
+    .module-492 .mng-item-109 h4,
+    .module-492 .mng-item-109 h5,
+    .module-492 .mng-item-109 h6 {
+      
+      
+      
+      
+      font-weight: 400;
+      
+      
+    }
+  &lt;/style&gt;
+
+&lt;style&gt;
+  .module-492 .mng-item-109 .slide-captions p {
+    
+    
+    
+    
+    font-weight: 400;
+    
+  }
+&lt;/style&gt;
+
+
+
+
+      &lt;div class="wsc_cm_module_container clearfix module-492 visible-md visible-lg visible-sm visible-xs" style="padding: 0px 0px 0px 0px;      margin: 0px 0px 0px 0px;      border-radius: 0px;      background-size: auto;background-repeat: repeat;background-position: left top;"&gt;
+        
+
+  &lt;div class="inspiro-slider wsc_regular_height inspiro-slider492 arrows-large arrows-creative dots-creative" data-height-xs="360" data-autoplay="true" data-autoplay-timeout="5000" data-items="1" data-arrows="true" data-dots="true"&gt;
+    
+      &lt;div class="mng-item-109" style="display: table; width: 100%; height: 100%;"&gt;
+  
+    &lt;div class="slide background-overlay-one background-image kenburns" style="background-image:url(/Portals/0/WebSitesCreative_MyContentManager/492/f8428cfb-b40e-4cee-b983-bc034a18a22b_resized.jpg);"&gt;
+  
+
+    
+
+      &lt;div class="container"&gt;
+        &lt;div class="text-left slide-captions text-light"&gt;
+          
+            &lt;span class="strong" data-caption-animation="zoom-out"&gt;
+              &lt;a href="#" class="business"&gt;&lt;span&gt;My small title&lt;/span&gt;&lt;/a&gt;
+            &lt;/span&gt;
+          
+
+          &lt;h1&gt;My title&lt;/h1&gt;
+          &lt;p class="lead"&gt;My description&lt;/p&gt;
+
+          
+            
+              &lt;a href="#_" class="btn btn-default btn-icon-left"&gt;
+                
+                  &lt;span class="btn-label"&gt;&lt;i class="fa fa-heart"&gt;&lt;/i&gt;&lt;/span&gt;
+                  My button 1
+                
+              &lt;/a&gt;
+            
+          
+
+          
+            
+              &lt;a data-lightbox="iframe" href="https://www.youtube.com/watch?v=zqE-ultsWt0" class="btn btn-default btn-icon-left"&gt;
+                
+                  &lt;span class="btn-label"&gt;&lt;i class="fa fa-heart"&gt;&lt;/i&gt;&lt;/span&gt;
+                  My button 2
+                
+              &lt;/a&gt;
+            
+          
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+    
+  &lt;/div&gt;
+
+
+      &lt;/div&gt;
+    </settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>CurrentSkinTheme</settingname>
+            <settingvalue>InspiroSlider</settingvalue>
+        </modulesetting>
+    </modulesettings>
+    <tabmodulesettings />
+    <definition>WebSitesCreative.MyContentManager</definition>
+    <moduledefinition>WSC My Content Manager</moduledefinition>
+</module>
