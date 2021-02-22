@@ -1,4 +1,5 @@
 <module type="WebSitesCreativeMyContentManager" version="03.05.03.00">
+    <contentKey />
     <moduleID>496</moduleID>
     <alignment />
     <alltabs>false</alltabs>
@@ -23,10 +24,11 @@
             <rolename>Administrators</rolename>
         </permission>
     </modulepermissions>
-    <title>WSC My Content Manager</title>
+    <title />
     <startdate>0001-01-01T00:00:00</startdate>
-    <uniqueId>49759781-6760-4040-a769-f1b14a430563</uniqueId>
+    <uniqueId>a0a70319-90f7-477e-8012-def2c33874be</uniqueId>
     <visibility>Maximized</visibility>
+    <cultureCode />
     <modulesettings>
         <modulesetting>
             <settingname>BackgroundCustomImage</settingname>
@@ -52,7 +54,8 @@
       &lt;div class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs" style="padding: 0px 0px 0px 0px;      margin: 0px 0px 0px 0px;      border-radius: 0px;      background-size: auto;background-repeat: repeat;background-position: left top;" data-id="114"&gt;
         &lt;div class="wsc-box-item"&gt;
   &lt;div class="mng-text-theme"&gt;
-    &lt;h3&gt;HTML&lt;/h3&gt;&lt;p&gt;My text sample. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+    &lt;h3 style="text-align:center"&gt;Here's a Look at the Clieft' 2021 Opponents&lt;/h3&gt;
+&lt;p style="text-align:center"&gt; &lt;img src="/LinkClick.aspx?fileticket=io4if7tE8Mg%3d&amp;portalid=0"&gt;&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
