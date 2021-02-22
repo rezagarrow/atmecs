@@ -239,7 +239,7 @@
       &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
       &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
       &lt;InputType&gt;button&lt;/InputType&gt;
-      &lt;InputData&gt;{&quot;CausesValidation&quot;:true,&quot;IsDefaultButton&quot;:true,&quot;ButtonSize&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;btn-normal&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;ButtonType&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;btn-info&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;ButtonAlign&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;left&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;ButtonIcon&quot;:&quot;&quot;,&quot;ButtonExecutingActionMessage&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;localize&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;ButtonWaitingMessage&quot;:&quot;Please wait...&quot;,&quot;ConnectedForms&quot;:&quot;&quot;,&quot;Actions&quot;:[]}&lt;/InputData&gt;
+      &lt;InputData&gt;{&quot;CausesValidation&quot;:true,&quot;IsDefaultButton&quot;:true,&quot;ButtonSize&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;btn-normal&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;ButtonType&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;btn-primary&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;ButtonAlign&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;center&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;ButtonIcon&quot;:&quot;&quot;,&quot;ButtonExecutingActionMessage&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;localize&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;ButtonWaitingMessage&quot;:&quot;Please wait...&quot;,&quot;ConnectedForms&quot;:&quot;&quot;,&quot;Actions&quot;:[]}&lt;/InputData&gt;
       &lt;CausesValidation&gt;True&lt;/CausesValidation&gt;
       &lt;IsDefaultButton&gt;True&lt;/IsDefaultButton&gt;
       &lt;ButtonSize&gt;
@@ -250,13 +250,13 @@
       &lt;/ButtonSize&gt;
       &lt;ButtonType&gt;
         &lt;Expression /&gt;
-        &lt;Value&gt;btn-info&lt;/Value&gt;
+        &lt;Value&gt;btn-primary&lt;/Value&gt;
         &lt;IsExpression&gt;False&lt;/IsExpression&gt;
         &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
       &lt;/ButtonType&gt;
       &lt;ButtonAlign&gt;
         &lt;Expression /&gt;
-        &lt;Value&gt;left&lt;/Value&gt;
+        &lt;Value&gt;center&lt;/Value&gt;
         &lt;IsExpression&gt;False&lt;/IsExpression&gt;
         &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
       &lt;/ButtonAlign&gt;
@@ -284,10 +284,10 @@
       &lt;ValidationGroup /&gt;
       &lt;GroupValidator /&gt;
       &lt;DisableAutocomplete&gt;False&lt;/DisableAutocomplete&gt;
-      &lt;ViewOrder&gt;0&lt;/ViewOrder&gt;
+      &lt;ViewOrder&gt;24&lt;/ViewOrder&gt;
       &lt;RowIndex&gt;2&lt;/RowIndex&gt;
-      &lt;ColSpan&gt;9&lt;/ColSpan&gt;
-      &lt;ColOffset&gt;3&lt;/ColOffset&gt;
+      &lt;ColSpan&gt;12&lt;/ColSpan&gt;
+      &lt;ColOffset&gt;0&lt;/ColOffset&gt;
     &lt;/Field&gt;
   &lt;/Fields&gt;
   &lt;Settings&gt;
@@ -356,7 +356,7 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;UpdateUserProfile.v2&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2021-02-22T12:01:12.457&lt;/LastModified&gt;
+      &lt;LastModified&gt;2021-02-22T12:01:38.737&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;UserIdentifier&quot;:&quot;[User:UserId]&quot;,&quot;UpdatePasswordField&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;&quot;,&quot;IsExpression&quot;:false},&quot;UpdateDisplayNameField&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;&quot;,&quot;IsExpression&quot;:false},&quot;UpdateEmailField&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;&quot;,&quot;IsExpression&quot;:false},&quot;AdditionalProperties&quot;:[{&quot;UserProfileProperty&quot;:{&quot;Value&quot;:&quot;FirstName&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;PropertyValue&quot;:{&quot;Value&quot;:&quot;FirstName&quot;,&quot;IsExpression&quot;:false}},{&quot;UserProfileProperty&quot;:{&quot;Value&quot;:&quot;LastName&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;PropertyValue&quot;:{&quot;Value&quot;:&quot;LastName&quot;,&quot;IsExpression&quot;:false}},{&quot;UserProfileProperty&quot;:{&quot;Value&quot;:&quot;Photo&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;PropertyValue&quot;:{&quot;Value&quot;:&quot;Picture&quot;,&quot;IsExpression&quot;:false}}]}&lt;/ActionData&gt;
       &lt;ModuleId&gt;473&lt;/ModuleId&gt;
@@ -369,7 +369,7 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;ShowToastAndContinue&lt;/ActionType&gt;
       &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2021-02-22T12:01:12.457&lt;/LastModified&gt;
+      &lt;LastModified&gt;2021-02-22T12:01:38.737&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;Heading&quot;:&quot;Profile Updated!&quot;,&quot;Message&quot;:&quot;&quot;,&quot;Icon&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;success&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;BgColor&quot;:&quot;&quot;,&quot;Transition&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;fade&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;AllowToastClose&quot;:&quot;&quot;,&quot;CallBackJsCode&quot;:&quot;&quot;,&quot;HideTime&quot;:&quot;5000&quot;,&quot;Stack&quot;:&quot;1&quot;,&quot;ToastPosition&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;top-right&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;TextAlignment&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;left&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;ShowLoader&quot;:true,&quot;LoaderColor&quot;:&quot;&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;473&lt;/ModuleId&gt;
@@ -382,7 +382,7 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;InitActionForm&lt;/ActionType&gt;
       &lt;OrderIndex&gt;2&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2021-02-22T12:01:12.457&lt;/LastModified&gt;
+      &lt;LastModified&gt;2021-02-22T12:01:38.737&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;ModuleId&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:473,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;Params&quot;:&quot;&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;473&lt;/ModuleId&gt;
