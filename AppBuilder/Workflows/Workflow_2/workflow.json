@@ -208,7 +208,7 @@
                         {
                           "Id": 20,
                           "Name": "Code",
-                          "Value": "function getLinks(externalLinks){\n\tvar links = ''\n\tObject.keys(externalLinks ?? {}).forEach(function(o){links +=`<p><a href=\"${externalLinks[o][0].url}\">${capitalizeFirstLetter(o)}</a></p>`})\n\treturn links;\n}\n\nfunction capitalizeFirstLetter(string) {\n\treturn string.charAt(0).toUpperCase() + string.slice(1);\n}\n\nfunction favoriteButton(id, favIds){\n\tif(favIds.indexOf(Id) >= 0){\n    \treturn `<a class=\"btn btn-warning fav-${id}\" disabled href=\"javascript:;\">Saved to favorites</a><br><br>`\n    }else{\n    \treturn `<a class=\"btn btn-info fav-${at.id}\" href=\"javascript:addFavorite('${id}');\">Save to favorites</a><br><br>`\n    }\n}\n\nvar att = JSON.parse(AttractionsJSON);\nvar favIds = JSON.parse(FavList).map(function(o){ return o.Key });\n\nvar template = ''\natt.forEach(function(at){ \n\ttemplate = \n\t`<h4><b>${at.name}</b></h4>\n    ${favoriteButton(at.id, favIds)}\n    <img src=\"${at.images.filter(obj => {return obj.width == 640 && obj.ratio == '16_9'})[0].url}\">\n\t<div>${getLinks(at.externalLinks)}</div>\n\t<br>\n\t`\n})\n\nreturn JSON.parse(favIds);",
+                          "Value": "function getLinks(externalLinks){\n\tvar links = ''\n\tObject.keys(externalLinks ?? {}).forEach(function(o){links +=`<p><a href=\"${externalLinks[o][0].url}\">${capitalizeFirstLetter(o)}</a></p>`})\n\treturn links;\n}\n\nfunction capitalizeFirstLetter(string) {\n\treturn string.charAt(0).toUpperCase() + string.slice(1);\n}\n\nfunction favoriteButton(id, favIds){\n\tif(favIds.indexOf(Id) >= 0){\n    \treturn `<a class=\"btn btn-warning fav-${id}\" disabled href=\"javascript:;\">Saved to favorites</a><br><br>`\n    }else{\n    \treturn `<a class=\"btn btn-info fav-${at.id}\" href=\"javascript:addFavorite('${id}');\">Save to favorites</a><br><br>`\n    }\n}\n\nvar att = JSON.parse(AttractionsJSON);\nvar favIds = JSON.parse(FavList).map(function(o){ return o.Key });\n\nvar template = ''\natt.forEach(function(at){ \n\ttemplate = \n\t`<h4><b>${at.name}</b></h4>\n    ${favoriteButton(at.id, favIds)}\n    <img src=\"${at.images.filter(obj => {return obj.width == 640 && obj.ratio == '16_9'})[0].url}\">\n\t<div>${getLinks(at.externalLinks)}</div>\n\t<br>\n\t`\n})\n\nreturn template;",
                           "IsExpression": false,
                           "ActionId": 3,
                           "OrderIndex": 0,
@@ -217,7 +217,7 @@
                         {
                           "Id": 21,
                           "Name": "OutputTokenName",
-                          "Value": "name",
+                          "Value": "Reponse",
                           "IsExpression": false,
                           "ActionId": 3,
                           "OrderIndex": 0,
@@ -333,7 +333,7 @@
   "CreatedBy": "SuperUser Account",
   "CreatedOn": "2021-02-19T12:41:55.8127431+00:00",
   "LastModifiedBy": "SuperUser Account",
-  "LastModifiedOn": "2021-02-22T15:40:07.7634668+00:00",
+  "LastModifiedOn": "2021-02-22T15:40:56.0898532+00:00",
   "InputFields": [
     {
       "Required": false,
@@ -354,7 +354,7 @@
   ],
   "OutputFields": [
     {
-      "Value": "[name]",
+      "Value": "[Reponse]",
       "Id": 5,
       "Name": "Template",
       "InputType": "Text",
