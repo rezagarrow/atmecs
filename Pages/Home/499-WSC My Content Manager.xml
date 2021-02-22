@@ -1,4 +1,5 @@
 <module type="WebSitesCreativeMyContentManager" version="03.05.03.00">
+    <contentKey />
     <moduleID>499</moduleID>
     <alignment />
     <alltabs>false</alltabs>
@@ -23,10 +24,11 @@
             <rolename>Administrators</rolename>
         </permission>
     </modulepermissions>
-    <title>WSC My Content Manager</title>
+    <title />
     <startdate>0001-01-01T00:00:00</startdate>
-    <uniqueId>80333c74-1b94-4a3e-829e-1e382e81f16e</uniqueId>
+    <uniqueId>f4d9bd7f-fdad-410f-961f-3c5e28ae2b34</uniqueId>
     <visibility>Maximized</visibility>
+    <cultureCode />
     <modulesettings>
         <modulesetting>
             <settingname>BackgroundCustomImage</settingname>
@@ -97,7 +99,147 @@
   &lt;a href="#MyUrl"&gt;
 
 
-  My list text sample
+  Team
+
+
+  &lt;/a&gt;
+
+&lt;/div&gt;
+      &lt;/div&gt;
+    
+            
+            &lt;/div&gt;
+          
+          &lt;/div&gt;
+        
+          &lt;div class="wsc_slides_grid_row row" data-equalize-item=".wsc_slides_grid_column"&gt;
+          
+            &lt;div class="wsc_slides_grid_column col-md-12"&gt;
+            
+              
+      &lt;div class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs" style="" data-id="121"&gt;
+        &lt;div class="list-icon__item"&gt;
+
+  &lt;i class="fa fa-map-marker"&gt;&lt;/i&gt;
+
+
+
+  &lt;a href="#MyUrl"&gt;
+
+
+  Attend
+
+
+  &lt;/a&gt;
+
+&lt;/div&gt;
+      &lt;/div&gt;
+    
+            
+            &lt;/div&gt;
+          
+          &lt;/div&gt;
+        
+          &lt;div class="wsc_slides_grid_row row" data-equalize-item=".wsc_slides_grid_column"&gt;
+          
+            &lt;div class="wsc_slides_grid_column col-md-12"&gt;
+            
+              
+      &lt;div class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs" style="" data-id="122"&gt;
+        &lt;div class="list-icon__item"&gt;
+
+  &lt;i class="fa fa-map-marker"&gt;&lt;/i&gt;
+
+
+
+  &lt;a href="#MyUrl"&gt;
+
+
+  News
+
+
+  &lt;/a&gt;
+
+&lt;/div&gt;
+      &lt;/div&gt;
+    
+            
+            &lt;/div&gt;
+          
+          &lt;/div&gt;
+        
+          &lt;div class="wsc_slides_grid_row row" data-equalize-item=".wsc_slides_grid_column"&gt;
+          
+            &lt;div class="wsc_slides_grid_column col-md-12"&gt;
+            
+              
+      &lt;div class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs" style="" data-id="123"&gt;
+        &lt;div class="list-icon__item"&gt;
+
+  &lt;i class="fa fa-map-marker"&gt;&lt;/i&gt;
+
+
+
+  &lt;a href="#MyUrl"&gt;
+
+
+  Shop
+
+
+  &lt;/a&gt;
+
+&lt;/div&gt;
+      &lt;/div&gt;
+    
+            
+            &lt;/div&gt;
+          
+          &lt;/div&gt;
+        
+          &lt;div class="wsc_slides_grid_row row" data-equalize-item=".wsc_slides_grid_column"&gt;
+          
+            &lt;div class="wsc_slides_grid_column col-md-12"&gt;
+            
+              
+      &lt;div class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs" style="" data-id="124"&gt;
+        &lt;div class="list-icon__item"&gt;
+
+  &lt;i class="fa fa-map-marker"&gt;&lt;/i&gt;
+
+
+
+  &lt;a href="#MyUrl"&gt;
+
+
+  Fans
+
+
+  &lt;/a&gt;
+
+&lt;/div&gt;
+      &lt;/div&gt;
+    
+            
+            &lt;/div&gt;
+          
+          &lt;/div&gt;
+        
+          &lt;div class="wsc_slides_grid_row row" data-equalize-item=".wsc_slides_grid_column"&gt;
+          
+            &lt;div class="wsc_slides_grid_column col-md-12"&gt;
+            
+              
+      &lt;div class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs" style="" data-id="125"&gt;
+        &lt;div class="list-icon__item"&gt;
+
+  &lt;i class="fa fa-map-marker"&gt;&lt;/i&gt;
+
+
+
+  &lt;a href="#MyUrl"&gt;
+
+
+  Chiefs
 
 
   &lt;/a&gt;
