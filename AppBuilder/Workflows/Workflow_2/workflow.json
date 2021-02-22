@@ -82,6 +82,7 @@
                   "Actions": [
                     {
                       "Id": 12,
+                      "Condition": "false",
                       "ActionType": "PlantAnApp.ReadAllEntity.0.FavoriteAttraction",
                       "OrderIndex": 0,
                       "ActionParameters": [
@@ -331,7 +332,7 @@
   "CreatedBy": "SuperUser Account",
   "CreatedOn": "2021-02-19T12:41:55.8127431+00:00",
   "LastModifiedBy": "SuperUser Account",
-  "LastModifiedOn": "2021-02-22T14:35:51.5123081+00:00",
+  "LastModifiedOn": "2021-02-22T14:38:04.8355935+00:00",
   "InputFields": [
     {
       "Required": false,
@@ -363,6 +364,14 @@
       "Value": "[AttractionsJSON]",
       "Id": 11,
       "Name": "AttractionsJSON",
+      "InputType": "Text",
+      "WorkflowId": 2,
+      "IsDeleted": false
+    },
+    {
+      "Value": "[UserId]",
+      "Id": 13,
+      "Name": "UserId",
       "InputType": "Text",
       "WorkflowId": 2,
       "IsDeleted": false
