@@ -84,7 +84,7 @@
       "OrderIndex": 1,
       "Parameters": {
         "InputParameters": "",
-        "URL": "https://app.ticketmaster.com/discovery/v2/events.json?apikey=[Auth:ApiKey][If:DisplayIfNotEmpty(Condition='[genreIdParam]!= \"\"', DisplayText='&genreId=[genreIdParam]', DefaultValue='')][If:DisplayIfNotEmpty(Condition='[keywordParam]!= \"\"', DisplayText='&keyword=[keywordParam]', DefaultValue='')][If:DisplayIfNotEmpty(Condition='[cityParam]!= \"\"', DisplayText='&city=[cityParam]', DefaultValue='')][If:DisplayIfNotEmpty(Condition='[attractionIdParam]!= \"\"', DisplayText='&attractionId=[attractionIdParam]', DefaultValue='')]",
+        "URL": "https://app.ticketmaster.com/discovery/v2/events.json?apikey=[Auth:ApiKey][If:DisplayIfNotEmpty(Condition='[genreIdParam]', DisplayText='&genreId=[genreIdParam]', DefaultValue='')][If:DisplayIfNotEmpty(Condition='[keywordParam]', DisplayText='&keyword=[keywordParam]', DefaultValue='')][If:DisplayIfNotEmpty(Condition='[cityParam]', DisplayText='&city=[cityParam]', DefaultValue='')][If:DisplayIfNotEmpty(Condition='[attractionIdParam]', DisplayText='&attractionId=[attractionIdParam]', DefaultValue='')]",
         "UrlTokenContext": {
           "Expression": "",
           "Value": "Url",
