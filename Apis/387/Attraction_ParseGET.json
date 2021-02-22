@@ -4,41 +4,52 @@
   "IsEnabled": true,
   "OrderIndex": 0,
   "CrossDomainPolicy": "Public",
-  "Inputs": [],
-  "Actions": [
+  "Inputs": [
     {
-      "ActionType": "PostData",
+      "Name": "Id",
+      "IsDeleted": false,
+      "IsEnabled": true,
       "OrderIndex": 0,
       "Parameters": {
-        "InputParameters": "",
-        "URL": "https://app.ticketmaster.com/discovery/v2/attractions/[Id].json?apikey=[Auth:ApiKey]",
-        "UrlTokenContext": {
-          "Expression": "",
-          "Value": "Url",
-          "IsExpression": false,
-          "Parameters": {}
-        },
-        "UseSSL": "",
-        "Timeout": "",
-        "HttpMethod": {
-          "Expression": "",
-          "Value": "GET",
-          "IsExpression": false,
-          "Parameters": {}
-        },
-        "Data": "",
-        "DoNotEscapeTokens": "",
-        "DisableReferer": "",
-        "Headers": "",
-        "UseDNNProxySettings": "",
-        "AddCurrentCookies": "",
-        "OutputParameters": "",
-        "CookieContainerToken": "",
-        "OutputTokenName": "response",
-        "OutputHeaders": "",
-        "IgnoreErrors": "",
-        "Events": "",
-        "OnError": []
+        "Value": ""
+      },
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "prop",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 1,
+      "Parameters": {
+        "Value": ""
+      },
+      "InputTypeStr": "text",
+      "Validations": []
+    }
+  ],
+  "Actions": [
+    {
+      "ActionType": "PlantAnApp.ExecuteWorkflow.4",
+      "OrderIndex": 1,
+      "Parameters": {
+        "InputHelpText": "",
+        "Id": "[Id]",
+        "prop": "[Prop]",
+        "OutputHelpText": "",
+        "PropData": ""
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {}
+    },
+    {
+      "ActionType": "RawResponse",
+      "OrderIndex": 2,
+      "Parameters": {
+        "Content": "[PropData]",
+        "HttpCode": "200 OK",
+        "Headers": ""
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
