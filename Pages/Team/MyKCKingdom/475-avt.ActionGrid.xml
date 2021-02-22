@@ -50,8 +50,8 @@
     &lt;SearchDelayTime&gt;300&lt;/SearchDelayTime&gt;
     &lt;TableHeight /&gt;
     &lt;PagerStyle&gt;TouchFriendly&lt;/PagerStyle&gt;
-    &lt;PageSizes&gt;[8,16,32]&lt;/PageSizes&gt;
-    &lt;DefaultPageSize&gt;8&lt;/DefaultPageSize&gt;
+    &lt;PageSizes&gt;[6,12,24]&lt;/PageSizes&gt;
+    &lt;DefaultPageSize&gt;6&lt;/DefaultPageSize&gt;
     &lt;IsDebug&gt;False&lt;/IsDebug&gt;
     &lt;SearchEnabled&gt;False&lt;/SearchEnabled&gt;
     &lt;HideEmptyGrid&gt;False&lt;/HideEmptyGrid&gt;
