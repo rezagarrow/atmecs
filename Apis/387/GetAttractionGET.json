@@ -1,0 +1,49 @@
+{
+  "Name": "GetAttraction",
+  "HttpMethod": "GET",
+  "IsEnabled": true,
+  "OrderIndex": 0,
+  "CrossDomainPolicy": "Public",
+  "Inputs": [],
+  "Actions": [
+    {
+      "ActionType": "PostData",
+      "OrderIndex": 0,
+      "Parameters": {
+        "InputParameters": "",
+        "URL": "https://app.ticketmaster.com/discovery/v2/attractions/[Id].json?apikey=[Auth:ApiKey]",
+        "UrlTokenContext": {
+          "Expression": "",
+          "Value": "Url",
+          "IsExpression": false,
+          "Parameters": {}
+        },
+        "UseSSL": "",
+        "Timeout": "",
+        "HttpMethod": {
+          "Expression": "",
+          "Value": "GET",
+          "IsExpression": false,
+          "Parameters": {}
+        },
+        "Data": "",
+        "DoNotEscapeTokens": "",
+        "DisableReferer": "",
+        "Headers": "",
+        "UseDNNProxySettings": "",
+        "AddCurrentCookies": "",
+        "OutputParameters": "",
+        "CookieContainerToken": "",
+        "OutputTokenName": "response",
+        "OutputHeaders": "",
+        "IgnoreErrors": "",
+        "Events": "",
+        "OnError": []
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {}
+    }
+  ],
+  "OnErrorActions": []
+}
