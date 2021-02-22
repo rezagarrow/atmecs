@@ -24,6 +24,17 @@
           "Metadata": {}
         }
       ]
+    },
+    {
+      "Name": "UserId",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 1,
+      "Parameters": {
+        "Value": ""
+      },
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -34,7 +45,8 @@
         "InputHelpText": "",
         "Id": "[Id]",
         "OutputHelpText": "",
-        "Template": "template"
+        "Template": "template",
+        "AttractionsJSON": ""
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
