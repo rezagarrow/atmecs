@@ -1,0 +1,128 @@
+<module type="WebSitesCreativeMyContentManager" version="03.05.03.00">
+    <moduleID>499</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod />
+    <cachetime>1200</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+    </modulepermissions>
+    <title>WSC My Content Manager</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>80333c74-1b94-4a3e-829e-1e382e81f16e</uniqueId>
+    <visibility>Maximized</visibility>
+    <modulesettings>
+        <modulesetting>
+            <settingname>BackgroundCustomImage</settingname>
+            <settingvalue>f7b06511-6770-4293-83ee-98af909503a9.jpg</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ThemeLocationMode</settingname>
+            <settingvalue>SkinLocation</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ViewContent</settingname>
+            <settingvalue>
+      &lt;div class="wsc_cm_module_container clearfix module-499 visible-md visible-lg visible-sm visible-xs" style="padding: 0px 0px 0px 0px;      margin: 0px 0px 0px 0px;      border-radius: 0px;      background-size: auto;background-repeat: repeat;background-position: left top;"&gt;
+        
+  
+  &lt;div class="emt-custom-icon list-icon emt-no-colored"&gt;
+    &lt;style&gt;
+      .module-499 .list-icon .list-icon__item {
+        
+        
+        
+        
+        font-weight: 400;
+        
+        
+      }
+      /* Override default link color */
+      .module-499 .list-icon .list-icon__item a,
+      .module-499 .list-icon .list-icon__item a:hover,
+      .module-499 .list-icon .list-icon__item a:focus,
+      .module-499 .list-icon .list-icon__item a:visited {
+        
+      }
+      /* Icon size and color */
+      .module-499 .list-icon i,
+      .module-499 .list-icon .list-icon__item:before {
+        font-size: 15px;
+      }
+      .module-499 .list-icon.list-icon-colored i,
+      .module-499 .list-icon.list-icon-colored .list-icon__item:before {
+        color: #ca0027;
+      }
+      /* Fix spacing for default icons */
+      .module-499 .list-icon:not(.emt-custom-icon) .list-icon__item {
+        margin-left: 15px;
+      }
+      .module-499 .list-icon:not(.emt-custom-icon) .list-icon__item:before {
+        margin-left: -15px;
+      }
+
+    &lt;/style&gt;
+
+    
+        &lt;div class="wsc_slides_grid"&gt;
+        
+          &lt;div class="wsc_slides_grid_row row" data-equalize-item=".wsc_slides_grid_column"&gt;
+          
+            &lt;div class="wsc_slides_grid_column col-md-12"&gt;
+            
+              
+      &lt;div class="wsc_content_manager_module_slide visible-md visible-lg visible-sm visible-xs" style="" data-id="120"&gt;
+        &lt;div class="list-icon__item"&gt;
+
+  &lt;i class="fa fa-map-marker"&gt;&lt;/i&gt;
+
+
+
+  &lt;a href="#MyUrl"&gt;
+
+
+  My list text sample
+
+
+  &lt;/a&gt;
+
+&lt;/div&gt;
+      &lt;/div&gt;
+    
+            
+            &lt;/div&gt;
+          
+          &lt;/div&gt;
+        
+        &lt;/div&gt;
+      
+  &lt;/div&gt;
+
+      &lt;/div&gt;
+    </settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>CurrentSkinTheme</settingname>
+            <settingvalue>Lists</settingvalue>
+        </modulesetting>
+    </modulesettings>
+    <tabmodulesettings />
+    <definition>WebSitesCreative.MyContentManager</definition>
+    <moduledefinition>WSC My Content Manager</moduledefinition>
+</module>
