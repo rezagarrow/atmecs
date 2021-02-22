@@ -135,6 +135,7 @@
                     {
                       "Id": 3,
                       "ActionErrorMessage": "This failled",
+                      "Condition": "false",
                       "ActionType": "ExecuteJavascript",
                       "OrderIndex": 1,
                       "ActionParameters": [
@@ -332,7 +333,7 @@
   "CreatedBy": "SuperUser Account",
   "CreatedOn": "2021-02-19T12:41:55.8127431+00:00",
   "LastModifiedBy": "SuperUser Account",
-  "LastModifiedOn": "2021-02-22T15:29:33.739487+00:00",
+  "LastModifiedOn": "2021-02-22T15:30:05.3633862+00:00",
   "InputFields": [
     {
       "Required": false,
@@ -369,9 +370,9 @@
       "IsDeleted": false
     },
     {
-      "Value": "[UserId]",
+      "Value": "[FavIds]",
       "Id": 13,
-      "Name": "UserId",
+      "Name": "FavIds",
       "InputType": "Text",
       "WorkflowId": 2,
       "IsDeleted": false
