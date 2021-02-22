@@ -1,0 +1,13 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 15,
+  "Id": 9,
+  "VersionId": 9,
+  "EntityTabId": 51,
+  "Name": "Favorite Attraction",
+  "PluralName": "Favorite Attractions",
+  "Icon": "table",
+  "Type": "UserCreated",
+  "EnableIndexing": false
+}
