@@ -201,7 +201,7 @@
       &lt;FormatFilters&gt;false&lt;/FormatFilters&gt;
       &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
       &lt;Template&gt;&amp;lt;div class=&quot;room&quot;&amp;gt;
-            &amp;lt;div class=&quot;room-image&quot;&amp;gt;&amp;lt;a href=&quot;/Event-Details?genreid=[Id]&quot; target=&quot;_self&quot;&amp;gt;&amp;lt;img src=&quot;[mainImage]&quot; border=&quot;0&quot; alt=&quot;#&quot;&amp;gt;&amp;lt;/a&amp;gt;
+            &amp;lt;div class=&quot;room-image&quot;&amp;gt;&amp;lt;a href=&quot;/Event-Details?Id=[Id]&quot; target=&quot;_self&quot;&amp;gt;&amp;lt;img src=&quot;[mainImage]&quot; border=&quot;0&quot; alt=&quot;#&quot;&amp;gt;&amp;lt;/a&amp;gt;
                 &amp;lt;div class=&quot;room-title&quot;&amp;gt;[segment]&amp;lt;/div&amp;gt;
              
             &amp;lt;/div&amp;gt;
