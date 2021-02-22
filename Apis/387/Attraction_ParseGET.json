@@ -1,5 +1,5 @@
 {
-  "Name": "GetAttraction",
+  "Name": "Attraction_Parse",
   "HttpMethod": "GET",
   "IsEnabled": true,
   "OrderIndex": 0,
