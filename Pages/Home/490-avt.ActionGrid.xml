@@ -24,7 +24,7 @@
             <rolename>Administrators</rolename>
         </permission>
     </modulepermissions>
-    <title>Attractions</title>
+    <title>View Events by Team</title>
     <startdate>0001-01-01T00:00:00</startdate>
     <uniqueId>bf6b2017-ac1b-49cf-83da-bf6c2dce8801</uniqueId>
     <visibility>Maximized</visibility>
