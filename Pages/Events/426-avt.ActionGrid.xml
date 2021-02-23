@@ -65,7 +65,7 @@
     &lt;ShowFilters&gt;False&lt;/ShowFilters&gt;
     &lt;SyncUrl&gt;True&lt;/SyncUrl&gt;
     &lt;IncludeBootstrapJS&gt;True&lt;/IncludeBootstrapJS&gt;
-    &lt;IncludeBootstrapCSS&gt;True&lt;/IncludeBootstrapCSS&gt;
+    &lt;IncludeBootstrapCSS&gt;False&lt;/IncludeBootstrapCSS&gt;
     &lt;IncludeFontAwesome&gt;True&lt;/IncludeFontAwesome&gt;
     &lt;AngularnoConflict&gt;True&lt;/AngularnoConflict&gt;
     &lt;SelectAllPosition&gt;None&lt;/SelectAllPosition&gt;
