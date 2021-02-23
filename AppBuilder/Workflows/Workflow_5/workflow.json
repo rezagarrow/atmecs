@@ -31,7 +31,7 @@
           {
             "Id": 111,
             "Name": "SqlQuery",
-            "Value": "IF EXISTS (SELECT Id FROM app.EventView WHERE EventId=[EventId])\nBEGIN\n    SELECT Id FROM app.EventView WHERE EventId=[EventId]\nEND\nELSE\nBEGIN\n    SELECT -1\nEND",
+            "Value": "IF EXISTS (SELECT Id FROM app.EventView WHERE EventId=@eId)\nBEGIN\n    SELECT Id as result FROM app.EventView WHERE EventId=@eId\nEND\nELSE\nBEGIN\n    SELECT -1 as result\nEND",
             "IsExpression": false,
             "ActionId": 16,
             "OrderIndex": 0,
@@ -40,6 +40,13 @@
           {
             "Id": 112,
             "Name": "BindTokens",
+            "Value": [
+              {
+                "value": "[EventId]",
+                "$$hashKey": "object:52",
+                "name": "eId"
+              }
+            ],
             "IsExpression": false,
             "ActionId": 16,
             "OrderIndex": 0,
@@ -384,7 +391,7 @@
   "CreatedBy": "SuperUser Account",
   "CreatedOn": "2021-02-23T11:07:11.7658067+00:00",
   "LastModifiedBy": "SuperUser Account",
-  "LastModifiedOn": "2021-02-23T11:09:56.2286234+00:00",
+  "LastModifiedOn": "2021-02-23T11:13:32.4239066+00:00",
   "InputFields": [
     {
       "Required": true,
