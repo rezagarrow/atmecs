@@ -256,7 +256,7 @@
     &lt;PopupHeight&gt;300&lt;/PopupHeight&gt;
     &lt;jQueryTheme&gt;sunny&lt;/jQueryTheme&gt;
     &lt;SubmitHiddenFields&gt;False&lt;/SubmitHiddenFields&gt;
-    &lt;IncludeBootstrap&gt;True&lt;/IncludeBootstrap&gt;
+    &lt;IncludeBootstrap&gt;False&lt;/IncludeBootstrap&gt;
     &lt;IncludeFontAwesome&gt;True&lt;/IncludeFontAwesome&gt;
     &lt;FloatingLabels&gt;False&lt;/FloatingLabels&gt;
     &lt;EnableEmbed&gt;False&lt;/EnableEmbed&gt;
