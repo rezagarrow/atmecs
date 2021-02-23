@@ -1,0 +1,407 @@
+{
+  "Id": 5,
+  "Name": "EventsViewCounter",
+  "Description": "add/update event views",
+  "IsDebug": false,
+  "ActionList": {
+    "Id": 12,
+    "EventName": "Event",
+    "Actions": [
+      {
+        "Id": 16,
+        "ActionType": "RunSql",
+        "OrderIndex": 0,
+        "ActionParameters": [
+          {
+            "Id": 109,
+            "Name": "ConnectionString",
+            "IsExpression": false,
+            "ActionId": 16,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 110,
+            "Name": "QueryTimeout",
+            "IsExpression": false,
+            "ActionId": 16,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 111,
+            "Name": "SqlQuery",
+            "Value": "IF EXISTS (SELECT Id FROM app.EventView WHERE EventId=[EventId])\nBEGIN\n    SELECT Id FROM app.EventView WHERE EventId=[EventId]\nEND\nELSE\nBEGIN\n    SELECT -1\nEND",
+            "IsExpression": false,
+            "ActionId": 16,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 112,
+            "Name": "BindTokens",
+            "IsExpression": false,
+            "ActionId": 16,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 113,
+            "Name": "OutputTokenName",
+            "Value": "result",
+            "IsExpression": false,
+            "ActionId": 16,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 114,
+            "Name": "ExtractColumns",
+            "IsExpression": false,
+            "ActionId": 16,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 115,
+            "Name": "OnError",
+            "Value": {
+              "Id": 13,
+              "EventName": "OnError",
+              "Actions": []
+            },
+            "IsExpression": false,
+            "ActionId": 16,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 116,
+            "Name": "ShowErrors",
+            "IsExpression": false,
+            "ActionId": 16,
+            "OrderIndex": 0,
+            "SubParameters": []
+          }
+        ],
+        "DiagramUID": "Activity_1meftfn"
+      },
+      {
+        "Id": 17,
+        "Description": "",
+        "ActionErrorMessage": "",
+        "Condition": "",
+        "ActionType": "PlantAnApp.ExecuteConditionally",
+        "OrderIndex": 1,
+        "ActionParameters": [
+          {
+            "Id": 117,
+            "Name": "ConditionedActions",
+            "Value": [
+              {
+                "Condition": {
+                  "IsExpression": false,
+                  "Expression": "",
+                  "Value": "[result] != \"-1\""
+                },
+                "Actions": {
+                  "Id": 14,
+                  "EventName": "click",
+                  "Actions": [
+                    {
+                      "Id": 18,
+                      "ActionType": "RunSql",
+                      "OrderIndex": 0,
+                      "ActionParameters": [
+                        {
+                          "Id": 119,
+                          "Name": "ConnectionString",
+                          "IsExpression": false,
+                          "ActionId": 18,
+                          "OrderIndex": 0,
+                          "SubParameters": []
+                        },
+                        {
+                          "Id": 120,
+                          "Name": "QueryTimeout",
+                          "IsExpression": false,
+                          "ActionId": 18,
+                          "OrderIndex": 0,
+                          "SubParameters": []
+                        },
+                        {
+                          "Id": 121,
+                          "Name": "SqlQuery",
+                          "Value": "SELECT (ViewCount + 1) AS newViewsCount\nFROM app.EventView\nWHERE Id = @ID",
+                          "IsExpression": false,
+                          "ActionId": 18,
+                          "OrderIndex": 0,
+                          "SubParameters": []
+                        },
+                        {
+                          "Id": 122,
+                          "Name": "BindTokens",
+                          "Value": [
+                            {
+                              "value": "[result]",
+                              "$$hashKey": "object:52",
+                              "name": "Id"
+                            }
+                          ],
+                          "IsExpression": false,
+                          "ActionId": 18,
+                          "OrderIndex": 0,
+                          "SubParameters": []
+                        },
+                        {
+                          "Id": 123,
+                          "Name": "OutputTokenName",
+                          "Value": "newViewsCount",
+                          "IsExpression": false,
+                          "ActionId": 18,
+                          "OrderIndex": 0,
+                          "SubParameters": []
+                        },
+                        {
+                          "Id": 124,
+                          "Name": "ExtractColumns",
+                          "IsExpression": false,
+                          "ActionId": 18,
+                          "OrderIndex": 0,
+                          "SubParameters": []
+                        },
+                        {
+                          "Id": 125,
+                          "Name": "OnError",
+                          "Value": {
+                            "Id": 15,
+                            "EventName": "OnError",
+                            "Actions": []
+                          },
+                          "IsExpression": false,
+                          "ActionId": 18,
+                          "OrderIndex": 0,
+                          "SubParameters": []
+                        },
+                        {
+                          "Id": 126,
+                          "Name": "ShowErrors",
+                          "IsExpression": false,
+                          "ActionId": 18,
+                          "OrderIndex": 0,
+                          "SubParameters": []
+                        }
+                      ],
+                      "DiagramUID": "Activity_0e7e7id"
+                    },
+                    {
+                      "Id": 19,
+                      "ActionType": "PlantAnApp.PartialUpdateEntity.0.EventView",
+                      "OrderIndex": 1,
+                      "ActionParameters": [
+                        {
+                          "Id": 127,
+                          "Name": "ConnectionString",
+                          "IsExpression": false,
+                          "ActionId": 19,
+                          "OrderIndex": 0,
+                          "SubParameters": []
+                        },
+                        {
+                          "Id": 128,
+                          "Name": "RecordId",
+                          "Value": "[result]",
+                          "IsExpression": false,
+                          "ActionId": 19,
+                          "OrderIndex": 0,
+                          "SubParameters": []
+                        },
+                        {
+                          "Id": 129,
+                          "Name": "UpdatedProperties",
+                          "Value": [
+                            {
+                              "PropertyName": {
+                                "IsExpression": false,
+                                "Expression": "",
+                                "Value": "ViewCount"
+                              },
+                              "PropertyValue": {
+                                "IsExpression": false,
+                                "Expression": "",
+                                "Value": "[newViewsCount]"
+                              }
+                            }
+                          ],
+                          "IsExpression": false,
+                          "ActionId": 19,
+                          "OrderIndex": 0,
+                          "SubParameters": [
+                            {
+                              "Id": 130,
+                              "Name": "PropertyName",
+                              "Value": "ViewCount",
+                              "ParentParameterId": 129,
+                              "IsExpression": false,
+                              "ActionId": 19,
+                              "OrderIndex": 0,
+                              "SubParameters": []
+                            },
+                            {
+                              "Id": 131,
+                              "Name": "PropertyValue",
+                              "Value": "[newViewsCount]",
+                              "ParentParameterId": 129,
+                              "IsExpression": false,
+                              "ActionId": 19,
+                              "OrderIndex": 0,
+                              "SubParameters": []
+                            }
+                          ]
+                        }
+                      ],
+                      "DiagramUID": "Activity_0xufxys"
+                    }
+                  ]
+                }
+              },
+              {
+                "Condition": {
+                  "IsExpression": false,
+                  "Expression": "",
+                  "Value": "[result] == \"-1\""
+                },
+                "Actions": {
+                  "Id": 16,
+                  "EventName": "click",
+                  "Actions": [
+                    {
+                      "Id": 20,
+                      "ActionType": "PlantAnApp.CreateEntity.0.EventView",
+                      "OrderIndex": 0,
+                      "ActionParameters": [
+                        {
+                          "Id": 134,
+                          "Name": "ConnectionString",
+                          "IsExpression": false,
+                          "ActionId": 20,
+                          "OrderIndex": 0,
+                          "SubParameters": []
+                        },
+                        {
+                          "Id": 135,
+                          "Name": "EventId",
+                          "Value": "[EventId]",
+                          "IsExpression": false,
+                          "ActionId": 20,
+                          "OrderIndex": 0,
+                          "SubParameters": []
+                        },
+                        {
+                          "Id": 136,
+                          "Name": "EventName",
+                          "Value": "[EventName]",
+                          "IsExpression": false,
+                          "ActionId": 20,
+                          "OrderIndex": 0,
+                          "SubParameters": []
+                        },
+                        {
+                          "Id": 137,
+                          "Name": "ViewCount",
+                          "Value": "1",
+                          "IsExpression": false,
+                          "ActionId": 20,
+                          "OrderIndex": 0,
+                          "SubParameters": []
+                        },
+                        {
+                          "Id": 138,
+                          "Name": "OutputToken",
+                          "IsExpression": false,
+                          "ActionId": 20,
+                          "OrderIndex": 0,
+                          "SubParameters": []
+                        }
+                      ],
+                      "DiagramUID": "Activity_1jktdei"
+                    }
+                  ]
+                }
+              }
+            ],
+            "IsExpression": false,
+            "ActionId": 17,
+            "OrderIndex": 0,
+            "SubParameters": [
+              {
+                "Id": 118,
+                "Name": "Condition",
+                "Value": "[result] != \"-1\"",
+                "ParentParameterId": 117,
+                "IsExpression": false,
+                "ActionId": 17,
+                "OrderIndex": 0,
+                "SubParameters": []
+              },
+              {
+                "Id": 132,
+                "Name": "Actions",
+                "Value": "14",
+                "ParentParameterId": 117,
+                "IsExpression": false,
+                "ActionId": 17,
+                "OrderIndex": 0,
+                "SubParameters": []
+              },
+              {
+                "Id": 133,
+                "Name": "Condition",
+                "Value": "[result] == \"-1\"",
+                "ParentParameterId": 117,
+                "IsExpression": false,
+                "ActionId": 17,
+                "OrderIndex": 1,
+                "SubParameters": []
+              },
+              {
+                "Id": 139,
+                "Name": "Actions",
+                "Value": "16",
+                "ParentParameterId": 117,
+                "IsExpression": false,
+                "ActionId": 17,
+                "OrderIndex": 1,
+                "SubParameters": []
+              }
+            ]
+          }
+        ],
+        "DiagramUID": "Gateway_1gu5iro"
+      }
+    ]
+  },
+  "CreatedBy": "SuperUser Account",
+  "CreatedOn": "2021-02-23T11:07:11.7658067+00:00",
+  "LastModifiedBy": "SuperUser Account",
+  "LastModifiedOn": "2021-02-23T11:07:11.7658067+00:00",
+  "InputFields": [
+    {
+      "Required": true,
+      "Id": 17,
+      "Name": "EventId",
+      "InputType": "Text",
+      "WorkflowId": 5,
+      "IsDeleted": false
+    },
+    {
+      "Required": false,
+      "Id": 18,
+      "Name": "EventName",
+      "InputType": "Text",
+      "WorkflowId": 5,
+      "IsDeleted": false
+    }
+  ],
+  "OutputFields": []
+}
