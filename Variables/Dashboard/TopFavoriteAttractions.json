@@ -11,7 +11,7 @@
   "cacheTime": 0,
   "cacheLayer": "Global",
   "src": {
-    "sql": " select top 5 text, value from (select top 5 Name as text, count(Id) as value from app.FavoriteAttraction\r\n\r\n group by Name) x\r\n order by value\r\n for json path",
+    "sql": " select top 5 text, value from (select top 5 Name as text, count(Id) as value from app.FavoriteAttraction\r\n\r\n group by Name) x\r\n order by value desc\r\n for json path",
     "defaultColumn": "",
     "columns": "",
     "connectionString": "",
