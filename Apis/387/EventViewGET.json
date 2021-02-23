@@ -53,6 +53,10 @@
             "value": "[RecordId]"
           },
           {
+            "name": "VCount",
+            "value": "[Record:VCount]"
+          },
+          {
             "name": "EventId",
             "value": "[Record:EventId]"
           },
