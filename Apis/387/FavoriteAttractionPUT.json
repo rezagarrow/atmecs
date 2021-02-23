@@ -54,6 +54,15 @@
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": []
+    },
+    {
+      "Name": "Name",
+      "IsDeleted": false,
+      "IsEnabled": false,
+      "OrderIndex": 3,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -63,7 +72,8 @@
       "Parameters": {
         "RecordId": "[RecordId]",
         "Key": "[Key]",
-        "User": "[User]"
+        "User": "[User]",
+        "Name": "[Name]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
