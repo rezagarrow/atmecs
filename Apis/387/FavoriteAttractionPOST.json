@@ -53,7 +53,7 @@
         "OutputToken": "CreatedRecordId",
         "Key": "[Key]",
         "User": "[User]",
-        "Name": "[Name]"
+        "Name": "[EventData:Details(Id=[Key])], Prop=name)]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
