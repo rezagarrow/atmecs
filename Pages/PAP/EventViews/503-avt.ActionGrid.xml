@@ -7,7 +7,6 @@
     <cachemethod />
     <cachetime>0</cachetime>
     <color />
-    <containersrc />
     <displayprint>true</displayprint>
     <displaysyndicate>false</displaysyndicate>
     <displaytitle>true</displaytitle>
@@ -386,6 +385,86 @@
       &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;Field.19&quot;}&lt;/MetadataJson&gt;
       &lt;Metadata&gt;
         &lt;PAP_InternalIdentifier&gt;Field.19&lt;/PAP_InternalIdentifier&gt;
+      &lt;/Metadata&gt;
+    &lt;/FieldInfo&gt;
+    &lt;FieldInfo&gt;
+      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+      &lt;Title&gt;VCount&lt;/Title&gt;
+      &lt;RefName&gt;VCount&lt;/RefName&gt;
+      &lt;IsEnabled&gt;true&lt;/IsEnabled&gt;
+      &lt;IsInitiallyVisible&gt;true&lt;/IsInitiallyVisible&gt;
+      &lt;IsSortable&gt;false&lt;/IsSortable&gt;
+      &lt;CanBeSortable&gt;true&lt;/CanBeSortable&gt;
+      &lt;IsSearchable&gt;false&lt;/IsSearchable&gt;
+      &lt;AllowHtml&gt;false&lt;/AllowHtml&gt;
+      &lt;CanBeSearchable&gt;true&lt;/CanBeSearchable&gt;
+      &lt;IsFilterable&gt;false&lt;/IsFilterable&gt;
+      &lt;CanBeFilterable&gt;true&lt;/CanBeFilterable&gt;
+      &lt;FormatFilters&gt;false&lt;/FormatFilters&gt;
+      &lt;OrderIndex&gt;4&lt;/OrderIndex&gt;
+      &lt;Template /&gt;
+      &lt;FormatterParameters&gt;
+        &lt;item&gt;
+          &lt;key&gt;
+            &lt;string&gt;DecimalPlaces&lt;/string&gt;
+          &lt;/key&gt;
+          &lt;value&gt;
+            &lt;FormatterParameterInfo xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;
+              &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+              &lt;DefinitionId&gt;Number&lt;/DefinitionId&gt;
+              &lt;TypeStr&gt;System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&lt;/TypeStr&gt;
+              &lt;Name&gt;DecimalPlaces&lt;/Name&gt;
+              &lt;IsExpression&gt;false&lt;/IsExpression&gt;
+              &lt;Value xsi:type=&quot;xsd:int&quot;&gt;0&lt;/Value&gt;
+            &lt;/FormatterParameterInfo&gt;
+          &lt;/value&gt;
+        &lt;/item&gt;
+      &lt;/FormatterParameters&gt;
+      &lt;TooltipEnabled&gt;false&lt;/TooltipEnabled&gt;
+      &lt;TooltipOrientation&gt;top&lt;/TooltipOrientation&gt;
+      &lt;TooltipDataTrigger&gt;click&lt;/TooltipDataTrigger&gt;
+      &lt;TooltipIconPosition&gt;right&lt;/TooltipIconPosition&gt;
+      &lt;TooltipInEdit&gt;false&lt;/TooltipInEdit&gt;
+      &lt;TooltipHeight&gt;0&lt;/TooltipHeight&gt;
+      &lt;TooltipWidth&gt;0&lt;/TooltipWidth&gt;
+      &lt;ColumnTextAlignment&gt;left&lt;/ColumnTextAlignment&gt;
+      &lt;HeaderTextAlignment&gt;false&lt;/HeaderTextAlignment&gt;
+      &lt;ShowInFooter&gt;no&lt;/ShowInFooter&gt;
+      &lt;ShowInFooterSumDecimals&gt;2&lt;/ShowInFooterSumDecimals&gt;
+      &lt;Format&gt;Number&lt;/Format&gt;
+      &lt;EditFieldType&gt;none&lt;/EditFieldType&gt;
+      &lt;EditFieldTypeParameters /&gt;
+      &lt;Validation /&gt;
+      &lt;FieldType&gt;Field&lt;/FieldType&gt;
+      &lt;FieldTypeStr&gt;Field&lt;/FieldTypeStr&gt;
+      &lt;FormFields /&gt;
+      &lt;FormSettings&gt;
+        &lt;LabelAlign&gt;
+          &lt;Value&gt;Inside&lt;/Value&gt;
+          &lt;CanOverride&gt;true&lt;/CanOverride&gt;
+          &lt;Inherit&gt;true&lt;/Inherit&gt;
+        &lt;/LabelAlign&gt;
+        &lt;LabelWidth&gt;
+          &lt;Value&gt;3&lt;/Value&gt;
+          &lt;CanOverride&gt;true&lt;/CanOverride&gt;
+          &lt;Inherit&gt;true&lt;/Inherit&gt;
+        &lt;/LabelWidth&gt;
+        &lt;FieldSpacing&gt;
+          &lt;Value&gt;Normal&lt;/Value&gt;
+          &lt;CanOverride&gt;true&lt;/CanOverride&gt;
+          &lt;Inherit&gt;true&lt;/Inherit&gt;
+        &lt;/FieldSpacing&gt;
+        &lt;FormId&gt;0&lt;/FormId&gt;
+        &lt;Cache&gt;false&lt;/Cache&gt;
+        &lt;MasterCacheKey /&gt;
+      &lt;/FormSettings&gt;
+      &lt;ShowOnMobile&gt;true&lt;/ShowOnMobile&gt;
+      &lt;ShowOnTablet&gt;true&lt;/ShowOnTablet&gt;
+      &lt;ShowOnDesktop&gt;true&lt;/ShowOnDesktop&gt;
+      &lt;ShowOnLargeScreens&gt;true&lt;/ShowOnLargeScreens&gt;
+      &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;Field.20&quot;}&lt;/MetadataJson&gt;
+      &lt;Metadata&gt;
+        &lt;PAP_InternalIdentifier&gt;Field.20&lt;/PAP_InternalIdentifier&gt;
       &lt;/Metadata&gt;
     &lt;/FieldInfo&gt;
   &lt;/Fields&gt;
