@@ -201,7 +201,7 @@
                               "Name": {
                                 "IsExpression": false,
                                 "Expression": "",
-                                "Value": "User"
+                                "Value": "userId"
                               },
                               "Value": {
                                 "IsExpression": false,
@@ -257,7 +257,7 @@
                             {
                               "Id": 143,
                               "Name": "Name",
-                              "Value": "User",
+                              "Value": "userId",
                               "ParentParameterId": 19,
                               "IsExpression": false,
                               "ActionId": 3,
@@ -404,7 +404,7 @@
   "CreatedBy": "SuperUser Account",
   "CreatedOn": "2021-02-19T12:41:55.8127431+00:00",
   "LastModifiedBy": "SuperUser Account",
-  "LastModifiedOn": "2021-02-23T14:49:34.2236519+00:00",
+  "LastModifiedOn": "2021-02-23T14:50:15.1752907+00:00",
   "InputFields": [
     {
       "Required": false,
