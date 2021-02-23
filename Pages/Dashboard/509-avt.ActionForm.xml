@@ -36,15 +36,15 @@
     <content type="ActionForm" version="05.12.10.00"><![CDATA[&lt;ActionForm&gt;
   &lt;Fields&gt;
     &lt;Field&gt;
-      &lt;Id&gt;&lt;![CDATA[62]]&gt;&lt;/Id&gt;
-      &lt;Title&gt;&lt;![CDATA[Submit]]&gt;&lt;/Title&gt;
+      &lt;Id&gt;&lt;![CDATA[64]]&gt;&lt;/Id&gt;
+      &lt;Title&gt;&lt;![CDATA[Views by week]]&gt;&lt;/Title&gt;
       &lt;ShortDesc&gt;&lt;![CDATA[]]&gt;&lt;/ShortDesc&gt;
       &lt;CustomAttributesJson&gt;&lt;![CDATA[[]]]&gt;&lt;/CustomAttributesJson&gt;
       &lt;IsEnabled&gt;True&lt;/IsEnabled&gt;
       &lt;OverrideName /&gt;
-      &lt;Name&gt;Submit&lt;/Name&gt;
+      &lt;Name&gt;Viewsbyweek&lt;/Name&gt;
       &lt;HelpText&gt;&lt;![CDATA[]]&gt;&lt;/HelpText&gt;
-      &lt;ShowCondition&gt;&lt;![CDATA[]]&gt;&lt;/ShowCondition&gt;
+      &lt;ShowCondition&gt;&lt;![CDATA[0]]&gt;&lt;/ShowCondition&gt;
       &lt;ValidationCondition&gt;&lt;![CDATA[]]&gt;&lt;/ValidationCondition&gt;
       &lt;CanValidate&gt;&lt;![CDATA[True]]&gt;&lt;/CanValidate&gt;
       &lt;BindShow&gt;&lt;![CDATA[]]&gt;&lt;/BindShow&gt;
@@ -52,39 +52,74 @@
       &lt;BindPreserveLayout&gt;&lt;![CDATA[False]]&gt;&lt;/BindPreserveLayout&gt;
       &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
       &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
-      &lt;InputType&gt;button&lt;/InputType&gt;
-      &lt;InputData&gt;{&quot;CausesValidation&quot;:true,&quot;IsDefaultButton&quot;:true,&quot;ButtonSize&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;btn-normal&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;ButtonType&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;btn-info&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;ButtonAlign&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;left&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;ButtonIcon&quot;:&quot;&quot;,&quot;ButtonExecutingActionMessage&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;localize&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;ButtonWaitingMessage&quot;:&quot;Please wait...&quot;,&quot;ConnectedForms&quot;:&quot;&quot;,&quot;Actions&quot;:[]}&lt;/InputData&gt;
-      &lt;CausesValidation&gt;True&lt;/CausesValidation&gt;
-      &lt;IsDefaultButton&gt;True&lt;/IsDefaultButton&gt;
-      &lt;ButtonSize&gt;
-        &lt;Expression /&gt;
-        &lt;Value&gt;btn-normal&lt;/Value&gt;
-        &lt;IsExpression&gt;False&lt;/IsExpression&gt;
-        &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
-      &lt;/ButtonSize&gt;
-      &lt;ButtonType&gt;
-        &lt;Expression /&gt;
-        &lt;Value&gt;btn-info&lt;/Value&gt;
-        &lt;IsExpression&gt;False&lt;/IsExpression&gt;
-        &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
-      &lt;/ButtonType&gt;
-      &lt;ButtonAlign&gt;
+      &lt;InputType&gt;static-text&lt;/InputType&gt;
+      &lt;InputData&gt;{&quot;Value&quot;:&quot;\u003ch4\u003e\n   Accounts Management\n\u003c/h4\u003e \n\u003cdiv class=\&quot;row\&quot;\u003e\n   \u003cdiv class=\&quot;col-sm-12\&quot; style=\&quot;text-align:left\&quot;\u003e\n                 \u003cdiv id=\&quot;line-charttwo\&quot; style=\&quot;height:200px;\&quot;\u003e\u003c/div\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n\n\u003cscript\u003e\nMorris.Area({\n  element: \u0027line-charttwo\u0027,\n  data:[\n    { y: \u0027[Reports:PartnerLastMonth.DateStart]\u0027, a: \u0027[Reports:PartnerLastMonth.result]\u0027},\n    { y: \u0027[Reports:PartnerThisMonth.DateStart]\u0027, a: \u0027[Reports:PartnerThisMonth.result]\u0027},\n    { y: \u0027[Reports:PartnerLastWeek.DateStart]\u0027, a: \u0027[Reports:PartnerLastWeek.result]\u0027},\n    { y: \u0027[Reports:PartnerThisWeek.DateStart]\u0027, a: \u0027[Reports:PartnerThisWeek.result]\u0027}\n  ],\n  xkey: \u0027y\u0027,\n  ykeys: [\u0027a\u0027],\n  labels: [\u0027Count\u0027],\n  fillOpacity: 0.4,\n  hideHover: \u0027auto\u0027,\n  behaveLikeLine: true,\n  resize: true,\n  pointFillColors: [\u0027#ffffff\u0027],\n  pointStrokeColors: [\u0027black\u0027],\n  lineColors: [\u0027rgb(233, 30, 99)\u0027],\n});\u003c/script\u003e\n\u003cdiv class=\&quot;row\&quot; style=\&quot;margin:20px; padding: 10px; background-color: rgb(233,30,99); color: white;\&quot; \u003e\n  \u003cdiv class=\&quot;col-sm-6\&quot; style=\&quot;text-align:left\&quot;\u003e\n    This Week\n  \u003c/div\u003e\n  \u003cdiv class=\&quot;col-sm-6\&quot; style=\&quot;text-align:right\&quot;\u003e\n    \u003cb\u003e[Reports:PartnerThisWeek.result] \u003c/b\u003ePartners\n  \u003c/div\u003e\n   \u003cdiv class=\&quot;col-sm-6\&quot; style=\&quot;text-align:left\&quot;\u003e\n    Last Week\n  \u003c/div\u003e\n    \u003cdiv class=\&quot;col-sm-6\&quot; style=\&quot;text-align:right\&quot;\u003e\n    \u003cb\u003e[Reports:PartnerLastWeek.result] \u003c/b\u003ePartners\n    \u003c/div\u003e\n    \u003cdiv class=\&quot;col-sm-6\&quot; style=\&quot;text-align:left\&quot;\u003e\n  This Month\n  \u003c/div\u003e\n    \u003cdiv class=\&quot;col-sm-6\&quot; style=\&quot;text-align:right\&quot;\u003e\n    \u003cb\u003e[Reports:PartnerThisMonth.result] \u003c/b\u003ePartners\n  \u003c/div\u003e\n\n    \u003cdiv class=\&quot;col-sm-6\&quot; style=\&quot;text-align:left\&quot;\u003e\n  Last Month\n  \u003c/div\u003e\n    \u003cdiv class=\&quot;col-sm-6\&quot; style=\&quot;text-align:right\&quot;\u003e\n    \u003cb\u003e[Reports:PartnerLastMonth.result] \u003c/b\u003ePartners\n  \u003c/div\u003e\n  \n\u003c/div\u003e\n\n&quot;,&quot;Align&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;left&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;SaveToReport&quot;:false}&lt;/InputData&gt;
+      &lt;Align&gt;
         &lt;Expression /&gt;
         &lt;Value&gt;left&lt;/Value&gt;
         &lt;IsExpression&gt;False&lt;/IsExpression&gt;
         &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
-      &lt;/ButtonAlign&gt;
-      &lt;ButtonIcon /&gt;
-      &lt;ButtonExecutingActionMessage&gt;
-        &lt;Expression /&gt;
-        &lt;Value&gt;localize&lt;/Value&gt;
-        &lt;IsExpression&gt;False&lt;/IsExpression&gt;
-        &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
-      &lt;/ButtonExecutingActionMessage&gt;
-      &lt;ButtonWaitingMessage&gt;Please wait...&lt;/ButtonWaitingMessage&gt;
-      &lt;ConnectedForms /&gt;
-      &lt;Actions /&gt;
-      &lt;Value&gt;&lt;![CDATA[]]&gt;&lt;/Value&gt;
+      &lt;/Align&gt;
+      &lt;SaveToReport&gt;False&lt;/SaveToReport&gt;
+      &lt;Value&gt;&lt;![CDATA[&lt;h4&gt;
+   Accounts Management
+&lt;/h4&gt; 
+&lt;div class=&quot;row&quot;&gt;
+   &lt;div class=&quot;col-sm-12&quot; style=&quot;text-align:left&quot;&gt;
+                 &lt;div id=&quot;line-charttwo&quot; style=&quot;height:200px;&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+Morris.Area({
+  element: &#39;line-charttwo&#39;,
+  data:[
+    { y: &#39;[Reports:PartnerLastMonth.DateStart]&#39;, a: &#39;[Reports:PartnerLastMonth.result]&#39;},
+    { y: &#39;[Reports:PartnerThisMonth.DateStart]&#39;, a: &#39;[Reports:PartnerThisMonth.result]&#39;},
+    { y: &#39;[Reports:PartnerLastWeek.DateStart]&#39;, a: &#39;[Reports:PartnerLastWeek.result]&#39;},
+    { y: &#39;[Reports:PartnerThisWeek.DateStart]&#39;, a: &#39;[Reports:PartnerThisWeek.result]&#39;}
+  ],
+  xkey: &#39;y&#39;,
+  ykeys: [&#39;a&#39;],
+  labels: [&#39;Count&#39;],
+  fillOpacity: 0.4,
+  hideHover: &#39;auto&#39;,
+  behaveLikeLine: true,
+  resize: true,
+  pointFillColors: [&#39;#ffffff&#39;],
+  pointStrokeColors: [&#39;black&#39;],
+  lineColors: [&#39;rgb(233, 30, 99)&#39;],
+});&lt;/script&gt;
+&lt;div class=&quot;row&quot; style=&quot;margin:20px; padding: 10px; background-color: rgb(233,30,99); color: white;&quot; &gt;
+  &lt;div class=&quot;col-sm-6&quot; style=&quot;text-align:left&quot;&gt;
+    This Week
+  &lt;/div&gt;
+  &lt;div class=&quot;col-sm-6&quot; style=&quot;text-align:right&quot;&gt;
+    &lt;b&gt;[Reports:PartnerThisWeek.result] &lt;/b&gt;Partners
+  &lt;/div&gt;
+   &lt;div class=&quot;col-sm-6&quot; style=&quot;text-align:left&quot;&gt;
+    Last Week
+  &lt;/div&gt;
+    &lt;div class=&quot;col-sm-6&quot; style=&quot;text-align:right&quot;&gt;
+    &lt;b&gt;[Reports:PartnerLastWeek.result] &lt;/b&gt;Partners
+    &lt;/div&gt;
+    &lt;div class=&quot;col-sm-6&quot; style=&quot;text-align:left&quot;&gt;
+  This Month
+  &lt;/div&gt;
+    &lt;div class=&quot;col-sm-6&quot; style=&quot;text-align:right&quot;&gt;
+    &lt;b&gt;[Reports:PartnerThisMonth.result] &lt;/b&gt;Partners
+  &lt;/div&gt;
+
+    &lt;div class=&quot;col-sm-6&quot; style=&quot;text-align:left&quot;&gt;
+  Last Month
+  &lt;/div&gt;
+    &lt;div class=&quot;col-sm-6&quot; style=&quot;text-align:right&quot;&gt;
+    &lt;b&gt;[Reports:PartnerLastMonth.result] &lt;/b&gt;Partners
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+
+]]&gt;&lt;/Value&gt;
       &lt;IsRequired&gt;False&lt;/IsRequired&gt;
       &lt;IsActive&gt;True&lt;/IsActive&gt;
       &lt;EnableCondition /&gt;
@@ -99,9 +134,9 @@
       &lt;GroupValidator /&gt;
       &lt;DisableAutocomplete&gt;False&lt;/DisableAutocomplete&gt;
       &lt;ViewOrder&gt;0&lt;/ViewOrder&gt;
-      &lt;RowIndex&gt;1&lt;/RowIndex&gt;
-      &lt;ColSpan&gt;9&lt;/ColSpan&gt;
-      &lt;ColOffset&gt;3&lt;/ColOffset&gt;
+      &lt;RowIndex&gt;2&lt;/RowIndex&gt;
+      &lt;ColSpan&gt;12&lt;/ColSpan&gt;
+      &lt;ColOffset&gt;0&lt;/ColOffset&gt;
     &lt;/Field&gt;
   &lt;/Fields&gt;
   &lt;Settings&gt;
