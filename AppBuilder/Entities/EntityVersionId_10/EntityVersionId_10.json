@@ -1,0 +1,13 @@
+{
+  "DisplayInMenu": false,
+  "ParentPageId": 54,
+  "RecordNamePropertyId": 17,
+  "Id": 10,
+  "VersionId": 10,
+  "EntityTabId": 56,
+  "Name": "EventView",
+  "PluralName": "EventViews",
+  "Icon": "eye",
+  "Type": "UserCreated",
+  "EnableIndexing": false
+}
