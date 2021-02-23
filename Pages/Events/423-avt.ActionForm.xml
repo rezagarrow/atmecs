@@ -148,7 +148,7 @@ return false;]]&gt;&lt;/BindOnChange&gt;
       &lt;EnableCondition /&gt;
       &lt;CssClass&gt;&lt;![CDATA[]]&gt;&lt;/CssClass&gt;
       &lt;FirstCssClass&gt;&lt;![CDATA[]]&gt;&lt;/FirstCssClass&gt;
-      &lt;CssStyles&gt;&lt;![CDATA[]]&gt;&lt;/CssStyles&gt;
+      &lt;CssStyles&gt;&lt;![CDATA[margin-top:45px]]&gt;&lt;/CssStyles&gt;
       &lt;LabelCssClass&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssClass&gt;
       &lt;LabelCssStyles&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssStyles&gt;
       &lt;CustomValidator1 /&gt;
