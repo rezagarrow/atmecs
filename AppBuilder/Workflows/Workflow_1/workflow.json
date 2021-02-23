@@ -221,9 +221,10 @@
   "CreatedBy": "SuperUser Account",
   "CreatedOn": "2021-02-19T09:48:17.0478195+00:00",
   "LastModifiedBy": "SuperUser Account",
-  "LastModifiedOn": "2021-02-19T16:47:42.6566798+00:00",
+  "LastModifiedOn": "2021-02-23T15:22:16.0603564+00:00",
   "InputFields": [
     {
+      "Required": false,
       "Id": 1,
       "Name": "Id",
       "InputType": "Text",
@@ -231,6 +232,7 @@
       "IsDeleted": false
     },
     {
+      "Required": false,
       "Id": 2,
       "Name": "prop",
       "InputType": "Text",
