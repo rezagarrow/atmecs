@@ -53,7 +53,8 @@
         "OutputToken": "CreatedRecordId",
         "Key": "[Key]",
         "User": "[User]",
-        "Name": "[EventData:Details(Id=[Key])], Prop=name)]"
+        "Name": "[AttractionData:Details(Id=\"[Key]\",Prop=name)]",
+        "ConnectionString": ""
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
