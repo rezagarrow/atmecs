@@ -53,7 +53,7 @@
       &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
       &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
       &lt;InputType&gt;static-text&lt;/InputType&gt;
-      &lt;InputData&gt;{&quot;Value&quot;:&quot;\u003ccanvas id=\&quot;MostViewedEvents\&quot;\u003e\u003c/canvas\u003e\n\n\u003cscript\u003e\n    //var data = [Dashboard:ProiecteFaraoferta(vid=\&quot;[querystring:vid]\&quot;,sd=\&quot;[querystring:sd]\&quot;,ed=\&quot;[querystring:ed]\&quot;)=\u0027[]\u0027];\n    var data2 = [Dashboard:TopViewedEvents];\n\n    var ctx = document.getElementById(\&quot;MostViewedEvents\&quot;).getContext(\u00272d\u0027);\n    window.MostViewedEvents = {\n        type: \u0027horizontalBar\u0027,\n        data: {\n            datasets: [{\n                data: [],\n                backgroundColor: \u0027rgb(54, 162, 235)\u0027,\n                label: \u0027Views\u0027\n            }],\n            labels: []\n        },\n        options: {\n            responsive: true,\n            legend: {\n                position: \u0027top\u0027,\n                legend: true\n            },\n\n            title: {\n                display: true,\n                text: \u0027Top 5 Most Viewed Events\u0027,\n                fontSize: 16\n            },\n            animation: {\n                animateScale: true,\n                animateRotate: true\n            },\n            /*tooltips: {\n                        callbacks: {\n                          label: (tooltipItems, data) =\u003e {\n\t\t\t\t\t\t\t\t\t\treturn data.datasets[tooltipItems.datasetIndex].data[tooltipItems.index] + \u0027%\u0027 + \u0027 (\u0027  + addCommas(data.datasets[tooltipItems.datasetIndex].label[tooltipItems.index]) + \u0027)\u0027;\n                                                        } \n                        },\n                      },*/\n            scales: {\n                xAxes: [{\n                    ticks: {\n                    beginAtZero: true\n                            }\n                }]\n            }\n\n       }\n    }\n    //prima coloana\n    window.MostViewedEvents.data.datasets[0].data = $.map(data2, function (element, index) {\n        return element.value\n    });\n    window.MostViewedEvents.data.labels = $.map(data2, function (element, index) {\n        return element.text\n    });\n    //a doua coloana\n    // window.MostViewedEvents.data.datasets[1].data = $.map(data, function(element,index) {return element.value});\n\n    window.MostViewedEvents = new Chart(ctx, window.MostViewedEvents);\n\u003c/script\u003e&quot;,&quot;Align&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;left&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;SaveToReport&quot;:false}&lt;/InputData&gt;
+      &lt;InputData&gt;{&quot;Value&quot;:&quot;\u003ccanvas id=\&quot;MostViewedEvents\&quot;\u003e\u003c/canvas\u003e\n\n\u003cscript\u003e\n    //var data = [Dashboard:ProiecteFaraoferta(vid=\&quot;[querystring:vid]\&quot;,sd=\&quot;[querystring:sd]\&quot;,ed=\&quot;[querystring:ed]\&quot;)=\u0027[]\u0027];\n    var data2 = [Dashboard:TopViewedEvents];\n\n    var ctx = document.getElementById(\&quot;MostViewedEvents\&quot;).getContext(\u00272d\u0027);\n    window.MostViewedEvents = {\n        type: \u0027horizontalBar\u0027,\n        data: {\n            datasets: [{\n                data: [],\n                backgroundColor: \u0027rgb(220, 20, 60);\u0027,\n                label: \u0027Views\u0027\n            }],\n            labels: []\n        },\n        options: {\n            responsive: true,\n            legend: {\n                position: \u0027top\u0027,\n                legend: true\n            },\n\n            title: {\n                display: true,\n                text: \u0027Top 5 Most Viewed Events\u0027,\n                fontSize: 16\n            },\n            animation: {\n                animateScale: true,\n                animateRotate: true\n            },\n            /*tooltips: {\n                        callbacks: {\n                          label: (tooltipItems, data) =\u003e {\n\t\t\t\t\t\t\t\t\t\treturn data.datasets[tooltipItems.datasetIndex].data[tooltipItems.index] + \u0027%\u0027 + \u0027 (\u0027  + addCommas(data.datasets[tooltipItems.datasetIndex].label[tooltipItems.index]) + \u0027)\u0027;\n                                                        } \n                        },\n                      },*/\n            scales: {\n                xAxes: [{\n                    ticks: {\n                    beginAtZero: true\n                            }\n                }]\n            }\n\n       }\n    }\n    //prima coloana\n    window.MostViewedEvents.data.datasets[0].data = $.map(data2, function (element, index) {\n        return element.value\n    });\n    window.MostViewedEvents.data.labels = $.map(data2, function (element, index) {\n        return element.text\n    });\n    //a doua coloana\n    // window.MostViewedEvents.data.datasets[1].data = $.map(data, function(element,index) {return element.value});\n\n    window.MostViewedEvents = new Chart(ctx, window.MostViewedEvents);\n\u003c/script\u003e&quot;,&quot;Align&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;left&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;SaveToReport&quot;:false}&lt;/InputData&gt;
       &lt;Align&gt;
         &lt;Expression /&gt;
         &lt;Value&gt;left&lt;/Value&gt;
@@ -73,7 +73,7 @@
         data: {
             datasets: [{
                 data: [],
-                backgroundColor: &#39;rgb(54, 162, 235)&#39;,
+                backgroundColor: &#39;rgb(220, 20, 60);&#39;,
                 label: &#39;Views&#39;
             }],
             labels: []
@@ -138,6 +138,112 @@
       &lt;DisableAutocomplete&gt;False&lt;/DisableAutocomplete&gt;
       &lt;ViewOrder&gt;0&lt;/ViewOrder&gt;
       &lt;RowIndex&gt;2&lt;/RowIndex&gt;
+      &lt;ColSpan&gt;12&lt;/ColSpan&gt;
+      &lt;ColOffset&gt;0&lt;/ColOffset&gt;
+    &lt;/Field&gt;
+    &lt;Field&gt;
+      &lt;Id&gt;&lt;![CDATA[66]]&gt;&lt;/Id&gt;
+      &lt;Title&gt;&lt;![CDATA[Favorite Attractions]]&gt;&lt;/Title&gt;
+      &lt;ShortDesc&gt;&lt;![CDATA[]]&gt;&lt;/ShortDesc&gt;
+      &lt;CustomAttributesJson&gt;&lt;![CDATA[[]]]&gt;&lt;/CustomAttributesJson&gt;
+      &lt;IsEnabled&gt;True&lt;/IsEnabled&gt;
+      &lt;OverrideName /&gt;
+      &lt;Name&gt;FavoriteAttractions&lt;/Name&gt;
+      &lt;HelpText&gt;&lt;![CDATA[]]&gt;&lt;/HelpText&gt;
+      &lt;ShowCondition&gt;&lt;![CDATA[]]&gt;&lt;/ShowCondition&gt;
+      &lt;ValidationCondition&gt;&lt;![CDATA[]]&gt;&lt;/ValidationCondition&gt;
+      &lt;CanValidate&gt;&lt;![CDATA[True]]&gt;&lt;/CanValidate&gt;
+      &lt;BindShow&gt;&lt;![CDATA[]]&gt;&lt;/BindShow&gt;
+      &lt;BindEnable&gt;&lt;![CDATA[]]&gt;&lt;/BindEnable&gt;
+      &lt;BindPreserveLayout&gt;&lt;![CDATA[False]]&gt;&lt;/BindPreserveLayout&gt;
+      &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
+      &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
+      &lt;InputType&gt;static-text&lt;/InputType&gt;
+      &lt;InputData&gt;{&quot;Value&quot;:&quot;\u003ccanvas id=\&quot;FavoriteAttractions\&quot;\u003e\u003c/canvas\u003e\n\n\u003cscript\u003e\n    //var data = [Dashboard:ProiecteFaraoferta(vid=\&quot;[querystring:vid]\&quot;,sd=\&quot;[querystring:sd]\&quot;,ed=\&quot;[querystring:ed]\&quot;)=\u0027[]\u0027];\n    var data2 = [Dashboard:TopViewedEvents];\n\n    var ctx = document.getElementById(\&quot;FavoriteAttractions\&quot;).getContext(\u00272d\u0027);\n    window.FavoriteAttractions = {\n        type: \u0027horizontalBar\u0027,\n        data: {\n            datasets: [{\n                data: [],\n                backgroundColor: \u0027rgb(54, 162, 235)\u0027,\n                label: \u0027Views\u0027\n            }],\n            labels: []\n        },\n        options: {\n            responsive: true,\n            legend: {\n                position: \u0027top\u0027,\n                legend: true\n            },\n\n            title: {\n                display: true,\n                text: \u0027Top 5 Most Viewed Events\u0027,\n                fontSize: 16\n            },\n            animation: {\n                animateScale: true,\n                animateRotate: true\n            },\n            /*tooltips: {\n                        callbacks: {\n                          label: (tooltipItems, data) =\u003e {\n\t\t\t\t\t\t\t\t\t\treturn data.datasets[tooltipItems.datasetIndex].data[tooltipItems.index] + \u0027%\u0027 + \u0027 (\u0027  + addCommas(data.datasets[tooltipItems.datasetIndex].label[tooltipItems.index]) + \u0027)\u0027;\n                                                        } \n                        },\n                      },*/\n            scales: {\n                xAxes: [{\n                    ticks: {\n                    beginAtZero: true\n                            }\n                }]\n            }\n\n       }\n    }\n    //prima coloana\n    window.FavoriteAttractions.data.datasets[0].data = $.map(data2, function (element, index) {\n        return element.value\n    });\n    window.FavoriteAttractions.data.labels = $.map(data2, function (element, index) {\n        return element.text\n    });\n    //a doua coloana\n    // window.MostViewedEvents.data.datasets[1].data = $.map(data, function(element,index) {return element.value});\n\n    window.FavoriteAttractions = new Chart(ctx, window.FavoriteAttractions);\n\u003c/script\u003e&quot;,&quot;Align&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;left&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;SaveToReport&quot;:false}&lt;/InputData&gt;
+      &lt;Align&gt;
+        &lt;Expression /&gt;
+        &lt;Value&gt;left&lt;/Value&gt;
+        &lt;IsExpression&gt;False&lt;/IsExpression&gt;
+        &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
+      &lt;/Align&gt;
+      &lt;SaveToReport&gt;False&lt;/SaveToReport&gt;
+      &lt;Value&gt;&lt;![CDATA[&lt;canvas id=&quot;FavoriteAttractions&quot;&gt;&lt;/canvas&gt;
+
+&lt;script&gt;
+    //var data = [Dashboard:ProiecteFaraoferta(vid=&quot;[querystring:vid]&quot;,sd=&quot;[querystring:sd]&quot;,ed=&quot;[querystring:ed]&quot;)=&#39;[]&#39;];
+    var data2 = [Dashboard:TopViewedEvents];
+
+    var ctx = document.getElementById(&quot;FavoriteAttractions&quot;).getContext(&#39;2d&#39;);
+    window.FavoriteAttractions = {
+        type: &#39;horizontalBar&#39;,
+        data: {
+            datasets: [{
+                data: [],
+                backgroundColor: &#39;rgb(54, 162, 235)&#39;,
+                label: &#39;Views&#39;
+            }],
+            labels: []
+        },
+        options: {
+            responsive: true,
+            legend: {
+                position: &#39;top&#39;,
+                legend: true
+            },
+
+            title: {
+                display: true,
+                text: &#39;Top 5 Most Viewed Events&#39;,
+                fontSize: 16
+            },
+            animation: {
+                animateScale: true,
+                animateRotate: true
+            },
+            /*tooltips: {
+                        callbacks: {
+                          label: (tooltipItems, data) =&gt; {
+										return data.datasets[tooltipItems.datasetIndex].data[tooltipItems.index] + &#39;%&#39; + &#39; (&#39;  + addCommas(data.datasets[tooltipItems.datasetIndex].label[tooltipItems.index]) + &#39;)&#39;;
+                                                        } 
+                        },
+                      },*/
+            scales: {
+                xAxes: [{
+                    ticks: {
+                    beginAtZero: true
+                            }
+                }]
+            }
+
+       }
+    }
+    //prima coloana
+    window.FavoriteAttractions.data.datasets[0].data = $.map(data2, function (element, index) {
+        return element.value
+    });
+    window.FavoriteAttractions.data.labels = $.map(data2, function (element, index) {
+        return element.text
+    });
+    //a doua coloana
+    // window.MostViewedEvents.data.datasets[1].data = $.map(data, function(element,index) {return element.value});
+
+    window.FavoriteAttractions = new Chart(ctx, window.FavoriteAttractions);
+&lt;/script&gt;]]&gt;&lt;/Value&gt;
+      &lt;IsRequired&gt;False&lt;/IsRequired&gt;
+      &lt;IsActive&gt;True&lt;/IsActive&gt;
+      &lt;EnableCondition /&gt;
+      &lt;CssClass&gt;&lt;![CDATA[]]&gt;&lt;/CssClass&gt;
+      &lt;FirstCssClass&gt;&lt;![CDATA[]]&gt;&lt;/FirstCssClass&gt;
+      &lt;CssStyles&gt;&lt;![CDATA[]]&gt;&lt;/CssStyles&gt;
+      &lt;LabelCssClass&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssClass&gt;
+      &lt;LabelCssStyles&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssStyles&gt;
+      &lt;CustomValidator1 /&gt;
+      &lt;CustomValidator2 /&gt;
+      &lt;ValidationGroup /&gt;
+      &lt;GroupValidator /&gt;
+      &lt;DisableAutocomplete&gt;False&lt;/DisableAutocomplete&gt;
+      &lt;ViewOrder&gt;0&lt;/ViewOrder&gt;
+      &lt;RowIndex&gt;3&lt;/RowIndex&gt;
       &lt;ColSpan&gt;12&lt;/ColSpan&gt;
       &lt;ColOffset&gt;0&lt;/ColOffset&gt;
     &lt;/Field&gt;
