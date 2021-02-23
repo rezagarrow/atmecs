@@ -4,10 +4,10 @@
     <alignment />
     <alltabs>false</alltabs>
     <border />
-    <cachemethod />
+    <cachemethod>MemoryModuleCachingProvider</cachemethod>
     <cachetime>0</cachetime>
     <color />
-    <containersrc />
+    <containersrc>[G]Containers/POLO/NoTitle.ascx</containersrc>
     <displayprint>false</displayprint>
     <displaysyndicate>false</displaysyndicate>
     <displaytitle>true</displaytitle>
