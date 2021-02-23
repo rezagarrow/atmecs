@@ -12,8 +12,8 @@
   "cacheLayer": "Global",
   "src": {
     "sql": " select EventName as text, ViewCount from app.EventView\n for json path",
-    "defaultColumn": "jsonpath",
-    "columns": "jsonpath",
+    "defaultColumn": "",
+    "columns": "",
     "connectionString": "",
     "type": "db"
   }
