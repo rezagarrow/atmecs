@@ -191,6 +191,23 @@
                                 "Expression": "",
                                 "Value": "[FavIds:JSON]"
                               }
+                            },
+                            {
+                              "Type": {
+                                "IsExpression": false,
+                                "Expression": "",
+                                "Value": "string"
+                              },
+                              "Name": {
+                                "IsExpression": false,
+                                "Expression": "",
+                                "Value": "User"
+                              },
+                              "Value": {
+                                "IsExpression": false,
+                                "Expression": "",
+                                "Value": "[UserId]"
+                              }
                             }
                           ],
                           "IsExpression": false,
@@ -226,13 +243,43 @@
                               "ActionId": 3,
                               "OrderIndex": 0,
                               "SubParameters": []
+                            },
+                            {
+                              "Id": 142,
+                              "Name": "Type",
+                              "Value": "string",
+                              "ParentParameterId": 19,
+                              "IsExpression": false,
+                              "ActionId": 3,
+                              "OrderIndex": 1,
+                              "SubParameters": []
+                            },
+                            {
+                              "Id": 143,
+                              "Name": "Name",
+                              "Value": "User",
+                              "ParentParameterId": 19,
+                              "IsExpression": false,
+                              "ActionId": 3,
+                              "OrderIndex": 1,
+                              "SubParameters": []
+                            },
+                            {
+                              "Id": 144,
+                              "Name": "Value",
+                              "Value": "[UserId]",
+                              "ParentParameterId": 19,
+                              "IsExpression": false,
+                              "ActionId": 3,
+                              "OrderIndex": 1,
+                              "SubParameters": []
                             }
                           ]
                         },
                         {
                           "Id": 20,
                           "Name": "Code",
-                          "Value": "function getLinks(externalLinks){\n\tvar links = ''\n\tObject.keys(externalLinks ?? {}).forEach(function(o){links +=`<p><a href=\"${externalLinks[o][0].url}\">${capitalizeFirstLetter(o)}</a></p>`})\n\treturn links;\n}\n\nfunction capitalizeFirstLetter(string) {\n\treturn string.charAt(0).toUpperCase() + string.slice(1);\n}\n\nfunction favoriteButton(id, favIds){\n\tif(favIds.indexOf(id) >= 0){\n    \treturn `<a class=\"btn btn-warning fav-${id}\" disabled href=\"javascript:;\">Saved to favorites</a><br><br>`\n    }else{\n    \treturn `<a class=\"btn btn-info fav-${id}\" href=\"javascript:addFavorite('${id}');\">Save to favorites</a><br><br>`\n    }\n}\n\nvar att = JSON.parse(AttractionsJSON);\nvar favIds = JSON.parse(FavList).map(function(o){ return o.Key });\n\nvar template = ''\natt.forEach(function(at){ \n\ttemplate = \n\t`<h4><b>${at.name}</b></h4>\n    ${favoriteButton(at.id, favIds)}\n    <img src=\"${at.images.filter(obj => {return obj.width == 640 && obj.ratio == '16_9'})[0].url}\">\n\t<div>${getLinks(at.externalLinks)}</div>\n\t<br>\n\t`\n})\n\nreturn template;",
+                          "Value": "function getLinks(externalLinks){\n\tvar links = ''\n\tObject.keys(externalLinks ?? {}).forEach(function(o){links +=`<p><a href=\"${externalLinks[o][0].url}\">${capitalizeFirstLetter(o)}</a></p>`})\n\treturn links;\n}\n\nfunction capitalizeFirstLetter(string) {\n\treturn string.charAt(0).toUpperCase() + string.slice(1);\n}\n\nfunction favoriteButton(id, favIds){\n\tid(userId != \"\"){\n      if(favIds.indexOf(id) >= 0){\n          return `<a class=\"btn btn-warning fav-${id}\" disabled href=\"javascript:;\">Saved to favorites</a><br><br>`\n      }else{\n          return `<a class=\"btn btn-info fav-${id}\" href=\"javascript:addFavorite('${id}');\">Save to favorites</a><br><br>`\n      }\n    }\n}\n\nvar att = JSON.parse(AttractionsJSON);\nvar favIds = JSON.parse(FavList).map(function(o){ return o.Key });\n\nvar template = ''\natt.forEach(function(at){ \n\ttemplate = \n\t`<h4><b>${at.name}</b></h4>\n    ${favoriteButton(at.id, favIds)}\n    <img src=\"${at.images.filter(obj => {return obj.width == 640 && obj.ratio == '16_9'})[0].url}\">\n\t<div>${getLinks(at.externalLinks)}</div>\n\t<br>\n\t`\n})\n\nreturn template;",
                           "IsExpression": false,
                           "ActionId": 3,
                           "OrderIndex": 0,
@@ -357,7 +404,7 @@
   "CreatedBy": "SuperUser Account",
   "CreatedOn": "2021-02-19T12:41:55.8127431+00:00",
   "LastModifiedBy": "SuperUser Account",
-  "LastModifiedOn": "2021-02-22T15:45:09.0025191+00:00",
+  "LastModifiedOn": "2021-02-23T14:47:19.337918+00:00",
   "InputFields": [
     {
       "Required": false,
