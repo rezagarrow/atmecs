@@ -238,6 +238,18 @@
                                 "Expression": "",
                                 "Value": "[newViewsCount]"
                               }
+                            },
+                            {
+                              "PropertyName": {
+                                "IsExpression": false,
+                                "Expression": "",
+                                "Value": "EventName"
+                              },
+                              "PropertyValue": {
+                                "IsExpression": false,
+                                "Expression": "",
+                                "Value": "[EventName]"
+                              }
                             }
                           ],
                           "IsExpression": false,
@@ -262,6 +274,26 @@
                               "IsExpression": false,
                               "ActionId": 19,
                               "OrderIndex": 0,
+                              "SubParameters": []
+                            },
+                            {
+                              "Id": 140,
+                              "Name": "PropertyName",
+                              "Value": "EventName",
+                              "ParentParameterId": 129,
+                              "IsExpression": false,
+                              "ActionId": 19,
+                              "OrderIndex": 1,
+                              "SubParameters": []
+                            },
+                            {
+                              "Id": 141,
+                              "Name": "PropertyValue",
+                              "Value": "[EventName]",
+                              "ParentParameterId": 129,
+                              "IsExpression": false,
+                              "ActionId": 19,
+                              "OrderIndex": 1,
                               "SubParameters": []
                             }
                           ]
@@ -391,7 +423,7 @@
   "CreatedBy": "SuperUser Account",
   "CreatedOn": "2021-02-23T11:07:11.7658067+00:00",
   "LastModifiedBy": "SuperUser Account",
-  "LastModifiedOn": "2021-02-23T11:14:26.3126197+00:00",
+  "LastModifiedOn": "2021-02-23T11:15:24.8733617+00:00",
   "InputFields": [
     {
       "Required": true,
