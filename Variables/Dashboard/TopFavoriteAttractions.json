@@ -1,0 +1,20 @@
+{
+  "id": 8,
+  "namespace": {
+    "id": 5,
+    "name": "Dashboard"
+  },
+  "name": "TopFavoriteAttractions",
+  "description": "",
+  "parser": "<parser><type>string</type><replace>false</replace><decodeHtml>false</decodeHtml></parser>",
+  "defaultValue": "",
+  "cacheTime": 0,
+  "cacheLayer": "Global",
+  "src": {
+    "sql": " select top 5 text, value from (select top 5 Name as text, count(Id) as value from app.FavoriteAttraction\r\n\r\n group by Name) x\r\n order by value\r\n for json path",
+    "defaultColumn": "",
+    "columns": "",
+    "connectionString": "",
+    "type": "db"
+  }
+}
