@@ -24,7 +24,7 @@
             <rolename>Administrators</rolename>
         </permission>
     </modulepermissions>
-    <title>avt.Action Form</title>
+    <title>Charts</title>
     <startdate>0001-01-01T00:00:00</startdate>
     <uniqueId>f20319d2-142b-486b-871b-c3affa5036ee</uniqueId>
     <visibility>Maximized</visibility>
@@ -53,7 +53,7 @@
       &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
       &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
       &lt;InputType&gt;static-text&lt;/InputType&gt;
-      &lt;InputData&gt;{&quot;Value&quot;:&quot;\u003ch4\u003e\n   Accounts Management\n\u003c/h4\u003e \n\u003cdiv class=\&quot;row\&quot;\u003e\n   \u003cdiv class=\&quot;col-sm-12\&quot; style=\&quot;text-align:left\&quot;\u003e\n                 \u003cdiv id=\&quot;line-charttwo\&quot; style=\&quot;height:200px;\&quot;\u003e\u003c/div\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n\n\u003cscript\u003e\nMorris.Area({\n  element: \u0027line-charttwo\u0027,\n  data:[\n    { y: \u0027[Reports:PartnerLastMonth.DateStart]\u0027, a: \u0027[Reports:PartnerLastMonth.result]\u0027},\n    { y: \u0027[Reports:PartnerThisMonth.DateStart]\u0027, a: \u0027[Reports:PartnerThisMonth.result]\u0027},\n    { y: \u0027[Reports:PartnerLastWeek.DateStart]\u0027, a: \u0027[Reports:PartnerLastWeek.result]\u0027},\n    { y: \u0027[Reports:PartnerThisWeek.DateStart]\u0027, a: \u0027[Reports:PartnerThisWeek.result]\u0027}\n  ],\n  xkey: \u0027y\u0027,\n  ykeys: [\u0027a\u0027],\n  labels: [\u0027Count\u0027],\n  fillOpacity: 0.4,\n  hideHover: \u0027auto\u0027,\n  behaveLikeLine: true,\n  resize: true,\n  pointFillColors: [\u0027#ffffff\u0027],\n  pointStrokeColors: [\u0027black\u0027],\n  lineColors: [\u0027rgb(233, 30, 99)\u0027],\n});\u003c/script\u003e\n\u003cdiv class=\&quot;row\&quot; style=\&quot;margin:20px; padding: 10px; background-color: rgb(233,30,99); color: white;\&quot; \u003e\n  \u003cdiv class=\&quot;col-sm-6\&quot; style=\&quot;text-align:left\&quot;\u003e\n    This Week\n  \u003c/div\u003e\n  \u003cdiv class=\&quot;col-sm-6\&quot; style=\&quot;text-align:right\&quot;\u003e\n    \u003cb\u003e[Reports:PartnerThisWeek.result] \u003c/b\u003ePartners\n  \u003c/div\u003e\n   \u003cdiv class=\&quot;col-sm-6\&quot; style=\&quot;text-align:left\&quot;\u003e\n    Last Week\n  \u003c/div\u003e\n    \u003cdiv class=\&quot;col-sm-6\&quot; style=\&quot;text-align:right\&quot;\u003e\n    \u003cb\u003e[Reports:PartnerLastWeek.result] \u003c/b\u003ePartners\n    \u003c/div\u003e\n    \u003cdiv class=\&quot;col-sm-6\&quot; style=\&quot;text-align:left\&quot;\u003e\n  This Month\n  \u003c/div\u003e\n    \u003cdiv class=\&quot;col-sm-6\&quot; style=\&quot;text-align:right\&quot;\u003e\n    \u003cb\u003e[Reports:PartnerThisMonth.result] \u003c/b\u003ePartners\n  \u003c/div\u003e\n\n    \u003cdiv class=\&quot;col-sm-6\&quot; style=\&quot;text-align:left\&quot;\u003e\n  Last Month\n  \u003c/div\u003e\n    \u003cdiv class=\&quot;col-sm-6\&quot; style=\&quot;text-align:right\&quot;\u003e\n    \u003cb\u003e[Reports:PartnerLastMonth.result] \u003c/b\u003ePartners\n  \u003c/div\u003e\n  \n\u003c/div\u003e\n\n&quot;,&quot;Align&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;left&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;SaveToReport&quot;:false}&lt;/InputData&gt;
+      &lt;InputData&gt;{&quot;Value&quot;:&quot;&quot;,&quot;Align&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;left&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;SaveToReport&quot;:false}&lt;/InputData&gt;
       &lt;Align&gt;
         &lt;Expression /&gt;
         &lt;Value&gt;left&lt;/Value&gt;
@@ -61,65 +61,7 @@
         &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
       &lt;/Align&gt;
       &lt;SaveToReport&gt;False&lt;/SaveToReport&gt;
-      &lt;Value&gt;&lt;![CDATA[&lt;h4&gt;
-   Accounts Management
-&lt;/h4&gt; 
-&lt;div class=&quot;row&quot;&gt;
-   &lt;div class=&quot;col-sm-12&quot; style=&quot;text-align:left&quot;&gt;
-                 &lt;div id=&quot;line-charttwo&quot; style=&quot;height:200px;&quot;&gt;&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;script&gt;
-Morris.Area({
-  element: &#39;line-charttwo&#39;,
-  data:[
-    { y: &#39;[Reports:PartnerLastMonth.DateStart]&#39;, a: &#39;[Reports:PartnerLastMonth.result]&#39;},
-    { y: &#39;[Reports:PartnerThisMonth.DateStart]&#39;, a: &#39;[Reports:PartnerThisMonth.result]&#39;},
-    { y: &#39;[Reports:PartnerLastWeek.DateStart]&#39;, a: &#39;[Reports:PartnerLastWeek.result]&#39;},
-    { y: &#39;[Reports:PartnerThisWeek.DateStart]&#39;, a: &#39;[Reports:PartnerThisWeek.result]&#39;}
-  ],
-  xkey: &#39;y&#39;,
-  ykeys: [&#39;a&#39;],
-  labels: [&#39;Count&#39;],
-  fillOpacity: 0.4,
-  hideHover: &#39;auto&#39;,
-  behaveLikeLine: true,
-  resize: true,
-  pointFillColors: [&#39;#ffffff&#39;],
-  pointStrokeColors: [&#39;black&#39;],
-  lineColors: [&#39;rgb(233, 30, 99)&#39;],
-});&lt;/script&gt;
-&lt;div class=&quot;row&quot; style=&quot;margin:20px; padding: 10px; background-color: rgb(233,30,99); color: white;&quot; &gt;
-  &lt;div class=&quot;col-sm-6&quot; style=&quot;text-align:left&quot;&gt;
-    This Week
-  &lt;/div&gt;
-  &lt;div class=&quot;col-sm-6&quot; style=&quot;text-align:right&quot;&gt;
-    &lt;b&gt;[Reports:PartnerThisWeek.result] &lt;/b&gt;Partners
-  &lt;/div&gt;
-   &lt;div class=&quot;col-sm-6&quot; style=&quot;text-align:left&quot;&gt;
-    Last Week
-  &lt;/div&gt;
-    &lt;div class=&quot;col-sm-6&quot; style=&quot;text-align:right&quot;&gt;
-    &lt;b&gt;[Reports:PartnerLastWeek.result] &lt;/b&gt;Partners
-    &lt;/div&gt;
-    &lt;div class=&quot;col-sm-6&quot; style=&quot;text-align:left&quot;&gt;
-  This Month
-  &lt;/div&gt;
-    &lt;div class=&quot;col-sm-6&quot; style=&quot;text-align:right&quot;&gt;
-    &lt;b&gt;[Reports:PartnerThisMonth.result] &lt;/b&gt;Partners
-  &lt;/div&gt;
-
-    &lt;div class=&quot;col-sm-6&quot; style=&quot;text-align:left&quot;&gt;
-  Last Month
-  &lt;/div&gt;
-    &lt;div class=&quot;col-sm-6&quot; style=&quot;text-align:right&quot;&gt;
-    &lt;b&gt;[Reports:PartnerLastMonth.result] &lt;/b&gt;Partners
-  &lt;/div&gt;
-  
-&lt;/div&gt;
-
-]]&gt;&lt;/Value&gt;
+      &lt;Value&gt;&lt;![CDATA[]]&gt;&lt;/Value&gt;
       &lt;IsRequired&gt;False&lt;/IsRequired&gt;
       &lt;IsActive&gt;True&lt;/IsActive&gt;
       &lt;EnableCondition /&gt;
@@ -140,8 +82,8 @@ Morris.Area({
     &lt;/Field&gt;
   &lt;/Fields&gt;
   &lt;Settings&gt;
-    &lt;Title&gt;avt.Action Form&lt;/Title&gt;
-    &lt;CssName&gt;avt-action-form&lt;/CssName&gt;
+    &lt;Title&gt;Charts&lt;/Title&gt;
+    &lt;CssName&gt;charts&lt;/CssName&gt;
     &lt;Version&gt;5.12.0&lt;/Version&gt;
     &lt;Build&gt;5.12.10&lt;/Build&gt;
     &lt;CultureCode&gt;en&lt;/CultureCode&gt;
@@ -166,8 +108,8 @@ Morris.Area({
     &lt;TabId&gt;55&lt;/TabId&gt;
     &lt;ModuleBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm&lt;/ModuleBaseUrl&gt;
     &lt;ResourceBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm/static&lt;/ResourceBaseUrl&gt;
-    &lt;FormTemplate&gt;bootstrap&lt;/FormTemplate&gt;
-    &lt;FormTemplateFolder&gt;/DesktopModules/DnnSharp/ActionForm/templates/Form/bootstrap&lt;/FormTemplateFolder&gt;
+    &lt;FormTemplate&gt;material&lt;/FormTemplate&gt;
+    &lt;FormTemplateFolder&gt;/DesktopModules/DnnSharp/ActionForm/templates/Form/material&lt;/FormTemplateFolder&gt;
     &lt;ModuleId&gt;509&lt;/ModuleId&gt;
     &lt;IsDebug&gt;False&lt;/IsDebug&gt;
     &lt;EnableReports&gt;False&lt;/EnableReports&gt;
@@ -177,7 +119,25 @@ Morris.Area({
     &lt;ShowTooltips&gt;False&lt;/ShowTooltips&gt;
     &lt;ShowTooltipTitle&gt;True&lt;/ShowTooltipTitle&gt;
     &lt;ShowFormCondition /&gt;
-    &lt;InitJs&gt;&lt;![CDATA[]]&gt;&lt;/InitJs&gt;
+    &lt;InitJs&gt;&lt;![CDATA[ Chart.plugins.register({
+	afterDraw: function(chart) {
+  	if (chart.data.datasets[0].data.length === 0) {
+    	// No data is present
+      var ctx = chart.chart.ctx;
+      var width = chart.chart.width;
+      var height = chart.chart.height;
+      chart.clear();
+      
+      ctx.save();
+      ctx.textAlign = &#39;center&#39;;
+      ctx.textBaseline = &#39;middle&#39;;
+      ctx.font = &quot;16px normal &#39;Helvetica Nueue&#39;&quot;;
+      ctx.fillText(&#39;No data to display&#39;, width / 2, height / 2);
+      ctx.restore();
+
+    }
+  }
+});]]&gt;&lt;/InitJs&gt;
     &lt;PopupWidth&gt;400&lt;/PopupWidth&gt;
     &lt;WidthCoordinate&gt;px&lt;/WidthCoordinate&gt;
     &lt;PopupHeight&gt;300&lt;/PopupHeight&gt;
@@ -197,7 +157,7 @@ Morris.Area({
     &lt;LeftSidebarHtml /&gt;
     &lt;RightSidebarHtml /&gt;
     &lt;RootClasses /&gt;
-    &lt;LocalizedStringsUrl&gt;/DesktopModules/DnnSharp/ActionForm/AdminApi.ashx?method=GetLocalization&amp;amp;locale=en-US&amp;amp;section=FrontEnd&lt;/LocalizedStringsUrl&gt;
+    &lt;LocalizedStringsUrl&gt;/DesktopModules/DnnSharp/ActionForm/AdminApi.ashx?method=GetLocalization&amp;amp;locale=en&amp;amp;section=FrontEnd&lt;/LocalizedStringsUrl&gt;
     &lt;PortalHomeUrl&gt;/Portals/0/&lt;/PortalHomeUrl&gt;
   &lt;/Settings&gt;
   &lt;Actions xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; /&gt;
