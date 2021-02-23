@@ -63,6 +63,15 @@
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": []
+    },
+    {
+      "Name": "VCount",
+      "IsDeleted": false,
+      "IsEnabled": false,
+      "OrderIndex": 4,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -73,7 +82,8 @@
         "RecordId": "[RecordId]",
         "EventId": "[EventId]",
         "EventName": "[EventName]",
-        "ViewCount": "[ViewCount]"
+        "ViewCount": "[ViewCount]",
+        "VCount": "[VCount]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
