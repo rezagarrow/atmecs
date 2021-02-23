@@ -64,5 +64,27 @@
     "IsFilterable": false,
     "IsSortable": false,
     "OrderIndex": 3
+  },
+  {
+    "Id": 20,
+    "EntityVersionId": 10,
+    "Name": "VCount",
+    "Type": {
+      "Id": "Integer",
+      "Name": "Number (Integer)",
+      "InputType": {
+        "Id": "Integer",
+        "Name": "Number (Integer)",
+        "ValueType": "Integer",
+        "Length": 4,
+        "Icon": "looks_one"
+      }
+    },
+    "IsDeleted": false,
+    "IsRequired": false,
+    "IsSearchable": false,
+    "IsFilterable": false,
+    "IsSortable": false,
+    "OrderIndex": 4
   }
 ]
