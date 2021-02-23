@@ -50,8 +50,8 @@
     &lt;SearchDelayTime&gt;300&lt;/SearchDelayTime&gt;
     &lt;TableHeight /&gt;
     &lt;PagerStyle&gt;TouchFriendly&lt;/PagerStyle&gt;
-    &lt;PageSizes&gt;[12,24,48]&lt;/PageSizes&gt;
-    &lt;DefaultPageSize&gt;12&lt;/DefaultPageSize&gt;
+    &lt;PageSizes&gt;[24,48]&lt;/PageSizes&gt;
+    &lt;DefaultPageSize&gt;24&lt;/DefaultPageSize&gt;
     &lt;IsDebug&gt;False&lt;/IsDebug&gt;
     &lt;SearchEnabled&gt;True&lt;/SearchEnabled&gt;
     &lt;HideEmptyGrid&gt;False&lt;/HideEmptyGrid&gt;
@@ -105,7 +105,7 @@
     &lt;Template&gt;listingcards&lt;/Template&gt;
     &lt;MobileTemplate&gt;listing&lt;/MobileTemplate&gt;
     &lt;SwitchingTemplates&gt;False&lt;/SwitchingTemplates&gt;
-    &lt;TemplateConfig&gt;{&quot;entriesPerRowMobile&quot;:{&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{},&quot;Value&quot;:2},&quot;entriesPerRowTablet&quot;:{&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{},&quot;Value&quot;:2},&quot;entriesPerRowDesktop&quot;:{&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{},&quot;Value&quot;:2},&quot;entriesPerRowLarge&quot;:{&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{},&quot;Value&quot;:2}}&lt;/TemplateConfig&gt;
+    &lt;TemplateConfig&gt;{&quot;entriesPerRowMobile&quot;:{&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{},&quot;Value&quot;:2},&quot;entriesPerRowTablet&quot;:{&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{},&quot;Value&quot;:4},&quot;entriesPerRowDesktop&quot;:{&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{},&quot;Value&quot;:4},&quot;entriesPerRowLarge&quot;:{&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{},&quot;Value&quot;:4}}&lt;/TemplateConfig&gt;
   &lt;/Settings&gt;
   &lt;Fields&gt;
     &lt;FieldInfo&gt;
