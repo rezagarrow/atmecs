@@ -34,6 +34,15 @@
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": []
+    },
+    {
+      "Name": "Name",
+      "IsDeleted": false,
+      "IsEnabled": false,
+      "OrderIndex": 2,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -43,7 +52,8 @@
       "Parameters": {
         "OutputToken": "CreatedRecordId",
         "Key": "[Key]",
-        "User": "[User]"
+        "User": "[User]",
+        "Name": "[Name]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -75,6 +85,10 @@
           {
             "name": "Id",
             "value": "[CreatedRecordId]"
+          },
+          {
+            "name": "Name",
+            "value": "[CreatedRecord:Name]"
           },
           {
             "name": "Key",
