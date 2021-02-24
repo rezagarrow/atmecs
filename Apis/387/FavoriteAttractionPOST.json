@@ -47,8 +47,19 @@
   ],
   "Actions": [
     {
-      "ActionType": "PlantAnApp.CreateEntity.0.FavoriteAttraction",
+      "ActionType": "LoadUser",
       "OrderIndex": 0,
+      "Parameters": {
+        "Id": "[User]",
+        "Portal": "0"
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {}
+    },
+    {
+      "ActionType": "PlantAnApp.CreateEntity.0.FavoriteAttraction",
+      "OrderIndex": 1,
       "Parameters": {
         "OutputToken": "CreatedRecordId",
         "Key": "[Key]",
@@ -65,10 +76,11 @@
     },
     {
       "ActionType": "PlantAnApp.ReadEntity.0.FavoriteAttraction",
-      "OrderIndex": 1,
+      "OrderIndex": 2,
       "Parameters": {
         "RecordId": "[CreatedRecordId]",
-        "OutputToken": "CreatedRecord"
+        "OutputToken": "CreatedRecord",
+        "ConnectionString": ""
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -79,7 +91,7 @@
     },
     {
       "ActionType": "JsonObject",
-      "OrderIndex": 2,
+      "OrderIndex": 3,
       "Parameters": {
         "HttpCode": "201 Created",
         "Fields": [
@@ -105,7 +117,8 @@
             "name": "Location",
             "value": "http://fanlounge-atmecs.apps.plantanapp.com/api/FavoriteAttraction?recordId=[CreatedRecordId]"
           }
-        ]
+        ],
+        "AllowJsonp": ""
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
