@@ -111,7 +111,7 @@
       &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
       &lt;BindOnChange&gt;&lt;![CDATA[ var a = dnnsf.getUrlParts(window.location);
 delete a.query.attractionId;
-delete a.query.genreId;
+delete a.query.genreid;
 window.history.pushState({},&#39;&#39;,a.getUrl());
 dnnsf.api.actionGrid.refresh(426);
 dnnsf.api.actionForm.initForm(423);
