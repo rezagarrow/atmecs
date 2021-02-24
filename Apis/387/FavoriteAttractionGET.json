@@ -53,16 +53,16 @@
             "value": "[RecordId]"
           },
           {
-            "name": "Name",
-            "value": "[Record:Name]"
-          },
-          {
             "name": "Key",
             "value": "[Record:Key]"
           },
           {
             "name": "User",
             "value": "[Record:User]"
+          },
+          {
+            "name": "Name",
+            "value": "[Record:Name]"
           }
         ],
         "Headers": []
