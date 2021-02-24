@@ -1,7 +1,7 @@
 {
   "Id": 3,
   "Name": "Parse Weather Data",
-  "Description": "",
+  "Description": "get weather and simplify data",
   "IsDebug": false,
   "ActionList": {
     "Id": 5,
@@ -17,8 +17,7 @@
             "Name": "InputHelpText",
             "IsExpression": false,
             "ActionId": 8,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 64,
@@ -26,8 +25,7 @@
             "Value": "[Id]",
             "IsExpression": false,
             "ActionId": 8,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 65,
@@ -35,16 +33,14 @@
             "Value": "lat",
             "IsExpression": false,
             "ActionId": 8,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 66,
             "Name": "OutputHelpText",
             "IsExpression": false,
             "ActionId": 8,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 67,
@@ -52,8 +48,7 @@
             "Value": "lat",
             "IsExpression": false,
             "ActionId": 8,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           }
         ],
         "DiagramUID": "Activity_18lktbl"
@@ -68,8 +63,7 @@
             "Name": "InputHelpText",
             "IsExpression": false,
             "ActionId": 9,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 69,
@@ -77,8 +71,7 @@
             "Value": "[id]",
             "IsExpression": false,
             "ActionId": 9,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 70,
@@ -86,16 +79,14 @@
             "Value": "lon",
             "IsExpression": false,
             "ActionId": 9,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 71,
             "Name": "OutputHelpText",
             "IsExpression": false,
             "ActionId": 9,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 72,
@@ -103,8 +94,7 @@
             "Value": "lon",
             "IsExpression": false,
             "ActionId": 9,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           }
         ],
         "DiagramUID": "Activity_01m8luz"
@@ -119,8 +109,7 @@
             "Name": "InputParameters",
             "IsExpression": false,
             "ActionId": 6,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 40,
@@ -128,8 +117,7 @@
             "Value": "https://api.openweathermap.org/data/2.5/onecall?lat=[lat]&lon=[lon]&exclude=minutely,hourly&appid=cd88d77005dbfd9797ff9e2b988ff1c9",
             "IsExpression": false,
             "ActionId": 6,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 41,
@@ -137,24 +125,21 @@
             "Value": "Url",
             "IsExpression": false,
             "ActionId": 6,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 42,
             "Name": "UseSSL",
             "IsExpression": false,
             "ActionId": 6,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 43,
             "Name": "Timeout",
             "IsExpression": false,
             "ActionId": 6,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 44,
@@ -162,72 +147,63 @@
             "Value": "GET",
             "IsExpression": false,
             "ActionId": 6,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 45,
             "Name": "Data",
             "IsExpression": false,
             "ActionId": 6,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 46,
             "Name": "DoNotEscapeTokens",
             "IsExpression": false,
             "ActionId": 6,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 47,
             "Name": "DisableReferer",
             "IsExpression": false,
             "ActionId": 6,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 48,
             "Name": "Headers",
             "IsExpression": false,
             "ActionId": 6,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 49,
             "Name": "UseDNNProxySettings",
             "IsExpression": false,
             "ActionId": 6,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 50,
             "Name": "AddCurrentCookies",
             "IsExpression": false,
             "ActionId": 6,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 51,
             "Name": "OutputParameters",
             "IsExpression": false,
             "ActionId": 6,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 52,
             "Name": "CookieContainerToken",
             "IsExpression": false,
             "ActionId": 6,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 53,
@@ -235,32 +211,28 @@
             "Value": "result",
             "IsExpression": false,
             "ActionId": 6,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 54,
             "Name": "OutputHeaders",
             "IsExpression": false,
             "ActionId": 6,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 55,
             "Name": "IgnoreErrors",
             "IsExpression": false,
             "ActionId": 6,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 56,
             "Name": "Events",
             "IsExpression": false,
             "ActionId": 6,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 57,
@@ -272,8 +244,7 @@
             },
             "IsExpression": false,
             "ActionId": 6,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           }
         ],
         "DiagramUID": "Activity_0gn7slt"
@@ -288,8 +259,7 @@
             "Name": "ScriptName",
             "IsExpression": false,
             "ActionId": 7,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 59,
@@ -297,8 +267,7 @@
             "Value": [],
             "IsExpression": false,
             "ActionId": 7,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 60,
@@ -306,8 +275,7 @@
             "Value": "var data = JSON.parse(result).daily\n\nfunction tc(valNum) {\n  valNum = parseFloat(valNum);\n  return (((valNum-273.15)*1.8)+32).toFixed(1);\n}\n\nvar response = data.map(function(o){\nreturn {'date':new Date(o.dt * 1000).toDateString(), 'weather': `${o.weather[0].main} (${o.weather[0].description})`, 'day': `${tc(o.temp.day)}F`, 'morn': `${tc(o.temp.morn)}F`, 'eve': `${tc(o.temp.eve)}F`, 'night': `${tc(o.temp.night)}F`, 'windSpeed': `${o.wind_speed} miles`, 'icon': `${o.weather[0].icon}`} \n})\n\nreturn JSON.stringify(response);",
             "IsExpression": false,
             "ActionId": 7,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 61,
@@ -315,8 +283,7 @@
             "Value": "Response",
             "IsExpression": false,
             "ActionId": 7,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 62,
@@ -328,8 +295,7 @@
             },
             "IsExpression": false,
             "ActionId": 7,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           }
         ],
         "DiagramUID": "Activity_026ofuj"
@@ -339,9 +305,10 @@
   "CreatedBy": "SuperUser Account",
   "CreatedOn": "2021-02-19T14:58:51.4696081+00:00",
   "LastModifiedBy": "SuperUser Account",
-  "LastModifiedOn": "2021-02-19T15:36:02.4673028+00:00",
+  "LastModifiedOn": "2021-02-24T14:21:54.0104267+00:00",
   "InputFields": [
     {
+      "Required": false,
       "Id": 10,
       "Name": "Id",
       "InputType": "Text",
