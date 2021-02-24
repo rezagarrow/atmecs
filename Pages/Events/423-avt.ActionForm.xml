@@ -52,9 +52,13 @@
       &lt;BindPreserveLayout&gt;&lt;![CDATA[False]]&gt;&lt;/BindPreserveLayout&gt;
       &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
       &lt;BindOnChange&gt;&lt;![CDATA[  var a = dnnsf.getUrlParts(window.location);
+   delete a.query.attractionid;
    a.query.genreid= &#39;[FilterbyCategories]&#39;;
    window.history.pushState({},&#39;&#39;,a.getUrl());
-                            dnnsf.api.actionGrid.refresh(426);]]&gt;&lt;/BindOnChange&gt;
+   dnnsf.api.actionGrid.refresh(426);
+
+
+]]&gt;&lt;/BindOnChange&gt;
       &lt;InputType&gt;closed-multiple-dropdown&lt;/InputType&gt;
       &lt;InputData&gt;{&quot;LinkTo&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:[],&quot;IsExpression&quot;:false},&quot;Empty&quot;:&quot;Please select&quot;,&quot;DataSource&quot;:{&quot;Value&quot;:&quot;ServerRequest&quot;,&quot;Parameters&quot;:{&quot;Items&quot;:&quot;First Item\nSecond Item|WithDifferentValue&quot;,&quot;HttpMethod&quot;:{&quot;Value&quot;:&quot;GET&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;Url&quot;:&quot;https://fanlounge-atmecs.apps.plantanapp.com/DesktopModules/DnnSharp/DnnApiEndpoint/Api.ashx?method=GetGenre&quot;,&quot;TextProperty&quot;:&quot;name&quot;,&quot;ValueProperty&quot;:&quot;id&quot;,&quot;JsonPath&quot;:&quot;_embedded.genres&quot;,&quot;CustomHeaders&quot;:[],&quot;PathProperty&quot;:&quot;&quot;}},&quot;Value&quot;:&quot;&quot;,&quot;Other&quot;:&quot;&quot;,&quot;SaveToReport&quot;:false}&lt;/InputData&gt;
       &lt;LinkTo&gt;
