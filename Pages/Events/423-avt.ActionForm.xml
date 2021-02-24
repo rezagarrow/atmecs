@@ -52,12 +52,8 @@
       &lt;BindPreserveLayout&gt;&lt;![CDATA[False]]&gt;&lt;/BindPreserveLayout&gt;
       &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
       &lt;BindOnChange&gt;&lt;![CDATA[var a = dnnsf.getUrlParts(window.location);
-delete a.query.attractionid;
-history.pushState({},&#39;&#39;,a.getUrl());
-
-
-var a = dnnsf.getUrlParts(window.location);
    a.query.genreid= &#39;[FilterbyCategories]&#39;;
+   a.query.attractionid=&#39;&#39;;
    window.history.pushState({},&#39;&#39;,a.getUrl());
    dnnsf.api.actionGrid.refresh(426);
 
