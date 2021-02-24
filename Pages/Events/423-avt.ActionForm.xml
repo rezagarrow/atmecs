@@ -52,7 +52,7 @@
       &lt;BindPreserveLayout&gt;&lt;![CDATA[False]]&gt;&lt;/BindPreserveLayout&gt;
       &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
       &lt;BindOnChange&gt;&lt;![CDATA[var a = dnnsf.getUrlParts(window.location);
-delete a.query.attractionId;
+delete a.query.attractionid;
 history.pushState({},&#39;&#39;,a.getUrl());
 
 
