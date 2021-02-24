@@ -1,4 +1,4 @@
-<module type="ActionForm" version="05.11.06.00">
+<module type="ActionForm" version="05.12.10.00">
     <contentKey />
     <moduleID>473</moduleID>
     <alignment />
@@ -33,7 +33,7 @@
     <tabmodulesettings />
     <definition>Action Form</definition>
     <moduledefinition>avt.Action Form</moduledefinition>
-    <content type="ActionForm" version="05.11.06.00"><![CDATA[&lt;ActionForm&gt;
+    <content type="ActionForm" version="05.12.10.00"><![CDATA[&lt;ActionForm&gt;
   &lt;Fields&gt;
     &lt;Field&gt;
       &lt;Id&gt;&lt;![CDATA[24]]&gt;&lt;/Id&gt;
@@ -53,7 +53,7 @@
       &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
       &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
       &lt;InputType&gt;open-text&lt;/InputType&gt;
-      &lt;InputData&gt;{&quot;Value&quot;:&quot;&quot;,&quot;AutocompleteUrl&quot;:&quot;&quot;,&quot;AutofillName&quot;:{&quot;Value&quot;:&quot;&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;AutofillAttribute&quot;:{&quot;Value&quot;:&quot;&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;Mask&quot;:&quot;&quot;,&quot;MaskOptions&quot;:&quot;&quot;,&quot;MaxLength&quot;:&quot;&quot;,&quot;DeferRequestBy&quot;:&quot;300&quot;,&quot;ConfirmationOfTextBox&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;&quot;,&quot;IsExpression&quot;:false},&quot;Readonly&quot;:false,&quot;SaveToReport&quot;:false,&quot;AllowTokens&quot;:&quot;&quot;,&quot;SecureInput&quot;:true}&lt;/InputData&gt;
+      &lt;InputData&gt;{&quot;Value&quot;:&quot;[User:FirstName]&quot;,&quot;AutocompleteUrl&quot;:&quot;&quot;,&quot;AutofillName&quot;:{&quot;Value&quot;:&quot;&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;AutofillAttribute&quot;:{&quot;Value&quot;:&quot;&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;Mask&quot;:&quot;&quot;,&quot;MaskOptions&quot;:&quot;&quot;,&quot;MaxLength&quot;:&quot;&quot;,&quot;DeferRequestBy&quot;:&quot;300&quot;,&quot;ConfirmationOfTextBox&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;&quot;,&quot;IsExpression&quot;:false},&quot;Readonly&quot;:false,&quot;SaveToReport&quot;:false,&quot;AllowTokens&quot;:&quot;&quot;,&quot;SecureInput&quot;:true}&lt;/InputData&gt;
       &lt;AutocompleteUrl /&gt;
       &lt;AutofillName&gt;
         &lt;Value /&gt;
@@ -78,7 +78,7 @@
       &lt;SaveToReport&gt;False&lt;/SaveToReport&gt;
       &lt;AllowTokens /&gt;
       &lt;SecureInput&gt;True&lt;/SecureInput&gt;
-      &lt;Value&gt;&lt;![CDATA[]]&gt;&lt;/Value&gt;
+      &lt;Value&gt;&lt;![CDATA[[User:FirstName]]]&gt;&lt;/Value&gt;
       &lt;IsRequired&gt;True&lt;/IsRequired&gt;
       &lt;IsActive&gt;True&lt;/IsActive&gt;
       &lt;EnableCondition /&gt;
@@ -115,7 +115,7 @@
       &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
       &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
       &lt;InputType&gt;open-text&lt;/InputType&gt;
-      &lt;InputData&gt;{&quot;Value&quot;:&quot;&quot;,&quot;AutocompleteUrl&quot;:&quot;&quot;,&quot;AutofillName&quot;:{&quot;Value&quot;:&quot;&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;AutofillAttribute&quot;:{&quot;Value&quot;:&quot;&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;Mask&quot;:&quot;&quot;,&quot;MaskOptions&quot;:&quot;&quot;,&quot;MaxLength&quot;:&quot;&quot;,&quot;DeferRequestBy&quot;:&quot;300&quot;,&quot;ConfirmationOfTextBox&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;&quot;,&quot;IsExpression&quot;:false},&quot;Readonly&quot;:false,&quot;SaveToReport&quot;:false,&quot;AllowTokens&quot;:&quot;&quot;,&quot;SecureInput&quot;:true}&lt;/InputData&gt;
+      &lt;InputData&gt;{&quot;Value&quot;:&quot;[User:LastName]&quot;,&quot;AutocompleteUrl&quot;:&quot;&quot;,&quot;AutofillName&quot;:{&quot;Value&quot;:&quot;&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;AutofillAttribute&quot;:{&quot;Value&quot;:&quot;&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;Mask&quot;:&quot;&quot;,&quot;MaskOptions&quot;:&quot;&quot;,&quot;MaxLength&quot;:&quot;&quot;,&quot;DeferRequestBy&quot;:&quot;300&quot;,&quot;ConfirmationOfTextBox&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;&quot;,&quot;IsExpression&quot;:false},&quot;Readonly&quot;:false,&quot;SaveToReport&quot;:false,&quot;AllowTokens&quot;:&quot;&quot;,&quot;SecureInput&quot;:true}&lt;/InputData&gt;
       &lt;AutocompleteUrl /&gt;
       &lt;AutofillName&gt;
         &lt;Value /&gt;
@@ -140,7 +140,7 @@
       &lt;SaveToReport&gt;False&lt;/SaveToReport&gt;
       &lt;AllowTokens /&gt;
       &lt;SecureInput&gt;True&lt;/SecureInput&gt;
-      &lt;Value&gt;&lt;![CDATA[]]&gt;&lt;/Value&gt;
+      &lt;Value&gt;&lt;![CDATA[[User:LastName]]]&gt;&lt;/Value&gt;
       &lt;IsRequired&gt;True&lt;/IsRequired&gt;
       &lt;IsActive&gt;True&lt;/IsActive&gt;
       &lt;EnableCondition /&gt;
@@ -293,8 +293,8 @@
   &lt;Settings&gt;
     &lt;Title&gt;Profile&lt;/Title&gt;
     &lt;CssName&gt;profile&lt;/CssName&gt;
-    &lt;Version&gt;5.11.0&lt;/Version&gt;
-    &lt;Build&gt;5.11.6&lt;/Build&gt;
+    &lt;Version&gt;5.12.0&lt;/Version&gt;
+    &lt;Build&gt;5.12.10&lt;/Build&gt;
     &lt;CultureCode&gt;en&lt;/CultureCode&gt;
     &lt;RenderContext&gt;Form&lt;/RenderContext&gt;
     &lt;FrontEndTemplate&gt;&amp;lt;div&amp;gt;&amp;lt;span&amp;gt;&amp;lt;a href=&quot;[FormUrl]&quot;&amp;gt;Click here to change.&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt;&lt;/FrontEndTemplate&gt;
@@ -313,7 +313,7 @@
     &lt;FieldSpacing&gt;normal&lt;/FieldSpacing&gt;
     &lt;OpenFormMode&gt;Always&lt;/OpenFormMode&gt;
     &lt;ModuleId&gt;473&lt;/ModuleId&gt;
-    &lt;ModuleVersion&gt;5.11.6&lt;/ModuleVersion&gt;
+    &lt;ModuleVersion&gt;5.12.10&lt;/ModuleVersion&gt;
     &lt;TabId&gt;49&lt;/TabId&gt;
     &lt;ModuleBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm&lt;/ModuleBaseUrl&gt;
     &lt;ResourceBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm/static&lt;/ResourceBaseUrl&gt;
@@ -348,7 +348,7 @@
     &lt;LeftSidebarHtml /&gt;
     &lt;RightSidebarHtml /&gt;
     &lt;RootClasses /&gt;
-    &lt;LocalizedStringsUrl&gt;/DesktopModules/DnnSharp/ActionForm/AdminApi.ashx?method=GetLocalization&amp;amp;locale=en-US&amp;amp;section=FrontEnd&lt;/LocalizedStringsUrl&gt;
+    &lt;LocalizedStringsUrl&gt;/DesktopModules/DnnSharp/ActionForm/AdminApi.ashx?method=GetLocalization&amp;amp;locale=en&amp;amp;section=FrontEnd&lt;/LocalizedStringsUrl&gt;
     &lt;PortalHomeUrl&gt;/Portals/0/&lt;/PortalHomeUrl&gt;
   &lt;/Settings&gt;
   &lt;Actions xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;
@@ -356,8 +356,8 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;UpdateUserProfile.v2&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2021-02-22T12:01:38.737&lt;/LastModified&gt;
-      &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
+      &lt;LastModified&gt;2021-02-24T14:28:42.917&lt;/LastModified&gt;
+      &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;UserIdentifier&quot;:&quot;[User:UserId]&quot;,&quot;UpdatePasswordField&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;&quot;,&quot;IsExpression&quot;:false},&quot;UpdateDisplayNameField&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;&quot;,&quot;IsExpression&quot;:false},&quot;UpdateEmailField&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;&quot;,&quot;IsExpression&quot;:false},&quot;AdditionalProperties&quot;:[{&quot;UserProfileProperty&quot;:{&quot;Value&quot;:&quot;FirstName&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;PropertyValue&quot;:{&quot;Value&quot;:&quot;FirstName&quot;,&quot;IsExpression&quot;:false}},{&quot;UserProfileProperty&quot;:{&quot;Value&quot;:&quot;LastName&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;PropertyValue&quot;:{&quot;Value&quot;:&quot;LastName&quot;,&quot;IsExpression&quot;:false}},{&quot;UserProfileProperty&quot;:{&quot;Value&quot;:&quot;Photo&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;PropertyValue&quot;:{&quot;Value&quot;:&quot;Picture&quot;,&quot;IsExpression&quot;:false}}]}&lt;/ActionData&gt;
       &lt;ModuleId&gt;473&lt;/ModuleId&gt;
       &lt;FieldName&gt;Save&lt;/FieldName&gt;
@@ -369,8 +369,8 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;ShowToastAndContinue&lt;/ActionType&gt;
       &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2021-02-22T12:01:38.737&lt;/LastModified&gt;
-      &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
+      &lt;LastModified&gt;2021-02-24T14:28:42.933&lt;/LastModified&gt;
+      &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;Heading&quot;:&quot;Profile Updated!&quot;,&quot;Message&quot;:&quot;&quot;,&quot;Icon&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;success&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;BgColor&quot;:&quot;&quot;,&quot;Transition&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;fade&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;AllowToastClose&quot;:&quot;&quot;,&quot;CallBackJsCode&quot;:&quot;&quot;,&quot;HideTime&quot;:&quot;5000&quot;,&quot;Stack&quot;:&quot;1&quot;,&quot;ToastPosition&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;top-right&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;TextAlignment&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;left&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;ShowLoader&quot;:true,&quot;LoaderColor&quot;:&quot;&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;473&lt;/ModuleId&gt;
       &lt;FieldName&gt;Save&lt;/FieldName&gt;
@@ -382,8 +382,8 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;InitActionForm&lt;/ActionType&gt;
       &lt;OrderIndex&gt;2&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2021-02-22T12:01:38.737&lt;/LastModified&gt;
-      &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
+      &lt;LastModified&gt;2021-02-24T14:28:42.933&lt;/LastModified&gt;
+      &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;ModuleId&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:473,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;Params&quot;:&quot;&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;473&lt;/ModuleId&gt;
       &lt;FieldName&gt;Save&lt;/FieldName&gt;
