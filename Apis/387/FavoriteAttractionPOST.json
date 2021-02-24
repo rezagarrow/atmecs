@@ -100,16 +100,16 @@
             "value": "[CreatedRecordId]"
           },
           {
-            "name": "Name",
-            "value": "[CreatedRecord:Name]"
-          },
-          {
             "name": "Key",
             "value": "[CreatedRecord:Key]"
           },
           {
             "name": "User",
             "value": "[CreatedRecord:User]"
+          },
+          {
+            "name": "Name",
+            "value": "[CreatedRecord:Name]"
           }
         ],
         "Headers": [
