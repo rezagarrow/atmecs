@@ -1,5 +1,6 @@
 {
   "Name": "GetAttractions",
+  "Description": "used for Grid in HP - \"View Events by Team\"",
   "HttpMethod": "GET",
   "IsEnabled": true,
   "OrderIndex": 0,
