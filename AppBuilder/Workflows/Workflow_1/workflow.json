@@ -1,7 +1,7 @@
 {
   "Id": 1,
   "Name": "Parse Event Data",
-  "Description": "[\"name\", \"description\", \"ticketUrl\", \"mainImage\", \"localDate\", \"localTime\", \"segment\", \"seatmap\", \"attractions\", \"promoter\", \"venues\", \"lat\", \"log\"]",
+  "Description": "\t transform initial JSON in a simplified version for further manipulation",
   "IsDebug": false,
   "ActionList": {
     "Id": 1,
@@ -149,7 +149,7 @@
   "CreatedBy": "SuperUser Account",
   "CreatedOn": "2021-02-19T09:48:17.0478195+00:00",
   "LastModifiedBy": "SuperUser Account",
-  "LastModifiedOn": "2021-02-24T14:09:10.0756842+00:00",
+  "LastModifiedOn": "2021-02-24T14:18:34.0020311+00:00",
   "InputFields": [
     {
       "Required": false,
