@@ -33,7 +33,10 @@
       "OrderIndex": 0,
       "Parameters": {
         "OutputToken": "FavoriteAttractions",
-        "RowLimit": "[RowLimit]"
+        "RowLimit": "[RowLimit]",
+        "ConnectionString": "",
+        "Where": "",
+        "OrderByClauses": ""
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
