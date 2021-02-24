@@ -51,7 +51,12 @@
       &lt;BindEnable&gt;&lt;![CDATA[]]&gt;&lt;/BindEnable&gt;
       &lt;BindPreserveLayout&gt;&lt;![CDATA[False]]&gt;&lt;/BindPreserveLayout&gt;
       &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
-      &lt;BindOnChange&gt;&lt;![CDATA[  var a = dnnsf.getUrlParts(window.location);
+      &lt;BindOnChange&gt;&lt;![CDATA[var a = dnnsf.getUrlParts(window.location);
+delete a.query.attractionId;
+history.pushState({},&#39;&#39;,a.getUrl());
+
+
+var a = dnnsf.getUrlParts(window.location);
    a.query.genreid= &#39;[FilterbyCategories]&#39;;
    window.history.pushState({},&#39;&#39;,a.getUrl());
    dnnsf.api.actionGrid.refresh(426);
@@ -345,7 +350,7 @@ return false;]]&gt;&lt;/BindOnChange&gt;
     &lt;LeftSidebarHtml /&gt;
     &lt;RightSidebarHtml /&gt;
     &lt;RootClasses /&gt;
-    &lt;LocalizedStringsUrl&gt;/DesktopModules/DnnSharp/ActionForm/AdminApi.ashx?method=GetLocalization&amp;amp;locale=en&amp;amp;section=FrontEnd&lt;/LocalizedStringsUrl&gt;
+    &lt;LocalizedStringsUrl&gt;/DesktopModules/DnnSharp/ActionForm/AdminApi.ashx?method=GetLocalization&amp;amp;locale=en-US&amp;amp;section=FrontEnd&lt;/LocalizedStringsUrl&gt;
     &lt;PortalHomeUrl&gt;/Portals/0/&lt;/PortalHomeUrl&gt;
   &lt;/Settings&gt;
   &lt;Actions xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; /&gt;
