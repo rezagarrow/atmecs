@@ -12,7 +12,7 @@
         "PortalId": 0,
         "Name": "Admins",
         "ReadOnly": true,
-        "Description": "Can do everything that Citizen Developers and Managers can. Also, an admin can create other Admin, Developer or Manager accounts",
+        "Description": "Can do everything that Managers can. Also, an Admin can create other Admin, Developer or Manager accounts. This role has no development access, but can administer settings and apply updates to the system.",
         "Status": "Approved"
       },
       {
@@ -21,6 +21,14 @@
         "Name": "Citizen Developers",
         "ReadOnly": true,
         "Description": "Creates the application screens and the business logic/flows associated with them",
+        "Status": "Approved"
+      },
+      {
+        "RoleId": 9,
+        "PortalId": 0,
+        "Name": "Low-Code Engineer",
+        "ReadOnly": true,
+        "Description": "Can do everything a Citizen Developer can in addition to having access to more advanced coding actions and application settings.",
         "Status": "Approved"
       },
       {
