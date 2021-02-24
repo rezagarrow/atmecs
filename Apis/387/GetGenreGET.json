@@ -1,5 +1,6 @@
 {
   "Name": "GetGenre",
+  "Description": "used for dropdown Category in Events Page",
   "HttpMethod": "GET",
   "IsEnabled": true,
   "OrderIndex": 0,
