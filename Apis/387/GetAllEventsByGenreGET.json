@@ -1,5 +1,6 @@
 {
   "Name": "GetAllEventsByGenre",
+  "Description": "Used for grids \"Sport Events in Your Area\" and \"Events.\"\nSport Events in Your Area - filters by city and by SegmentId (for Sports)\nEvents Grid - filtered by attractionid, genreId(category) and SegmentId (for Sports)",
   "HttpMethod": "GET",
   "IsEnabled": true,
   "OrderIndex": 0,
