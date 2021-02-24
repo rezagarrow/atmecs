@@ -1,7 +1,7 @@
 {
   "Id": 4,
   "Name": "Parse Attraction Data",
-  "Description": "",
+  "Description": "transform initial JSON in a simplified version for further manipulation",
   "IsDebug": false,
   "ActionList": {
     "Id": 10,
@@ -18,8 +18,7 @@
             "Value": "387",
             "IsExpression": false,
             "ActionId": 14,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 93,
@@ -27,16 +26,14 @@
             "Value": "AttractionData#POST",
             "IsExpression": false,
             "ActionId": 14,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 94,
             "Name": "HttpMethod",
             "IsExpression": false,
             "ActionId": 14,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 95,
@@ -44,27 +41,21 @@
             "Value": "1",
             "IsExpression": false,
             "ActionId": 14,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 96,
             "Name": "MethodInputs",
             "IsExpression": false,
             "ActionId": 14,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 97,
             "Name": "MethodInputsList",
             "Value": [
               {
-                "MethodInputName": {
-                  "IsExpression": false,
-                  "Expression": "",
-                  "Value": "Id"
-                },
+                "MethodInputName": "Id",
                 "MethodInputValue": {
                   "IsExpression": false,
                   "Expression": "",
@@ -74,29 +65,7 @@
             ],
             "IsExpression": false,
             "ActionId": 14,
-            "OrderIndex": 0,
-            "SubParameters": [
-              {
-                "Id": 98,
-                "Name": "MethodInputName",
-                "Value": "Id",
-                "ParentParameterId": 97,
-                "IsExpression": false,
-                "ActionId": 14,
-                "OrderIndex": 0,
-                "SubParameters": []
-              },
-              {
-                "Id": 99,
-                "Name": "MethodInputValue",
-                "Value": "[Id]",
-                "ParentParameterId": 97,
-                "IsExpression": false,
-                "ActionId": 14,
-                "OrderIndex": 0,
-                "SubParameters": []
-              }
-            ]
+            "OrderIndex": 0
           },
           {
             "Id": 100,
@@ -104,8 +73,7 @@
             "Value": "result",
             "IsExpression": false,
             "ActionId": 14,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           }
         ],
         "DiagramUID": "Activity_1ng2h1r"
@@ -121,19 +89,14 @@
             "Value": "parseEventData",
             "IsExpression": false,
             "ActionId": 15,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 102,
             "Name": "LocalVariables",
             "Value": [
               {
-                "Type": {
-                  "IsExpression": false,
-                  "Expression": "",
-                  "Value": "string"
-                },
+                "Type": "string",
                 "Name": {
                   "IsExpression": false,
                   "Expression": "",
@@ -148,39 +111,7 @@
             ],
             "IsExpression": false,
             "ActionId": 15,
-            "OrderIndex": 0,
-            "SubParameters": [
-              {
-                "Id": 103,
-                "Name": "Type",
-                "Value": "string",
-                "ParentParameterId": 102,
-                "IsExpression": false,
-                "ActionId": 15,
-                "OrderIndex": 0,
-                "SubParameters": []
-              },
-              {
-                "Id": 104,
-                "Name": "Name",
-                "Value": "input",
-                "ParentParameterId": 102,
-                "IsExpression": false,
-                "ActionId": 15,
-                "OrderIndex": 0,
-                "SubParameters": []
-              },
-              {
-                "Id": 105,
-                "Name": "Value",
-                "Value": "[result]",
-                "ParentParameterId": 102,
-                "IsExpression": false,
-                "ActionId": 15,
-                "OrderIndex": 0,
-                "SubParameters": []
-              }
-            ]
+            "OrderIndex": 0
           },
           {
             "Id": 106,
@@ -188,8 +119,7 @@
             "Value": "var data = JSON.parse(input)\nvar parseData = {}\nparseData.name =  data.name\nreturn parseData[prop]",
             "IsExpression": false,
             "ActionId": 15,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 107,
@@ -197,8 +127,7 @@
             "Value": "PropData",
             "IsExpression": false,
             "ActionId": 15,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           },
           {
             "Id": 108,
@@ -210,8 +139,7 @@
             },
             "IsExpression": false,
             "ActionId": 15,
-            "OrderIndex": 0,
-            "SubParameters": []
+            "OrderIndex": 0
           }
         ],
         "DiagramUID": "Activity_1l8t30o"
@@ -221,7 +149,7 @@
   "CreatedBy": "SuperUser Account",
   "CreatedOn": "2021-02-22T16:08:56.2165978+00:00",
   "LastModifiedBy": "SuperUser Account",
-  "LastModifiedOn": "2021-02-22T16:14:09.1273073+00:00",
+  "LastModifiedOn": "2021-02-24T14:18:14.5652187+00:00",
   "InputFields": [
     {
       "Required": false,
